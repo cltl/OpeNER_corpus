@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:13:23Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w49" sent="4" para="2" offset="223" length="1">"</wf>
+    <wf wid="w50" sent="4" para="2" offset="224" length="3">Gli</wf>
+    <wf wid="w51" sent="4" para="2" offset="228" length="14">sconvolgimenti</wf>
+    <wf wid="w52" sent="4" para="2" offset="243" length="7">sociali</wf>
+    <wf wid="w53" sent="4" para="2" offset="251" length="10">potrebbero</wf>
+    <wf wid="w54" sent="4" para="2" offset="262" length="8">divenire</wf>
+    <wf wid="w55" sent="4" para="2" offset="271" length="5">molto</wf>
+    <wf wid="w56" sent="4" para="2" offset="277" length="10">contagiosi</wf>
+    <wf wid="w57" sent="4" para="2" offset="288" length="1">-</wf>
+    <wf wid="w58" sent="4" para="2" offset="290" length="6">spiega</wf>
+    <wf wid="w59" sent="4" para="2" offset="297" length="1">-</wf>
+    <wf wid="w60" sent="4" para="2" offset="298" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t49" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--Gli-->
+    <term tid="t50" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--sconvolgimenti-->
+    <term tid="t51" type="" lemma="sconvolgimento" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--sociali-->
+    <term tid="t52" type="" lemma="sociale" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--potrebbero-->
+    <term tid="t53" type="" lemma="potere" pos="V" morphofeat="VMO~CON6">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--divenire-->
+    <term tid="t54" type="" lemma="divenire" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--molto-->
+    <term tid="t55" type="" lemma="molto" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--contagiosi-->
+    <term tid="t56" type="" lemma="contagioso" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t57" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--spiega-->
+    <term tid="t58" type="" lemma="spiegare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t59" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t60" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Gli sconvolgimenti sociali-->
+        <span>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--molto contagiosi-->
+        <span>
+          <target id="t55"/>
+          <target id="t56"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:59Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:59Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:16:28Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Merkel</wf>
+    <wf wid="w2" sent="1" para="1" offset="6" length="1">:</wf>
+    <wf wid="w3" sent="1" para="1" offset="8" length="1">“</wf>
+    <wf wid="w4" sent="1" para="1" offset="9" length="7">Resterò</wf>
+    <wf wid="w5" sent="1" para="1" offset="17" length="3">per</wf>
+    <wf wid="w6" sent="1" para="1" offset="21" length="2">l’</wf>
+    <wf wid="w7" sent="1" para="1" offset="23" length="6">intero</wf>
+    <wf wid="w8" sent="1" para="1" offset="30" length="7">mandato</wf>
+    <wf wid="w9" sent="1" para="1" offset="37" length="1">”</wf>
+    <wf wid="w10" sent="1" para="1" offset="39" length="5">Verso</wf>
+    <wf wid="w11" sent="1" para="1" offset="45" length="8">alleanza</wf>
+    <wf wid="w12" sent="1" para="1" offset="54" length="7">Cdu-Csu</wf>
+    <wf wid="w13" sent="1" para="1" offset="62" length="3">con</wf>
+    <wf wid="w14" sent="1" para="1" offset="66" length="3">Spd</wf>
+    <wf wid="w15" sent="1" para="1" offset="70" length="1">o</wf>
+    <wf wid="w16" sent="1" para="1" offset="72" length="5">Verdi</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t1" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t2" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--“-->
+    <term tid="t3" type="" lemma="“" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--Resterò-->
+    <term tid="t4" type="" lemma="resterò" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t5" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t6" type="" lemma="l’" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--intero-->
+    <term tid="t7" type="" lemma="intero" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--mandato-->
+    <term tid="t8" type="" lemma="mandare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t9" type="" lemma="”" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--Verso-->
+    <term tid="t10" type="" lemma="verso" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--alleanza-->
+    <term tid="t11" type="" lemma="alleanza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--Cdu-Csu-->
+    <term tid="t12" type="" lemma="cdu-csu" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t13" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--Spd-->
+    <term tid="t14" type="" lemma="spd" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--o-->
+    <term tid="t15" type="" lemma="o" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--Verdi-->
+    <term tid="t16" type="" lemma="verde" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--intero mandato-->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--Resterò-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

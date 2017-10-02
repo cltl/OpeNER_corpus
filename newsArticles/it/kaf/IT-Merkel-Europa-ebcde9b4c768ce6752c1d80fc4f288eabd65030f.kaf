@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:47:01Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w189" sent="9" para="2" offset="1043" length="2">Il</wf>
+    <wf wid="w190" sent="9" para="2" offset="1046" length="9">colloquio</wf>
+    <wf wid="w191" sent="9" para="2" offset="1056" length="2">si</wf>
+    <wf wid="w192" sent="9" para="2" offset="1059" length="8">svolgerà</wf>
+    <wf wid="w193" sent="9" para="2" offset="1068" length="3">nel</wf>
+    <wf wid="w194" sent="9" para="2" offset="1072" length="6">quadro</wf>
+    <wf wid="w195" sent="9" para="2" offset="1079" length="3">dei</wf>
+    <wf wid="w196" sent="9" para="2" offset="1083" length="6">lavori</wf>
+    <wf wid="w197" sent="9" para="2" offset="1090" length="11">preparatori</wf>
+    <wf wid="w198" sent="9" para="2" offset="1102" length="3">del</wf>
+    <wf wid="w199" sent="9" para="2" offset="1106" length="7">vertice</wf>
+    <wf wid="w200" sent="9" para="2" offset="1114" length="2">Ue</wf>
+    <wf wid="w201" sent="9" para="2" offset="1116" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t189" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--colloquio-->
+    <term tid="t190" type="" lemma="colloquio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t191" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--svolgerà-->
+    <term tid="t192" type="" lemma="svolgere" pos="V" morphofeat="VMA~RAN3">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t193" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--quadro-->
+    <term tid="t194" type="" lemma="quadro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t195" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--lavori-->
+    <term tid="t196" type="" lemma="lavoro" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--preparatori-->
+    <term tid="t197" type="" lemma="preparatorio" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t198" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--vertice-->
+    <term tid="t199" type="" lemma="vertice" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--Ue-->
+    <term tid="t200" type="" lemma="ue" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t201" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

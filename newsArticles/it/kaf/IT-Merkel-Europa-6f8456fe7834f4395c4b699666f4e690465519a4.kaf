@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:02:49Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w358" sent="19" para="2" offset="1891" length="7">Intanto</wf>
+    <wf wid="w359" sent="19" para="2" offset="1898" length="1">,</wf>
+    <wf wid="w360" sent="19" para="2" offset="1900" length="2">il</wf>
+    <wf wid="w361" sent="19" para="2" offset="1903" length="10">Segretario</wf>
+    <wf wid="w362" sent="19" para="2" offset="1914" length="2">di</wf>
+    <wf wid="w363" sent="19" para="2" offset="1917" length="5">Stato</wf>
+    <wf wid="w364" sent="19" para="2" offset="1923" length="9">americano</wf>
+    <wf wid="w365" sent="19" para="2" offset="1933" length="7">Hillary</wf>
+    <wf wid="w366" sent="19" para="2" offset="1941" length="7">Clinton</wf>
+    <wf wid="w367" sent="19" para="2" offset="1949" length="2">ha</wf>
+    <wf wid="w368" sent="19" para="2" offset="1952" length="8">invitato</wf>
+    <wf wid="w369" sent="19" para="2" offset="1961" length="4">oggi</wf>
+    <wf wid="w370" sent="19" para="2" offset="1966" length="2">la</wf>
+    <wf wid="w371" sent="19" para="2" offset="1969" length="4">Cina</wf>
+    <wf wid="w372" sent="19" para="2" offset="1974" length="1">a</wf>
+    <wf wid="w373" sent="19" para="2" offset="1976" length="10">rispettare</wf>
+    <wf wid="w374" sent="19" para="2" offset="1987" length="2">le</wf>
+    <wf wid="w375" sent="19" para="2" offset="1990" length="1">"</wf>
+    <wf wid="w376" sent="19" para="2" offset="1991" length="11">aspirazioni</wf>
+    <wf wid="w377" sent="19" para="2" offset="2002" length="1">"</wf>
+    <wf wid="w378" sent="19" para="2" offset="2004" length="3">dei</wf>
+    <wf wid="w379" sent="19" para="2" offset="2008" length="4">suoi</wf>
+    <wf wid="w380" sent="19" para="2" offset="2013" length="9">cittadini</wf>
+    <wf wid="w381" sent="19" para="2" offset="2022" length="1">,</wf>
+    <wf wid="w382" sent="19" para="2" offset="2024" length="5">senza</wf>
+    <wf wid="w383" sent="19" para="2" offset="2030" length="4">però</wf>
+    <wf wid="w384" sent="19" para="2" offset="2035" length="10">menzionare</wf>
+    <wf wid="w385" sent="19" para="2" offset="2046" length="2">la</wf>
+    <wf wid="w386" sent="19" para="2" offset="2049" length="7">vicenda</wf>
+    <wf wid="w387" sent="19" para="2" offset="2057" length="5">dell'</wf>
+    <wf wid="w388" sent="19" para="2" offset="2062" length="9">attivista</wf>
+    <wf wid="w389" sent="19" para="2" offset="2072" length="4">Chen</wf>
+    <wf wid="w390" sent="19" para="2" offset="2077" length="10">Guangcheng</wf>
+    <wf wid="w391" sent="19" para="2" offset="2087" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Intanto-->
+    <term tid="t358" type="" lemma="intanto" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w358"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t359" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t360" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <!--Segretario-->
+    <term tid="t361" type="" lemma="segretario" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t362" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <!--Stato-->
+    <term tid="t363" type="" lemma="stato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <!--americano-->
+    <term tid="t364" type="" lemma="americano" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <!--Hillary-->
+    <term tid="t365" type="" lemma="hillary" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <!--Clinton-->
+    <term tid="t366" type="" lemma="clinton" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t367" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <!--invitato-->
+    <term tid="t368" type="" lemma="invitare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <!--oggi-->
+    <term tid="t369" type="" lemma="oggi" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t370" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <!--Cina-->
+    <term tid="t371" type="" lemma="cina" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t372" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+    <!--rispettare-->
+    <term tid="t373" type="" lemma="rispettare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w373"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t374" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w374"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t375" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w375"/>
+      </span>
+    </term>
+    <!--aspirazioni-->
+    <term tid="t376" type="" lemma="aspirazione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t377" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w377"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t378" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w378"/>
+      </span>
+    </term>
+    <!--suoi-->
+    <term tid="t379" type="" lemma="suo" pos="G" morphofeat="ADJ~POMP">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+    <!--cittadini-->
+    <term tid="t380" type="" lemma="cittadino" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w380"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t381" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w381"/>
+      </span>
+    </term>
+    <!--senza-->
+    <term tid="t382" type="" lemma="senza" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w382"/>
+      </span>
+    </term>
+    <!--però-->
+    <term tid="t383" type="" lemma="però" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w383"/>
+      </span>
+    </term>
+    <!--menzionare-->
+    <term tid="t384" type="" lemma="menzionare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w384"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t385" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w385"/>
+      </span>
+    </term>
+    <!--vicenda-->
+    <term tid="t386" type="" lemma="vicenda" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w386"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t387" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w387"/>
+      </span>
+    </term>
+    <!--attivista-->
+    <term tid="t388" type="" lemma="attivista" pos="N" morphofeat="NOU~CSNS">
+      <span>
+        <target id="w388"/>
+      </span>
+    </term>
+    <!--Chen-->
+    <term tid="t389" type="" lemma="chen" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w389"/>
+      </span>
+    </term>
+    <!--Guangcheng-->
+    <term tid="t390" type="" lemma="guangcheng" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w390"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t391" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w391"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Segretario di Stato-->
+        <span>
+          <target id="t361"/>
+          <target id="t362"/>
+          <target id="t363"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--la Cina a rispettare le " aspirazioni " dei suoi cittadini-->
+        <span>
+          <target id="t370"/>
+          <target id="t371"/>
+          <target id="t372"/>
+          <target id="t373"/>
+          <target id="t374"/>
+          <target id="t375"/>
+          <target id="t376"/>
+          <target id="t377"/>
+          <target id="t378"/>
+          <target id="t379"/>
+          <target id="t380"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ha invitato-->
+        <span>
+          <target id="t367"/>
+          <target id="t368"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

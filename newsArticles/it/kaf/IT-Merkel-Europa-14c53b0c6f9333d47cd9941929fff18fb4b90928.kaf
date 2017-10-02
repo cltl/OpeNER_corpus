@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:15:44Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2">Il</wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="4">Cav.</wf>
+    <wf wid="w3" sent="1" para="1" offset="8" length="2">se</wf>
+    <wf wid="w4" sent="1" para="1" offset="11" length="2">la</wf>
+    <wf wid="w5" sent="1" para="1" offset="14" length="6">prende</wf>
+    <wf wid="w6" sent="1" para="1" offset="21" length="3">con</wf>
+    <wf wid="w7" sent="1" para="1" offset="25" length="2">l’</wf>
+    <wf wid="w8" sent="1" para="1" offset="27" length="2">Ue</wf>
+    <wf wid="w9" sent="1" para="1" offset="30" length="7">Bersani</wf>
+    <wf wid="w10" sent="1" para="1" offset="37" length="1">:</wf>
+    <wf wid="w11" sent="1" para="1" offset="39" length="1">"</wf>
+    <wf wid="w12" sent="1" para="1" offset="40" length="7">Battute</wf>
+    <wf wid="w13" sent="1" para="1" offset="48" length="2">da</wf>
+    <wf wid="w14" sent="1" para="1" offset="51" length="3">due</wf>
+    <wf wid="w15" sent="1" para="1" offset="55" length="5">soldi</wf>
+    <wf wid="w16" sent="1" para="1" offset="60" length="1">"</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t1" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Cav.-->
+    <term tid="t2" type="" lemma="cav." pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t3" type="" lemma="se" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t4" type="" lemma="la" pos="Q" morphofeat="PRON~PEF3">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--prende-->
+    <term tid="t5" type="" lemma="prendere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t6" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t7" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Ue-->
+    <term tid="t8" type="" lemma="ue" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--Bersani-->
+    <term tid="t9" type="" lemma="bersani" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t10" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t11" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--Battute-->
+    <term tid="t12" type="" lemma="battere" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--da-->
+    <term tid="t13" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--due-->
+    <term tid="t14" type="" lemma="due" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--soldi-->
+    <term tid="t15" type="" lemma="soldo" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t16" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Bersani-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Battute-->
+        <span>
+          <target id="t12"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--da due soldi-->
+        <span>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Cav.-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--con l’ Ue-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--se la prende-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

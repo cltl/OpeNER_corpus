@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:28Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:28Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:08:38Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w13" sent="3" para="2" offset="57" length="1">(</wf>
+    <wf wid="w14" sent="3" para="2" offset="58" length="9">Adnkronos</wf>
+    <wf wid="w15" sent="3" para="2" offset="67" length="1">)</wf>
+    <wf wid="w16" sent="3" para="2" offset="69" length="1">-</wf>
+    <wf wid="w17" sent="3" para="2" offset="71" length="5">Stati</wf>
+    <wf wid="w18" sent="3" para="2" offset="77" length="5">Uniti</wf>
+    <wf wid="w19" sent="3" para="2" offset="83" length="1">e</wf>
+    <wf wid="w20" sent="3" para="2" offset="85" length="6">Unione</wf>
+    <wf wid="w21" sent="3" para="2" offset="92" length="7">Europea</wf>
+    <wf wid="w22" sent="3" para="2" offset="100" length="5">hanno</wf>
+    <wf wid="w23" sent="3" para="2" offset="106" length="10">annunciato</wf>
+    <wf wid="w24" sent="3" para="2" offset="117" length="2">il</wf>
+    <wf wid="w25" sent="3" para="2" offset="120" length="3">via</wf>
+    <wf wid="w26" sent="3" para="2" offset="124" length="6">libera</wf>
+    <wf wid="w27" sent="3" para="2" offset="131" length="4">all'</wf>
+    <wf wid="w28" sent="3" para="2" offset="135" length="5">avvio</wf>
+    <wf wid="w29" sent="3" para="2" offset="141" length="3">dei</wf>
+    <wf wid="w30" sent="3" para="2" offset="145" length="9">negoziati</wf>
+    <wf wid="w31" sent="3" para="2" offset="155" length="3">per</wf>
+    <wf wid="w32" sent="3" para="2" offset="159" length="2">un</wf>
+    <wf wid="w33" sent="3" para="2" offset="162" length="7">accordo</wf>
+    <wf wid="w34" sent="3" para="2" offset="170" length="2">di</wf>
+    <wf wid="w35" sent="3" para="2" offset="173" length="6">libero</wf>
+    <wf wid="w36" sent="3" para="2" offset="180" length="7">scambio</wf>
+    <wf wid="w37" sent="3" para="2" offset="187" length="1">,</wf>
+    <wf wid="w38" sent="3" para="2" offset="189" length="9">negoziati</wf>
+    <wf wid="w39" sent="3" para="2" offset="199" length="3">che</wf>
+    <wf wid="w40" sent="3" para="2" offset="203" length="11">inizieranno</wf>
+    <wf wid="w41" sent="3" para="2" offset="215" length="2">il</wf>
+    <wf wid="w42" sent="3" para="2" offset="218" length="4">mese</wf>
+    <wf wid="w43" sent="3" para="2" offset="223" length="8">prossimo</wf>
+    <wf wid="w44" sent="3" para="2" offset="232" length="1">a</wf>
+    <wf wid="w45" sent="3" para="2" offset="234" length="10">Washington</wf>
+    <wf wid="w46" sent="3" para="2" offset="244" length="1">.</wf>
+  </text>
+  <terms>
+    <!--(-->
+    <term tid="t13" type="" lemma="(" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--Adnkronos-->
+    <term tid="t14" type="" lemma="adnkronos" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t15" type="" lemma=")" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t16" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--Stati-->
+    <term tid="t17" type="" lemma="essere" pos="V" morphofeat="VAU~PAMP">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--Uniti-->
+    <term tid="t18" type="" lemma="uniti" pos="R" morphofeat="NOU~PMP">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t19" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--Unione-->
+    <term tid="t20" type="" lemma="unione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--Europea-->
+    <term tid="t21" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--hanno-->
+    <term tid="t22" type="" lemma="avere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--annunciato-->
+    <term tid="t23" type="" lemma="annunciare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t24" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--via-->
+    <term tid="t25" type="" lemma="via" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--libera-->
+    <term tid="t26" type="" lemma="libero" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--all'-->
+    <term tid="t27" type="" lemma="all'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--avvio-->
+    <term tid="t28" type="" lemma="avvio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t29" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--negoziati-->
+    <term tid="t30" type="" lemma="negoziato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t31" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t32" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--accordo-->
+    <term tid="t33" type="" lemma="accordo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t34" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--libero-->
+    <term tid="t35" type="" lemma="libero" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--scambio-->
+    <term tid="t36" type="" lemma="scambio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t37" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--negoziati-->
+    <term tid="t38" type="" lemma="negoziare" pos="V" morphofeat="VMA~IPN2">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t39" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--inizieranno-->
+    <term tid="t40" type="" lemma="iniziare" pos="V" morphofeat="VMA~FUN6">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t41" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--mese-->
+    <term tid="t42" type="" lemma="mese" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--prossimo-->
+    <term tid="t43" type="" lemma="prossimo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t44" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--Washington-->
+    <term tid="t45" type="" lemma="washington" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t46" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

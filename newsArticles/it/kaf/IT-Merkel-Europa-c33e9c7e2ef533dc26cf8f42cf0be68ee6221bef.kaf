@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:26Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w112" sent="5" para="2" offset="621" length="3">Per</wf>
+    <wf wid="w113" sent="5" para="2" offset="625" length="2">me</wf>
+    <wf wid="w114" sent="5" para="2" offset="628" length="1">è</wf>
+    <wf wid="w115" sent="5" para="2" offset="630" length="10">importante</wf>
+    <wf wid="w116" sent="5" para="2" offset="641" length="12">incoraggiare</wf>
+    <wf wid="w117" sent="5" para="2" offset="654" length="2">la</wf>
+    <wf wid="w118" sent="5" para="2" offset="657" length="6">Grecia</wf>
+    <wf wid="w119" sent="5" para="2" offset="664" length="1">a</wf>
+    <wf wid="w120" sent="5" para="2" offset="666" length="10">continuare</wf>
+    <wf wid="w121" sent="5" para="2" offset="677" length="5">sulla</wf>
+    <wf wid="w122" sent="5" para="2" offset="683" length="6">strada</wf>
+    <wf wid="w123" sent="5" para="2" offset="690" length="5">delle</wf>
+    <wf wid="w124" sent="5" para="2" offset="696" length="7">riforme</wf>
+    <wf wid="w125" sent="5" para="2" offset="703" length="1">.</wf>
+    <wf wid="w126" sent="5" para="2" offset="704" length="1">”</wf>
+    <wf wid="w127" sent="5" para="2" offset="705" length="1">“</wf>
+    <wf wid="w128" sent="5" para="2" offset="706" length="8">Vogliamo</wf>
+    <wf wid="w129" sent="5" para="2" offset="715" length="3">che</wf>
+    <wf wid="w130" sent="5" para="2" offset="719" length="2">la</wf>
+    <wf wid="w131" sent="5" para="2" offset="722" length="6">Grecia</wf>
+    <wf wid="w132" sent="5" para="2" offset="729" length="5">resti</wf>
+    <wf wid="w133" sent="5" para="2" offset="735" length="5">nell’</wf>
+    <wf wid="w134" sent="5" para="2" offset="740" length="6">ambito</wf>
+    <wf wid="w135" sent="5" para="2" offset="747" length="5">dell’</wf>
+    <wf wid="w136" sent="5" para="2" offset="752" length="8">Eurozona</wf>
+    <wf wid="w137" sent="5" para="2" offset="761" length="1">–</wf>
+    <wf wid="w138" sent="5" para="2" offset="763" length="4">dice</wf>
+    <wf wid="w139" sent="5" para="2" offset="768" length="8">François</wf>
+    <wf wid="w140" sent="5" para="2" offset="777" length="10">Hollandelo</wf>
+    <wf wid="w141" sent="5" para="2" offset="787" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Per-->
+    <term tid="t112" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--me-->
+    <term tid="t113" type="" lemma="me" pos="Q" morphofeat="PRON~PEN1">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t114" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--importante-->
+    <term tid="t115" type="" lemma="importare" pos="V" morphofeat="VMA~PPNS">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--incoraggiare-->
+    <term tid="t116" type="" lemma="incoraggiare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t117" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--Grecia-->
+    <term tid="t118" type="" lemma="grecia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t119" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--continuare-->
+    <term tid="t120" type="" lemma="continuare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--sulla-->
+    <term tid="t121" type="" lemma="sulla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--strada-->
+    <term tid="t122" type="" lemma="strada" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--delle-->
+    <term tid="t123" type="" lemma="delle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--riforme-->
+    <term tid="t124" type="" lemma="riforma" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t125" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t126" type="" lemma="”" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--“-->
+    <term tid="t127" type="" lemma="“" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--Vogliamo-->
+    <term tid="t128" type="" lemma="volere" pos="V" morphofeat="VMO~IPN4">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t129" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t130" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--Grecia-->
+    <term tid="t131" type="" lemma="grecia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--resti-->
+    <term tid="t132" type="" lemma="restare" pos="V" morphofeat="VMA~CGN3">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--nell’-->
+    <term tid="t133" type="" lemma="nell’" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--ambito-->
+    <term tid="t134" type="" lemma="ambire" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--dell’-->
+    <term tid="t135" type="" lemma="dell’" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--Eurozona-->
+    <term tid="t136" type="" lemma="eurozona" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--–-->
+    <term tid="t137" type="" lemma="–" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--dice-->
+    <term tid="t138" type="" lemma="dire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--François-->
+    <term tid="t139" type="" lemma="françois" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--Hollandelo-->
+    <term tid="t140" type="" lemma="hollandelo" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t141" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Per me-->
+        <span>
+          <target id="t112"/>
+          <target id="t113"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Grecia-->
+        <span>
+          <target id="t118"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--importante incoraggiare-->
+        <span>
+          <target id="t115"/>
+          <target id="t116"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:46:47Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w192" sent="6" para="2" offset="1112" length="6">Sempre</wf>
+    <wf wid="w193" sent="6" para="2" offset="1119" length="4">oggi</wf>
+    <wf wid="w194" sent="6" para="2" offset="1123" length="1">,</wf>
+    <wf wid="w195" sent="6" para="2" offset="1125" length="8">peraltro</wf>
+    <wf wid="w196" sent="6" para="2" offset="1133" length="1">,</wf>
+    <wf wid="w197" sent="6" para="2" offset="1135" length="2">il</wf>
+    <wf wid="w198" sent="6" para="2" offset="1138" length="8">ministro</wf>
+    <wf wid="w199" sent="6" para="2" offset="1147" length="5">dell'</wf>
+    <wf wid="w200" sent="6" para="2" offset="1152" length="8">Ambiente</wf>
+    <wf wid="w201" sent="6" para="2" offset="1161" length="7">tedesco</wf>
+    <wf wid="w202" sent="6" para="2" offset="1169" length="7">Norbert</wf>
+    <wf wid="w203" sent="6" para="2" offset="1177" length="8">Roettgen</wf>
+    <wf wid="w204" sent="6" para="2" offset="1185" length="1">,</wf>
+    <wf wid="w205" sent="6" para="2" offset="1187" length="2">in</wf>
+    <wf wid="w206" sent="6" para="2" offset="1190" length="3">un'</wf>
+    <wf wid="w207" sent="6" para="2" offset="1193" length="10">intervista</wf>
+    <wf wid="w208" sent="6" para="2" offset="1204" length="4">alla</wf>
+    <wf wid="w209" sent="6" para="2" offset="1209" length="4">Bild</wf>
+    <wf wid="w210" sent="6" para="2" offset="1214" length="10">anticipata</wf>
+    <wf wid="w211" sent="6" para="2" offset="1225" length="5">dalla</wf>
+    <wf wid="w212" sent="6" para="2" offset="1231" length="6">stampa</wf>
+    <wf wid="w213" sent="6" para="2" offset="1238" length="14">internazionale</wf>
+    <wf wid="w214" sent="6" para="2" offset="1252" length="1">,</wf>
+    <wf wid="w215" sent="6" para="2" offset="1254" length="2">ha</wf>
+    <wf wid="w216" sent="6" para="2" offset="1257" length="7">chiesto</wf>
+    <wf wid="w217" sent="6" para="2" offset="1265" length="2">ad</wf>
+    <wf wid="w218" sent="6" para="2" offset="1268" length="5">altri</wf>
+    <wf wid="w219" sent="6" para="2" offset="1274" length="6">membri</wf>
+    <wf wid="w220" sent="6" para="2" offset="1281" length="2">di</wf>
+    <wf wid="w221" sent="6" para="2" offset="1284" length="7">governo</wf>
+    <wf wid="w222" sent="6" para="2" offset="1292" length="7">europei</wf>
+    <wf wid="w223" sent="6" para="2" offset="1300" length="2">di</wf>
+    <wf wid="w224" sent="6" para="2" offset="1303" length="10">boicottare</wf>
+    <wf wid="w225" sent="6" para="2" offset="1314" length="4">Euro</wf>
+    <wf wid="w226" sent="6" para="2" offset="1319" length="4">2012</wf>
+    <wf wid="w227" sent="6" para="2" offset="1323" length="1">,</wf>
+    <wf wid="w228" sent="6" para="2" offset="1325" length="6">mentre</wf>
+    <wf wid="w229" sent="6" para="2" offset="1332" length="5">sulle</wf>
+    <wf wid="w230" sent="6" para="2" offset="1338" length="6">pagine</wf>
+    <wf wid="w231" sent="6" para="2" offset="1345" length="5">della</wf>
+    <wf wid="w232" sent="6" para="2" offset="1351" length="6">stampa</wf>
+    <wf wid="w233" sent="6" para="2" offset="1358" length="7">tedesca</wf>
+    <wf wid="w234" sent="6" para="2" offset="1366" length="1">è</wf>
+    <wf wid="w235" sent="6" para="2" offset="1368" length="9">risuonato</wf>
+    <wf wid="w236" sent="6" para="2" offset="1378" length="2">l'</wf>
+    <wf wid="w237" sent="6" para="2" offset="1380" length="8">ennesimo</wf>
+    <wf wid="w238" sent="6" para="2" offset="1389" length="7">appello</wf>
+    <wf wid="w239" sent="6" para="2" offset="1397" length="2">di</wf>
+    <wf wid="w240" sent="6" para="2" offset="1400" length="7">Eugenia</wf>
+    <wf wid="w241" sent="6" para="2" offset="1407" length="1">,</wf>
+    <wf wid="w242" sent="6" para="2" offset="1409" length="6">figlia</wf>
+    <wf wid="w243" sent="6" para="2" offset="1416" length="5">della</wf>
+    <wf wid="w244" sent="6" para="2" offset="1422" length="10">Timoshenko</wf>
+    <wf wid="w245" sent="6" para="2" offset="1432" length="1">,</wf>
+    <wf wid="w246" sent="6" para="2" offset="1434" length="3">che</wf>
+    <wf wid="w247" sent="6" para="2" offset="1438" length="2">ha</wf>
+    <wf wid="w248" sent="6" para="2" offset="1441" length="7">chiesto</wf>
+    <wf wid="w249" sent="6" para="2" offset="1449" length="2">di</wf>
+    <wf wid="w250" sent="6" para="2" offset="1452" length="1">"</wf>
+    <wf wid="w251" sent="6" para="2" offset="1453" length="7">salvare</wf>
+    <wf wid="w252" sent="6" para="2" offset="1461" length="2">la</wf>
+    <wf wid="w253" sent="6" para="2" offset="1464" length="5">madre</wf>
+    <wf wid="w254" sent="6" para="2" offset="1470" length="5">prima</wf>
+    <wf wid="w255" sent="6" para="2" offset="1476" length="3">che</wf>
+    <wf wid="w256" sent="6" para="2" offset="1480" length="3">sia</wf>
+    <wf wid="w257" sent="6" para="2" offset="1484" length="6">troppo</wf>
+    <wf wid="w258" sent="6" para="2" offset="1491" length="5">tardi</wf>
+    <wf wid="w259" sent="6" para="2" offset="1496" length="1">"</wf>
+    <wf wid="w260" sent="6" para="2" offset="1497" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Sempre-->
+    <term tid="t192" type="" lemma="sempre" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--oggi-->
+    <term tid="t193" type="" lemma="oggi" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t194" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--peraltro-->
+    <term tid="t195" type="" lemma="peraltro" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t196" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t197" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--ministro-->
+    <term tid="t198" type="" lemma="ministro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t199" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--Ambiente-->
+    <term tid="t200" type="" lemma="ambiente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--tedesco-->
+    <term tid="t201" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--Norbert-->
+    <term tid="t202" type="" lemma="norbert" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--Roettgen-->
+    <term tid="t203" type="" lemma="roettgen" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t204" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t205" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--un'-->
+    <term tid="t206" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--intervista-->
+    <term tid="t207" type="" lemma="intervista" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t208" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--Bild-->
+    <term tid="t209" type="" lemma="bild" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--anticipata-->
+    <term tid="t210" type="" lemma="anticipata" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--dalla-->
+    <term tid="t211" type="" lemma="dalla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--stampa-->
+    <term tid="t212" type="" lemma="stampa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--internazionale-->
+    <term tid="t213" type="" lemma="internazionale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t214" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t215" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--chiesto-->
+    <term tid="t216" type="" lemma="chiedere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--ad-->
+    <term tid="t217" type="" lemma="ad" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--altri-->
+    <term tid="t218" type="" lemma="altro" pos="G" morphofeat="ADJ~INMP">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--membri-->
+    <term tid="t219" type="" lemma="membro" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t220" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--governo-->
+    <term tid="t221" type="" lemma="governo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--europei-->
+    <term tid="t222" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t223" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--boicottare-->
+    <term tid="t224" type="" lemma="boicottare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--Euro-->
+    <term tid="t225" type="" lemma="euro" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--2012-->
+    <term tid="t226" type="" lemma="2012" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t227" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--mentre-->
+    <term tid="t228" type="" lemma="mentre" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--sulle-->
+    <term tid="t229" type="" lemma="sulle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--pagine-->
+    <term tid="t230" type="" lemma="pagina" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t231" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--stampa-->
+    <term tid="t232" type="" lemma="stampa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--tedesca-->
+    <term tid="t233" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t234" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--risuonato-->
+    <term tid="t235" type="" lemma="risuonare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t236" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--ennesimo-->
+    <term tid="t237" type="" lemma="ennesimo" pos="G" morphofeat="ADJ~ORMS">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--appello-->
+    <term tid="t238" type="" lemma="appello" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t239" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--Eugenia-->
+    <term tid="t240" type="" lemma="eugenia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t241" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--figlia-->
+    <term tid="t242" type="" lemma="figlia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t243" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--Timoshenko-->
+    <term tid="t244" type="" lemma="timoshenko" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t245" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t246" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t247" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--chiesto-->
+    <term tid="t248" type="" lemma="chiedere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t249" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t250" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--salvare-->
+    <term tid="t251" type="" lemma="salvare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t252" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--madre-->
+    <term tid="t253" type="" lemma="madre" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--prima-->
+    <term tid="t254" type="" lemma="primo" pos="G" morphofeat="ADJ~ORFS">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t255" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--sia-->
+    <term tid="t256" type="" lemma="essere" pos="V" morphofeat="VAU~CGN1">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--troppo-->
+    <term tid="t257" type="" lemma="troppo" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--tardi-->
+    <term tid="t258" type="" lemma="tardo" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t259" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t260" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--il ministro dell' Ambiente tedesco Norbert Roettgen-->
+        <span>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t201"/>
+          <target id="t202"/>
+          <target id="t203"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Euro 2012-->
+        <span>
+          <target id="t225"/>
+          <target id="t226"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--di boicottare-->
+        <span>
+          <target id="t223"/>
+          <target id="t224"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

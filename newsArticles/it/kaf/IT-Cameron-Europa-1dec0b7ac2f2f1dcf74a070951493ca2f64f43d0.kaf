@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:58Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:58Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:14:47Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:13CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w82" sent="4" para="2" offset="441" length="4">Dure</wf>
+    <wf wid="w83" sent="4" para="2" offset="446" length="2">ed</wf>
+    <wf wid="w84" sent="4" para="2" offset="449" length="9">immediate</wf>
+    <wf wid="w85" sent="4" para="2" offset="459" length="2">le</wf>
+    <wf wid="w86" sent="4" para="2" offset="462" length="8">critiche</wf>
+    <wf wid="w87" sent="4" para="2" offset="471" length="3">del</wf>
+    <wf wid="w88" sent="4" para="2" offset="475" length="9">cardinale</wf>
+    <wf wid="w89" sent="4" para="2" offset="485" length="8">Bagnasco</wf>
+    <wf wid="w90" sent="4" para="2" offset="493" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Dure-->
+    <term tid="t82" type="" lemma="dure" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--ed-->
+    <term tid="t83" type="" lemma="ed" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--immediate-->
+    <term tid="t84" type="" lemma="immediato" pos="G" morphofeat="ADJ~QUFP">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t85" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--critiche-->
+    <term tid="t86" type="" lemma="critica" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t87" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--cardinale-->
+    <term tid="t88" type="" lemma="cardinale" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--Bagnasco-->
+    <term tid="t89" type="" lemma="bagnasco" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t90" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--cardinale Bagnasco-->
+        <span>
+          <target id="t88"/>
+          <target id="t89"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--critiche-->
+        <span>
+          <target id="t86"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--Dure ed immediate-->
+        <span>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

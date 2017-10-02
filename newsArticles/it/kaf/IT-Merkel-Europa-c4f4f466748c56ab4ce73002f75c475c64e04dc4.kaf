@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:50Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:50Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:13:10Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w400" sent="14" para="2" offset="2247" length="7">Inoltre</wf>
+    <wf wid="w401" sent="14" para="2" offset="2254" length="1">,</wf>
+    <wf wid="w402" sent="14" para="2" offset="2256" length="2">al</wf>
+    <wf wid="w403" sent="14" para="2" offset="2259" length="7">secondo</wf>
+    <wf wid="w404" sent="14" para="2" offset="2267" length="5">turno</wf>
+    <wf wid="w405" sent="14" para="2" offset="2272" length="1">,</wf>
+    <wf wid="w406" sent="14" para="2" offset="2274" length="8">Hollande</wf>
+    <wf wid="w407" sent="14" para="2" offset="2283" length="1">è</wf>
+    <wf wid="w408" sent="14" para="2" offset="2285" length="6">sempre</wf>
+    <wf wid="w409" sent="14" para="2" offset="2292" length="10">ampiamente</wf>
+    <wf wid="w410" sent="14" para="2" offset="2303" length="2">in</wf>
+    <wf wid="w411" sent="14" para="2" offset="2306" length="9">vantaggio</wf>
+    <wf wid="w412" sent="14" para="2" offset="2315" length="1">,</wf>
+    <wf wid="w413" sent="14" para="2" offset="2317" length="5">anche</wf>
+    <wf wid="w414" sent="14" para="2" offset="2323" length="2">se</wf>
+    <wf wid="w415" sent="14" para="2" offset="2327" length="4">cala</wf>
+    <wf wid="w416" sent="14" para="2" offset="2332" length="2">di</wf>
+    <wf wid="w417" sent="14" para="2" offset="2335" length="3">due</wf>
+    <wf wid="w418" sent="14" para="2" offset="2339" length="5">punti</wf>
+    <wf wid="w419" sent="14" para="2" offset="2345" length="1">(</wf>
+    <wf wid="w420" sent="14" para="2" offset="2346" length="4">54,5</wf>
+    <wf wid="w421" sent="14" para="2" offset="2350" length="1">%</wf>
+    <wf wid="w422" sent="14" para="2" offset="2352" length="6">contro</wf>
+    <wf wid="w423" sent="14" para="2" offset="2359" length="4">45,5</wf>
+    <wf wid="w424" sent="14" para="2" offset="2363" length="1">%</wf>
+    <wf wid="w425" sent="14" para="2" offset="2364" length="1">)</wf>
+    <wf wid="w426" sent="14" para="2" offset="2365" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Inoltre-->
+    <term tid="t400" type="" lemma="inoltre" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t401" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t402" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--secondo-->
+    <term tid="t403" type="" lemma="secondo" pos="G" morphofeat="ADJ~ORMS">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <!--turno-->
+    <term tid="t404" type="" lemma="turno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t405" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t406" type="" lemma="hollande" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t407" type="" lemma="è" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <!--sempre-->
+    <term tid="t408" type="" lemma="sempre" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <!--ampiamente-->
+    <term tid="t409" type="" lemma="ampiamente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t410" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <!--vantaggio-->
+    <term tid="t411" type="" lemma="vantaggio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t412" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <!--anche-->
+    <term tid="t413" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t414" type="" lemma="se" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+    <!--cala-->
+    <term tid="t415" type="" lemma="calare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w415"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t416" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <!--due-->
+    <term tid="t417" type="" lemma="due" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <!--punti-->
+    <term tid="t418" type="" lemma="punto" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <!--(-->
+    <term tid="t419" type="" lemma="(" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+    <!--54,5-->
+    <term tid="t420" type="" lemma="54,5" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w420"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t421" type="" lemma="%" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w421"/>
+      </span>
+    </term>
+    <!--contro-->
+    <term tid="t422" type="" lemma="contro" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w422"/>
+      </span>
+    </term>
+    <!--45,5-->
+    <term tid="t423" type="" lemma="45,5" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w423"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t424" type="" lemma="%" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w424"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t425" type="" lemma=")" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w425"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t426" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w426"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Hollande-->
+        <span>
+          <target id="t406"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--vantaggio-->
+        <span>
+          <target id="t411"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--è sempre ampiamente-->
+        <span>
+          <target id="t407"/>
+          <target id="t408"/>
+          <target id="t409"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t406"/>
+          <target id="t407"/>
+          <target id="t408"/>
+          <target id="t409"/>
+          <target id="t410"/>
+          <target id="t411"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

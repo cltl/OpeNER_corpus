@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:40Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:40Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:21:10Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w40" sent="3" para="2" offset="223" length="6">Piazza</wf>
+    <wf wid="w41" sent="3" para="2" offset="230" length="6">Affari</wf>
+    <wf wid="w42" sent="3" para="2" offset="237" length="2">in</wf>
+    <wf wid="w43" sent="3" para="2" offset="240" length="5">rosso</wf>
+    <wf wid="w44" sent="3" para="2" offset="245" length="1">,</wf>
+    <wf wid="w45" sent="3" para="2" offset="247" length="6">spread</wf>
+    <wf wid="w46" sent="3" para="2" offset="254" length="1">a</wf>
+    <wf wid="w47" sent="3" para="2" offset="256" length="3">468</wf>
+    <wf wid="w48" sent="3" para="2" offset="259" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Piazza-->
+    <term tid="t40" type="" lemma="piazza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--Affari-->
+    <term tid="t41" type="" lemma="affare" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t42" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--rosso-->
+    <term tid="t43" type="" lemma="rosso" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t44" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--spread-->
+    <term tid="t45" type="" lemma="spread" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t46" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--468-->
+    <term tid="t47" type="" lemma="468" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t48" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Piazza Affari-->
+        <span>
+          <target id="t40"/>
+          <target id="t41"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--in rosso-->
+        <span>
+          <target id="t42"/>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--spread-->
+        <span>
+          <target id="t45"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--a 468-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

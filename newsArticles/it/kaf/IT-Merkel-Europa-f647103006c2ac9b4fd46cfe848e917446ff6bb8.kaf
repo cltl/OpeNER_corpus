@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:14:03Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w322" sent="14" para="2" offset="1776" length="10">Napolitano</wf>
+    <wf wid="w323" sent="14" para="2" offset="1787" length="10">interviene</wf>
+    <wf wid="w324" sent="14" para="2" offset="1798" length="5">anche</wf>
+    <wf wid="w325" sent="14" para="2" offset="1804" length="3">sul</wf>
+    <wf wid="w326" sent="14" para="2" offset="1808" length="4">caso</wf>
+    <wf wid="w327" sent="14" para="2" offset="1813" length="7">Mancino</wf>
+    <wf wid="w328" sent="14" para="2" offset="1820" length="1">:</wf>
+    <wf wid="w329" sent="14" para="2" offset="1822" length="1">"</wf>
+    <wf wid="w330" sent="14" para="2" offset="1823" length="2">La</wf>
+    <wf wid="w331" sent="14" para="2" offset="1826" length="11">correttezza</wf>
+    <wf wid="w332" sent="14" para="2" offset="1838" length="3">dei</wf>
+    <wf wid="w333" sent="14" para="2" offset="1842" length="4">miei</wf>
+    <wf wid="w334" sent="14" para="2" offset="1847" length="13">comportamenti</wf>
+    <wf wid="w335" sent="14" para="2" offset="1861" length="2">ha</wf>
+    <wf wid="w336" sent="14" para="2" offset="1864" length="7">trovato</wf>
+    <wf wid="w337" sent="14" para="2" offset="1872" length="2">il</wf>
+    <wf wid="w338" sent="14" para="2" offset="1875" length="3">più</wf>
+    <wf wid="w339" sent="14" para="2" offset="1879" length="5">largo</wf>
+    <wf wid="w340" sent="14" para="2" offset="1885" length="14">riconoscimento</wf>
+    <wf wid="w341" sent="14" para="2" offset="1899" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Napolitano-->
+    <term tid="t322" type="" lemma="napolitano" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--interviene-->
+    <term tid="t323" type="" lemma="intervenire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--anche-->
+    <term tid="t324" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--sul-->
+    <term tid="t325" type="" lemma="sul" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <!--caso-->
+    <term tid="t326" type="" lemma="caso" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <!--Mancino-->
+    <term tid="t327" type="" lemma="mancino" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t328" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t329" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <!--La-->
+    <term tid="t330" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <!--correttezza-->
+    <term tid="t331" type="" lemma="correttezza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t332" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <!--miei-->
+    <term tid="t333" type="" lemma="mio" pos="G" morphofeat="ADJ~POMP">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <!--comportamenti-->
+    <term tid="t334" type="" lemma="comportamento" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t335" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <!--trovato-->
+    <term tid="t336" type="" lemma="trovare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t337" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--più-->
+    <term tid="t338" type="" lemma="piu'" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <!--largo-->
+    <term tid="t339" type="" lemma="largo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--riconoscimento-->
+    <term tid="t340" type="" lemma="riconoscimento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t341" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--più largo riconoscimento-->
+        <span>
+          <target id="t338"/>
+          <target id="t339"/>
+          <target id="t340"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

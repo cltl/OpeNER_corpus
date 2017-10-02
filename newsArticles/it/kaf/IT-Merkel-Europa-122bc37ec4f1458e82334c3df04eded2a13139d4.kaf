@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:46:21Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w57" sent="5" para="2" offset="280" length="2">L'</wf>
+    <wf wid="w58" sent="5" para="2" offset="282" length="6">Europa</wf>
+    <wf wid="w59" sent="5" para="2" offset="289" length="2">si</wf>
+    <wf wid="w60" sent="5" para="2" offset="292" length="1">è</wf>
+    <wf wid="w61" sent="5" para="2" offset="294" length="15">improvvisamente</wf>
+    <wf wid="w62" sent="5" para="2" offset="310" length="7">accorta</wf>
+    <wf wid="w63" sent="5" para="2" offset="318" length="3">che</wf>
+    <wf wid="w64" sent="5" para="2" offset="322" length="6">questo</wf>
+    <wf wid="w65" sent="5" para="2" offset="329" length="7">ragazzo</wf>
+    <wf wid="w66" sent="5" para="2" offset="337" length="9">bresciano</wf>
+    <wf wid="w67" sent="5" para="2" offset="347" length="5">dallo</wf>
+    <wf wid="w68" sent="5" para="2" offset="353" length="7">sguardo</wf>
+    <wf wid="w69" sent="5" para="2" offset="361" length="4">mite</wf>
+    <wf wid="w70" sent="5" para="2" offset="366" length="1">è</wf>
+    <wf wid="w71" sent="5" para="2" offset="368" length="12">protagonista</wf>
+    <wf wid="w72" sent="5" para="2" offset="381" length="8">assoluto</wf>
+    <wf wid="w73" sent="5" para="2" offset="389" length="1">.</wf>
+  </text>
+  <terms>
+    <!--L'-->
+    <term tid="t57" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t58" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t59" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t60" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--improvvisamente-->
+    <term tid="t61" type="" lemma="improvvisamente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--accorta-->
+    <term tid="t62" type="" lemma="accorgere" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t63" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--questo-->
+    <term tid="t64" type="" lemma="questo" pos="G" morphofeat="ADJ~DIMS">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--ragazzo-->
+    <term tid="t65" type="" lemma="ragazzo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--bresciano-->
+    <term tid="t66" type="" lemma="bresciano" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--dallo-->
+    <term tid="t67" type="" lemma="dallo" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--sguardo-->
+    <term tid="t68" type="" lemma="sguardo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--mite-->
+    <term tid="t69" type="" lemma="mite" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t70" type="" lemma="è" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--protagonista-->
+    <term tid="t71" type="" lemma="protagonista" pos="N" morphofeat="NOU~CSNS">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--assoluto-->
+    <term tid="t72" type="" lemma="assoluto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t73" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--questo ragazzo bresciano-->
+        <span>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--protagonista assoluto-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

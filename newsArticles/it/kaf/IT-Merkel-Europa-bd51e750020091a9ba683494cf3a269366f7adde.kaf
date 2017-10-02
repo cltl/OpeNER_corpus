@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:47Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:47Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:05:53Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w48" sent="3" para="2" offset="241" length="4">Anzi</wf>
+    <wf wid="w49" sent="3" para="2" offset="245" length="1">,</wf>
+    <wf wid="w50" sent="3" para="2" offset="247" length="1">a</wf>
+    <wf wid="w51" sent="3" para="2" offset="249" length="7">guardar</wf>
+    <wf wid="w52" sent="3" para="2" offset="257" length="4">bene</wf>
+    <wf wid="w53" sent="3" para="2" offset="261" length="1">,</wf>
+    <wf wid="w54" sent="3" para="2" offset="263" length="2">si</wf>
+    <wf wid="w55" sent="3" para="2" offset="266" length="6">tratta</wf>
+    <wf wid="w56" sent="3" para="2" offset="273" length="2">di</wf>
+    <wf wid="w57" sent="3" para="2" offset="276" length="2">un</wf>
+    <wf wid="w58" sent="3" para="2" offset="279" length="7">macigno</wf>
+    <wf wid="w59" sent="3" para="2" offset="286" length="1">:</wf>
+    <wf wid="w60" sent="3" para="2" offset="288" length="11">Jean-Claude</wf>
+    <wf wid="w61" sent="3" para="2" offset="300" length="7">Juncker</wf>
+    <wf wid="w62" sent="3" para="2" offset="308" length="7">lascerà</wf>
+    <wf wid="w63" sent="3" para="2" offset="316" length="2">la</wf>
+    <wf wid="w64" sent="3" para="2" offset="319" length="10">presidenza</wf>
+    <wf wid="w65" sent="3" para="2" offset="330" length="5">dell’</wf>
+    <wf wid="w66" sent="3" para="2" offset="335" length="10">Eurogruppo</wf>
+    <wf wid="w67" sent="3" para="2" offset="346" length="3">per</wf>
+    <wf wid="w68" sent="3" para="2" offset="350" length="2">le</wf>
+    <wf wid="w69" sent="3" para="2" offset="353" length="6">troppe</wf>
+    <wf wid="w70" sent="3" para="2" offset="360" length="9">ingerenze</wf>
+    <wf wid="w71" sent="3" para="2" offset="370" length="15">franco-tedesche</wf>
+    <wf wid="w72" sent="3" para="2" offset="385" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Anzi-->
+    <term tid="t48" type="" lemma="anzi" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t49" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t50" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--guardar-->
+    <term tid="t51" type="" lemma="guardar" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--bene-->
+    <term tid="t52" type="" lemma="bene" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t53" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t54" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--tratta-->
+    <term tid="t55" type="" lemma="trarre" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t56" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t57" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--macigno-->
+    <term tid="t58" type="" lemma="macigno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t59" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--Jean-Claude-->
+    <term tid="t60" type="" lemma="jean-claude" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--Juncker-->
+    <term tid="t61" type="" lemma="juncker" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--lascerà-->
+    <term tid="t62" type="" lemma="lascerà" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t63" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--presidenza-->
+    <term tid="t64" type="" lemma="presidenza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--dell’-->
+    <term tid="t65" type="" lemma="dell’" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--Eurogruppo-->
+    <term tid="t66" type="" lemma="eurogruppo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t67" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t68" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--troppe-->
+    <term tid="t69" type="" lemma="troppo" pos="G" morphofeat="ADJ~FP">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--ingerenze-->
+    <term tid="t70" type="" lemma="ingerenza" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--franco-tedesche-->
+    <term tid="t71" type="" lemma="franco-tedesche" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t72" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Jean-Claude Juncker-->
+        <span>
+          <target id="t60"/>
+          <target id="t61"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--la presidenza dell’ Eurogruppo-->
+        <span>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--lascerà-->
+        <span>
+          <target id="t62"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

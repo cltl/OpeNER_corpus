@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:19:20Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w174" sent="10" para="2" offset="864" length="2">Il</wf>
+    <wf wid="w175" sent="10" para="2" offset="867" length="9">direttivo</wf>
+    <wf wid="w176" sent="10" para="2" offset="877" length="5">della</wf>
+    <wf wid="w177" sent="10" para="2" offset="883" length="3">Bce</wf>
+    <wf wid="w178" sent="10" para="2" offset="887" length="2">ha</wf>
+    <wf wid="w179" sent="10" para="2" offset="890" length="3">poi</wf>
+    <wf wid="w180" sent="10" para="2" offset="894" length="6">deciso</wf>
+    <wf wid="w181" sent="10" para="2" offset="901" length="2">di</wf>
+    <wf wid="w182" sent="10" para="2" offset="904" length="8">lasciare</wf>
+    <wf wid="w183" sent="10" para="2" offset="913" length="1">i</wf>
+    <wf wid="w184" sent="10" para="2" offset="915" length="5">tassi</wf>
+    <wf wid="w185" sent="10" para="2" offset="921" length="9">invariati</wf>
+    <wf wid="w186" sent="10" para="2" offset="931" length="4">allo</wf>
+    <wf wid="w187" sent="10" para="2" offset="936" length="4">0,75</wf>
+    <wf wid="w188" sent="10" para="2" offset="940" length="1">%</wf>
+    <wf wid="w189" sent="10" para="2" offset="941" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t174" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--direttivo-->
+    <term tid="t175" type="" lemma="direttivo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t176" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--Bce-->
+    <term tid="t177" type="" lemma="bce" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t178" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--poi-->
+    <term tid="t179" type="" lemma="poi" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--deciso-->
+    <term tid="t180" type="" lemma="decidere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t181" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--lasciare-->
+    <term tid="t182" type="" lemma="lasciare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t183" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--tassi-->
+    <term tid="t184" type="" lemma="tasso" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--invariati-->
+    <term tid="t185" type="" lemma="invariati" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--allo-->
+    <term tid="t186" type="" lemma="allo" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--0,75-->
+    <term tid="t187" type="" lemma="0,75" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t188" type="" lemma="%" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t189" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

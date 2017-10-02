@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:04Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w36" sent="3" para="2" offset="190" length="2">Il</wf>
+    <wf wid="w37" sent="3" para="2" offset="193" length="7">vertice</wf>
+    <wf wid="w38" sent="3" para="2" offset="201" length="8">maratona</wf>
+    <wf wid="w39" sent="3" para="2" offset="210" length="3">tra</wf>
+    <wf wid="w40" sent="3" para="2" offset="214" length="1">i</wf>
+    <wf wid="w41" sent="3" para="2" offset="216" length="6">leader</wf>
+    <wf wid="w42" sent="3" para="2" offset="223" length="7">europei</wf>
+    <wf wid="w43" sent="3" para="2" offset="231" length="6">giunto</wf>
+    <wf wid="w44" sent="3" para="2" offset="238" length="1">a</wf>
+    <wf wid="w45" sent="3" para="2" offset="240" length="11">conclusione</wf>
+    <wf wid="w46" sent="3" para="2" offset="252" length="2">fa</wf>
+    <wf wid="w47" sent="3" para="2" offset="255" length="8">emergere</wf>
+    <wf wid="w48" sent="3" para="2" offset="264" length="3">un’</wf>
+    <wf wid="w49" sent="3" para="2" offset="267" length="6">Europa</wf>
+    <wf wid="w50" sent="3" para="2" offset="274" length="11">frammentata</wf>
+    <wf wid="w51" sent="3" para="2" offset="285" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t36" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--vertice-->
+    <term tid="t37" type="" lemma="vertice" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--maratona-->
+    <term tid="t38" type="" lemma="maratona" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--tra-->
+    <term tid="t39" type="" lemma="tra" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t40" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term tid="t41" type="" lemma="leader" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--europei-->
+    <term tid="t42" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--giunto-->
+    <term tid="t43" type="" lemma="giungere" pos="V" morphofeat="VMA~REN1">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t44" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--conclusione-->
+    <term tid="t45" type="" lemma="conclusione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--fa-->
+    <term tid="t46" type="" lemma="fa" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--emergere-->
+    <term tid="t47" type="" lemma="emergere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--un’-->
+    <term tid="t48" type="" lemma="un’" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t49" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--frammentata-->
+    <term tid="t50" type="" lemma="frammentare" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t51" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--vertice maratona tra i leader europei-->
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--frammentata-->
+        <span>
+          <target id="t50"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:02:47Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w188" sent="16" para="2" offset="993" length="6">Angela</wf>
+    <wf wid="w189" sent="16" para="2" offset="1000" length="6">Merkel</wf>
+    <wf wid="w190" sent="16" para="2" offset="1007" length="5">vuole</wf>
+    <wf wid="w191" sent="16" para="2" offset="1013" length="3">che</wf>
+    <wf wid="w192" sent="16" para="2" offset="1017" length="2">la</wf>
+    <wf wid="w193" sent="16" para="2" offset="1020" length="6">Grecia</wf>
+    <wf wid="w194" sent="16" para="2" offset="1027" length="5">resti</wf>
+    <wf wid="w195" sent="16" para="2" offset="1033" length="5">nell'</wf>
+    <wf wid="w196" sent="16" para="2" offset="1038" length="4">euro</wf>
+    <wf wid="w197" sent="16" para="2" offset="1042" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Angela-->
+    <term tid="t188" type="" lemma="angela" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t189" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--vuole-->
+    <term tid="t190" type="" lemma="volere" pos="V" morphofeat="VMO~REN3">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t191" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t192" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--Grecia-->
+    <term tid="t193" type="" lemma="grecia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--resti-->
+    <term tid="t194" type="" lemma="restare" pos="V" morphofeat="VMA~CGN3">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--nell'-->
+    <term tid="t195" type="" lemma="nell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t196" type="" lemma="euro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t197" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

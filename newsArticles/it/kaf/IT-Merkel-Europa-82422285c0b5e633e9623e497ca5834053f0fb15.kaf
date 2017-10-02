@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:20Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w34" sent="3" para="2" offset="194" length="6">Angela</wf>
+    <wf wid="w35" sent="3" para="2" offset="201" length="6">Merkel</wf>
+    <wf wid="w36" sent="3" para="2" offset="208" length="1">e</wf>
+    <wf wid="w37" sent="3" para="2" offset="210" length="8">Francois</wf>
+    <wf wid="w38" sent="3" para="2" offset="219" length="8">Hollande</wf>
+    <wf wid="w39" sent="3" para="2" offset="228" length="10">riscoprono</wf>
+    <wf wid="w40" sent="3" para="2" offset="239" length="2">l’</wf>
+    <wf wid="w41" sent="3" para="2" offset="241" length="6">intesa</wf>
+    <wf wid="w42" sent="3" para="2" offset="248" length="4">dopo</wf>
+    <wf wid="w43" sent="3" para="2" offset="253" length="3">un’</wf>
+    <wf wid="w44" sent="3" para="2" offset="256" length="8">iniziale</wf>
+    <wf wid="w45" sent="3" para="2" offset="265" length="9">freddezza</wf>
+    <wf wid="w46" sent="3" para="2" offset="274" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Angela-->
+    <term tid="t34" type="" lemma="angela" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t35" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t36" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--Francois-->
+    <term tid="t37" type="" lemma="francois" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t38" type="" lemma="hollande" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--riscoprono-->
+    <term tid="t39" type="" lemma="riscoprire" pos="V" morphofeat="VMA~RAN6">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t40" type="" lemma="l’" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--intesa-->
+    <term tid="t41" type="" lemma="intesa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--dopo-->
+    <term tid="t42" type="" lemma="dopo" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--un’-->
+    <term tid="t43" type="" lemma="un’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--iniziale-->
+    <term tid="t44" type="" lemma="iniziale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--freddezza-->
+    <term tid="t45" type="" lemma="freddezza" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t46" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Angela Merkel-->
+        <span>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--riscoprono l’ intesa-->
+        <span>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Francois Hollande-->
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--riscoprono l’ intesa-->
+        <span>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

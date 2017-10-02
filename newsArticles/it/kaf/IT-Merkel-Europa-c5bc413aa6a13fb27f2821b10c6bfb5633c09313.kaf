@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:03:03Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w574" sent="20" para="2" offset="3051" length="2">Ma</wf>
+    <wf wid="w575" sent="20" para="2" offset="3054" length="2">il</wf>
+    <wf wid="w576" sent="20" para="2" offset="3057" length="4">boia</wf>
+    <wf wid="w577" sent="20" para="2" offset="3062" length="2">se</wf>
+    <wf wid="w578" sent="20" para="2" offset="3065" length="2">ne</wf>
+    <wf wid="w579" sent="20" para="2" offset="3068" length="9">infischia</wf>
+    <wf wid="w580" sent="20" para="2" offset="3078" length="3">del</wf>
+    <wf wid="w581" sent="20" para="2" offset="3082" length="7">Palazzo</wf>
+    <wf wid="w582" sent="20" para="2" offset="3090" length="2">di</wf>
+    <wf wid="w583" sent="20" para="2" offset="3093" length="5">Vetro</wf>
+    <wf wid="w584" sent="20" para="2" offset="3099" length="1">e</wf>
+    <wf wid="w585" sent="20" para="2" offset="3101" length="10">continuerà</wf>
+    <wf wid="w586" sent="20" para="2" offset="3112" length="1">a</wf>
+    <wf wid="w587" sent="20" para="2" offset="3114" length="14">infischiarsene</wf>
+    <wf wid="w588" sent="20" para="2" offset="3129" length="5">anche</wf>
+    <wf wid="w589" sent="20" para="2" offset="3135" length="5">dell'</wf>
+    <wf wid="w590" sent="20" para="2" offset="3140" length="6">Europa</wf>
+    <wf wid="w591" sent="20" para="2" offset="3146" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ma-->
+    <term tid="t574" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w574"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t575" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w575"/>
+      </span>
+    </term>
+    <!--boia-->
+    <term tid="t576" type="" lemma="boia" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w576"/>
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t577" type="" lemma="se" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w577"/>
+      </span>
+    </term>
+    <!--ne-->
+    <term tid="t578" type="" lemma="ne" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w578"/>
+      </span>
+    </term>
+    <!--infischia-->
+    <term tid="t579" type="" lemma="infischia" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w579"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t580" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w580"/>
+      </span>
+    </term>
+    <!--Palazzo-->
+    <term tid="t581" type="" lemma="palazzo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w581"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t582" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w582"/>
+      </span>
+    </term>
+    <!--Vetro-->
+    <term tid="t583" type="" lemma="vetro" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w583"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t584" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w584"/>
+      </span>
+    </term>
+    <!--continuerà-->
+    <term tid="t585" type="" lemma="continuerà" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w585"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t586" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w586"/>
+      </span>
+    </term>
+    <!--infischiarsene-->
+    <term tid="t587" type="" lemma="infischiarsene" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w587"/>
+      </span>
+    </term>
+    <!--anche-->
+    <term tid="t588" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w588"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t589" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w589"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t590" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w590"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t591" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w591"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder>
+        <!--il boia-->
+        <span>
+          <target id="t575"/>
+          <target id="t576"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--dell' Europa-->
+        <span>
+          <target id="t589"/>
+          <target id="t590"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--continuerà a infischiarsene-->
+        <span>
+          <target id="t585"/>
+          <target id="t586"/>
+          <target id="t587"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--il boia-->
+        <span>
+          <target id="t575"/>
+          <target id="t576"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Palazzo di Vetro-->
+        <span>
+          <target id="t581"/>
+          <target id="t582"/>
+          <target id="t583"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--se ne infischia-->
+        <span>
+          <target id="t577"/>
+          <target id="t578"/>
+          <target id="t579"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

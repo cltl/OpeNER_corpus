@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:09:27Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w241" sent="9" para="2" offset="1350" length="1">A</wf>
+    <wf wid="w242" sent="9" para="2" offset="1352" length="5">dirlo</wf>
+    <wf wid="w243" sent="9" para="2" offset="1358" length="2">al</wf>
+    <wf wid="w244" sent="9" para="2" offset="1361" length="9">Consiglio</wf>
+    <wf wid="w245" sent="9" para="2" offset="1371" length="7">europeo</wf>
+    <wf wid="w246" sent="9" para="2" offset="1379" length="1">a</wf>
+    <wf wid="w247" sent="9" para="2" offset="1381" length="9">Bruxelles</wf>
+    <wf wid="w248" sent="9" para="2" offset="1391" length="1">è</wf>
+    <wf wid="w249" sent="9" para="2" offset="1393" length="5">stato</wf>
+    <wf wid="w250" sent="9" para="2" offset="1399" length="2">il</wf>
+    <wf wid="w251" sent="9" para="2" offset="1402" length="10">presidente</wf>
+    <wf wid="w252" sent="9" para="2" offset="1413" length="3">del</wf>
+    <wf wid="w253" sent="9" para="2" offset="1417" length="9">Consiglio</wf>
+    <wf wid="w254" sent="9" para="2" offset="1427" length="6">Enrico</wf>
+    <wf wid="w255" sent="9" para="2" offset="1434" length="5">Letta</wf>
+    <wf wid="w256" sent="9" para="2" offset="1439" length="1">.</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term tid="t241" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--dirlo-->
+    <term tid="t242" type="" lemma="dirlo" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t243" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--Consiglio-->
+    <term tid="t244" type="" lemma="consiglio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--europeo-->
+    <term tid="t245" type="" lemma="europeo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t246" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--Bruxelles-->
+    <term tid="t247" type="" lemma="bruxelles" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t248" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--stato-->
+    <term tid="t249" type="" lemma="essere" pos="V" morphofeat="VAU~PAMS">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t250" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t251" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t252" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--Consiglio-->
+    <term tid="t253" type="" lemma="consiglio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--Enrico-->
+    <term tid="t254" type="" lemma="enrico" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--Letta-->
+    <term tid="t255" type="" lemma="letta" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t256" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t241"/>
+          <target id="t242"/>
+          <target id="t243"/>
+          <target id="t244"/>
+          <target id="t245"/>
+          <target id="t246"/>
+          <target id="t247"/>
+          <target id="t248"/>
+          <target id="t249"/>
+          <target id="t250"/>
+          <target id="t251"/>
+          <target id="t252"/>
+          <target id="t253"/>
+          <target id="t254"/>
+          <target id="t255"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

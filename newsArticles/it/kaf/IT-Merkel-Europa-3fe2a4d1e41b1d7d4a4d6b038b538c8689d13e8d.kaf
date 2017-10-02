@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:18Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w49" sent="3" para="2" offset="281" length="7">Berlino</wf>
+    <wf wid="w50" sent="3" para="2" offset="289" length="6">tagliò</wf>
+    <wf wid="w51" sent="3" para="2" offset="296" length="2">la</wf>
+    <wf wid="w52" sent="3" para="2" offset="299" length="14">disoccupazione</wf>
+    <wf wid="w53" sent="3" para="2" offset="313" length="1">,</wf>
+    <wf wid="w54" sent="3" para="2" offset="314" length="2">il</wf>
+    <wf wid="w55" sent="3" para="2" offset="317" length="4">peso</wf>
+    <wf wid="w56" sent="3" para="2" offset="322" length="7">fiscale</wf>
+    <wf wid="w57" sent="3" para="2" offset="330" length="3">sul</wf>
+    <wf wid="w58" sent="3" para="2" offset="334" length="7">lavoroe</wf>
+    <wf wid="w59" sent="3" para="2" offset="342" length="8">rimodulò</wf>
+    <wf wid="w60" sent="3" para="2" offset="351" length="2">la</wf>
+    <wf wid="w61" sent="3" para="2" offset="354" length="5">spesa</wf>
+    <wf wid="w62" sent="3" para="2" offset="360" length="14">sanitariatonia</wf>
+    <wf wid="w63" sent="3" para="2" offset="375" length="14">mastrobuoniDal</wf>
+    <wf wid="w64" sent="3" para="2" offset="390" length="1">«</wf>
+    <wf wid="w65" sent="3" para="2" offset="391" length="6">malato</wf>
+    <wf wid="w66" sent="3" para="2" offset="397" length="1">»</wf>
+    <wf wid="w67" sent="3" para="2" offset="399" length="2">al</wf>
+    <wf wid="w68" sent="3" para="2" offset="402" length="1">«</wf>
+    <wf wid="w69" sent="3" para="2" offset="403" length="7">modello</wf>
+    <wf wid="w70" sent="3" para="2" offset="410" length="1">»</wf>
+    <wf wid="w71" sent="3" para="2" offset="412" length="2">d’</wf>
+    <wf wid="w72" sent="3" para="2" offset="414" length="6">Europa</wf>
+    <wf wid="w73" sent="3" para="2" offset="420" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Berlino-->
+    <term tid="t49" type="" lemma="berlino" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--tagliò-->
+    <term tid="t50" type="" lemma="tagliare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t51" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--disoccupazione-->
+    <term tid="t52" type="" lemma="disoccupazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t53" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t54" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--peso-->
+    <term tid="t55" type="" lemma="peso" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--fiscale-->
+    <term tid="t56" type="" lemma="fiscale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--sul-->
+    <term tid="t57" type="" lemma="sul" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--lavoroe-->
+    <term tid="t58" type="" lemma="lavoroe" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--rimodulò-->
+    <term tid="t59" type="" lemma="rimodulò" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t60" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--spesa-->
+    <term tid="t61" type="" lemma="spendere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--sanitariatonia-->
+    <term tid="t62" type="" lemma="sanitariatonia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--mastrobuoniDal-->
+    <term tid="t63" type="" lemma="mastrobuonidal" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t64" type="" lemma="«" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--malato-->
+    <term tid="t65" type="" lemma="malato" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t66" type="" lemma="»" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t67" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t68" type="" lemma="«" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--modello-->
+    <term tid="t69" type="" lemma="modello" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t70" type="" lemma="»" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--d’-->
+    <term tid="t71" type="" lemma="d’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t72" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t73" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Berlino-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--spesa sanitariatonia-->
+        <span>
+          <target id="t61"/>
+          <target id="t62"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--tagliò la-->
+        <span>
+          <target id="t50"/>
+          <target id="t51"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Berlino-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--disoccupazione-->
+        <span>
+          <target id="t52"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--tagliò la-->
+        <span>
+          <target id="t50"/>
+          <target id="t51"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Berlino-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--peso fiscale sul lavoroe-->
+        <span>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--tagliò la-->
+        <span>
+          <target id="t50"/>
+          <target id="t51"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:29:04Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2">La</wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="6">Merkel</wf>
+    <wf wid="w3" sent="1" para="1" offset="10" length="2">ai</wf>
+    <wf wid="w4" sent="1" para="1" offset="13" length="8">tedeschi</wf>
+    <wf wid="w5" sent="1" para="1" offset="21" length="1">:</wf>
+    <wf wid="w6" sent="1" para="1" offset="23" length="1">“</wf>
+    <wf wid="w7" sent="1" para="1" offset="24" length="2">Ci</wf>
+    <wf wid="w8" sent="1" para="1" offset="27" length="7">aspetta</wf>
+    <wf wid="w9" sent="1" para="1" offset="35" length="2">un</wf>
+    <wf wid="w10" sent="1" para="1" offset="38" length="4">2013</wf>
+    <wf wid="w11" sent="1" para="1" offset="43" length="3">più</wf>
+    <wf wid="w12" sent="1" para="1" offset="47" length="9">difficile</wf>
+    <wf wid="w13" sent="1" para="1" offset="57" length="3">del</wf>
+    <wf wid="w14" sent="1" para="1" offset="61" length="4">2012</wf>
+    <wf wid="w15" sent="1" para="1" offset="65" length="1">”</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t1" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t2" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--ai-->
+    <term tid="t3" type="" lemma="ai" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--tedeschi-->
+    <term tid="t4" type="" lemma="tedesco" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t5" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--“-->
+    <term tid="t6" type="" lemma="“" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--Ci-->
+    <term tid="t7" type="" lemma="ci" pos="Q" morphofeat="PRON~DEN3">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--aspetta-->
+    <term tid="t8" type="" lemma="aspettare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t9" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--2013-->
+    <term tid="t10" type="" lemma="2013" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--più-->
+    <term tid="t11" type="" lemma="piu'" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--difficile-->
+    <term tid="t12" type="" lemma="difficile" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t13" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--2012-->
+    <term tid="t14" type="" lemma="2012" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t15" type="" lemma="”" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--2013-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--più difficile-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

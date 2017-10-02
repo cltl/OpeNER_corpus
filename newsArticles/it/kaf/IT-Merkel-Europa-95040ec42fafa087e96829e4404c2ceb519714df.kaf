@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:05:09Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:50CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w84" sent="3" para="2" offset="525" length="2">Il</wf>
+    <wf wid="w85" sent="3" para="2" offset="528" length="10">presidente</wf>
+    <wf wid="w86" sent="3" para="2" offset="539" length="6">Traian</wf>
+    <wf wid="w87" sent="3" para="2" offset="546" length="7">Basescu</wf>
+    <wf wid="w88" sent="3" para="2" offset="554" length="2">ha</wf>
+    <wf wid="w89" sent="3" para="2" offset="557" length="5">perso</wf>
+    <wf wid="w90" sent="3" para="2" offset="563" length="2">le</wf>
+    <wf wid="w91" sent="3" para="2" offset="566" length="8">elezioni</wf>
+    <wf wid="w92" sent="3" para="2" offset="574" length="1">,</wf>
+    <wf wid="w93" sent="3" para="2" offset="576" length="9">stravinte</wf>
+    <wf wid="w94" sent="3" para="2" offset="586" length="3">con</wf>
+    <wf wid="w95" sent="3" para="2" offset="590" length="2">il</wf>
+    <wf wid="w96" sent="3" para="2" offset="593" length="2">57</wf>
+    <wf wid="w97" sent="3" para="2" offset="595" length="1">%</wf>
+    <wf wid="w98" sent="3" para="2" offset="597" length="3">dei</wf>
+    <wf wid="w99" sent="3" para="2" offset="601" length="8">consensi</wf>
+    <wf wid="w100" sent="3" para="2" offset="610" length="5">dall'</wf>
+    <wf wid="w101" sent="3" para="2" offset="615" length="6">Unione</wf>
+    <wf wid="w102" sent="3" para="2" offset="622" length="15">social-liberale</wf>
+    <wf wid="w103" sent="3" para="2" offset="638" length="1">(</wf>
+    <wf wid="w104" sent="3" para="2" offset="639" length="3">USL</wf>
+    <wf wid="w105" sent="3" para="2" offset="642" length="1">)</wf>
+    <wf wid="w106" sent="3" para="2" offset="644" length="7">guidata</wf>
+    <wf wid="w107" sent="3" para="2" offset="652" length="2">da</wf>
+    <wf wid="w108" sent="3" para="2" offset="655" length="6">Victor</wf>
+    <wf wid="w109" sent="3" para="2" offset="662" length="5">Ponta</wf>
+    <wf wid="w110" sent="3" para="2" offset="667" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t84" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t85" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--Traian-->
+    <term tid="t86" type="" lemma="traian" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--Basescu-->
+    <term tid="t87" type="" lemma="basescu" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t88" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--perso-->
+    <term tid="t89" type="" lemma="perdere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t90" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--elezioni-->
+    <term tid="t91" type="" lemma="elezione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t92" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--stravinte-->
+    <term tid="t93" type="" lemma="stravincere" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t94" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t95" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--57-->
+    <term tid="t96" type="" lemma="57" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t97" type="" lemma="%" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t98" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--consensi-->
+    <term tid="t99" type="" lemma="consenso" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--dall'-->
+    <term tid="t100" type="" lemma="dall'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--Unione-->
+    <term tid="t101" type="" lemma="unione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--social-liberale-->
+    <term tid="t102" type="" lemma="social-liberale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--(-->
+    <term tid="t103" type="" lemma="(" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--USL-->
+    <term tid="t104" type="" lemma="usl" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t105" type="" lemma=")" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--guidata-->
+    <term tid="t106" type="" lemma="guidare" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--da-->
+    <term tid="t107" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--Victor-->
+    <term tid="t108" type="" lemma="victor" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--Ponta-->
+    <term tid="t109" type="" lemma="ponta" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t110" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--presidente Traian Basescu-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--le elezioni-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ha perso-->
+        <span>
+          <target id="t88"/>
+          <target id="t89"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

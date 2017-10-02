@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:18:38Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w161" sent="8" para="2" offset="906" length="2">L’</wf>
+    <wf wid="w162" sent="8" para="2" offset="908" length="8">attività</wf>
+    <wf wid="w163" sent="8" para="2" offset="917" length="14">manifatturiera</wf>
+    <wf wid="w164" sent="8" para="2" offset="932" length="2">in</wf>
+    <wf wid="w165" sent="8" para="2" offset="935" length="4">Cina</wf>
+    <wf wid="w166" sent="8" para="2" offset="940" length="8">continua</wf>
+    <wf wid="w167" sent="8" para="2" offset="949" length="1">a</wf>
+    <wf wid="w168" sent="8" para="2" offset="951" length="6">calare</wf>
+    <wf wid="w169" sent="8" para="2" offset="957" length="1">.</wf>
+  </text>
+  <terms>
+    <!--L’-->
+    <term tid="t161" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--attività-->
+    <term tid="t162" type="" lemma="attività" pos="G" morphofeat="ADJ~QUFP">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--manifatturiera-->
+    <term tid="t163" type="" lemma="manifatturiero" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t164" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--Cina-->
+    <term tid="t165" type="" lemma="cina" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--continua-->
+    <term tid="t166" type="" lemma="continuare" pos="V" morphofeat="VMA~IPN2">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t167" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--calare-->
+    <term tid="t168" type="" lemma="calare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t169" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--attività manifatturiera in Cina-->
+        <span>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--continua a calare-->
+        <span>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

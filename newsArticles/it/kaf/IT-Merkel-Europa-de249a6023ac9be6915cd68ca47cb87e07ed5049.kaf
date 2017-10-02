@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:50Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:50Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:13:40Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w598" sent="32" para="2" offset="3108" length="2">Il</wf>
+    <wf wid="w599" sent="32" para="2" offset="3111" length="10">capogruppo</wf>
+    <wf wid="w600" sent="32" para="2" offset="3122" length="5">della</wf>
+    <wf wid="w601" sent="32" para="2" offset="3128" length="3">Cdu</wf>
+    <wf wid="w602" sent="32" para="2" offset="3132" length="2">in</wf>
+    <wf wid="w603" sent="32" para="2" offset="3135" length="10">parlamento</wf>
+    <wf wid="w604" sent="32" para="2" offset="3146" length="6">Volker</wf>
+    <wf wid="w605" sent="32" para="2" offset="3153" length="6">Kauder</wf>
+    <wf wid="w606" sent="32" para="2" offset="3160" length="2">ha</wf>
+    <wf wid="w607" sent="32" para="2" offset="3163" length="9">sostenuto</wf>
+    <wf wid="w608" sent="32" para="2" offset="3173" length="3">che</wf>
+    <wf wid="w609" sent="32" para="2" offset="3177" length="2">l'</wf>
+    <wf wid="w610" sent="32" para="2" offset="3179" length="6">uscita</wf>
+    <wf wid="w611" sent="32" para="2" offset="3186" length="5">della</wf>
+    <wf wid="w612" sent="32" para="2" offset="3192" length="6">Grecia</wf>
+    <wf wid="w613" sent="32" para="2" offset="3199" length="5">dall'</wf>
+    <wf wid="w614" sent="32" para="2" offset="3204" length="4">euro</wf>
+    <wf wid="w615" sent="32" para="2" offset="3209" length="3">non</wf>
+    <wf wid="w616" sent="32" para="2" offset="3213" length="13">comporterebbe</wf>
+    <wf wid="w617" sent="32" para="2" offset="3227" length="5">alcun</wf>
+    <wf wid="w618" sent="32" para="2" offset="3233" length="8">problema</wf>
+    <wf wid="w619" sent="32" para="2" offset="3242" length="3">per</wf>
+    <wf wid="w620" sent="32" para="2" offset="3246" length="2">l'</wf>
+    <wf wid="w621" sent="32" para="2" offset="3248" length="6">Europa</wf>
+    <wf wid="w622" sent="32" para="2" offset="3254" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t598" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w598"/>
+      </span>
+    </term>
+    <!--capogruppo-->
+    <term tid="t599" type="" lemma="capogruppo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w599"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t600" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w600"/>
+      </span>
+    </term>
+    <!--Cdu-->
+    <term tid="t601" type="" lemma="cdu" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w601"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t602" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w602"/>
+      </span>
+    </term>
+    <!--parlamento-->
+    <term tid="t603" type="" lemma="parlamento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w603"/>
+      </span>
+    </term>
+    <!--Volker-->
+    <term tid="t604" type="" lemma="volker" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w604"/>
+      </span>
+    </term>
+    <!--Kauder-->
+    <term tid="t605" type="" lemma="kauder" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w605"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t606" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w606"/>
+      </span>
+    </term>
+    <!--sostenuto-->
+    <term tid="t607" type="" lemma="sostenere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w607"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t608" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w608"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t609" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w609"/>
+      </span>
+    </term>
+    <!--uscita-->
+    <term tid="t610" type="" lemma="uscita" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w610"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t611" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w611"/>
+      </span>
+    </term>
+    <!--Grecia-->
+    <term tid="t612" type="" lemma="grecia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w612"/>
+      </span>
+    </term>
+    <!--dall'-->
+    <term tid="t613" type="" lemma="dall'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w613"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t614" type="" lemma="euro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w614"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t615" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w615"/>
+      </span>
+    </term>
+    <!--comporterebbe-->
+    <term tid="t616" type="" lemma="comportare" pos="V" morphofeat="VMA~CON3">
+      <span>
+        <target id="w616"/>
+      </span>
+    </term>
+    <!--alcun-->
+    <term tid="t617" type="" lemma="alcun" pos="G" morphofeat="ADJ~MS">
+      <span>
+        <target id="w617"/>
+      </span>
+    </term>
+    <!--problema-->
+    <term tid="t618" type="" lemma="problema" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w618"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t619" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w619"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t620" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w620"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t621" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w621"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t622" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w622"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--uscita della Grecia dall' euro-->
+        <span>
+          <target id="t610"/>
+          <target id="t611"/>
+          <target id="t612"/>
+          <target id="t613"/>
+          <target id="t614"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--alcun problema per l' Europa-->
+        <span>
+          <target id="t617"/>
+          <target id="t618"/>
+          <target id="t619"/>
+          <target id="t620"/>
+          <target id="t621"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

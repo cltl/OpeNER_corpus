@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:12:07Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w206" sent="10" para="2" offset="1036" length="1">"</wf>
+    <wf wid="w207" sent="10" para="2" offset="1037" length="2">Il</wf>
+    <wf wid="w208" sent="10" para="2" offset="1040" length="7">governo</wf>
+    <wf wid="w209" sent="10" para="2" offset="1048" length="1">-</wf>
+    <wf wid="w210" sent="10" para="2" offset="1050" length="2">ha</wf>
+    <wf wid="w211" sent="10" para="2" offset="1053" length="8">aggiunto</wf>
+    <wf wid="w212" sent="10" para="2" offset="1062" length="10">Berlusconi</wf>
+    <wf wid="w213" sent="10" para="2" offset="1073" length="1">-</wf>
+    <wf wid="w214" sent="10" para="2" offset="1075" length="3">non</wf>
+    <wf wid="w215" sent="10" para="2" offset="1079" length="1">è</wf>
+    <wf wid="w216" sent="10" para="2" offset="1081" length="3">più</wf>
+    <wf wid="w217" sent="10" para="2" offset="1085" length="6">eletto</wf>
+    <wf wid="w218" sent="10" para="2" offset="1092" length="3">dal</wf>
+    <wf wid="w219" sent="10" para="2" offset="1096" length="6">popolo</wf>
+    <wf wid="w220" sent="10" para="2" offset="1102" length="1">,</wf>
+    <wf wid="w221" sent="10" para="2" offset="1104" length="2">il</wf>
+    <wf wid="w222" sent="10" para="2" offset="1107" length="2">24</wf>
+    <wf wid="w223" sent="10" para="2" offset="1110" length="6">maggio</wf>
+    <wf wid="w224" sent="10" para="2" offset="1117" length="1">è</wf>
+    <wf wid="w225" sent="10" para="2" offset="1119" length="2">il</wf>
+    <wf wid="w226" sent="10" para="2" offset="1122" length="6">giorno</wf>
+    <wf wid="w227" sent="10" para="2" offset="1129" length="2">in</wf>
+    <wf wid="w228" sent="10" para="2" offset="1132" length="3">cui</wf>
+    <wf wid="w229" sent="10" para="2" offset="1136" length="2">si</wf>
+    <wf wid="w230" sent="10" para="2" offset="1139" length="6">voterà</wf>
+    <wf wid="w231" sent="10" para="2" offset="1146" length="3">per</wf>
+    <wf wid="w232" sent="10" para="2" offset="1150" length="2">l'</wf>
+    <wf wid="w233" sent="10" para="2" offset="1152" length="6">Europa</wf>
+    <wf wid="w234" sent="10" para="2" offset="1158" length="1">,</wf>
+    <wf wid="w235" sent="10" para="2" offset="1160" length="9">chiediamo</wf>
+    <wf wid="w236" sent="10" para="2" offset="1170" length="2">di</wf>
+    <wf wid="w237" sent="10" para="2" offset="1173" length="5">avere</wf>
+    <wf wid="w238" sent="10" para="2" offset="1179" length="2">la</wf>
+    <wf wid="w239" sent="10" para="2" offset="1182" length="11">possibilità</wf>
+    <wf wid="w240" sent="10" para="2" offset="1194" length="2">di</wf>
+    <wf wid="w241" sent="10" para="2" offset="1197" length="5">avere</wf>
+    <wf wid="w242" sent="10" para="2" offset="1203" length="2">lo</wf>
+    <wf wid="w243" sent="10" para="2" offset="1206" length="6">stesso</wf>
+    <wf wid="w244" sent="10" para="2" offset="1213" length="6">giorno</wf>
+    <wf wid="w245" sent="10" para="2" offset="1220" length="8">elezioni</wf>
+    <wf wid="w246" sent="10" para="2" offset="1229" length="3">per</wf>
+    <wf wid="w247" sent="10" para="2" offset="1233" length="2">l'</wf>
+    <wf wid="w248" sent="10" para="2" offset="1235" length="6">Italia</wf>
+    <wf wid="w249" sent="10" para="2" offset="1241" length="1">"</wf>
+    <wf wid="w250" sent="10" para="2" offset="1242" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t206" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--Il-->
+    <term tid="t207" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--governo-->
+    <term tid="t208" type="" lemma="governo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t209" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t210" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--aggiunto-->
+    <term tid="t211" type="" lemma="aggiungere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--Berlusconi-->
+    <term tid="t212" type="" lemma="berlusconi" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t213" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t214" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t215" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--più-->
+    <term tid="t216" type="" lemma="piu'" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--eletto-->
+    <term tid="t217" type="" lemma="eleggere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--dal-->
+    <term tid="t218" type="" lemma="dal" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--popolo-->
+    <term tid="t219" type="" lemma="popolo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t220" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t221" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--24-->
+    <term tid="t222" type="" lemma="24" pos="O" morphofeat="SCNI00">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--maggio-->
+    <term tid="t223" type="" lemma="maggio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t224" type="" lemma="è" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t225" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--giorno-->
+    <term tid="t226" type="" lemma="giorno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t227" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--cui-->
+    <term tid="t228" type="" lemma="cui" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t229" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--voterà-->
+    <term tid="t230" type="" lemma="votare" pos="V" morphofeat="VMA~RAN3">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t231" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t232" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t233" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t234" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--chiediamo-->
+    <term tid="t235" type="" lemma="chiedere" pos="V" morphofeat="VMA~IPN4">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t236" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--avere-->
+    <term tid="t237" type="" lemma="avere" pos="V" morphofeat="VAU~ININN">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t238" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--possibilità-->
+    <term tid="t239" type="" lemma="possibilita'" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t240" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--avere-->
+    <term tid="t241" type="" lemma="avere" pos="V" morphofeat="VAU~ININN">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t242" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--stesso-->
+    <term tid="t243" type="" lemma="stesso" pos="G" morphofeat="ADJ~DIMS">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--giorno-->
+    <term tid="t244" type="" lemma="giorno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--elezioni-->
+    <term tid="t245" type="" lemma="elezione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t246" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t247" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t248" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t249" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t250" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

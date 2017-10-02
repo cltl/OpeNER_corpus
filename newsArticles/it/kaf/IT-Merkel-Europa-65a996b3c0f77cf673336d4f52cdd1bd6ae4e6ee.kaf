@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:50Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:50Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:12:10Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:26CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w105" sent="5" para="2" offset="611" length="7">Insieme</wf>
+    <wf wid="w106" sent="5" para="2" offset="618" length="1">,</wf>
+    <wf wid="w107" sent="5" para="2" offset="620" length="12">teoricamente</wf>
+    <wf wid="w108" sent="5" para="2" offset="632" length="1">,</wf>
+    <wf wid="w109" sent="5" para="2" offset="634" length="6">queste</wf>
+    <wf wid="w110" sent="5" para="2" offset="641" length="3">due</wf>
+    <wf wid="w111" sent="5" para="2" offset="645" length="10">formazioni</wf>
+    <wf wid="w112" sent="5" para="2" offset="656" length="9">risultano</wf>
+    <wf wid="w113" sent="5" para="2" offset="666" length="5">poter</wf>
+    <wf wid="w114" sent="5" para="2" offset="673" length="5">avere</wf>
+    <wf wid="w115" sent="5" para="2" offset="679" length="3">un'</wf>
+    <wf wid="w116" sent="5" para="2" offset="682" length="5">ampia</wf>
+    <wf wid="w117" sent="5" para="2" offset="688" length="11">maggioranza</wf>
+    <wf wid="w118" sent="5" para="2" offset="699" length="1">,</wf>
+    <wf wid="w119" sent="5" para="2" offset="701" length="3">del</wf>
+    <wf wid="w120" sent="5" para="2" offset="705" length="5">tutto</wf>
+    <wf wid="w121" sent="5" para="2" offset="711" length="8">inattesa</wf>
+    <wf wid="w122" sent="5" para="2" offset="720" length="4">fino</wf>
+    <wf wid="w123" sent="5" para="2" offset="725" length="1">a</wf>
+    <wf wid="w124" sent="5" para="2" offset="727" length="4">oggi</wf>
+    <wf wid="w125" sent="5" para="2" offset="731" length="1">,</wf>
+    <wf wid="w126" sent="5" para="2" offset="733" length="3">per</wf>
+    <wf wid="w127" sent="5" para="2" offset="737" length="7">formare</wf>
+    <wf wid="w128" sent="5" para="2" offset="745" length="2">il</wf>
+    <wf wid="w129" sent="5" para="2" offset="749" length="8">prossimo</wf>
+    <wf wid="w130" sent="5" para="2" offset="758" length="7">governo</wf>
+    <wf wid="w131" sent="5" para="2" offset="765" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Insieme-->
+    <term tid="t105" type="" lemma="insieme" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t106" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--teoricamente-->
+    <term tid="t107" type="" lemma="teoricamente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t108" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--queste-->
+    <term tid="t109" type="" lemma="queste" pos="G" morphofeat="ADJ~DIFP">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--due-->
+    <term tid="t110" type="" lemma="due" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--formazioni-->
+    <term tid="t111" type="" lemma="formazione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--risultano-->
+    <term tid="t112" type="" lemma="risultare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--poter-->
+    <term tid="t113" type="" lemma="poter" pos="V" morphofeat="VMO~ININN">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--avere-->
+    <term tid="t114" type="" lemma="avere" pos="V" morphofeat="VAU~ININN">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--un'-->
+    <term tid="t115" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--ampia-->
+    <term tid="t116" type="" lemma="ampio" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--maggioranza-->
+    <term tid="t117" type="" lemma="maggioranza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t118" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t119" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--tutto-->
+    <term tid="t120" type="" lemma="tutto" pos="Q" morphofeat="PRON~IDM3">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--inattesa-->
+    <term tid="t121" type="" lemma="inatteso" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--fino-->
+    <term tid="t122" type="" lemma="fino" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t123" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--oggi-->
+    <term tid="t124" type="" lemma="oggi" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t125" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t126" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--formare-->
+    <term tid="t127" type="" lemma="formare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t128" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--prossimo-->
+    <term tid="t129" type="" lemma="prossimo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--governo-->
+    <term tid="t130" type="" lemma="governo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t131" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--un' ampia maggioranza-->
+        <span>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

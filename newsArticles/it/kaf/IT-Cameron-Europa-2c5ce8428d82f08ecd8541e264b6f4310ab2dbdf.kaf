@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:14:50Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w104" sent="5" para="2" offset="586" length="6">Russia</wf>
+    <wf wid="w105" sent="5" para="2" offset="593" length="1">e</wf>
+    <wf wid="w106" sent="5" para="2" offset="595" length="7">Teheran</wf>
+    <wf wid="w107" sent="5" para="2" offset="602" length="1">:</wf>
+    <wf wid="w108" sent="5" para="2" offset="604" length="2">l'</wf>
+    <wf wid="w109" sent="5" para="2" offset="606" length="10">intervento</wf>
+    <wf wid="w110" sent="5" para="2" offset="617" length="17">destabilizzerebbe</wf>
+    <wf wid="w111" sent="5" para="2" offset="635" length="2">l'</wf>
+    <wf wid="w112" sent="5" para="2" offset="637" length="4">area</wf>
+    <wf wid="w113" sent="5" para="2" offset="641" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Russia-->
+    <term tid="t104" type="" lemma="russia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t105" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--Teheran-->
+    <term tid="t106" type="" lemma="teheran" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t107" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t108" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--intervento-->
+    <term tid="t109" type="" lemma="intervento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--destabilizzerebbe-->
+    <term tid="t110" type="" lemma="destabilizzare" pos="V" morphofeat="VMA~CON3">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t111" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--area-->
+    <term tid="t112" type="" lemma="area" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t113" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Russia-->
+        <span>
+          <target id="t104"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--intervento-->
+        <span>
+          <target id="t109"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--destabilizzerebbe-->
+        <span>
+          <target id="t110"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Teheran-->
+        <span>
+          <target id="t106"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--intervento-->
+        <span>
+          <target id="t109"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--destabilizzerebbe-->
+        <span>
+          <target id="t110"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

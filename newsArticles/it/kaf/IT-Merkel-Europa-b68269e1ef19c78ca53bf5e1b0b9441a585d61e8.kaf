@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:25Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="7">Francia</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="1">:</wf>
+    <wf wid="w3" sent="1" para="1" offset="9" length="9">profanate</wf>
+    <wf wid="w4" sent="1" para="1" offset="19" length="5">tombe</wf>
+    <wf wid="w5" sent="1" para="1" offset="25" length="8">tedesche</wf>
+    <wf wid="w6" sent="1" para="1" offset="34" length="1">a</wf>
+    <wf wid="w7" sent="1" para="1" offset="36" length="2">50</wf>
+    <wf wid="w8" sent="1" para="1" offset="39" length="4">anni</wf>
+    <wf wid="w9" sent="1" para="1" offset="44" length="5">dalla</wf>
+    <wf wid="w10" sent="1" para="1" offset="50" length="15">riconciliazione</wf>
+  </text>
+  <terms>
+    <!--Francia-->
+    <term tid="t1" type="" lemma="francia" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t2" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--profanate-->
+    <term tid="t3" type="" lemma="profanare" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--tombe-->
+    <term tid="t4" type="" lemma="tomba" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--tedesche-->
+    <term tid="t5" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUFP">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t6" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--50-->
+    <term tid="t7" type="" lemma="50" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--anni-->
+    <term tid="t8" type="" lemma="anno" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--dalla-->
+    <term tid="t9" type="" lemma="dalla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--riconciliazione-->
+    <term tid="t10" type="" lemma="riconciliazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--tombe tedesche-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--profanate-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

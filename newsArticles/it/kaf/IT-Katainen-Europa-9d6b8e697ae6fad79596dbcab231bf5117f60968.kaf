@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:44Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:44Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:03:17Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w336" sent="11" para="2" offset="2019" length="1">A</wf>
+    <wf wid="w337" sent="11" para="2" offset="2021" length="3">ben</wf>
+    <wf wid="w338" sent="11" para="2" offset="2025" length="8">guardare</wf>
+    <wf wid="w339" sent="11" para="2" offset="2033" length="1">,</wf>
+    <wf wid="w340" sent="11" para="2" offset="2035" length="2">il</wf>
+    <wf wid="w341" sent="11" para="2" offset="2038" length="7">governo</wf>
+    <wf wid="w342" sent="11" para="2" offset="2046" length="2">di</wf>
+    <wf wid="w343" sent="11" para="2" offset="2049" length="8">Helsinki</wf>
+    <wf wid="w344" sent="11" para="2" offset="2058" length="3">non</wf>
+    <wf wid="w345" sent="11" para="2" offset="2062" length="2">ha</wf>
+    <wf wid="w346" sent="11" para="2" offset="2065" length="5">alcun</wf>
+    <wf wid="w347" sent="11" para="2" offset="2071" length="6">potere</wf>
+    <wf wid="w348" sent="11" para="2" offset="2078" length="9">effettivo</wf>
+    <wf wid="w349" sent="11" para="2" offset="2088" length="3">per</wf>
+    <wf wid="w350" sent="11" para="2" offset="2092" length="8">bloccare</wf>
+    <wf wid="w351" sent="11" para="2" offset="2101" length="2">la</wf>
+    <wf wid="w352" sent="11" para="2" offset="2104" length="8">barriera</wf>
+    <wf wid="w353" sent="11" para="2" offset="2113" length="11">anti-spread</wf>
+    <wf wid="w354" sent="11" para="2" offset="2124" length="1">:</wf>
+    <wf wid="w355" sent="11" para="2" offset="2126" length="2">il</wf>
+    <wf wid="w356" sent="11" para="2" offset="2129" length="4">voto</wf>
+    <wf wid="w357" sent="11" para="2" offset="2134" length="3">dei</wf>
+    <wf wid="w358" sent="11" para="2" offset="2138" length="14">rappresentanti</wf>
+    <wf wid="w359" sent="11" para="2" offset="2153" length="10">finlandesi</wf>
+    <wf wid="w360" sent="11" para="2" offset="2163" length="1">,</wf>
+    <wf wid="w361" sent="11" para="2" offset="2165" length="7">infatti</wf>
+    <wf wid="w362" sent="11" para="2" offset="2172" length="1">,</wf>
+    <wf wid="w363" sent="11" para="2" offset="2174" length="6">peserà</wf>
+    <wf wid="w364" sent="11" para="2" offset="2181" length="3">per</wf>
+    <wf wid="w365" sent="11" para="2" offset="2185" length="4">meno</wf>
+    <wf wid="w366" sent="11" para="2" offset="2190" length="3">del</wf>
+    <wf wid="w367" sent="11" para="2" offset="2194" length="1">2</wf>
+    <wf wid="w368" sent="11" para="2" offset="2195" length="1">%</wf>
+    <wf wid="w369" sent="11" para="2" offset="2197" length="5">nelle</wf>
+    <wf wid="w370" sent="11" para="2" offset="2203" length="9">decisioni</wf>
+    <wf wid="w371" sent="11" para="2" offset="2213" length="3">del</wf>
+    <wf wid="w372" sent="11" para="2" offset="2217" length="9">Consiglio</wf>
+    <wf wid="w373" sent="11" para="2" offset="2227" length="3">dei</wf>
+    <wf wid="w374" sent="11" para="2" offset="2231" length="11">Governatori</wf>
+    <wf wid="w375" sent="11" para="2" offset="2243" length="5">dell'</wf>
+    <wf wid="w376" sent="11" para="2" offset="2248" length="3">Esm</wf>
+    <wf wid="w377" sent="11" para="2" offset="2251" length="1">,</wf>
+    <wf wid="w378" sent="11" para="2" offset="2253" length="2">il</wf>
+    <wf wid="w379" sent="11" para="2" offset="2256" length="5">quale</wf>
+    <wf wid="w380" sent="11" para="2" offset="2262" length="5">potrà</wf>
+    <wf wid="w381" sent="11" para="2" offset="2268" length="8">assumere</wf>
+    <wf wid="w382" sent="11" para="2" offset="2277" length="5">delle</wf>
+    <wf wid="w383" sent="11" para="2" offset="2283" length="8">delibere</wf>
+    <wf wid="w384" sent="11" para="2" offset="2292" length="3">con</wf>
+    <wf wid="w385" sent="11" para="2" offset="2296" length="3">una</wf>
+    <wf wid="w386" sent="11" para="2" offset="2300" length="11">maggioranza</wf>
+    <wf wid="w387" sent="11" para="2" offset="2312" length="11">qualificata</wf>
+    <wf wid="w388" sent="11" para="2" offset="2324" length="4">dell</wf>
+    <wf wid="w389" sent="11" para="2" offset="2328" length="1">'</wf>
+    <wf wid="w390" sent="11" para="2" offset="2329" length="2">85</wf>
+    <wf wid="w391" sent="11" para="2" offset="2331" length="1">%</wf>
+    <wf wid="w392" sent="11" para="2" offset="2332" length="1">.</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term tid="t336" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--ben-->
+    <term tid="t337" type="" lemma="ben" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--guardare-->
+    <term tid="t338" type="" lemma="guardare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t339" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t340" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--governo-->
+    <term tid="t341" type="" lemma="governo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t342" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--Helsinki-->
+    <term tid="t343" type="" lemma="helsinki" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t344" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t345" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--alcun-->
+    <term tid="t346" type="" lemma="alcun" pos="G" morphofeat="ADJ~MS">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--potere-->
+    <term tid="t347" type="" lemma="potere" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--effettivo-->
+    <term tid="t348" type="" lemma="effettivo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t349" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <!--bloccare-->
+    <term tid="t350" type="" lemma="bloccare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t351" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <!--barriera-->
+    <term tid="t352" type="" lemma="barriera" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <!--anti-spread-->
+    <term tid="t353" type="" lemma="anti-spread" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t354" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w354"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t355" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w355"/>
+      </span>
+    </term>
+    <!--voto-->
+    <term tid="t356" type="" lemma="voto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w356"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t357" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w357"/>
+      </span>
+    </term>
+    <!--rappresentanti-->
+    <term tid="t358" type="" lemma="rappresentare" pos="V" morphofeat="VMA~PPNP">
+      <span>
+        <target id="w358"/>
+      </span>
+    </term>
+    <!--finlandesi-->
+    <term tid="t359" type="" lemma="finlandese" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t360" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <!--infatti-->
+    <term tid="t361" type="" lemma="infatti" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t362" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <!--peserà-->
+    <term tid="t363" type="" lemma="peserà" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t364" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <!--meno-->
+    <term tid="t365" type="" lemma="meno" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t366" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <!--2-->
+    <term tid="t367" type="" lemma="2" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t368" type="" lemma="%" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <!--nelle-->
+    <term tid="t369" type="" lemma="nelle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <!--decisioni-->
+    <term tid="t370" type="" lemma="decisione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t371" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+    <!--Consiglio-->
+    <term tid="t372" type="" lemma="consiglio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t373" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w373"/>
+      </span>
+    </term>
+    <!--Governatori-->
+    <term tid="t374" type="" lemma="governatore" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w374"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t375" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w375"/>
+      </span>
+    </term>
+    <!--Esm-->
+    <term tid="t376" type="" lemma="esm" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t377" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w377"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t378" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w378"/>
+      </span>
+    </term>
+    <!--quale-->
+    <term tid="t379" type="" lemma="quale" pos="Q" morphofeat="PRON~REN3">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+    <!--potrà-->
+    <term tid="t380" type="" lemma="potrà" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w380"/>
+      </span>
+    </term>
+    <!--assumere-->
+    <term tid="t381" type="" lemma="assumere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w381"/>
+      </span>
+    </term>
+    <!--delle-->
+    <term tid="t382" type="" lemma="delle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w382"/>
+      </span>
+    </term>
+    <!--delibere-->
+    <term tid="t383" type="" lemma="delibere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w383"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t384" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w384"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t385" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w385"/>
+      </span>
+    </term>
+    <!--maggioranza-->
+    <term tid="t386" type="" lemma="maggioranza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w386"/>
+      </span>
+    </term>
+    <!--qualificata-->
+    <term tid="t387" type="" lemma="qualificare" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w387"/>
+      </span>
+    </term>
+    <!--dell-->
+    <term tid="t388" type="" lemma="dell" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w388"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t389" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w389"/>
+      </span>
+    </term>
+    <!--85-->
+    <term tid="t390" type="" lemma="85" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w390"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t391" type="" lemma="%" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w391"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t392" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w392"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--governo di Helsinki-->
+        <span>
+          <target id="t341"/>
+          <target id="t342"/>
+          <target id="t343"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--alcun potere effettivo-->
+        <span>
+          <target id="t346"/>
+          <target id="t347"/>
+          <target id="t348"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--non ha-->
+        <span>
+          <target id="t344"/>
+          <target id="t345"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

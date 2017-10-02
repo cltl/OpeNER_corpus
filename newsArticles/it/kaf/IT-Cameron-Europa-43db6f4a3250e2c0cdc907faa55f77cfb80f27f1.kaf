@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:27:44Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w225" sent="10" para="2" offset="1230" length="5">Nelle</wf>
+    <wf wid="w226" sent="10" para="2" offset="1236" length="10">conferenze</wf>
+    <wf wid="w227" sent="10" para="2" offset="1247" length="6">stampa</wf>
+    <wf wid="w228" sent="10" para="2" offset="1254" length="3">che</wf>
+    <wf wid="w229" sent="10" para="2" offset="1258" length="5">hanno</wf>
+    <wf wid="w230" sent="10" para="2" offset="1264" length="7">animato</wf>
+    <wf wid="w231" sent="10" para="2" offset="1272" length="2">la</wf>
+    <wf wid="w232" sent="10" para="2" offset="1275" length="7">seconda</wf>
+    <wf wid="w233" sent="10" para="2" offset="1283" length="5">parte</wf>
+    <wf wid="w234" sent="10" para="2" offset="1289" length="3">del</wf>
+    <wf wid="w235" sent="10" para="2" offset="1293" length="10">pomeriggio</wf>
+    <wf wid="w236" sent="10" para="2" offset="1304" length="6">ognuno</wf>
+    <wf wid="w237" sent="10" para="2" offset="1311" length="2">ha</wf>
+    <wf wid="w238" sent="10" para="2" offset="1314" length="10">raccontato</wf>
+    <wf wid="w239" sent="10" para="2" offset="1325" length="2">la</wf>
+    <wf wid="w240" sent="10" para="2" offset="1328" length="3">sua</wf>
+    <wf wid="w241" sent="10" para="2" offset="1332" length="8">vittoria</wf>
+    <wf wid="w242" sent="10" para="2" offset="1340" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Nelle-->
+    <term tid="t225" type="" lemma="nelle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--conferenze-->
+    <term tid="t226" type="" lemma="conferenza" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--stampa-->
+    <term tid="t227" type="" lemma="stampare" pos="V" morphofeat="VMA~IPN2">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t228" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--hanno-->
+    <term tid="t229" type="" lemma="avere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--animato-->
+    <term tid="t230" type="" lemma="animare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t231" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--seconda-->
+    <term tid="t232" type="" lemma="secondo" pos="G" morphofeat="ADJ~ORFS">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--parte-->
+    <term tid="t233" type="" lemma="parte" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t234" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--pomeriggio-->
+    <term tid="t235" type="" lemma="pomeriggio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--ognuno-->
+    <term tid="t236" type="" lemma="ognuno" pos="Q" morphofeat="PRON~IDM3">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t237" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--raccontato-->
+    <term tid="t238" type="" lemma="raccontare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t239" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--sua-->
+    <term tid="t240" type="" lemma="suo" pos="G" morphofeat="ADJ~POFS">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--vittoria-->
+    <term tid="t241" type="" lemma="vittoria" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t242" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--vittoria-->
+        <span>
+          <target id="t241"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

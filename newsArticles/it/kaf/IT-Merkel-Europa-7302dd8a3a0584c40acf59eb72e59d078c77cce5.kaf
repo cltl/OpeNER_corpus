@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:27Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:27Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:08:42Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w72" sent="4" para="2" offset="363" length="5">Nell'</wf>
+    <wf wid="w73" sent="4" para="2" offset="368" length="10">intervista</wf>
+    <wf wid="w74" sent="4" para="2" offset="378" length="1">,</wf>
+    <wf wid="w75" sent="4" para="2" offset="380" length="3">che</wf>
+    <wf wid="w76" sent="4" para="2" offset="384" length="8">apparira</wf>
+    <wf wid="w77" sent="4" para="2" offset="392" length="1">'</wf>
+    <wf wid="w78" sent="4" para="2" offset="394" length="6">domani</wf>
+    <wf wid="w79" sent="4" para="2" offset="400" length="1">,</wf>
+    <wf wid="w80" sent="4" para="2" offset="402" length="7">Samaras</wf>
+    <wf wid="w81" sent="4" para="2" offset="410" length="2">ha</wf>
+    <wf wid="w82" sent="4" para="2" offset="413" length="12">sottolineato</wf>
+    <wf wid="w83" sent="4" para="2" offset="426" length="4">come</wf>
+    <wf wid="w84" sent="4" para="2" offset="431" length="2">l'</wf>
+    <wf wid="w85" sent="4" para="2" offset="433" length="6">uscita</wf>
+    <wf wid="w86" sent="4" para="2" offset="440" length="2">di</wf>
+    <wf wid="w87" sent="4" para="2" offset="443" length="5">Atene</wf>
+    <wf wid="w88" sent="4" para="2" offset="449" length="5">dall'</wf>
+    <wf wid="w89" sent="4" para="2" offset="454" length="4">euro</wf>
+    <wf wid="w90" sent="4" para="2" offset="459" length="7">sarebbe</wf>
+    <wf wid="w91" sent="4" para="2" offset="467" length="1">"</wf>
+    <wf wid="w92" sent="4" para="2" offset="468" length="10">disastrosa</wf>
+    <wf wid="w93" sent="4" para="2" offset="479" length="3">per</wf>
+    <wf wid="w94" sent="4" para="2" offset="483" length="3">noi</wf>
+    <wf wid="w95" sent="4" para="2" offset="486" length="1">,</wf>
+    <wf wid="w96" sent="4" para="2" offset="488" length="2">ma</wf>
+    <wf wid="w97" sent="4" para="2" offset="491" length="2">un</wf>
+    <wf wid="w98" sent="4" para="2" offset="494" length="4">male</wf>
+    <wf wid="w99" sent="4" para="2" offset="499" length="5">anche</wf>
+    <wf wid="w100" sent="4" para="2" offset="505" length="3">per</wf>
+    <wf wid="w101" sent="4" para="2" offset="509" length="2">l'</wf>
+    <wf wid="w102" sent="4" para="2" offset="511" length="6">Europa</wf>
+    <wf wid="w103" sent="4" para="2" offset="517" length="1">"</wf>
+    <wf wid="w104" sent="4" para="2" offset="518" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Nell'-->
+    <term tid="t72" type="" lemma="nell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--intervista-->
+    <term tid="t73" type="" lemma="intervista" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t74" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t75" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--apparira-->
+    <term tid="t76" type="" lemma="apparira" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t77" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--domani-->
+    <term tid="t78" type="" lemma="domani" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t79" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--Samaras-->
+    <term tid="t80" type="" lemma="samaras" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t81" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--sottolineato-->
+    <term tid="t82" type="" lemma="sottolineare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--come-->
+    <term tid="t83" type="" lemma="come" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t84" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--uscita-->
+    <term tid="t85" type="" lemma="uscita" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t86" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--Atene-->
+    <term tid="t87" type="" lemma="atene" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--dall'-->
+    <term tid="t88" type="" lemma="dall'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t89" type="" lemma="euro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--sarebbe-->
+    <term tid="t90" type="" lemma="essere" pos="V" morphofeat="VAU~CON3">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t91" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--disastrosa-->
+    <term tid="t92" type="" lemma="disastroso" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t93" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--noi-->
+    <term tid="t94" type="" lemma="noi" pos="Q" morphofeat="PRON~PEN4">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t95" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t96" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t97" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--male-->
+    <term tid="t98" type="" lemma="mala" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--anche-->
+    <term tid="t99" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t100" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t101" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t102" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t103" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t104" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Samaras-->
+        <span>
+          <target id="t80"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--uscita di Atene dall' euro-->
+        <span>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--sarebbe " disastrosa-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

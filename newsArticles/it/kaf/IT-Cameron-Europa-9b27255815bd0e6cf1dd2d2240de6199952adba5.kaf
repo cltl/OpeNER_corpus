@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:43Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:43Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:14:34Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w71" sent="4" para="2" offset="362" length="2">Il</wf>
+    <wf wid="w72" sent="4" para="2" offset="365" length="7">premier</wf>
+    <wf wid="w73" sent="4" para="2" offset="373" length="2">ha</wf>
+    <wf wid="w74" sent="4" para="2" offset="376" length="8">aggiunto</wf>
+    <wf wid="w75" sent="4" para="2" offset="385" length="3">che</wf>
+    <wf wid="w76" sent="4" para="2" offset="389" length="6">questo</wf>
+    <wf wid="w77" sent="4" para="2" offset="396" length="7">servira</wf>
+    <wf wid="w78" sent="4" para="2" offset="403" length="1">’</wf>
+    <wf wid="w79" sent="4" para="2" offset="405" length="1">a</wf>
+    <wf wid="w80" sent="4" para="2" offset="407" length="1">’</wf>
+    <wf wid="w81" sent="4" para="2" offset="408" length="1">’</wf>
+    <wf wid="w82" sent="4" para="2" offset="409" length="8">forgiare</wf>
+    <wf wid="w83" sent="4" para="2" offset="418" length="3">una</wf>
+    <wf wid="w84" sent="4" para="2" offset="422" length="5">nuova</wf>
+    <wf wid="w85" sent="4" para="2" offset="428" length="9">relazione</wf>
+    <wf wid="w86" sent="4" para="2" offset="437" length="1">’</wf>
+    <wf wid="w87" sent="4" para="2" offset="438" length="1">’</wf>
+    <wf wid="w88" sent="4" para="2" offset="440" length="3">fra</wf>
+    <wf wid="w89" sent="4" para="2" offset="444" length="6">Londra</wf>
+    <wf wid="w90" sent="4" para="2" offset="451" length="1">e</wf>
+    <wf wid="w91" sent="4" para="2" offset="453" length="9">Bruxelles</wf>
+    <wf wid="w92" sent="4" para="2" offset="462" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t71" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t72" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t73" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--aggiunto-->
+    <term tid="t74" type="" lemma="aggiungere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t75" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--questo-->
+    <term tid="t76" type="" lemma="questo" pos="G" morphofeat="ADJ~DIMS">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--servira-->
+    <term tid="t77" type="" lemma="servira" pos="V" morphofeat="VMA~CGN3">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--’-->
+    <term tid="t78" type="" lemma="’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t79" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--’-->
+    <term tid="t80" type="" lemma="’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--’-->
+    <term tid="t81" type="" lemma="’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--forgiare-->
+    <term tid="t82" type="" lemma="forgiare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t83" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--nuova-->
+    <term tid="t84" type="" lemma="nuovo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--relazione-->
+    <term tid="t85" type="" lemma="relazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--’-->
+    <term tid="t86" type="" lemma="’" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--’-->
+    <term tid="t87" type="" lemma="’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--fra-->
+    <term tid="t88" type="" lemma="fra" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--Londra-->
+    <term tid="t89" type="" lemma="londra" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t90" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--Bruxelles-->
+    <term tid="t91" type="" lemma="bruxelles" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t92" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Il premier-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--questo-->
+        <span>
+          <target id="t76"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--servira ’-->
+        <span>
+          <target id="t77"/>
+          <target id="t78"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

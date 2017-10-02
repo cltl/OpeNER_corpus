@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:02:17Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:57CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w233" sent="10" para="2" offset="1263" length="6">Questo</wf>
+    <wf wid="w234" sent="10" para="2" offset="1270" length="9">significa</wf>
+    <wf wid="w235" sent="10" para="2" offset="1280" length="3">che</wf>
+    <wf wid="w236" sent="10" para="2" offset="1284" length="2">l'</wf>
+    <wf wid="w237" sent="10" para="2" offset="1286" length="6">Europa</wf>
+    <wf wid="w238" sent="10" para="2" offset="1293" length="4">fino</wf>
+    <wf wid="w239" sent="10" para="2" offset="1298" length="2">ad</wf>
+    <wf wid="w240" sent="10" para="2" offset="1301" length="6">allora</wf>
+    <wf wid="w241" sent="10" para="2" offset="1308" length="4">sarà</wf>
+    <wf wid="w242" sent="10" para="2" offset="1313" length="4">sola</wf>
+    <wf wid="w243" sent="10" para="2" offset="1318" length="3">nel</wf>
+    <wf wid="w244" sent="10" para="2" offset="1322" length="9">sostenere</wf>
+    <wf wid="w245" sent="10" para="2" offset="1332" length="2">la</wf>
+    <wf wid="w246" sent="10" para="2" offset="1335" length="6">Grecia</wf>
+    <wf wid="w247" sent="10" para="2" offset="1341" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Questo-->
+    <term tid="t233" type="" lemma="questo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--significa-->
+    <term tid="t234" type="" lemma="significare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t235" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t236" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t237" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--fino-->
+    <term tid="t238" type="" lemma="fino" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--ad-->
+    <term tid="t239" type="" lemma="ad" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--allora-->
+    <term tid="t240" type="" lemma="allora" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--sarà-->
+    <term tid="t241" type="" lemma="essere" pos="V" morphofeat="VAU~FUN3">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--sola-->
+    <term tid="t242" type="" lemma="solo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t243" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--sostenere-->
+    <term tid="t244" type="" lemma="sostenere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t245" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--Grecia-->
+    <term tid="t246" type="" lemma="grecia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t247" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t237"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--sarà sola-->
+        <span>
+          <target id="t241"/>
+          <target id="t242"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

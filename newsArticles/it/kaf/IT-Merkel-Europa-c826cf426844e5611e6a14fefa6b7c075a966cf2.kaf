@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:59Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:59Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:16:41Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:59CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w213" sent="11" para="2" offset="1086" length="5">Monti</wf>
+    <wf wid="w214" sent="11" para="2" offset="1092" length="3">non</wf>
+    <wf wid="w215" sent="11" para="2" offset="1096" length="5">sposa</wf>
+    <wf wid="w216" sent="11" para="2" offset="1102" length="2">le</wf>
+    <wf wid="w217" sent="11" para="2" offset="1105" length="4">tesi</wf>
+    <wf wid="w218" sent="11" para="2" offset="1110" length="2">di</wf>
+    <wf wid="w219" sent="11" para="2" offset="1113" length="2">un</wf>
+    <wf wid="w220" sent="11" para="2" offset="1116" length="11">particolare</wf>
+    <wf wid="w221" sent="11" para="2" offset="1128" length="12">schieramento</wf>
+    <wf wid="w222" sent="11" para="2" offset="1140" length="1">,</wf>
+    <wf wid="w223" sent="11" para="2" offset="1142" length="2">né</wf>
+    <wf wid="w224" sent="11" para="2" offset="1145" length="7">concede</wf>
+    <wf wid="w225" sent="11" para="2" offset="1153" length="2">l'</wf>
+    <wf wid="w226" sent="11" para="2" offset="1155" length="3">uso</wf>
+    <wf wid="w227" sent="11" para="2" offset="1159" length="3">del</wf>
+    <wf wid="w228" sent="11" para="2" offset="1163" length="3">suo</wf>
+    <wf wid="w229" sent="11" para="2" offset="1167" length="4">nome</wf>
+    <wf wid="w230" sent="11" para="2" offset="1172" length="1">a</wf>
+    <wf wid="w231" sent="11" para="2" offset="1174" length="6">questo</wf>
+    <wf wid="w232" sent="11" para="2" offset="1181" length="1">o</wf>
+    <wf wid="w233" sent="11" para="2" offset="1183" length="4">quel</wf>
+    <wf wid="w234" sent="11" para="2" offset="1188" length="7">partito</wf>
+    <wf wid="w235" sent="11" para="2" offset="1195" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Monti-->
+    <term tid="t213" type="" lemma="montare" pos="V" morphofeat="VMA~IPN3">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t214" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--sposa-->
+    <term tid="t215" type="" lemma="sposa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t216" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--tesi-->
+    <term tid="t217" type="" lemma="tesi" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t218" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t219" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--particolare-->
+    <term tid="t220" type="" lemma="particolare" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--schieramento-->
+    <term tid="t221" type="" lemma="schieramento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t222" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--né-->
+    <term tid="t223" type="" lemma="né" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--concede-->
+    <term tid="t224" type="" lemma="concedere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t225" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--uso-->
+    <term tid="t226" type="" lemma="uso" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t227" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--suo-->
+    <term tid="t228" type="" lemma="suo" pos="G" morphofeat="ADJ~POMS">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--nome-->
+    <term tid="t229" type="" lemma="nome" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t230" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--questo-->
+    <term tid="t231" type="" lemma="questo" pos="G" morphofeat="ADJ~DIMS">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--o-->
+    <term tid="t232" type="" lemma="o" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--quel-->
+    <term tid="t233" type="" lemma="quel" pos="G" morphofeat="ADJ~DIMS">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--partito-->
+    <term tid="t234" type="" lemma="partito" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t235" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--Monti-->
+        <span>
+          <target id="t213"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--l' uso del suo nome-->
+        <span>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+          <target id="t229"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--né concede-->
+        <span>
+          <target id="t223"/>
+          <target id="t224"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Monti-->
+        <span>
+          <target id="t213"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--tesi di un particolare schieramento-->
+        <span>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+          <target id="t221"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--non sposa-->
+        <span>
+          <target id="t214"/>
+          <target id="t215"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

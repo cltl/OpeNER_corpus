@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:02:33Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:57CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w63" sent="6" para="2" offset="336" length="2">L'</wf>
+    <wf wid="w64" sent="6" para="2" offset="338" length="6">Italia</wf>
+    <wf wid="w65" sent="6" para="2" offset="345" length="3">può</wf>
+    <wf wid="w66" sent="6" para="2" offset="349" length="9">diventare</wf>
+    <wf wid="w67" sent="6" para="2" offset="359" length="2">la</wf>
+    <wf wid="w68" sent="6" para="2" offset="362" length="5">prima</wf>
+    <wf wid="w69" sent="6" para="2" offset="368" length="5">della</wf>
+    <wf wid="w70" sent="6" para="2" offset="374" length="6">classe</wf>
+    <wf wid="w71" sent="6" para="2" offset="381" length="3">sul</wf>
+    <wf wid="w72" sent="6" para="2" offset="385" length="7">deficit</wf>
+    <wf wid="w73" sent="6" para="2" offset="392" length="1">"</wf>
+    <wf wid="w74" sent="6" para="2" offset="394" length="2">ha</wf>
+    <wf wid="w75" sent="6" para="2" offset="397" length="5">detto</wf>
+    <wf wid="w76" sent="6" para="2" offset="402" length="1">.</wf>
+  </text>
+  <terms>
+    <!--L'-->
+    <term tid="t63" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t64" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--può-->
+    <term tid="t65" type="" lemma="può" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--diventare-->
+    <term tid="t66" type="" lemma="diventare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t67" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--prima-->
+    <term tid="t68" type="" lemma="prima" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t69" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--classe-->
+    <term tid="t70" type="" lemma="classe" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--sul-->
+    <term tid="t71" type="" lemma="sul" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--deficit-->
+    <term tid="t72" type="" lemma="deficit" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t73" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t74" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--detto-->
+    <term tid="t75" type="" lemma="detto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t76" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Italia-->
+        <span>
+          <target id="t64"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--la prima della classe sul deficit-->
+        <span>
+          <target id="t67"/>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

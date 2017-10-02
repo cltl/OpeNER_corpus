@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:46:31Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w321" sent="11" para="2" offset="1736" length="2">Le</wf>
+    <wf wid="w322" sent="11" para="2" offset="1739" length="3">sue</wf>
+    <wf wid="w323" sent="11" para="2" offset="1743" length="6">parole</wf>
+    <wf wid="w324" sent="11" para="2" offset="1750" length="4">però</wf>
+    <wf wid="w325" sent="11" para="2" offset="1755" length="8">sembrano</wf>
+    <wf wid="w326" sent="11" para="2" offset="1764" length="7">rivolte</wf>
+    <wf wid="w327" sent="11" para="2" offset="1772" length="14">principalmente</wf>
+    <wf wid="w328" sent="11" para="2" offset="1787" length="2">ai</wf>
+    <wf wid="w329" sent="11" para="2" offset="1790" length="7">partiti</wf>
+    <wf wid="w330" sent="11" para="2" offset="1798" length="2">ai</wf>
+    <wf wid="w331" sent="11" para="2" offset="1801" length="5">quali</wf>
+    <wf wid="w332" sent="11" para="2" offset="1807" length="6">sembra</wf>
+    <wf wid="w333" sent="11" para="2" offset="1814" length="5">voler</wf>
+    <wf wid="w334" sent="11" para="2" offset="1820" length="4">dire</wf>
+    <wf wid="w335" sent="11" para="2" offset="1824" length="1">:</wf>
+    <wf wid="w336" sent="11" para="2" offset="1826" length="5">state</wf>
+    <wf wid="w337" sent="11" para="2" offset="1832" length="10">tranquilli</wf>
+    <wf wid="w338" sent="11" para="2" offset="1842" length="1">,</wf>
+    <wf wid="w339" sent="11" para="2" offset="1844" length="2">il</wf>
+    <wf wid="w340" sent="11" para="2" offset="1847" length="7">governo</wf>
+    <wf wid="w341" sent="11" para="2" offset="1855" length="3">sta</wf>
+    <wf wid="w342" sent="11" para="2" offset="1859" length="9">seminando</wf>
+    <wf wid="w343" sent="11" para="2" offset="1869" length="5">molto</wf>
+    <wf wid="w344" sent="11" para="2" offset="1875" length="2">ed</wf>
+    <wf wid="w345" sent="11" para="2" offset="1878" length="3">ora</wf>
+    <wf wid="w346" sent="11" para="2" offset="1882" length="2">il</wf>
+    <wf wid="w347" sent="11" para="2" offset="1885" length="5">Paese</wf>
+    <wf wid="w348" sent="11" para="2" offset="1891" length="11">raccoglierà</wf>
+    <wf wid="w349" sent="11" para="2" offset="1903" length="1">i</wf>
+    <wf wid="w350" sent="11" para="2" offset="1905" length="5">primi</wf>
+    <wf wid="w351" sent="11" para="2" offset="1911" length="6">frutti</wf>
+    <wf wid="w352" sent="11" para="2" offset="1917" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t321" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--sue-->
+    <term tid="t322" type="" lemma="suo" pos="G" morphofeat="ADJ~POFP">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--parole-->
+    <term tid="t323" type="" lemma="parola" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--però-->
+    <term tid="t324" type="" lemma="però" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--sembrano-->
+    <term tid="t325" type="" lemma="sembrare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <!--rivolte-->
+    <term tid="t326" type="" lemma="rivolta" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <!--principalmente-->
+    <term tid="t327" type="" lemma="principalmente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <!--ai-->
+    <term tid="t328" type="" lemma="ai" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--partiti-->
+    <term tid="t329" type="" lemma="partito" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <!--ai-->
+    <term tid="t330" type="" lemma="ai" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <!--quali-->
+    <term tid="t331" type="" lemma="quali" pos="Q" morphofeat="PRON~REN6">
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <!--sembra-->
+    <term tid="t332" type="" lemma="sembrare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <!--voler-->
+    <term tid="t333" type="" lemma="voler" pos="V" morphofeat="VMO~ININN">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <!--dire-->
+    <term tid="t334" type="" lemma="dire" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t335" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <!--state-->
+    <term tid="t336" type="" lemma="essere" pos="V" morphofeat="VAU~PAFP">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--tranquilli-->
+    <term tid="t337" type="" lemma="tranquillo" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t338" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t339" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--governo-->
+    <term tid="t340" type="" lemma="governo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--sta-->
+    <term tid="t341" type="" lemma="sta" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--seminando-->
+    <term tid="t342" type="" lemma="seminare" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--molto-->
+    <term tid="t343" type="" lemma="molto" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--ed-->
+    <term tid="t344" type="" lemma="ed" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--ora-->
+    <term tid="t345" type="" lemma="ora" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t346" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--Paese-->
+    <term tid="t347" type="" lemma="paese" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--raccoglierà-->
+    <term tid="t348" type="" lemma="raccogliere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t349" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <!--primi-->
+    <term tid="t350" type="" lemma="primo" pos="G" morphofeat="ADJ~ORMP">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <!--frutti-->
+    <term tid="t351" type="" lemma="frutto" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t352" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--Paese-->
+        <span>
+          <target id="t347"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--i primi frutti-->
+        <span>
+          <target id="t349"/>
+          <target id="t350"/>
+          <target id="t351"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--raccoglierà-->
+        <span>
+          <target id="t348"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--frutti-->
+        <span>
+          <target id="t351"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--governo-->
+        <span>
+          <target id="t340"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--sta seminando molto-->
+        <span>
+          <target id="t341"/>
+          <target id="t342"/>
+          <target id="t343"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:47Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:47Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:06:00Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="8">Hollande</wf>
+    <wf wid="w2" sent="1" para="1" offset="8" length="1">:</wf>
+    <wf wid="w3" sent="1" para="1" offset="10" length="1">"</wf>
+    <wf wid="w4" sent="1" para="1" offset="11" length="4">All'</wf>
+    <wf wid="w5" sent="1" para="1" offset="15" length="6">Europa</wf>
+    <wf wid="w6" sent="1" para="1" offset="22" length="5">serve</wf>
+    <wf wid="w7" sent="1" para="1" offset="28" length="2">la</wf>
+    <wf wid="w8" sent="1" para="1" offset="31" length="3">Tav</wf>
+    <wf wid="w9" sent="1" para="1" offset="35" length="3">non</wf>
+    <wf wid="w10" sent="1" para="1" offset="39" length="7">bisogna</wf>
+    <wf wid="w11" sent="1" para="1" offset="47" length="9">chiuderci</wf>
+    <wf wid="w12" sent="1" para="1" offset="57" length="2">in</wf>
+    <wf wid="w13" sent="1" para="1" offset="60" length="3">noi</wf>
+    <wf wid="w14" sent="1" para="1" offset="64" length="6">stessi</wf>
+    <wf wid="w15" sent="1" para="1" offset="70" length="1">"</wf>
+  </text>
+  <terms>
+    <!--Hollande-->
+    <term tid="t1" type="" lemma="hollande" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t2" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t3" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--All'-->
+    <term tid="t4" type="" lemma="all'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t5" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--serve-->
+    <term tid="t6" type="" lemma="servire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t7" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Tav-->
+    <term tid="t8" type="" lemma="tav" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t9" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--bisogna-->
+    <term tid="t10" type="" lemma="bisognare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--chiuderci-->
+    <term tid="t11" type="" lemma="chiuderci" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t12" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--noi-->
+    <term tid="t13" type="" lemma="noi" pos="Q" morphofeat="PRON~PEN4">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--stessi-->
+    <term tid="t14" type="" lemma="stessi" pos="G" morphofeat="ADJ~DIMP">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t15" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

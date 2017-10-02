@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:35Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:35Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:40Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:13CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w536" sent="19" para="2" offset="3039" length="2">Ma</wf>
+    <wf wid="w537" sent="19" para="2" offset="3042" length="2">l’</wf>
+    <wf wid="w538" sent="19" para="2" offset="3044" length="10">inversione</wf>
+    <wf wid="w539" sent="19" para="2" offset="3055" length="2">di</wf>
+    <wf wid="w540" sent="19" para="2" offset="3058" length="5">rotta</wf>
+    <wf wid="w541" sent="19" para="2" offset="3064" length="1">è</wf>
+    <wf wid="w542" sent="19" para="2" offset="3066" length="2">un</wf>
+    <wf wid="w543" sent="19" para="2" offset="3069" length="7">pessimo</wf>
+    <wf wid="w544" sent="19" para="2" offset="3077" length="6">inizio</wf>
+    <wf wid="w545" sent="19" para="2" offset="3083" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ma-->
+    <term tid="t536" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w536"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t537" type="" lemma="l’" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w537"/>
+      </span>
+    </term>
+    <!--inversione-->
+    <term tid="t538" type="" lemma="inversione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w538"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t539" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w539"/>
+      </span>
+    </term>
+    <!--rotta-->
+    <term tid="t540" type="" lemma="rotta" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w540"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t541" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w541"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t542" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w542"/>
+      </span>
+    </term>
+    <!--pessimo-->
+    <term tid="t543" type="" lemma="pessimo" pos="G" morphofeat="ADJ~MS">
+      <span>
+        <target id="w543"/>
+      </span>
+    </term>
+    <!--inizio-->
+    <term tid="t544" type="" lemma="inizio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w544"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t545" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w545"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--inversione di rotta-->
+        <span>
+          <target id="t538"/>
+          <target id="t539"/>
+          <target id="t540"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--pessimo inizio-->
+        <span>
+          <target id="t543"/>
+          <target id="t544"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

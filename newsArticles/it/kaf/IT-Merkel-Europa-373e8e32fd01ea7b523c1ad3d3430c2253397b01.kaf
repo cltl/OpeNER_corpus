@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:51Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:51Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:11:56Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w256" sent="10" para="2" offset="1323" length="10">Napolitano</wf>
+    <wf wid="w257" sent="10" para="2" offset="1333" length="1">,</wf>
+    <wf wid="w258" sent="10" para="2" offset="1335" length="3">del</wf>
+    <wf wid="w259" sent="10" para="2" offset="1339" length="5">resto</wf>
+    <wf wid="w260" sent="10" para="2" offset="1344" length="1">,</wf>
+    <wf wid="w261" sent="10" para="2" offset="1346" length="2">da</wf>
+    <wf wid="w262" sent="10" para="2" offset="1349" length="6">questa</wf>
+    <wf wid="w263" sent="10" para="2" offset="1356" length="6">sponda</wf>
+    <wf wid="w264" sent="10" para="2" offset="1363" length="5">dell'</wf>
+    <wf wid="w265" sent="10" para="2" offset="1368" length="9">Atlantico</wf>
+    <wf wid="w266" sent="10" para="2" offset="1378" length="1">è</wf>
+    <wf wid="w267" sent="10" para="2" offset="1380" length="6">sempre</wf>
+    <wf wid="w268" sent="10" para="2" offset="1387" length="5">stato</wf>
+    <wf wid="w269" sent="10" para="2" offset="1393" length="11">considerato</wf>
+    <wf wid="w270" sent="10" para="2" offset="1405" length="2">un</wf>
+    <wf wid="w271" sent="10" para="2" offset="1408" length="8">prezioso</wf>
+    <wf wid="w272" sent="10" para="2" offset="1417" length="7">garante</wf>
+    <wf wid="w273" sent="10" para="2" offset="1425" length="5">della</wf>
+    <wf wid="w274" sent="10" para="2" offset="1431" length="9">stabilità</wf>
+    <wf wid="w275" sent="10" para="2" offset="1441" length="2">di</wf>
+    <wf wid="w276" sent="10" para="2" offset="1444" length="2">un</wf>
+    <wf wid="w277" sent="10" para="2" offset="1447" length="5">Paese</wf>
+    <wf wid="w278" sent="10" para="2" offset="1453" length="2">le</wf>
+    <wf wid="w279" sent="10" para="2" offset="1456" length="3">cui</wf>
+    <wf wid="w280" sent="10" para="2" offset="1460" length="8">alchimie</wf>
+    <wf wid="w281" sent="10" para="2" offset="1469" length="9">politiche</wf>
+    <wf wid="w282" sent="10" para="2" offset="1479" length="3">non</wf>
+    <wf wid="w283" sent="10" para="2" offset="1483" length="6">sempre</wf>
+    <wf wid="w284" sent="10" para="2" offset="1490" length="4">sono</wf>
+    <wf wid="w285" sent="10" para="2" offset="1495" length="2">di</wf>
+    <wf wid="w286" sent="10" para="2" offset="1498" length="6">facile</wf>
+    <wf wid="w287" sent="10" para="2" offset="1505" length="12">comprensione</wf>
+    <wf wid="w288" sent="10" para="2" offset="1517" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Napolitano-->
+    <term tid="t256" type="" lemma="napolitano" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t257" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t258" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--resto-->
+    <term tid="t259" type="" lemma="resto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t260" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--da-->
+    <term tid="t261" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--questa-->
+    <term tid="t262" type="" lemma="questa" pos="G" morphofeat="ADJ~DIFS">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--sponda-->
+    <term tid="t263" type="" lemma="sponda" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t264" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--Atlantico-->
+    <term tid="t265" type="" lemma="atlantico" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t266" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--sempre-->
+    <term tid="t267" type="" lemma="sempre" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--stato-->
+    <term tid="t268" type="" lemma="essere" pos="V" morphofeat="VAU~PAMS">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--considerato-->
+    <term tid="t269" type="" lemma="considerare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t270" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--prezioso-->
+    <term tid="t271" type="" lemma="prezioso" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--garante-->
+    <term tid="t272" type="" lemma="garante" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t273" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--stabilità-->
+    <term tid="t274" type="" lemma="stabilita'" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t275" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t276" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--Paese-->
+    <term tid="t277" type="" lemma="paese" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t278" type="" lemma="le" pos="Q" morphofeat="PRON~PEF3">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--cui-->
+    <term tid="t279" type="" lemma="cui" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--alchimie-->
+    <term tid="t280" type="" lemma="alchimia" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--politiche-->
+    <term tid="t281" type="" lemma="politico" pos="G" morphofeat="ADJ~QUFP">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t282" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--sempre-->
+    <term tid="t283" type="" lemma="sempre" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--sono-->
+    <term tid="t284" type="" lemma="essere" pos="V" morphofeat="VAU~REN1">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t285" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--facile-->
+    <term tid="t286" type="" lemma="facile" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--comprensione-->
+    <term tid="t287" type="" lemma="comprensione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t288" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Napolitano-->
+        <span>
+          <target id="t256"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--prezioso garante della stabilità-->
+        <span>
+          <target id="t271"/>
+          <target id="t272"/>
+          <target id="t273"/>
+          <target id="t274"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

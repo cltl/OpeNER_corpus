@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:35Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:35Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:09:57Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w138" sent="4" para="2" offset="727" length="3">Lla</wf>
+    <wf wid="w139" sent="4" para="2" offset="731" length="14">disoccupazione</wf>
+    <wf wid="w140" sent="4" para="2" offset="746" length="9">giovanile</wf>
+    <wf wid="w141" sent="4" para="2" offset="756" length="1">e</wf>
+    <wf wid="w142" sent="4" para="2" offset="757" length="1">'</wf>
+    <wf wid="w143" sent="4" para="2" offset="759" length="2">l'</wf>
+    <wf wid="w144" sent="4" para="2" offset="761" length="6">incubo</wf>
+    <wf wid="w145" sent="4" para="2" offset="768" length="9">nazionale</wf>
+    <wf wid="w146" sent="4" para="2" offset="778" length="2">ma</wf>
+    <wf wid="w147" sent="4" para="2" offset="781" length="5">anche</wf>
+    <wf wid="w148" sent="4" para="2" offset="787" length="2">il</wf>
+    <wf wid="w149" sent="4" para="2" offset="790" length="6">grande</wf>
+    <wf wid="w150" sent="4" para="2" offset="797" length="4">tema</wf>
+    <wf wid="w151" sent="4" para="2" offset="802" length="7">europeo</wf>
+    <wf wid="w152" sent="4" para="2" offset="809" length="1">"</wf>
+    <wf wid="w153" sent="4" para="2" offset="810" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Lla-->
+    <term tid="t138" type="" lemma="lla" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--disoccupazione-->
+    <term tid="t139" type="" lemma="disoccupazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--giovanile-->
+    <term tid="t140" type="" lemma="giovanile" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t141" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t142" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t143" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--incubo-->
+    <term tid="t144" type="" lemma="incubo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--nazionale-->
+    <term tid="t145" type="" lemma="nazionale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t146" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--anche-->
+    <term tid="t147" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t148" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--grande-->
+    <term tid="t149" type="" lemma="grande" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--tema-->
+    <term tid="t150" type="" lemma="tema" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--europeo-->
+    <term tid="t151" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t152" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t153" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--disoccupazione giovanile-->
+        <span>
+          <target id="t139"/>
+          <target id="t140"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--e ' l' incubo nazionale-->
+        <span>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

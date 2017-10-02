@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:02:59Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w339" sent="12" para="2" offset="1822" length="2">Le</wf>
+    <wf wid="w340" sent="12" para="2" offset="1825" length="3">sue</wf>
+    <wf wid="w341" sent="12" para="2" offset="1829" length="6">misure</wf>
+    <wf wid="w342" sent="12" para="2" offset="1836" length="2">di</wf>
+    <wf wid="w343" sent="12" para="2" offset="1839" length="9">austerità</wf>
+    <wf wid="w344" sent="12" para="2" offset="1849" length="2">si</wf>
+    <wf wid="w345" sent="12" para="2" offset="1852" length="6">stanno</wf>
+    <wf wid="w346" sent="12" para="2" offset="1859" length="3">già</wf>
+    <wf wid="w347" sent="12" para="2" offset="1863" length="11">dimostrando</wf>
+    <wf wid="w348" sent="12" para="2" offset="1875" length="10">impopolari</wf>
+    <wf wid="w349" sent="12" para="2" offset="1885" length="1">,</wf>
+    <wf wid="w350" sent="12" para="2" offset="1887" length="2">ma</wf>
+    <wf wid="w351" sent="12" para="2" offset="1890" length="2">in</wf>
+    <wf wid="w352" sent="12" para="2" offset="1893" length="6">Italia</wf>
+    <wf wid="w353" sent="12" para="2" offset="1900" length="1">i</wf>
+    <wf wid="w354" sent="12" para="2" offset="1902" length="8">politici</wf>
+    <wf wid="w355" sent="12" para="2" offset="1911" length="6">eletti</wf>
+    <wf wid="w356" sent="12" para="2" offset="1918" length="3">non</wf>
+    <wf wid="w357" sent="12" para="2" offset="1922" length="6">godono</wf>
+    <wf wid="w358" sent="12" para="2" offset="1929" length="2">di</wf>
+    <wf wid="w359" sent="12" para="2" offset="1932" length="5">buona</wf>
+    <wf wid="w360" sent="12" para="2" offset="1938" length="5">forma</wf>
+    <wf wid="w361" sent="12" para="2" offset="1943" length="1">"</wf>
+    <wf wid="w362" sent="12" para="2" offset="1945" length="6">scrive</wf>
+    <wf wid="w363" sent="12" para="2" offset="1952" length="6">ancora</wf>
+    <wf wid="w364" sent="12" para="2" offset="1959" length="2">il</wf>
+    <wf wid="w365" sent="12" para="2" offset="1962" length="9">Financial</wf>
+    <wf wid="w366" sent="12" para="2" offset="1972" length="5">Times</wf>
+    <wf wid="w367" sent="12" para="2" offset="1977" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t339" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--sue-->
+    <term tid="t340" type="" lemma="suo" pos="G" morphofeat="ADJ~POFP">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--misure-->
+    <term tid="t341" type="" lemma="misura" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t342" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--austerità-->
+    <term tid="t343" type="" lemma="austerita'" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t344" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--stanno-->
+    <term tid="t345" type="" lemma="stare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--già-->
+    <term tid="t346" type="" lemma="già" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--dimostrando-->
+    <term tid="t347" type="" lemma="dimostrare" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--impopolari-->
+    <term tid="t348" type="" lemma="impopolare" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t349" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t350" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t351" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t352" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t353" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+    <!--politici-->
+    <term tid="t354" type="" lemma="politico" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w354"/>
+      </span>
+    </term>
+    <!--eletti-->
+    <term tid="t355" type="" lemma="eleggere" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w355"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t356" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w356"/>
+      </span>
+    </term>
+    <!--godono-->
+    <term tid="t357" type="" lemma="godere" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w357"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t358" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w358"/>
+      </span>
+    </term>
+    <!--buona-->
+    <term tid="t359" type="" lemma="buono" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <!--forma-->
+    <term tid="t360" type="" lemma="forma" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t361" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <!--scrive-->
+    <term tid="t362" type="" lemma="scrivere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <!--ancora-->
+    <term tid="t363" type="" lemma="ancorare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t364" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <!--Financial-->
+    <term tid="t365" type="" lemma="financial" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <!--Times-->
+    <term tid="t366" type="" lemma="times" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t367" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Le sue misure di austerità-->
+        <span>
+          <target id="t339"/>
+          <target id="t340"/>
+          <target id="t341"/>
+          <target id="t342"/>
+          <target id="t343"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="I-Negative">
+        <!--impopolari-->
+        <span>
+          <target id="t348"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

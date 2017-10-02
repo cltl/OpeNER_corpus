@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:45Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:45Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:10:43Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w225" sent="7" para="2" offset="1192" length="2">Il</wf>
+    <wf wid="w226" sent="7" para="2" offset="1195" length="15">vicecancelliere</wf>
+    <wf wid="w227" sent="7" para="2" offset="1211" length="8">liberale</wf>
+    <wf wid="w228" sent="7" para="2" offset="1220" length="7">Philipp</wf>
+    <wf wid="w229" sent="7" para="2" offset="1228" length="7">Roesler</wf>
+    <wf wid="w230" sent="7" para="2" offset="1236" length="1">e</wf>
+    <wf wid="w231" sent="7" para="2" offset="1237" length="1">'</wf>
+    <wf wid="w232" sent="7" para="2" offset="1239" length="7">tornato</wf>
+    <wf wid="w233" sent="7" para="2" offset="1247" length="1">a</wf>
+    <wf wid="w234" sent="7" para="2" offset="1250" length="9">esprimere</wf>
+    <wf wid="w235" sent="7" para="2" offset="1260" length="5">forti</wf>
+    <wf wid="w236" sent="7" para="2" offset="1266" length="5">dubbi</wf>
+    <wf wid="w237" sent="7" para="2" offset="1272" length="5">sulla</wf>
+    <wf wid="w238" sent="7" para="2" offset="1278" length="8">capacita</wf>
+    <wf wid="w239" sent="7" para="2" offset="1286" length="1">'</wf>
+    <wf wid="w240" sent="7" para="2" offset="1288" length="8">ellenica</wf>
+    <wf wid="w241" sent="7" para="2" offset="1297" length="2">di</wf>
+    <wf wid="w242" sent="7" para="2" offset="1300" length="10">rispettare</wf>
+    <wf wid="w243" sent="7" para="2" offset="1311" length="3">gli</wf>
+    <wf wid="w244" sent="7" para="2" offset="1315" length="7">impegni</wf>
+    <wf wid="w245" sent="7" para="2" offset="1323" length="5">presi</wf>
+    <wf wid="w246" sent="7" para="2" offset="1328" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t225" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--vicecancelliere-->
+    <term tid="t226" type="" lemma="vicecancelliere" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--liberale-->
+    <term tid="t227" type="" lemma="liberale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--Philipp-->
+    <term tid="t228" type="" lemma="philipp" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--Roesler-->
+    <term tid="t229" type="" lemma="roesler" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t230" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t231" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--tornato-->
+    <term tid="t232" type="" lemma="tornare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t233" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--esprimere-->
+    <term tid="t234" type="" lemma="esprimere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--forti-->
+    <term tid="t235" type="" lemma="forte" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--dubbi-->
+    <term tid="t236" type="" lemma="dubbio" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--sulla-->
+    <term tid="t237" type="" lemma="sulla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--capacita-->
+    <term tid="t238" type="" lemma="capacita" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t239" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--ellenica-->
+    <term tid="t240" type="" lemma="ellenico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t241" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--rispettare-->
+    <term tid="t242" type="" lemma="rispettare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--gli-->
+    <term tid="t243" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--impegni-->
+    <term tid="t244" type="" lemma="impegno" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--presi-->
+    <term tid="t245" type="" lemma="prendere" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t246" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--forti dubbi-->
+        <span>
+          <target id="t235"/>
+          <target id="t236"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

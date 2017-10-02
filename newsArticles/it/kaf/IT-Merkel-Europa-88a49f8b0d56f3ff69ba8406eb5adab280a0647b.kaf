@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:35Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:35Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:46:35Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w37" sent="3" para="2" offset="222" length="2">L'</wf>
+    <wf wid="w38" sent="3" para="2" offset="224" length="6">Italia</wf>
+    <wf wid="w39" sent="3" para="2" offset="231" length="1">"</wf>
+    <wf wid="w40" sent="3" para="2" offset="232" length="3">non</wf>
+    <wf wid="w41" sent="3" para="2" offset="236" length="2">ha</wf>
+    <wf wid="w42" sent="3" para="2" offset="239" length="7">bisogno</wf>
+    <wf wid="w43" sent="3" para="2" offset="247" length="5">della</wf>
+    <wf wid="w44" sent="3" para="2" offset="253" length="10">protezione</wf>
+    <wf wid="w45" sent="3" para="2" offset="264" length="12">paralizzante</wf>
+    <wf wid="w46" sent="3" para="2" offset="277" length="2">di</wf>
+    <wf wid="w47" sent="3" para="2" offset="280" length="5">altri</wf>
+    <wf wid="w48" sent="3" para="2" offset="285" length="1">"</wf>
+    <wf wid="w49" sent="3" para="2" offset="286" length="1">.</wf>
+  </text>
+  <terms>
+    <!--L'-->
+    <term tid="t37" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t38" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t39" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t40" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t41" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--bisogno-->
+    <term tid="t42" type="" lemma="bisogno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t43" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--protezione-->
+    <term tid="t44" type="" lemma="protezione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--paralizzante-->
+    <term tid="t45" type="" lemma="paralizzante" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t46" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--altri-->
+    <term tid="t47" type="" lemma="altri" pos="Q" morphofeat="PRON~IDM3">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t48" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t49" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--paralizzante-->
+        <span>
+          <target id="t45"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

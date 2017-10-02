@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:36Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w9" sent="2" para="2" offset="49" length="2">La</wf>
+    <wf wid="w10" sent="2" para="2" offset="52" length="8">Germania</wf>
+    <wf wid="w11" sent="2" para="2" offset="61" length="3">non</wf>
+    <wf wid="w12" sent="2" para="2" offset="65" length="11">rinegozierà</wf>
+    <wf wid="w13" sent="2" para="2" offset="77" length="2">il</wf>
+    <wf wid="w14" sent="2" para="2" offset="80" length="6">Fiscal</wf>
+    <wf wid="w15" sent="2" para="2" offset="87" length="7">compact</wf>
+    <wf wid="w16" sent="2" para="2" offset="94" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t9" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--Germania-->
+    <term tid="t10" type="" lemma="germania" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t11" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--rinegozierà-->
+    <term tid="t12" type="" lemma="rinegozierà" pos="V" morphofeat="VAU~CGN1">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t13" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--Fiscal-->
+    <term tid="t14" type="" lemma="fiscal" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--compact-->
+    <term tid="t15" type="" lemma="compact" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t16" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Germania-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Fiscal compact-->
+        <span>
+          <target id="t14"/>
+          <target id="t15"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--non rinegozierà-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

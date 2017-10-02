@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:17:09Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w11" sent="2" para="2" offset="46" length="5">Monti</wf>
+    <wf wid="w12" sent="2" para="2" offset="51" length="1">:</wf>
+    <wf wid="w13" sent="2" para="2" offset="53" length="1">"</wf>
+    <wf wid="w14" sent="2" para="2" offset="54" length="2">Un</wf>
+    <wf wid="w15" sent="2" para="2" offset="57" length="9">risultato</wf>
+    <wf wid="w16" sent="2" para="2" offset="67" length="13">soddisfacente</wf>
+    <wf wid="w17" sent="2" para="2" offset="80" length="1">"</wf>
+    <wf wid="w18" sent="2" para="2" offset="81" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Monti-->
+    <term tid="t11" type="" lemma="monte" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t12" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t13" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--Un-->
+    <term tid="t14" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--risultato-->
+    <term tid="t15" type="" lemma="risultato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--soddisfacente-->
+    <term tid="t16" type="" lemma="soddisfare" pos="V" morphofeat="VMA~PPNS">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t17" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t18" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Monti-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--risultato-->
+        <span>
+          <target id="t15"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--soddisfacente-->
+        <span>
+          <target id="t16"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

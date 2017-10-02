@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:14:59Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w43" sent="3" para="2" offset="223" length="1">E</wf>
+    <wf wid="w44" sent="3" para="2" offset="225" length="6">Parigi</wf>
+    <wf wid="w45" sent="3" para="2" offset="232" length="1">E</wf>
+    <wf wid="w46" sent="3" para="2" offset="234" length="7">Berlino</wf>
+    <wf wid="w47" sent="3" para="2" offset="242" length="8">chiedono</wf>
+    <wf wid="w48" sent="3" para="2" offset="251" length="2">un</wf>
+    <wf wid="w49" sent="3" para="2" offset="255" length="5">nuovo</wf>
+    <wf wid="w50" sent="3" para="2" offset="261" length="6">codice</wf>
+    <wf wid="w51" sent="3" para="2" offset="268" length="2">di</wf>
+    <wf wid="w52" sent="3" para="2" offset="271" length="8">condotta</wf>
+    <wf wid="w53" sent="3" para="2" offset="280" length="3">per</wf>
+    <wf wid="w54" sent="3" para="2" offset="284" length="2">l’</wf>
+    <wf wid="w55" sent="3" para="2" offset="286" length="12">intelligence</wf>
+    <wf wid="w56" sent="3" para="2" offset="299" length="1">a</wf>
+    <wf wid="w57" sent="3" para="2" offset="301" length="16">stelle-e-strisce</wf>
+    <wf wid="w58" sent="3" para="2" offset="317" length="1">.</wf>
+  </text>
+  <terms>
+    <!--E-->
+    <term tid="t43" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--Parigi-->
+    <term tid="t44" type="" lemma="parigi" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--E-->
+    <term tid="t45" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--Berlino-->
+    <term tid="t46" type="" lemma="berlino" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--chiedono-->
+    <term tid="t47" type="" lemma="chiedere" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t48" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--nuovo-->
+    <term tid="t49" type="" lemma="nuovo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--codice-->
+    <term tid="t50" type="" lemma="codice" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t51" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--condotta-->
+    <term tid="t52" type="" lemma="condotta" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t53" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t54" type="" lemma="l’" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--intelligence-->
+    <term tid="t55" type="" lemma="intelligence" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t56" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--stelle-e-strisce-->
+    <term tid="t57" type="" lemma="stelle-e-strisce" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t58" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

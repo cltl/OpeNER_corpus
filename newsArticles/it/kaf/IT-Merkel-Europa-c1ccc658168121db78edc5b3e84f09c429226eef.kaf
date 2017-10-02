@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:09:14Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w64" sent="4" para="2" offset="288" length="2">Lo</wf>
+    <wf wid="w65" sent="4" para="2" offset="291" length="2">ha</wf>
+    <wf wid="w66" sent="4" para="2" offset="294" length="10">annunciato</wf>
+    <wf wid="w67" sent="4" para="2" offset="305" length="1">a</wf>
+    <wf wid="w68" sent="4" para="2" offset="307" length="4">Oslo</wf>
+    <wf wid="w69" sent="4" para="2" offset="312" length="2">il</wf>
+    <wf wid="w70" sent="4" para="2" offset="315" length="8">comitato</wf>
+    <wf wid="w71" sent="4" para="2" offset="324" length="9">norvegese</wf>
+    <wf wid="w72" sent="4" para="2" offset="334" length="3">del</wf>
+    <wf wid="w73" sent="4" para="2" offset="338" length="5">Nobel</wf>
+    <wf wid="w74" sent="4" para="2" offset="343" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Lo-->
+    <term tid="t64" type="" lemma="lo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t65" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--annunciato-->
+    <term tid="t66" type="" lemma="annunciare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t67" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--Oslo-->
+    <term tid="t68" type="" lemma="oslo" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t69" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--comitato-->
+    <term tid="t70" type="" lemma="comitato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--norvegese-->
+    <term tid="t71" type="" lemma="norvegese" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t72" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--Nobel-->
+    <term tid="t73" type="" lemma="nobel" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t74" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+          <target id="t72"/>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

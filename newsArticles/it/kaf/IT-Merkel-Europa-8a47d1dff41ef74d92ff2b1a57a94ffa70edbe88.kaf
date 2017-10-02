@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:26Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:26Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:08:53Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:53CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="3">G20</wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="1">,</wf>
+    <wf wid="w3" sent="1" para="1" offset="5" length="1">i</wf>
+    <wf wid="w4" sent="1" para="1" offset="7" length="6">leader</wf>
+    <wf wid="w5" sent="1" para="1" offset="14" length="5">uniti</wf>
+    <wf wid="w6" sent="1" para="1" offset="20" length="3">per</wf>
+    <wf wid="w7" sent="1" para="1" offset="24" length="8">crescita</wf>
+    <wf wid="w8" sent="1" para="1" offset="33" length="1">e</wf>
+    <wf wid="w9" sent="1" para="1" offset="35" length="6">lavoro</wf>
+    <wf wid="w10" sent="1" para="1" offset="41" length="1">.</wf>
+  </text>
+  <terms>
+    <!--G20-->
+    <term tid="t1" type="" lemma="g20" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t2" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t3" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term tid="t4" type="" lemma="leader" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--uniti-->
+    <term tid="t5" type="" lemma="unire" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t6" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--crescita-->
+    <term tid="t7" type="" lemma="crescita" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t8" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--lavoro-->
+    <term tid="t9" type="" lemma="lavoro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t10" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--leader-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--per crescita e lavoro-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--uniti-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

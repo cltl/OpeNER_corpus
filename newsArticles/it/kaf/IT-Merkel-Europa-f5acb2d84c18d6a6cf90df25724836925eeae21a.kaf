@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:17:14Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w123" sent="5" para="2" offset="752" length="2">Il</wf>
+    <wf wid="w124" sent="5" para="2" offset="755" length="6">leader</wf>
+    <wf wid="w125" sent="5" para="2" offset="762" length="7">tedesco</wf>
+    <wf wid="w126" sent="5" para="2" offset="770" length="2">si</wf>
+    <wf wid="w127" sent="5" para="2" offset="773" length="7">recherà</wf>
+    <wf wid="w128" sent="5" para="2" offset="781" length="4">oggi</wf>
+    <wf wid="w129" sent="5" para="2" offset="786" length="6">presso</wf>
+    <wf wid="w130" sent="5" para="2" offset="793" length="2">il</wf>
+    <wf wid="w131" sent="5" para="2" offset="796" length="8">Memorial</wf>
+    <wf wid="w132" sent="5" para="2" offset="805" length="9">costruito</wf>
+    <wf wid="w133" sent="5" para="2" offset="815" length="3">sul</wf>
+    <wf wid="w134" sent="5" para="2" offset="819" length="5">campo</wf>
+    <wf wid="w135" sent="5" para="2" offset="825" length="2">di</wf>
+    <wf wid="w136" sent="5" para="2" offset="828" length="6">Dachau</wf>
+    <wf wid="w137" sent="5" para="2" offset="835" length="3">dai</wf>
+    <wf wid="w138" sent="5" para="2" offset="839" length="10">superstiti</wf>
+    <wf wid="w139" sent="5" para="2" offset="850" length="3">nel</wf>
+    <wf wid="w140" sent="5" para="2" offset="854" length="4">1965</wf>
+    <wf wid="w141" sent="5" para="2" offset="859" length="3">per</wf>
+    <wf wid="w142" sent="5" para="2" offset="863" length="9">ricordare</wf>
+    <wf wid="w143" sent="5" para="2" offset="873" length="2">le</wf>
+    <wf wid="w144" sent="5" para="2" offset="876" length="8">atrocità</wf>
+    <wf wid="w145" sent="5" para="2" offset="885" length="10">perpetrate</wf>
+    <wf wid="w146" sent="5" para="2" offset="896" length="2">in</wf>
+    <wf wid="w147" sent="5" para="2" offset="899" length="4">quel</wf>
+    <wf wid="w148" sent="5" para="2" offset="904" length="5">luogo</wf>
+    <wf wid="w149" sent="5" para="2" offset="909" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t123" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term tid="t124" type="" lemma="leader" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--tedesco-->
+    <term tid="t125" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t126" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--recherà-->
+    <term tid="t127" type="" lemma="recherà" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--oggi-->
+    <term tid="t128" type="" lemma="oggi" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--presso-->
+    <term tid="t129" type="" lemma="presso" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t130" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--Memorial-->
+    <term tid="t131" type="" lemma="memorial" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--costruito-->
+    <term tid="t132" type="" lemma="costruire" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--sul-->
+    <term tid="t133" type="" lemma="sul" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--campo-->
+    <term tid="t134" type="" lemma="campo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t135" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--Dachau-->
+    <term tid="t136" type="" lemma="dachau" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--dai-->
+    <term tid="t137" type="" lemma="dai" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--superstiti-->
+    <term tid="t138" type="" lemma="superstite" pos="N" morphofeat="NOU~CPNP">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t139" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--1965-->
+    <term tid="t140" type="" lemma="1965" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t141" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--ricordare-->
+    <term tid="t142" type="" lemma="ricordare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t143" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--atrocità-->
+    <term tid="t144" type="" lemma="atrocita'" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--perpetrate-->
+    <term tid="t145" type="" lemma="perpetrare" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t146" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--quel-->
+    <term tid="t147" type="" lemma="quel" pos="G" morphofeat="ADJ~DIMS">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--luogo-->
+    <term tid="t148" type="" lemma="luogo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t149" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+          <target id="t126"/>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+          <target id="t133"/>
+          <target id="t134"/>
+          <target id="t135"/>
+          <target id="t136"/>
+          <target id="t137"/>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

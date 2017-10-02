@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:19Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:19Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:19:02Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:57CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w21" sent="3" para="2" offset="120" length="2">Ma</wf>
+    <wf wid="w22" sent="3" para="2" offset="123" length="1">a</wf>
+    <wf wid="w23" sent="3" para="2" offset="125" length="11">determinare</wf>
+    <wf wid="w24" sent="3" para="2" offset="137" length="2">il</wf>
+    <wf wid="w25" sent="3" para="2" offset="140" length="4">peso</wf>
+    <wf wid="w26" sent="3" para="2" offset="145" length="5">della</wf>
+    <wf wid="w27" sent="3" para="2" offset="151" length="5">donna</wf>
+    <wf wid="w28" sent="3" para="2" offset="157" length="3">più</wf>
+    <wf wid="w29" sent="3" para="2" offset="161" length="7">potente</wf>
+    <wf wid="w30" sent="3" para="2" offset="169" length="2">d'</wf>
+    <wf wid="w31" sent="3" para="2" offset="171" length="6">Europa</wf>
+    <wf wid="w32" sent="3" para="2" offset="178" length="7">saranno</wf>
+    <wf wid="w33" sent="3" para="2" offset="186" length="1">i</wf>
+    <wf wid="w34" sent="3" para="2" offset="188" length="9">risultati</wf>
+    <wf wid="w35" sent="3" para="2" offset="198" length="5">degli</wf>
+    <wf wid="w36" sent="3" para="2" offset="204" length="5">altri</wf>
+    <wf wid="w37" sent="3" para="2" offset="210" length="7">partiti</wf>
+    <wf wid="w38" sent="3" para="2" offset="217" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ma-->
+    <term tid="t21" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t22" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--determinare-->
+    <term tid="t23" type="" lemma="determinare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t24" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--peso-->
+    <term tid="t25" type="" lemma="peso" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t26" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--donna-->
+    <term tid="t27" type="" lemma="donna" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--più-->
+    <term tid="t28" type="" lemma="piu'" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--potente-->
+    <term tid="t29" type="" lemma="potere" pos="V" morphofeat="VMO~PPNS">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--d'-->
+    <term tid="t30" type="" lemma="d'" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t31" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--saranno-->
+    <term tid="t32" type="" lemma="essere" pos="V" morphofeat="VAU~FUN6">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t33" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--risultati-->
+    <term tid="t34" type="" lemma="risultato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--degli-->
+    <term tid="t35" type="" lemma="degli" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--altri-->
+    <term tid="t36" type="" lemma="altro" pos="G" morphofeat="ADJ~INMP">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--partiti-->
+    <term tid="t37" type="" lemma="partito" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t38" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

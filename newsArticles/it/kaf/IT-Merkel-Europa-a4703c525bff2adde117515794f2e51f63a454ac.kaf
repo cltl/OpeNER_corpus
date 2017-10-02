@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:35Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:35Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:10:09Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w213" sent="6" para="2" offset="1079" length="2">L'</wf>
+    <wf wid="w214" sent="6" para="2" offset="1081" length="9">occasione</wf>
+    <wf wid="w215" sent="6" para="2" offset="1091" length="4">deve</wf>
+    <wf wid="w216" sent="6" para="2" offset="1096" length="6">essere</wf>
+    <wf wid="w217" sent="6" para="2" offset="1103" length="9">sfruttata</wf>
+    <wf wid="w218" sent="6" para="2" offset="1112" length="1">,</wf>
+    <wf wid="w219" sent="6" para="2" offset="1114" length="2">ha</wf>
+    <wf wid="w220" sent="6" para="2" offset="1117" length="5">detto</wf>
+    <wf wid="w221" sent="6" para="2" offset="1123" length="5">Letta</wf>
+    <wf wid="w222" sent="6" para="2" offset="1128" length="1">,</wf>
+    <wf wid="w223" sent="6" para="2" offset="1130" length="1">"</wf>
+    <wf wid="w224" sent="6" para="2" offset="1131" length="2">al</wf>
+    <wf wid="w225" sent="6" para="2" offset="1134" length="7">massimo</wf>
+    <wf wid="w226" sent="6" para="2" offset="1141" length="1">,</wf>
+    <wf wid="w227" sent="6" para="2" offset="1143" length="1">a</wf>
+    <wf wid="w228" sent="6" para="2" offset="1145" length="7">partire</wf>
+    <wf wid="w229" sent="6" para="2" offset="1153" length="5">dalle</wf>
+    <wf wid="w230" sent="6" para="2" offset="1159" length="11">conclusioni</wf>
+    <wf wid="w231" sent="6" para="2" offset="1171" length="2">di</wf>
+    <wf wid="w232" sent="6" para="2" offset="1174" length="6">questa</wf>
+    <wf wid="w233" sent="6" para="2" offset="1181" length="10">conferenza</wf>
+    <wf wid="w234" sent="6" para="2" offset="1191" length="1">"</wf>
+    <wf wid="w235" sent="6" para="2" offset="1192" length="1">,</wf>
+    <wf wid="w236" sent="6" para="2" offset="1194" length="3">con</wf>
+    <wf wid="w237" sent="6" para="2" offset="1198" length="2">un</wf>
+    <wf wid="w238" sent="6" para="2" offset="1200" length="1">'</wf>
+    <wf wid="w239" sent="6" para="2" offset="1201" length="1">"</wf>
+    <wf wid="w240" sent="6" para="2" offset="1202" length="13">accelerazione</wf>
+    <wf wid="w241" sent="6" para="2" offset="1216" length="2">da</wf>
+    <wf wid="w242" sent="6" para="2" offset="1219" length="4">dare</wf>
+    <wf wid="w243" sent="6" para="2" offset="1224" length="1">a</wf>
+    <wf wid="w244" sent="6" para="2" offset="1226" length="5">molte</wf>
+    <wf wid="w245" sent="6" para="2" offset="1232" length="9">decisioni</wf>
+    <wf wid="w246" sent="6" para="2" offset="1242" length="5">prese</wf>
+    <wf wid="w247" sent="6" para="2" offset="1247" length="1">"</wf>
+    <wf wid="w248" sent="6" para="2" offset="1248" length="1">.</wf>
+    <wf wid="w249" sent="6" para="2" offset="1250" length="1">a</wf>
+    <wf wid="w250" sent="6" para="2" offset="1252" length="7">partire</wf>
+    <wf wid="w251" sent="6" para="2" offset="1260" length="5">dalle</wf>
+    <wf wid="w252" sent="6" para="2" offset="1266" length="11">conclusioni</wf>
+    <wf wid="w253" sent="6" para="2" offset="1278" length="2">di</wf>
+    <wf wid="w254" sent="6" para="2" offset="1281" length="4">oggi</wf>
+    <wf wid="w255" sent="6" para="2" offset="1285" length="1">"</wf>
+    <wf wid="w256" sent="6" para="2" offset="1286" length="1">.</wf>
+  </text>
+  <terms>
+    <!--L'-->
+    <term tid="t213" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--occasione-->
+    <term tid="t214" type="" lemma="occasione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--deve-->
+    <term tid="t215" type="" lemma="dovere" pos="V" morphofeat="VMO~REN3">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--essere-->
+    <term tid="t216" type="" lemma="essere" pos="V" morphofeat="VAU~ININN">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--sfruttata-->
+    <term tid="t217" type="" lemma="sfruttare" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t218" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t219" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--detto-->
+    <term tid="t220" type="" lemma="dettare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--Letta-->
+    <term tid="t221" type="" lemma="leggere" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t222" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t223" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t224" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--massimo-->
+    <term tid="t225" type="" lemma="massimo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t226" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t227" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--partire-->
+    <term tid="t228" type="" lemma="partire" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--dalle-->
+    <term tid="t229" type="" lemma="dalle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--conclusioni-->
+    <term tid="t230" type="" lemma="conclusione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t231" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--questa-->
+    <term tid="t232" type="" lemma="questa" pos="G" morphofeat="ADJ~DIFS">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--conferenza-->
+    <term tid="t233" type="" lemma="conferenza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t234" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t235" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t236" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t237" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t238" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t239" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--accelerazione-->
+    <term tid="t240" type="" lemma="accelerazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--da-->
+    <term tid="t241" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--dare-->
+    <term tid="t242" type="" lemma="dare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t243" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--molte-->
+    <term tid="t244" type="" lemma="molto" pos="G" morphofeat="ADJ~INFP">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--decisioni-->
+    <term tid="t245" type="" lemma="decisione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--prese-->
+    <term tid="t246" type="" lemma="prendere" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t247" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t248" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t249" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--partire-->
+    <term tid="t250" type="" lemma="partire" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--dalle-->
+    <term tid="t251" type="" lemma="dalle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--conclusioni-->
+    <term tid="t252" type="" lemma="conclusione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t253" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--oggi-->
+    <term tid="t254" type="" lemma="oggi" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t255" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t256" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+          <target id="t221"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

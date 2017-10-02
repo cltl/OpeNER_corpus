@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:51Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:51Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:10:38Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w523" sent="19" para="2" offset="2688" length="2">Lo</wf>
+    <wf wid="w524" sent="19" para="2" offset="2691" length="2">ha</wf>
+    <wf wid="w525" sent="19" para="2" offset="2694" length="5">detto</wf>
+    <wf wid="w526" sent="19" para="2" offset="2700" length="2">il</wf>
+    <wf wid="w527" sent="19" para="2" offset="2703" length="10">presidente</wf>
+    <wf wid="w528" sent="19" para="2" offset="2714" length="5">della</wf>
+    <wf wid="w529" sent="19" para="2" offset="2720" length="11">Commissione</wf>
+    <wf wid="w530" sent="19" para="2" offset="2732" length="7">Europea</wf>
+    <wf wid="w531" sent="19" para="2" offset="2739" length="1">,</wf>
+    <wf wid="w532" sent="19" para="2" offset="2741" length="4">José</wf>
+    <wf wid="w533" sent="19" para="2" offset="2746" length="6">Manuel</wf>
+    <wf wid="w534" sent="19" para="2" offset="2753" length="7">Barroso</wf>
+    <wf wid="w535" sent="19" para="2" offset="2760" length="1">,</wf>
+    <wf wid="w536" sent="19" para="2" offset="2762" length="7">durante</wf>
+    <wf wid="w537" sent="19" para="2" offset="2770" length="2">il</wf>
+    <wf wid="w538" sent="19" para="2" offset="2773" length="3">suo</wf>
+    <wf wid="w539" sent="19" para="2" offset="2777" length="8">discorso</wf>
+    <wf wid="w540" sent="19" para="2" offset="2786" length="3">per</wf>
+    <wf wid="w541" sent="19" para="2" offset="2790" length="2">la</wf>
+    <wf wid="w542" sent="19" para="2" offset="2793" length="9">cerimonia</wf>
+    <wf wid="w543" sent="19" para="2" offset="2803" length="2">di</wf>
+    <wf wid="w544" sent="19" para="2" offset="2806" length="8">consegna</wf>
+    <wf wid="w545" sent="19" para="2" offset="2815" length="3">del</wf>
+    <wf wid="w546" sent="19" para="2" offset="2819" length="5">Nobel</wf>
+    <wf wid="w547" sent="19" para="2" offset="2825" length="5">della</wf>
+    <wf wid="w548" sent="19" para="2" offset="2831" length="4">Pace</wf>
+    <wf wid="w549" sent="19" para="2" offset="2836" length="4">alla</wf>
+    <wf wid="w550" sent="19" para="2" offset="2841" length="2">Ue</wf>
+    <wf wid="w551" sent="19" para="2" offset="2844" length="1">a</wf>
+    <wf wid="w552" sent="19" para="2" offset="2846" length="4">Oslo</wf>
+    <wf wid="w553" sent="19" para="2" offset="2850" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Lo-->
+    <term tid="t523" type="" lemma="lo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w523"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t524" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w524"/>
+      </span>
+    </term>
+    <!--detto-->
+    <term tid="t525" type="" lemma="dettare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w525"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t526" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w526"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t527" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w527"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t528" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w528"/>
+      </span>
+    </term>
+    <!--Commissione-->
+    <term tid="t529" type="" lemma="commissione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w529"/>
+      </span>
+    </term>
+    <!--Europea-->
+    <term tid="t530" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w530"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t531" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w531"/>
+      </span>
+    </term>
+    <!--José-->
+    <term tid="t532" type="" lemma="josé" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w532"/>
+      </span>
+    </term>
+    <!--Manuel-->
+    <term tid="t533" type="" lemma="manuel" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w533"/>
+      </span>
+    </term>
+    <!--Barroso-->
+    <term tid="t534" type="" lemma="barroso" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w534"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t535" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w535"/>
+      </span>
+    </term>
+    <!--durante-->
+    <term tid="t536" type="" lemma="durante" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w536"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t537" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w537"/>
+      </span>
+    </term>
+    <!--suo-->
+    <term tid="t538" type="" lemma="suo" pos="G" morphofeat="ADJ~POMS">
+      <span>
+        <target id="w538"/>
+      </span>
+    </term>
+    <!--discorso-->
+    <term tid="t539" type="" lemma="discorso" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w539"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t540" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w540"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t541" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w541"/>
+      </span>
+    </term>
+    <!--cerimonia-->
+    <term tid="t542" type="" lemma="cerimonia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w542"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t543" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w543"/>
+      </span>
+    </term>
+    <!--consegna-->
+    <term tid="t544" type="" lemma="consegna" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w544"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t545" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w545"/>
+      </span>
+    </term>
+    <!--Nobel-->
+    <term tid="t546" type="" lemma="nobel" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w546"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t547" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w547"/>
+      </span>
+    </term>
+    <!--Pace-->
+    <term tid="t548" type="" lemma="pace" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w548"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t549" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w549"/>
+      </span>
+    </term>
+    <!--Ue-->
+    <term tid="t550" type="" lemma="ue" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w550"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t551" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w551"/>
+      </span>
+    </term>
+    <!--Oslo-->
+    <term tid="t552" type="" lemma="oslo" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w552"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t553" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w553"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t523"/>
+          <target id="t524"/>
+          <target id="t525"/>
+          <target id="t526"/>
+          <target id="t527"/>
+          <target id="t528"/>
+          <target id="t529"/>
+          <target id="t530"/>
+          <target id="t531"/>
+          <target id="t532"/>
+          <target id="t533"/>
+          <target id="t534"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

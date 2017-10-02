@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:29:17Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w138" sent="7" para="2" offset="808" length="3">Un’</wf>
+    <wf wid="w139" sent="7" para="2" offset="811" length="3">ora</wf>
+    <wf wid="w140" sent="7" para="2" offset="815" length="10">abbondante</wf>
+    <wf wid="w141" sent="7" para="2" offset="826" length="1">e</wf>
+    <wf wid="w142" sent="7" para="2" offset="828" length="2">un</wf>
+    <wf wid="w143" sent="7" para="2" offset="831" length="6">ottimo</wf>
+    <wf wid="w144" sent="7" para="2" offset="838" length="8">incontro</wf>
+    <wf wid="w145" sent="7" para="2" offset="847" length="3">con</wf>
+    <wf wid="w146" sent="7" para="2" offset="851" length="2">il</wf>
+    <wf wid="w147" sent="7" para="2" offset="854" length="8">francese</wf>
+    <wf wid="w148" sent="7" para="2" offset="862" length="1">,</wf>
+    <wf wid="w149" sent="7" para="2" offset="864" length="3">una</wf>
+    <wf wid="w150" sent="7" para="2" offset="868" length="6">faccia</wf>
+    <wf wid="w151" sent="7" para="2" offset="875" length="1">a</wf>
+    <wf wid="w152" sent="7" para="2" offset="877" length="6">faccia</wf>
+    <wf wid="w153" sent="7" para="2" offset="884" length="3">più</wf>
+    <wf wid="w154" sent="7" para="2" offset="888" length="5">breve</wf>
+    <wf wid="w155" sent="7" para="2" offset="894" length="1">e</wf>
+    <wf wid="w156" sent="7" para="2" offset="896" length="8">comunque</wf>
+    <wf wid="w157" sent="7" para="2" offset="905" length="8">cordiale</wf>
+    <wf wid="w158" sent="7" para="2" offset="914" length="3">con</wf>
+    <wf wid="w159" sent="7" para="2" offset="918" length="2">il</wf>
+    <wf wid="w160" sent="7" para="2" offset="921" length="5">belga</wf>
+    <wf wid="w161" sent="7" para="2" offset="926" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Un’-->
+    <term tid="t138" type="" lemma="un’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--ora-->
+    <term tid="t139" type="" lemma="ora" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--abbondante-->
+    <term tid="t140" type="" lemma="abbondare" pos="V" morphofeat="VMA~PPNS">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t141" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t142" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--ottimo-->
+    <term tid="t143" type="" lemma="ottimo" pos="G" morphofeat="ADJ~MS">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--incontro-->
+    <term tid="t144" type="" lemma="incontro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t145" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t146" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--francese-->
+    <term tid="t147" type="" lemma="francese" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t148" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t149" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--faccia-->
+    <term tid="t150" type="" lemma="faccia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t151" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--faccia-->
+    <term tid="t152" type="" lemma="faccia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--più-->
+    <term tid="t153" type="" lemma="piu'" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--breve-->
+    <term tid="t154" type="" lemma="breve" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t155" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--comunque-->
+    <term tid="t156" type="" lemma="comunque" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--cordiale-->
+    <term tid="t157" type="" lemma="cordiale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t158" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t159" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--belga-->
+    <term tid="t160" type="" lemma="belga" pos="V" morphofeat="VMA~CGN1">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t161" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--incontro-->
+        <span>
+          <target id="t144"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--ottimo-->
+        <span>
+          <target id="t143"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

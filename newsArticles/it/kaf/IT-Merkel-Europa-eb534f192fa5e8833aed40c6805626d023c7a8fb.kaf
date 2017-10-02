@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:03:09Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w427" sent="12" para="2" offset="2352" length="2">La</wf>
+    <wf wid="w428" sent="12" para="2" offset="2355" length="6">Merkel</wf>
+    <wf wid="w429" sent="12" para="2" offset="2362" length="3">può</wf>
+    <wf wid="w430" sent="12" para="2" offset="2366" length="6">ancora</wf>
+    <wf wid="w431" sent="12" para="2" offset="2373" length="9">sostenere</wf>
+    <wf wid="w432" sent="12" para="2" offset="2383" length="1">(</wf>
+    <wf wid="w433" sent="12" para="2" offset="2384" length="3">non</wf>
+    <wf wid="w434" sent="12" para="2" offset="2388" length="5">senza</wf>
+    <wf wid="w435" sent="12" para="2" offset="2394" length="7">ragione</wf>
+    <wf wid="w436" sent="12" para="2" offset="2401" length="1">)</wf>
+    <wf wid="w437" sent="12" para="2" offset="2403" length="3">che</wf>
+    <wf wid="w438" sent="12" para="2" offset="2407" length="2">la</wf>
+    <wf wid="w439" sent="12" para="2" offset="2410" length="9">sconfitta</wf>
+    <wf wid="w440" sent="12" para="2" offset="2420" length="3">non</wf>
+    <wf wid="w441" sent="12" para="2" offset="2424" length="8">influirà</wf>
+    <wf wid="w442" sent="12" para="2" offset="2433" length="3">sul</wf>
+    <wf wid="w443" sent="12" para="2" offset="2437" length="7">governo</wf>
+    <wf wid="w444" sent="12" para="2" offset="2445" length="8">federale</wf>
+    <wf wid="w445" sent="12" para="2" offset="2453" length="1">,</wf>
+    <wf wid="w446" sent="12" para="2" offset="2455" length="2">né</wf>
+    <wf wid="w447" sent="12" para="2" offset="2458" length="5">sulla</wf>
+    <wf wid="w448" sent="12" para="2" offset="2464" length="3">sua</wf>
+    <wf wid="w449" sent="12" para="2" offset="2468" length="8">politica</wf>
+    <wf wid="w450" sent="12" para="2" offset="2477" length="7">europea</wf>
+    <wf wid="w451" sent="12" para="2" offset="2484" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t427" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w427"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t428" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w428"/>
+      </span>
+    </term>
+    <!--può-->
+    <term tid="t429" type="" lemma="può" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w429"/>
+      </span>
+    </term>
+    <!--ancora-->
+    <term tid="t430" type="" lemma="ancorare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w430"/>
+      </span>
+    </term>
+    <!--sostenere-->
+    <term tid="t431" type="" lemma="sostenere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w431"/>
+      </span>
+    </term>
+    <!--(-->
+    <term tid="t432" type="" lemma="(" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w432"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t433" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w433"/>
+      </span>
+    </term>
+    <!--senza-->
+    <term tid="t434" type="" lemma="senza" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w434"/>
+      </span>
+    </term>
+    <!--ragione-->
+    <term tid="t435" type="" lemma="ragione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w435"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t436" type="" lemma=")" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w436"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t437" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w437"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t438" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w438"/>
+      </span>
+    </term>
+    <!--sconfitta-->
+    <term tid="t439" type="" lemma="sconfiggere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w439"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t440" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w440"/>
+      </span>
+    </term>
+    <!--influirà-->
+    <term tid="t441" type="" lemma="influirà" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w441"/>
+      </span>
+    </term>
+    <!--sul-->
+    <term tid="t442" type="" lemma="sul" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w442"/>
+      </span>
+    </term>
+    <!--governo-->
+    <term tid="t443" type="" lemma="governo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w443"/>
+      </span>
+    </term>
+    <!--federale-->
+    <term tid="t444" type="" lemma="federale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w444"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t445" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w445"/>
+      </span>
+    </term>
+    <!--né-->
+    <term tid="t446" type="" lemma="né" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w446"/>
+      </span>
+    </term>
+    <!--sulla-->
+    <term tid="t447" type="" lemma="sulla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w447"/>
+      </span>
+    </term>
+    <!--sua-->
+    <term tid="t448" type="" lemma="suo" pos="G" morphofeat="ADJ~POFS">
+      <span>
+        <target id="w448"/>
+      </span>
+    </term>
+    <!--politica-->
+    <term tid="t449" type="" lemma="politica" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w449"/>
+      </span>
+    </term>
+    <!--europea-->
+    <term tid="t450" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w450"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t451" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w451"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--sconfitta-->
+        <span>
+          <target id="t439"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--non influirà sul governo federale-->
+        <span>
+          <target id="t440"/>
+          <target id="t441"/>
+          <target id="t442"/>
+          <target id="t443"/>
+          <target id="t444"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--sconfitta-->
+        <span>
+          <target id="t439"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:40Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:40Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:19:32Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w167" sent="10" para="2" offset="824" length="2">La</wf>
+    <wf wid="w168" sent="10" para="2" offset="827" length="11">cancelliera</wf>
+    <wf wid="w169" sent="10" para="2" offset="839" length="7">tedesca</wf>
+    <wf wid="w170" sent="10" para="2" offset="846" length="1">,</wf>
+    <wf wid="w171" sent="10" para="2" offset="848" length="6">Angela</wf>
+    <wf wid="w172" sent="10" para="2" offset="855" length="6">Merkel</wf>
+    <wf wid="w173" sent="10" para="2" offset="861" length="1">,</wf>
+    <wf wid="w174" sent="10" para="2" offset="863" length="8">paladina</wf>
+    <wf wid="w175" sent="10" para="2" offset="872" length="3">del</wf>
+    <wf wid="w176" sent="10" para="2" offset="876" length="6">rigore</wf>
+    <wf wid="w177" sent="10" para="2" offset="883" length="2">in</wf>
+    <wf wid="w178" sent="10" para="2" offset="886" length="6">Europa</wf>
+    <wf wid="w179" sent="10" para="2" offset="892" length="1">,</wf>
+    <wf wid="w180" sent="10" para="2" offset="894" length="6">sembra</wf>
+    <wf wid="w181" sent="10" para="2" offset="901" length="4">aver</wf>
+    <wf wid="w182" sent="10" para="2" offset="906" length="7">gradito</wf>
+    <wf wid="w183" sent="10" para="2" offset="914" length="2">le</wf>
+    <wf wid="w184" sent="10" para="2" offset="917" length="6">parole</wf>
+    <wf wid="w185" sent="10" para="2" offset="924" length="3">del</wf>
+    <wf wid="w186" sent="10" para="2" offset="928" length="10">presidente</wf>
+    <wf wid="w187" sent="10" para="2" offset="939" length="9">americano</wf>
+    <wf wid="w188" sent="10" para="2" offset="948" length="1">,</wf>
+    <wf wid="w189" sent="10" para="2" offset="950" length="6">Barack</wf>
+    <wf wid="w190" sent="10" para="2" offset="957" length="5">Obama</wf>
+    <wf wid="w191" sent="10" para="2" offset="962" length="1">,</wf>
+    <wf wid="w192" sent="10" para="2" offset="964" length="2">in</wf>
+    <wf wid="w193" sent="10" para="2" offset="967" length="8">apertura</wf>
+    <wf wid="w194" sent="10" para="2" offset="976" length="3">dei</wf>
+    <wf wid="w195" sent="10" para="2" offset="980" length="6">lavori</wf>
+    <wf wid="w196" sent="10" para="2" offset="987" length="3">del</wf>
+    <wf wid="w197" sent="10" para="2" offset="991" length="2">G8</wf>
+    <wf wid="w198" sent="10" para="2" offset="993" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t167" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--cancelliera-->
+    <term tid="t168" type="" lemma="cancelliera" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--tedesca-->
+    <term tid="t169" type="" lemma="tedesco" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t170" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t171" type="" lemma="angela" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t172" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t173" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--paladina-->
+    <term tid="t174" type="" lemma="paladino" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t175" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--rigore-->
+    <term tid="t176" type="" lemma="rigore" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t177" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t178" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t179" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--sembra-->
+    <term tid="t180" type="" lemma="sembrare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--aver-->
+    <term tid="t181" type="" lemma="aver" pos="V" morphofeat="VAU~ININN">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--gradito-->
+    <term tid="t182" type="" lemma="gradire" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t183" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--parole-->
+    <term tid="t184" type="" lemma="parola" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t185" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t186" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--americano-->
+    <term tid="t187" type="" lemma="americano" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t188" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--Barack-->
+    <term tid="t189" type="" lemma="barack" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term tid="t190" type="" lemma="obama" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t191" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t192" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--apertura-->
+    <term tid="t193" type="" lemma="apertura" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t194" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--lavori-->
+    <term tid="t195" type="" lemma="lavoro" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t196" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--G8-->
+    <term tid="t197" type="" lemma="g8" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t198" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--La cancelliera tedesca , Angela Merkel-->
+        <span>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--le parole del presidente americano , Barack Obama-->
+        <span>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--sembra aver gradito-->
+        <span>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

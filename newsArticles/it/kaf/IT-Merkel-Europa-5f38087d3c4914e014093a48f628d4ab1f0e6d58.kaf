@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:21:45Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w93" sent="5" para="2" offset="493" length="2">Il</wf>
+    <wf wid="w94" sent="5" para="2" offset="496" length="13">differenziale</wf>
+    <wf wid="w95" sent="5" para="2" offset="510" length="5">della</wf>
+    <wf wid="w96" sent="5" para="2" offset="516" length="6">Spagna</wf>
+    <wf wid="w97" sent="5" para="2" offset="523" length="2">si</wf>
+    <wf wid="w98" sent="5" para="2" offset="526" length="8">mantiene</wf>
+    <wf wid="w99" sent="5" para="2" offset="535" length="5">sotto</wf>
+    <wf wid="w100" sent="5" para="2" offset="541" length="1">i</wf>
+    <wf wid="w101" sent="5" para="2" offset="543" length="3">500</wf>
+    <wf wid="w102" sent="5" para="2" offset="547" length="5">punti</wf>
+    <wf wid="w103" sent="5" para="2" offset="553" length="1">a</wf>
+    <wf wid="w104" sent="5" para="2" offset="555" length="3">495</wf>
+    <wf wid="w105" sent="5" para="2" offset="558" length="1">,</wf>
+    <wf wid="w106" sent="5" para="2" offset="560" length="3">col</wf>
+    <wf wid="w107" sent="5" para="2" offset="564" length="10">rendimento</wf>
+    <wf wid="w108" sent="5" para="2" offset="575" length="3">dei</wf>
+    <wf wid="w109" sent="5" para="2" offset="579" length="5">Bonos</wf>
+    <wf wid="w110" sent="5" para="2" offset="585" length="2">al</wf>
+    <wf wid="w111" sent="5" para="2" offset="588" length="4">6,44</wf>
+    <wf wid="w112" sent="5" para="2" offset="592" length="1">%</wf>
+    <wf wid="w113" sent="5" para="2" offset="593" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t93" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--differenziale-->
+    <term tid="t94" type="" lemma="differenziale" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t95" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--Spagna-->
+    <term tid="t96" type="" lemma="spagna" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t97" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--mantiene-->
+    <term tid="t98" type="" lemma="mantenere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--sotto-->
+    <term tid="t99" type="" lemma="sotto" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t100" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--500-->
+    <term tid="t101" type="" lemma="500" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--punti-->
+    <term tid="t102" type="" lemma="punto" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t103" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--495-->
+    <term tid="t104" type="" lemma="495" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t105" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--col-->
+    <term tid="t106" type="" lemma="col" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--rendimento-->
+    <term tid="t107" type="" lemma="rendimento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t108" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--Bonos-->
+    <term tid="t109" type="" lemma="bonos" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t110" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--6,44-->
+    <term tid="t111" type="" lemma="6,44" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t112" type="" lemma="%" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t113" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

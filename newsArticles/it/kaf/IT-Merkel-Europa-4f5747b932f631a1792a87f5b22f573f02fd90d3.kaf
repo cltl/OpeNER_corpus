@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:02:45Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w77" sent="5" para="2" offset="455" length="1">E</wf>
+    <wf wid="w78" sent="5" para="2" offset="457" length="2">sì</wf>
+    <wf wid="w79" sent="5" para="2" offset="459" length="1">,</wf>
+    <wf wid="w80" sent="5" para="2" offset="461" length="6">perché</wf>
+    <wf wid="w81" sent="5" para="2" offset="468" length="2">il</wf>
+    <wf wid="w82" sent="5" para="2" offset="471" length="7">rischio</wf>
+    <wf wid="w83" sent="5" para="2" offset="479" length="2">di</wf>
+    <wf wid="w84" sent="5" para="2" offset="482" length="2">un</wf>
+    <wf wid="w85" sent="5" para="2" offset="485" length="10">fallimento</wf>
+    <wf wid="w86" sent="5" para="2" offset="496" length="5">dello</wf>
+    <wf wid="w87" sent="5" para="2" offset="502" length="5">stato</wf>
+    <wf wid="w88" sent="5" para="2" offset="508" length="8">ellenico</wf>
+    <wf wid="w89" sent="5" para="2" offset="517" length="4">oggi</wf>
+    <wf wid="w90" sent="5" para="2" offset="522" length="1">è</wf>
+    <wf wid="w91" sent="5" para="2" offset="524" length="5">stato</wf>
+    <wf wid="w92" sent="5" para="2" offset="530" length="5">molto</wf>
+    <wf wid="w93" sent="5" para="2" offset="535" length="1">,</wf>
+    <wf wid="w94" sent="5" para="2" offset="537" length="5">molto</wf>
+    <wf wid="w95" sent="5" para="2" offset="543" length="6">vicino</wf>
+    <wf wid="w96" sent="5" para="2" offset="549" length="1">.</wf>
+  </text>
+  <terms>
+    <!--E-->
+    <term tid="t77" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--sì-->
+    <term tid="t78" type="" lemma="si'" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t79" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--perché-->
+    <term tid="t80" type="" lemma="perché" pos="V" morphofeat="VAU~CGN2">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t81" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--rischio-->
+    <term tid="t82" type="" lemma="rischio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t83" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t84" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--fallimento-->
+    <term tid="t85" type="" lemma="fallimento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--dello-->
+    <term tid="t86" type="" lemma="dello" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--stato-->
+    <term tid="t87" type="" lemma="essere" pos="V" morphofeat="VAU~PAMS">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--ellenico-->
+    <term tid="t88" type="" lemma="ellenico" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--oggi-->
+    <term tid="t89" type="" lemma="oggi" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t90" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--stato-->
+    <term tid="t91" type="" lemma="essere" pos="V" morphofeat="VAU~PAMS">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--molto-->
+    <term tid="t92" type="" lemma="molto" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t93" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--molto-->
+    <term tid="t94" type="" lemma="molto" pos="G" morphofeat="ADJ~INMS">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--vicino-->
+    <term tid="t95" type="" lemma="vicino" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t96" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--rischio di un fallimento-->
+        <span>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--è stato molto , molto vicino-->
+        <span>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--rischio-->
+        <span>
+          <target id="t82"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--fallimento-->
+        <span>
+          <target id="t85"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

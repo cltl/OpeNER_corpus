@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:47Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:47Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:13:15Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w32" sent="3" para="2" offset="177" length="2">Il</wf>
+    <wf wid="w33" sent="3" para="2" offset="180" length="10">presidente</wf>
+    <wf wid="w34" sent="3" para="2" offset="191" length="9">americano</wf>
+    <wf wid="w35" sent="3" para="2" offset="201" length="6">Barack</wf>
+    <wf wid="w36" sent="3" para="2" offset="208" length="5">Obama</wf>
+    <wf wid="w37" sent="3" para="2" offset="214" length="8">continua</wf>
+    <wf wid="w38" sent="3" para="2" offset="223" length="2">il</wf>
+    <wf wid="w39" sent="3" para="2" offset="226" length="3">suo</wf>
+    <wf wid="w40" sent="3" para="2" offset="230" length="8">pressing</wf>
+    <wf wid="w41" sent="3" para="2" offset="239" length="3">sul</wf>
+    <wf wid="w42" sent="3" para="2" offset="244" length="7">Vecchio</wf>
+    <wf wid="w43" sent="3" para="2" offset="252" length="10">Continente</wf>
+    <wf wid="w44" sent="3" para="2" offset="262" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t32" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t33" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--americano-->
+    <term tid="t34" type="" lemma="americano" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--Barack-->
+    <term tid="t35" type="" lemma="barack" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term tid="t36" type="" lemma="obama" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--continua-->
+    <term tid="t37" type="" lemma="continuare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t38" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--suo-->
+    <term tid="t39" type="" lemma="suo" pos="G" morphofeat="ADJ~POMS">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--pressing-->
+    <term tid="t40" type="" lemma="pressing" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--sul-->
+    <term tid="t41" type="" lemma="sul" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--Vecchio-->
+    <term tid="t42" type="" lemma="vecchio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--Continente-->
+    <term tid="t43" type="" lemma="continente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t44" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--pressing-->
+        <span>
+          <target id="t40"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

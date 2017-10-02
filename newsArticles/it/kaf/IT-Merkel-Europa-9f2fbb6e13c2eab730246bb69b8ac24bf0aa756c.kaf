@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:02:54Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w386" sent="19" para="2" offset="2100" length="6">Ancora</wf>
+    <wf wid="w387" sent="19" para="2" offset="2107" length="3">una</wf>
+    <wf wid="w388" sent="19" para="2" offset="2111" length="5">volta</wf>
+    <wf wid="w389" sent="19" para="2" offset="2116" length="1">,</wf>
+    <wf wid="w390" sent="19" para="2" offset="2118" length="1">i</wf>
+    <wf wid="w391" sent="19" para="2" offset="2120" length="8">sondaggi</wf>
+    <wf wid="w392" sent="19" para="2" offset="2129" length="9">avrebbero</wf>
+    <wf wid="w393" sent="19" para="2" offset="2139" length="9">sbagliato</wf>
+    <wf wid="w394" sent="19" para="2" offset="2149" length="10">previsioni</wf>
+    <wf wid="w395" sent="19" para="2" offset="2160" length="3">sul</wf>
+    <wf wid="w396" sent="19" para="2" offset="2164" length="8">successo</wf>
+    <wf wid="w397" sent="19" para="2" offset="2173" length="3">del</wf>
+    <wf wid="w398" sent="19" para="2" offset="2177" length="6">Fronte</wf>
+    <wf wid="w399" sent="19" para="2" offset="2184" length="9">Nazionale</wf>
+    <wf wid="w400" sent="19" para="2" offset="2193" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ancora-->
+    <term tid="t386" type="" lemma="ancorare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w386"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t387" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w387"/>
+      </span>
+    </term>
+    <!--volta-->
+    <term tid="t388" type="" lemma="volgere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w388"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t389" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w389"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t390" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w390"/>
+      </span>
+    </term>
+    <!--sondaggi-->
+    <term tid="t391" type="" lemma="sondaggio" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w391"/>
+      </span>
+    </term>
+    <!--avrebbero-->
+    <term tid="t392" type="" lemma="avere" pos="V" morphofeat="VAU~CON6">
+      <span>
+        <target id="w392"/>
+      </span>
+    </term>
+    <!--sbagliato-->
+    <term tid="t393" type="" lemma="sbagliare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w393"/>
+      </span>
+    </term>
+    <!--previsioni-->
+    <term tid="t394" type="" lemma="previsione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w394"/>
+      </span>
+    </term>
+    <!--sul-->
+    <term tid="t395" type="" lemma="sul" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w395"/>
+      </span>
+    </term>
+    <!--successo-->
+    <term tid="t396" type="" lemma="successo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t397" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <!--Fronte-->
+    <term tid="t398" type="" lemma="fronte" pos="N" morphofeat="NOU~CSNS">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <!--Nazionale-->
+    <term tid="t399" type="" lemma="nazionale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t400" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--sondaggi-->
+        <span>
+          <target id="t391"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--previsioni sul successo del Fronte Nazionale-->
+        <span>
+          <target id="t394"/>
+          <target id="t395"/>
+          <target id="t396"/>
+          <target id="t397"/>
+          <target id="t398"/>
+          <target id="t399"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--avrebbero sbagliato-->
+        <span>
+          <target id="t392"/>
+          <target id="t393"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

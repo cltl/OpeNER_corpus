@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:01Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:01Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:14:53Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w296" sent="8" para="2" offset="1553" length="5">Hanno</wf>
+    <wf wid="w297" sent="8" para="2" offset="1559" length="9">declinato</wf>
+    <wf wid="w298" sent="8" para="2" offset="1569" length="2">l’</wf>
+    <wf wid="w299" sent="8" para="2" offset="1571" length="6">invito</wf>
+    <wf wid="w300" sent="8" para="2" offset="1578" length="1">i</wf>
+    <wf wid="w301" sent="8" para="2" offset="1580" length="6">leader</wf>
+    <wf wid="w302" sent="8" para="2" offset="1587" length="12">euroscettici</wf>
+    <wf wid="w303" sent="8" para="2" offset="1599" length="1">,</wf>
+    <wf wid="w304" sent="8" para="2" offset="1601" length="3">con</wf>
+    <wf wid="w305" sent="8" para="2" offset="1605" length="2">in</wf>
+    <wf wid="w306" sent="8" para="2" offset="1608" length="5">testa</wf>
+    <wf wid="w307" sent="8" para="2" offset="1614" length="2">il</wf>
+    <wf wid="w308" sent="8" para="2" offset="1617" length="7">premier</wf>
+    <wf wid="w309" sent="8" para="2" offset="1625" length="10">britannico</wf>
+    <wf wid="w310" sent="8" para="2" offset="1635" length="1">,</wf>
+    <wf wid="w311" sent="8" para="2" offset="1637" length="5">David</wf>
+    <wf wid="w312" sent="8" para="2" offset="1643" length="7">Cameron</wf>
+    <wf wid="w313" sent="8" para="2" offset="1650" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hanno-->
+    <term tid="t296" type="" lemma="avere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--declinato-->
+    <term tid="t297" type="" lemma="declinare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t298" type="" lemma="l’" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--invito-->
+    <term tid="t299" type="" lemma="invitare" pos="V" morphofeat="VMA~REN1">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t300" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term tid="t301" type="" lemma="leader" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--euroscettici-->
+    <term tid="t302" type="" lemma="euroscettici" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t303" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t304" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t305" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--testa-->
+    <term tid="t306" type="" lemma="testa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t307" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t308" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <!--britannico-->
+    <term tid="t309" type="" lemma="britannico" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t310" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <!--David-->
+    <term tid="t311" type="" lemma="david" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t312" type="" lemma="cameron" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t313" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--leader euroscettici-->
+        <span>
+          <target id="t301"/>
+          <target id="t302"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--invito-->
+        <span>
+          <target id="t299"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--Hanno declinato-->
+        <span>
+          <target id="t296"/>
+          <target id="t297"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--euroscettici-->
+        <span>
+          <target id="t302"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

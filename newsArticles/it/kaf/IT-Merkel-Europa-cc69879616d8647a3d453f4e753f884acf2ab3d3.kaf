@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:29Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w112" sent="5" para="2" offset="565" length="8">Hollande</wf>
+    <wf wid="w113" sent="5" para="2" offset="574" length="5">aveva</wf>
+    <wf wid="w114" sent="5" para="2" offset="580" length="6">chiuso</wf>
+    <wf wid="w115" sent="5" para="2" offset="587" length="2">in</wf>
+    <wf wid="w116" sent="5" para="2" offset="590" length="5">testa</wf>
+    <wf wid="w117" sent="5" para="2" offset="596" length="2">il</wf>
+    <wf wid="w118" sent="5" para="2" offset="599" length="5">primo</wf>
+    <wf wid="w119" sent="5" para="2" offset="605" length="5">turno</wf>
+    <wf wid="w120" sent="5" para="2" offset="610" length="1">,</wf>
+    <wf wid="w121" sent="5" para="2" offset="612" length="3">con</wf>
+    <wf wid="w122" sent="5" para="2" offset="616" length="2">il</wf>
+    <wf wid="w123" sent="5" para="2" offset="619" length="5">28,63</wf>
+    <wf wid="w124" sent="5" para="2" offset="624" length="1">%</wf>
+    <wf wid="w125" sent="5" para="2" offset="625" length="1">,</wf>
+    <wf wid="w126" sent="5" para="2" offset="627" length="3">dei</wf>
+    <wf wid="w127" sent="5" para="2" offset="631" length="4">voti</wf>
+    <wf wid="w128" sent="5" para="2" offset="636" length="2">in</wf>
+    <wf wid="w129" sent="5" para="2" offset="639" length="7">seconda</wf>
+    <wf wid="w130" sent="5" para="2" offset="647" length="9">posizione</wf>
+    <wf wid="w131" sent="5" para="2" offset="657" length="2">il</wf>
+    <wf wid="w132" sent="5" para="2" offset="660" length="10">presidente</wf>
+    <wf wid="w133" sent="5" para="2" offset="671" length="7">uscente</wf>
+    <wf wid="w134" sent="5" para="2" offset="679" length="7">Nicolas</wf>
+    <wf wid="w135" sent="5" para="2" offset="687" length="7">Sarkozy</wf>
+    <wf wid="w136" sent="5" para="2" offset="695" length="5">27,18</wf>
+    <wf wid="w137" sent="5" para="2" offset="700" length="1">%</wf>
+    <wf wid="w138" sent="5" para="2" offset="701" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hollande-->
+    <term tid="t112" type="" lemma="hollande" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--aveva-->
+    <term tid="t113" type="" lemma="avere" pos="V" morphofeat="VAU~IMN3">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--chiuso-->
+    <term tid="t114" type="" lemma="chiudere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t115" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--testa-->
+    <term tid="t116" type="" lemma="testare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t117" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--primo-->
+    <term tid="t118" type="" lemma="primo" pos="G" morphofeat="ADJ~ORMS">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--turno-->
+    <term tid="t119" type="" lemma="turno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t120" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t121" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t122" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--28,63-->
+    <term tid="t123" type="" lemma="28,63" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t124" type="" lemma="%" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t125" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t126" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--voti-->
+    <term tid="t127" type="" lemma="voto" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t128" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--seconda-->
+    <term tid="t129" type="" lemma="secondo" pos="G" morphofeat="ADJ~ORFS">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--posizione-->
+    <term tid="t130" type="" lemma="posizione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t131" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t132" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--uscente-->
+    <term tid="t133" type="" lemma="uscire" pos="V" morphofeat="VMA~PPNS">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--Nicolas-->
+    <term tid="t134" type="" lemma="nicolas" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--Sarkozy-->
+    <term tid="t135" type="" lemma="sarkozy" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--27,18-->
+    <term tid="t136" type="" lemma="27,18" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--%-->
+    <term tid="t137" type="" lemma="%" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t138" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Hollande-->
+        <span>
+          <target id="t112"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--il primo turno-->
+        <span>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--aveva chiuso in testa-->
+        <span>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

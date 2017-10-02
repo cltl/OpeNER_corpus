@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:25Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:25Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:08:13Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w167" sent="8" para="2" offset="894" length="2">La</wf>
+    <wf wid="w168" sent="8" para="2" offset="897" length="8">Germania</wf>
+    <wf wid="w169" sent="8" para="2" offset="906" length="4">deve</wf>
+    <wf wid="w170" sent="8" para="2" offset="911" length="1">'</wf>
+    <wf wid="w171" sent="8" para="2" offset="912" length="8">digerire</wf>
+    <wf wid="w172" sent="8" para="2" offset="920" length="1">'</wf>
+    <wf wid="w173" sent="8" para="2" offset="922" length="9">decisioni</wf>
+    <wf wid="w174" sent="8" para="2" offset="932" length="3">che</wf>
+    <wf wid="w175" sent="8" para="2" offset="936" length="7">avrebbe</wf>
+    <wf wid="w176" sent="8" para="2" offset="944" length="7">evitato</wf>
+    <wf wid="w177" sent="8" para="2" offset="952" length="10">volentieri</wf>
+    <wf wid="w178" sent="8" para="2" offset="962" length="1">,</wf>
+    <wf wid="w179" sent="8" para="2" offset="964" length="1">a</wf>
+    <wf wid="w180" sent="8" para="2" offset="966" length="7">partire</wf>
+    <wf wid="w181" sent="8" para="2" offset="974" length="5">dalla</wf>
+    <wf wid="w182" sent="8" para="2" offset="980" length="8">rinuncia</wf>
+    <wf wid="w183" sent="8" para="2" offset="989" length="1">a</wf>
+    <wf wid="w184" sent="8" para="2" offset="991" length="7">imporre</wf>
+    <wf wid="w185" sent="8" para="2" offset="999" length="2">l'</wf>
+    <wf wid="w186" sent="8" para="2" offset="1001" length="10">intervento</wf>
+    <wf wid="w187" sent="8" para="2" offset="1012" length="5">della</wf>
+    <wf wid="w188" sent="8" para="2" offset="1018" length="6">troika</wf>
+    <wf wid="w189" sent="8" para="2" offset="1025" length="2">in</wf>
+    <wf wid="w190" sent="8" para="2" offset="1028" length="4">caso</wf>
+    <wf wid="w191" sent="8" para="2" offset="1033" length="2">di</wf>
+    <wf wid="w192" sent="8" para="2" offset="1036" length="10">intervento</wf>
+    <wf wid="w193" sent="8" para="2" offset="1047" length="4">anti</wf>
+    <wf wid="w194" sent="8" para="2" offset="1052" length="6">spread</wf>
+    <wf wid="w195" sent="8" para="2" offset="1058" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t167" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--Germania-->
+    <term tid="t168" type="" lemma="germania" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--deve-->
+    <term tid="t169" type="" lemma="dovere" pos="V" morphofeat="VMO~REN3">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t170" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--digerire-->
+    <term tid="t171" type="" lemma="digerire" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t172" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--decisioni-->
+    <term tid="t173" type="" lemma="decisione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t174" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--avrebbe-->
+    <term tid="t175" type="" lemma="avere" pos="V" morphofeat="VAU~CON3">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--evitato-->
+    <term tid="t176" type="" lemma="evitare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--volentieri-->
+    <term tid="t177" type="" lemma="volentieri" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t178" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t179" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--partire-->
+    <term tid="t180" type="" lemma="partire" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--dalla-->
+    <term tid="t181" type="" lemma="dalla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--rinuncia-->
+    <term tid="t182" type="" lemma="rinuncia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t183" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--imporre-->
+    <term tid="t184" type="" lemma="imporre" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t185" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--intervento-->
+    <term tid="t186" type="" lemma="intervento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t187" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--troika-->
+    <term tid="t188" type="" lemma="troika" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t189" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--caso-->
+    <term tid="t190" type="" lemma="caso" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t191" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--intervento-->
+    <term tid="t192" type="" lemma="intervento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--anti-->
+    <term tid="t193" type="" lemma="anti" pos="G" morphofeat="ADJ~QUNI">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--spread-->
+    <term tid="t194" type="" lemma="spread" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t195" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Germania-->
+        <span>
+          <target id="t168"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--decisioni che avrebbe evitato volentieri-->
+        <span>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--deve ' digerire-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--decisioni-->
+        <span>
+          <target id="t173"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--che avrebbe evitato volentieri-->
+        <span>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

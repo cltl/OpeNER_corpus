@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:49Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:49Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:10:53Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w276" sent="10" para="2" offset="1328" length="2">Lo</wf>
+    <wf wid="w277" sent="10" para="2" offset="1331" length="7">afferma</wf>
+    <wf wid="w278" sent="10" para="2" offset="1339" length="2">il</wf>
+    <wf wid="w279" sent="10" para="2" offset="1342" length="8">ministro</wf>
+    <wf wid="w280" sent="10" para="2" offset="1351" length="3">per</wf>
+    <wf wid="w281" sent="10" para="2" offset="1355" length="2">lo</wf>
+    <wf wid="w282" sent="10" para="2" offset="1358" length="8">Sviluppo</wf>
+    <wf wid="w283" sent="10" para="2" offset="1367" length="9">economico</wf>
+    <wf wid="w284" sent="10" para="2" offset="1376" length="1">,</wf>
+    <wf wid="w285" sent="10" para="2" offset="1378" length="7">Corrado</wf>
+    <wf wid="w286" sent="10" para="2" offset="1386" length="7">Passera</wf>
+    <wf wid="w287" sent="10" para="2" offset="1393" length="1">,</wf>
+    <wf wid="w288" sent="10" para="2" offset="1395" length="11">rispondendo</wf>
+    <wf wid="w289" sent="10" para="2" offset="1407" length="2">ad</wf>
+    <wf wid="w290" sent="10" para="2" offset="1410" length="3">una</wf>
+    <wf wid="w291" sent="10" para="2" offset="1414" length="7">domanda</wf>
+    <wf wid="w292" sent="10" para="2" offset="1422" length="3">sul</wf>
+    <wf wid="w293" sent="10" para="2" offset="1426" length="5">fatto</wf>
+    <wf wid="w294" sent="10" para="2" offset="1432" length="3">che</wf>
+    <wf wid="w295" sent="10" para="2" offset="1436" length="2">il</wf>
+    <wf wid="w296" sent="10" para="2" offset="1439" length="7">governo</wf>
+    <wf wid="w297" sent="10" para="2" offset="1447" length="8">italiano</wf>
+    <wf wid="w298" sent="10" para="2" offset="1456" length="5">possa</wf>
+    <wf wid="w299" sent="10" para="2" offset="1462" length="6">temere</wf>
+    <wf wid="w300" sent="10" para="2" offset="1469" length="2">un</wf>
+    <wf wid="w301" sent="10" para="2" offset="1472" length="7">effetto</wf>
+    <wf wid="w302" sent="10" para="2" offset="1480" length="8">contagio</wf>
+    <wf wid="w303" sent="10" para="2" offset="1489" length="20">Grecia-Spagna-Italia</wf>
+    <wf wid="w304" sent="10" para="2" offset="1509" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Lo-->
+    <term tid="t276" type="" lemma="lo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--afferma-->
+    <term tid="t277" type="" lemma="affermare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t278" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--ministro-->
+    <term tid="t279" type="" lemma="ministro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t280" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t281" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--Sviluppo-->
+    <term tid="t282" type="" lemma="sviluppo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--economico-->
+    <term tid="t283" type="" lemma="economico" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t284" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--Corrado-->
+    <term tid="t285" type="" lemma="corrado" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--Passera-->
+    <term tid="t286" type="" lemma="passera" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t287" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--rispondendo-->
+    <term tid="t288" type="" lemma="rispondere" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--ad-->
+    <term tid="t289" type="" lemma="ad" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t290" type="" lemma="una" pos="Q" morphofeat="PRON~IDF3">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--domanda-->
+    <term tid="t291" type="" lemma="domandare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--sul-->
+    <term tid="t292" type="" lemma="sul" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--fatto-->
+    <term tid="t293" type="" lemma="fatto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t294" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t295" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--governo-->
+    <term tid="t296" type="" lemma="governo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--italiano-->
+    <term tid="t297" type="" lemma="italiano" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--possa-->
+    <term tid="t298" type="" lemma="potere" pos="V" morphofeat="VMO~CGN3">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--temere-->
+    <term tid="t299" type="" lemma="temere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t300" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--effetto-->
+    <term tid="t301" type="" lemma="effetto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--contagio-->
+    <term tid="t302" type="" lemma="contagio" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--Grecia-Spagna-Italia-->
+    <term tid="t303" type="" lemma="grecia-spagna-italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t304" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t276"/>
+          <target id="t277"/>
+          <target id="t278"/>
+          <target id="t279"/>
+          <target id="t280"/>
+          <target id="t281"/>
+          <target id="t282"/>
+          <target id="t283"/>
+          <target id="t284"/>
+          <target id="t285"/>
+          <target id="t286"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

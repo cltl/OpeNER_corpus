@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:14Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:13CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2">La</wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="8">Germania</wf>
+    <wf wid="w3" sent="1" para="1" offset="12" length="3">non</wf>
+    <wf wid="w4" sent="1" para="1" offset="16" length="3">puó</wf>
+    <wf wid="w5" sent="1" para="1" offset="20" length="8">trainare</wf>
+    <wf wid="w6" sent="1" para="1" offset="29" length="5">tutta</wf>
+    <wf wid="w7" sent="1" para="1" offset="35" length="2">l'</wf>
+    <wf wid="w8" sent="1" para="1" offset="37" length="6">Europa</wf>
+    <wf wid="w9" sent="1" para="1" offset="43" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t1" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Germania-->
+    <term tid="t2" type="" lemma="germania" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t3" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--puó-->
+    <term tid="t4" type="" lemma="puó" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--trainare-->
+    <term tid="t5" type="" lemma="trainare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--tutta-->
+    <term tid="t6" type="" lemma="tutto" pos="G" morphofeat="ADJ~INFS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t7" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t8" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t9" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Germania-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--tutta l' Europa-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--non puó trainare-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

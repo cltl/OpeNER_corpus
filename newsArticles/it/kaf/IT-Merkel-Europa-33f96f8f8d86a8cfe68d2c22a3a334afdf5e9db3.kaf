@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:12Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w161" sent="8" para="2" offset="824" length="6">Chiaro</wf>
+    <wf wid="w162" sent="8" para="2" offset="831" length="2">il</wf>
+    <wf wid="w163" sent="8" para="2" offset="834" length="8">concetto</wf>
+    <wf wid="w164" sent="8" para="2" offset="842" length="1">:</wf>
+    <wf wid="w165" sent="8" para="2" offset="844" length="6">perchè</wf>
+    <wf wid="w166" sent="8" para="2" offset="851" length="2">la</wf>
+    <wf wid="w167" sent="8" para="2" offset="854" length="6">Grecia</wf>
+    <wf wid="w168" sent="8" para="2" offset="861" length="2">si</wf>
+    <wf wid="w169" sent="8" para="2" offset="864" length="9">risollevi</wf>
+    <wf wid="w170" sent="8" para="2" offset="873" length="1">,</wf>
+    <wf wid="w171" sent="8" para="2" offset="875" length="2">l’</wf>
+    <wf wid="w172" sent="8" para="2" offset="877" length="6">Europa</wf>
+    <wf wid="w173" sent="8" para="2" offset="884" length="4">deve</wf>
+    <wf wid="w174" sent="8" para="2" offset="889" length="10">pretendere</wf>
+    <wf wid="w175" sent="8" para="2" offset="900" length="4">meno</wf>
+    <wf wid="w176" sent="8" para="2" offset="905" length="8">rigidità</wf>
+    <wf wid="w177" sent="8" para="2" offset="914" length="3">con</wf>
+    <wf wid="w178" sent="8" para="2" offset="918" length="1">i</wf>
+    <wf wid="w179" sent="8" para="2" offset="920" length="5">conti</wf>
+    <wf wid="w180" sent="8" para="2" offset="925" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Chiaro-->
+    <term tid="t161" type="" lemma="chiaro" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t162" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--concetto-->
+    <term tid="t163" type="" lemma="concetto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t164" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--perchè-->
+    <term tid="t165" type="" lemma="perchè" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t166" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--Grecia-->
+    <term tid="t167" type="" lemma="grecia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t168" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--risollevi-->
+    <term tid="t169" type="" lemma="risollevare" pos="V" morphofeat="VMA~IPN3">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t170" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t171" type="" lemma="l’" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t172" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--deve-->
+    <term tid="t173" type="" lemma="dovere" pos="V" morphofeat="VMO~REN3">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--pretendere-->
+    <term tid="t174" type="" lemma="pretendere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--meno-->
+    <term tid="t175" type="" lemma="meno" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--rigidità-->
+    <term tid="t176" type="" lemma="rigidità" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t177" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t178" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--conti-->
+    <term tid="t179" type="" lemma="conte" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t180" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+          <target id="t178"/>
+          <target id="t179"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

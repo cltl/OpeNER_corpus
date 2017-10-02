@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:18:04Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w156" sent="8" para="2" offset="881" length="1">E</wf>
+    <wf wid="w157" sent="8" para="2" offset="883" length="8">tuttavia</wf>
+    <wf wid="w158" sent="8" para="2" offset="891" length="1">,</wf>
+    <wf wid="w159" sent="8" para="2" offset="893" length="2">il</wf>
+    <wf wid="w160" sent="8" para="2" offset="896" length="4">tiro</wf>
+    <wf wid="w161" sent="8" para="2" offset="901" length="10">incrociato</wf>
+    <wf wid="w162" sent="8" para="2" offset="912" length="2">di</wf>
+    <wf wid="w163" sent="8" para="2" offset="915" length="4">ieri</wf>
+    <wf wid="w164" sent="8" para="2" offset="920" length="7">suscita</wf>
+    <wf wid="w165" sent="8" para="2" offset="928" length="3">una</wf>
+    <wf wid="w166" sent="8" para="2" offset="932" length="8">notevole</wf>
+    <wf wid="w167" sent="8" para="2" offset="941" length="11">impressione</wf>
+    <wf wid="w168" sent="8" para="2" offset="952" length="1">.</wf>
+  </text>
+  <terms>
+    <!--E-->
+    <term tid="t156" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--tuttavia-->
+    <term tid="t157" type="" lemma="tuttavia" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t158" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t159" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--tiro-->
+    <term tid="t160" type="" lemma="tiro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--incrociato-->
+    <term tid="t161" type="" lemma="incrociare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t162" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--ieri-->
+    <term tid="t163" type="" lemma="ieri" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--suscita-->
+    <term tid="t164" type="" lemma="suscitare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t165" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--notevole-->
+    <term tid="t166" type="" lemma="notevole" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--impressione-->
+    <term tid="t167" type="" lemma="impressione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t168" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--tiro incrociato-->
+        <span>
+          <target id="t160"/>
+          <target id="t161"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--notevole impressione-->
+        <span>
+          <target id="t166"/>
+          <target id="t167"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

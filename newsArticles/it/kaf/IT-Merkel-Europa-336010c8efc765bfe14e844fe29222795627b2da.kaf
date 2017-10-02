@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:51Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w394" sent="14" para="2" offset="2278" length="2">La</wf>
+    <wf wid="w395" sent="14" para="2" offset="2281" length="5">gente</wf>
+    <wf wid="w396" sent="14" para="2" offset="2287" length="3">non</wf>
+    <wf wid="w397" sent="14" para="2" offset="2291" length="2">si</wf>
+    <wf wid="w398" sent="14" para="2" offset="2294" length="5">sente</wf>
+    <wf wid="w399" sent="14" para="2" offset="2300" length="13">rappresentata</wf>
+    <wf wid="w400" sent="14" para="2" offset="2314" length="3">dai</wf>
+    <wf wid="w401" sent="14" para="2" offset="2318" length="8">politici</wf>
+    <wf wid="w402" sent="14" para="2" offset="2327" length="1">e</wf>
+    <wf wid="w403" sent="14" para="2" offset="2329" length="2">la</wf>
+    <wf wid="w404" sent="14" para="2" offset="2332" length="11">maggioranza</wf>
+    <wf wid="w405" sent="14" para="2" offset="2344" length="5">pensa</wf>
+    <wf wid="w406" sent="14" para="2" offset="2350" length="3">che</wf>
+    <wf wid="w407" sent="14" para="2" offset="2354" length="2">la</wf>
+    <wf wid="w408" sent="14" para="2" offset="2357" length="8">Germania</wf>
+    <wf wid="w409" sent="14" para="2" offset="2366" length="4">stia</wf>
+    <wf wid="w410" sent="14" para="2" offset="2371" length="5">dando</wf>
+    <wf wid="w411" sent="14" para="2" offset="2377" length="4">all’</wf>
+    <wf wid="w412" sent="14" para="2" offset="2381" length="6">Europa</wf>
+    <wf wid="w413" sent="14" para="2" offset="2388" length="3">più</wf>
+    <wf wid="w414" sent="14" para="2" offset="2392" length="2">di</wf>
+    <wf wid="w415" sent="14" para="2" offset="2395" length="6">quanto</wf>
+    <wf wid="w416" sent="14" para="2" offset="2402" length="6">riceva</wf>
+    <wf wid="w417" sent="14" para="2" offset="2408" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t394" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w394"/>
+      </span>
+    </term>
+    <!--gente-->
+    <term tid="t395" type="" lemma="gente" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w395"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t396" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t397" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <!--sente-->
+    <term tid="t398" type="" lemma="sentire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <!--rappresentata-->
+    <term tid="t399" type="" lemma="rappresentare" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <!--dai-->
+    <term tid="t400" type="" lemma="dai" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <!--politici-->
+    <term tid="t401" type="" lemma="politico" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t402" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t403" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <!--maggioranza-->
+    <term tid="t404" type="" lemma="maggioranza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+    <!--pensa-->
+    <term tid="t405" type="" lemma="pensare" pos="V" morphofeat="VMA~IPN2">
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t406" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t407" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <!--Germania-->
+    <term tid="t408" type="" lemma="germania" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <!--stia-->
+    <term tid="t409" type="" lemma="stia" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <!--dando-->
+    <term tid="t410" type="" lemma="dare" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <!--all’-->
+    <term tid="t411" type="" lemma="all’" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t412" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <!--più-->
+    <term tid="t413" type="" lemma="piu'" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t414" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+    <!--quanto-->
+    <term tid="t415" type="" lemma="quanto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w415"/>
+      </span>
+    </term>
+    <!--riceva-->
+    <term tid="t416" type="" lemma="ricevere" pos="V" morphofeat="VMA~IMN3">
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t417" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Germania-->
+        <span>
+          <target id="t408"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--più di quanto riceva-->
+        <span>
+          <target id="t413"/>
+          <target id="t414"/>
+          <target id="t415"/>
+          <target id="t416"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--stia dando-->
+        <span>
+          <target id="t409"/>
+          <target id="t410"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--maggioranza-->
+        <span>
+          <target id="t404"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--più di quanto riceva-->
+        <span>
+          <target id="t413"/>
+          <target id="t414"/>
+          <target id="t415"/>
+          <target id="t416"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--stia dando-->
+        <span>
+          <target id="t409"/>
+          <target id="t410"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--gente-->
+        <span>
+          <target id="t395"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--si sente rappresentata-->
+        <span>
+          <target id="t397"/>
+          <target id="t398"/>
+          <target id="t399"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:27:53Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:53CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w20" sent="3" para="2" offset="134" length="6">Londra</wf>
+    <wf wid="w21" sent="3" para="2" offset="140" length="1">:</wf>
+    <wf wid="w22" sent="3" para="2" offset="141" length="1">«</wf>
+    <wf wid="w23" sent="3" para="2" offset="142" length="7">Indegno</wf>
+    <wf wid="w24" sent="3" para="2" offset="149" length="1">,</wf>
+    <wf wid="w25" sent="3" para="2" offset="151" length="6">pronti</wf>
+    <wf wid="w26" sent="3" para="2" offset="158" length="2">ad</wf>
+    <wf wid="w27" sent="3" para="2" offset="161" length="6">azioni</wf>
+    <wf wid="w28" sent="3" para="2" offset="168" length="6">legali</wf>
+    <wf wid="w29" sent="3" para="2" offset="174" length="1">»</wf>
+    <wf wid="w30" sent="3" para="2" offset="175" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Londra-->
+    <term tid="t20" type="" lemma="londra" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t21" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t22" type="" lemma="«" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--Indegno-->
+    <term tid="t23" type="" lemma="indegno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t24" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--pronti-->
+    <term tid="t25" type="" lemma="pronto" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--ad-->
+    <term tid="t26" type="" lemma="ad" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--azioni-->
+    <term tid="t27" type="" lemma="azione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--legali-->
+    <term tid="t28" type="" lemma="legale" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t29" type="" lemma="»" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t30" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--Indegno-->
+        <span>
+          <target id="t23"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

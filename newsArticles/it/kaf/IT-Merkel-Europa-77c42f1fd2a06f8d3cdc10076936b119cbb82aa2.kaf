@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:45Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:45Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:12:16Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:52CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w227" sent="7" para="2" offset="1201" length="2">Da</wf>
+    <wf wid="w228" sent="7" para="2" offset="1204" length="7">Berlino</wf>
+    <wf wid="w229" sent="7" para="2" offset="1211" length="1">,</wf>
+    <wf wid="w230" sent="7" para="2" offset="1213" length="2">la</wf>
+    <wf wid="w231" sent="7" para="2" offset="1216" length="11">cancelliera</wf>
+    <wf wid="w232" sent="7" para="2" offset="1228" length="7">tedesca</wf>
+    <wf wid="w233" sent="7" para="2" offset="1236" length="6">Angela</wf>
+    <wf wid="w234" sent="7" para="2" offset="1243" length="6">Merkel</wf>
+    <wf wid="w235" sent="7" para="2" offset="1250" length="3">non</wf>
+    <wf wid="w236" sent="7" para="2" offset="1254" length="2">ha</wf>
+    <wf wid="w237" sent="7" para="2" offset="1257" length="4">dato</wf>
+    <wf wid="w238" sent="7" para="2" offset="1262" length="7">giudizi</wf>
+    <wf wid="w239" sent="7" para="2" offset="1269" length="1">,</wf>
+    <wf wid="w240" sent="7" para="2" offset="1271" length="2">ma</wf>
+    <wf wid="w241" sent="7" para="2" offset="1274" length="1">è</wf>
+    <wf wid="w242" sent="7" para="2" offset="1276" length="8">sembrata</wf>
+    <wf wid="w243" sent="7" para="2" offset="1285" length="12">possibilista</wf>
+    <wf wid="w244" sent="7" para="2" offset="1297" length="1">:</wf>
+    <wf wid="w245" sent="7" para="2" offset="1299" length="1">"</wf>
+    <wf wid="w246" sent="7" para="2" offset="1300" length="3">non</wf>
+    <wf wid="w247" sent="7" para="2" offset="1304" length="2">ci</wf>
+    <wf wid="w248" sent="7" para="2" offset="1307" length="4">sono</wf>
+    <wf wid="w249" sent="7" para="2" offset="1312" length="5">piani</wf>
+    <wf wid="w250" sent="7" para="2" offset="1318" length="8">concreti</wf>
+    <wf wid="w251" sent="7" para="2" offset="1326" length="1">,</wf>
+    <wf wid="w252" sent="7" para="2" offset="1328" length="2">ma</wf>
+    <wf wid="w253" sent="7" para="2" offset="1331" length="2">c'</wf>
+    <wf wid="w254" sent="7" para="2" offset="1333" length="1">é</wf>
+    <wf wid="w255" sent="7" para="2" offset="1335" length="2">la</wf>
+    <wf wid="w256" sent="7" para="2" offset="1338" length="11">possibilità</wf>
+    <wf wid="w257" sent="7" para="2" offset="1350" length="7">teorica</wf>
+    <wf wid="w258" sent="7" para="2" offset="1358" length="1">-</wf>
+    <wf wid="w259" sent="7" para="2" offset="1360" length="2">ha</wf>
+    <wf wid="w260" sent="7" para="2" offset="1363" length="5">detto</wf>
+    <wf wid="w261" sent="7" para="2" offset="1369" length="1">-</wf>
+    <wf wid="w262" sent="7" para="2" offset="1371" length="3">che</wf>
+    <wf wid="w263" sent="7" para="2" offset="1375" length="2">si</wf>
+    <wf wid="w264" sent="7" para="2" offset="1378" length="8">comprino</wf>
+    <wf wid="w265" sent="7" para="2" offset="1387" length="3">nel</wf>
+    <wf wid="w266" sent="7" para="2" offset="1391" length="7">mercato</wf>
+    <wf wid="w267" sent="7" para="2" offset="1399" length="10">secondario</wf>
+    <wf wid="w268" sent="7" para="2" offset="1410" length="6">titoli</wf>
+    <wf wid="w269" sent="7" para="2" offset="1417" length="2">di</wf>
+    <wf wid="w270" sent="7" para="2" offset="1420" length="5">Stato</wf>
+    <wf wid="w271" sent="7" para="2" offset="1425" length="1">,</wf>
+    <wf wid="w272" sent="7" para="2" offset="1427" length="5">nella</wf>
+    <wf wid="w273" sent="7" para="2" offset="1433" length="7">cornice</wf>
+    <wf wid="w274" sent="7" para="2" offset="1441" length="5">delle</wf>
+    <wf wid="w275" sent="7" para="2" offset="1447" length="10">condizioni</wf>
+    <wf wid="w276" sent="7" para="2" offset="1458" length="8">previste</wf>
+    <wf wid="w277" sent="7" para="2" offset="1467" length="3">dal</wf>
+    <wf wid="w278" sent="7" para="2" offset="1471" length="9">contratto</wf>
+    <wf wid="w279" sent="7" para="2" offset="1481" length="5">dell'</wf>
+    <wf wid="w280" sent="7" para="2" offset="1486" length="4">Efsf</wf>
+    <wf wid="w281" sent="7" para="2" offset="1490" length="1">"</wf>
+    <wf wid="w282" sent="7" para="2" offset="1491" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Da-->
+    <term tid="t227" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--Berlino-->
+    <term tid="t228" type="" lemma="berlino" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t229" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t230" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--cancelliera-->
+    <term tid="t231" type="" lemma="cancelliera" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--tedesca-->
+    <term tid="t232" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t233" type="" lemma="angela" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t234" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t235" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t236" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--dato-->
+    <term tid="t237" type="" lemma="dare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--giudizi-->
+    <term tid="t238" type="" lemma="giudizio" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t239" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t240" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t241" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--sembrata-->
+    <term tid="t242" type="" lemma="sembrare" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--possibilista-->
+    <term tid="t243" type="" lemma="possibilista" pos="N" morphofeat="NOU~CSNS">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t244" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t245" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t246" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--ci-->
+    <term tid="t247" type="" lemma="ci" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--sono-->
+    <term tid="t248" type="" lemma="essere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--piani-->
+    <term tid="t249" type="" lemma="piano" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--concreti-->
+    <term tid="t250" type="" lemma="concreto" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t251" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t252" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--c'-->
+    <term tid="t253" type="" lemma="c'" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--é-->
+    <term tid="t254" type="" lemma="essere" pos="V" morphofeat="VAU~IPN3">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t255" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--possibilità-->
+    <term tid="t256" type="" lemma="possibilità" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--teorica-->
+    <term tid="t257" type="" lemma="teorico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t258" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t259" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--detto-->
+    <term tid="t260" type="" lemma="dettare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t261" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t262" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t263" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--comprino-->
+    <term tid="t264" type="" lemma="comprare" pos="V" morphofeat="VMA~IPN6">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t265" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--mercato-->
+    <term tid="t266" type="" lemma="mercato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--secondario-->
+    <term tid="t267" type="" lemma="secondario" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--titoli-->
+    <term tid="t268" type="" lemma="titolo" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t269" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--Stato-->
+    <term tid="t270" type="" lemma="stato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t271" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--nella-->
+    <term tid="t272" type="" lemma="nella" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--cornice-->
+    <term tid="t273" type="" lemma="cornice" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--delle-->
+    <term tid="t274" type="" lemma="delle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--condizioni-->
+    <term tid="t275" type="" lemma="condizione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--previste-->
+    <term tid="t276" type="" lemma="prevedere" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--dal-->
+    <term tid="t277" type="" lemma="dal" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--contratto-->
+    <term tid="t278" type="" lemma="contratto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t279" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--Efsf-->
+    <term tid="t280" type="" lemma="efsf" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t281" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t282" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--cancelliera tedesca Angela Merkel-->
+        <span>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--non ha dato giudizi-->
+        <span>
+          <target id="t235"/>
+          <target id="t236"/>
+          <target id="t237"/>
+          <target id="t238"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--cancelliera tedesca Angela Merkel-->
+        <span>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--è sembrata possibilista-->
+        <span>
+          <target id="t241"/>
+          <target id="t242"/>
+          <target id="t243"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

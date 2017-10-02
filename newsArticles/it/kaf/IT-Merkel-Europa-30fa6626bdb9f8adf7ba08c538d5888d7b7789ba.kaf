@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:35Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:35Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:10:02Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w140" sent="5" para="2" offset="696" length="7">Erdogan</wf>
+    <wf wid="w141" sent="5" para="2" offset="704" length="2">ha</wf>
+    <wf wid="w142" sent="5" para="2" offset="707" length="9">osservato</wf>
+    <wf wid="w143" sent="5" para="2" offset="717" length="3">che</wf>
+    <wf wid="w144" sent="5" para="2" offset="721" length="2">le</wf>
+    <wf wid="w145" sent="5" para="2" offset="724" length="11">indicazioni</wf>
+    <wf wid="w146" sent="5" para="2" offset="736" length="5">dell'</wf>
+    <wf wid="w147" sent="5" para="2" offset="741" length="14">Europarlamento</wf>
+    <wf wid="w148" sent="5" para="2" offset="756" length="3">non</wf>
+    <wf wid="w149" sent="5" para="2" offset="760" length="4">sono</wf>
+    <wf wid="w150" sent="5" para="2" offset="765" length="10">vincolanti</wf>
+    <wf wid="w151" sent="5" para="2" offset="776" length="3">per</wf>
+    <wf wid="w152" sent="5" para="2" offset="780" length="2">la</wf>
+    <wf wid="w153" sent="5" para="2" offset="783" length="7">Turchia</wf>
+    <wf wid="w154" sent="5" para="2" offset="791" length="2">in</wf>
+    <wf wid="w155" sent="5" para="2" offset="794" length="6">quanto</wf>
+    <wf wid="w156" sent="5" para="2" offset="801" length="3">non</wf>
+    <wf wid="w157" sent="5" para="2" offset="805" length="1">e</wf>
+    <wf wid="w158" sent="5" para="2" offset="806" length="1">'</wf>
+    <wf wid="w159" sent="5" para="2" offset="808" length="6">membro</wf>
+    <wf wid="w160" sent="5" para="2" offset="815" length="5">dell'</wf>
+    <wf wid="w161" sent="5" para="2" offset="820" length="2">Ue</wf>
+    <wf wid="w162" sent="5" para="2" offset="822" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Erdogan-->
+    <term tid="t140" type="" lemma="erdogan" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t141" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--osservato-->
+    <term tid="t142" type="" lemma="osservare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t143" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t144" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--indicazioni-->
+    <term tid="t145" type="" lemma="indicazione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t146" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--Europarlamento-->
+    <term tid="t147" type="" lemma="europarlamento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t148" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--sono-->
+    <term tid="t149" type="" lemma="essere" pos="V" morphofeat="VAU~REN1">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--vincolanti-->
+    <term tid="t150" type="" lemma="vincolare" pos="V" morphofeat="VMA~PPNP">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t151" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t152" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--Turchia-->
+    <term tid="t153" type="" lemma="turchia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t154" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--quanto-->
+    <term tid="t155" type="" lemma="quanto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t156" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t157" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t158" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--membro-->
+    <term tid="t159" type="" lemma="membro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t160" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--Ue-->
+    <term tid="t161" type="" lemma="ue" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t162" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Erdogan-->
+        <span>
+          <target id="t140"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--indicazioni dell' Europarlamento-->
+        <span>
+          <target id="t145"/>
+          <target id="t146"/>
+          <target id="t147"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--non sono vincolanti-->
+        <span>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

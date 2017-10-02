@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:12:23Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="7">Pechino</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="1">:</wf>
+    <wf wid="w3" sent="1" para="1" offset="9" length="7">urgente</wf>
+    <wf wid="w4" sent="1" para="1" offset="17" length="9">risolvere</wf>
+    <wf wid="w5" sent="1" para="1" offset="27" length="5">crisi</wf>
+    <wf wid="w6" sent="1" para="1" offset="33" length="6">Europa</wf>
+  </text>
+  <terms>
+    <!--Pechino-->
+    <term tid="t1" type="" lemma="pechino" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t2" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--urgente-->
+    <term tid="t3" type="" lemma="urgere" pos="V" morphofeat="VMA~PPNS">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--risolvere-->
+    <term tid="t4" type="" lemma="risolvere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--crisi-->
+    <term tid="t5" type="" lemma="crisi" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t6" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Pechino-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--crisi Europa-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--urgente risolvere-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

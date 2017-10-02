@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:26Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:26Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:07:48Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:22CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="7">Vertice</wf>
+    <wf wid="w2" sent="1" para="1" offset="8" length="7">europeo</wf>
+    <wf wid="w3" sent="1" para="1" offset="15" length="1">,</wf>
+    <wf wid="w4" sent="1" para="1" offset="17" length="5">Monti</wf>
+    <wf wid="w5" sent="1" para="1" offset="23" length="7">avverte</wf>
+    <wf wid="w6" sent="1" para="1" offset="30" length="1">:</wf>
+    <wf wid="w7" sent="1" para="1" offset="32" length="1">"</wf>
+    <wf wid="w8" sent="1" para="1" offset="33" length="2">Su</wf>
+    <wf wid="w9" sent="1" para="1" offset="36" length="8">bilancio</wf>
+    <wf wid="w10" sent="1" para="1" offset="45" length="6">pronti</wf>
+    <wf wid="w11" sent="1" para="1" offset="52" length="1">a</wf>
+    <wf wid="w12" sent="1" para="1" offset="54" length="7">mettere</wf>
+    <wf wid="w13" sent="1" para="1" offset="62" length="4">veto</wf>
+    <wf wid="w14" sent="1" para="1" offset="66" length="1">"</wf>
+  </text>
+  <terms>
+    <!--Vertice-->
+    <term tid="t1" type="" lemma="vertice" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--europeo-->
+    <term tid="t2" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t3" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t4" type="" lemma="monte" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--avverte-->
+    <term tid="t5" type="" lemma="avvertire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t6" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t7" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Su-->
+    <term tid="t8" type="" lemma="su" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--bilancio-->
+    <term tid="t9" type="" lemma="bilancio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--pronti-->
+    <term tid="t10" type="" lemma="pronto" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t11" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--mettere-->
+    <term tid="t12" type="" lemma="mettere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--veto-->
+    <term tid="t13" type="" lemma="veto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t14" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Monti-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Su bilancio-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--pronti a mettere veto-->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

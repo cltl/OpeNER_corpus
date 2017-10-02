@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:46:58Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="7">Irlanda</wf>
+    <wf wid="w2" sent="1" para="1" offset="8" length="3">del</wf>
+    <wf wid="w3" sent="1" para="1" offset="12" length="4">Nord</wf>
+    <wf wid="w4" sent="1" para="1" offset="16" length="1">:</wf>
+    <wf wid="w5" sent="1" para="1" offset="18" length="2">al</wf>
+    <wf wid="w6" sent="1" para="1" offset="21" length="3">via</wf>
+    <wf wid="w7" sent="1" para="1" offset="25" length="2">il</wf>
+    <wf wid="w8" sent="1" para="1" offset="28" length="2">G8</wf>
+    <wf wid="w9" sent="1" para="1" offset="31" length="5">Letta</wf>
+    <wf wid="w10" sent="1" para="1" offset="37" length="10">incontrerà</wf>
+    <wf wid="w11" sent="1" para="1" offset="48" length="5">Obama</wf>
+  </text>
+  <terms>
+    <!--Irlanda-->
+    <term tid="t1" type="" lemma="irlanda" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t2" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Nord-->
+    <term tid="t3" type="" lemma="nord" pos="R" morphofeat="NOU~PMI">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t4" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t5" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--via-->
+    <term tid="t6" type="" lemma="via" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t7" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--G8-->
+    <term tid="t8" type="" lemma="g8" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--Letta-->
+    <term tid="t9" type="" lemma="letta" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--incontrerà-->
+    <term tid="t10" type="" lemma="incontrerà" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term tid="t11" type="" lemma="obama" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Letta-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Obama-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--incontrerà-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

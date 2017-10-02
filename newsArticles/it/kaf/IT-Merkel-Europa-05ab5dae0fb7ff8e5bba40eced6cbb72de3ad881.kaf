@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:51Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:51Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:11:19Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w177" sent="7" para="2" offset="964" length="2">Il</wf>
+    <wf wid="w178" sent="7" para="2" offset="967" length="9">documento</wf>
+    <wf wid="w179" sent="7" para="2" offset="977" length="3">non</wf>
+    <wf wid="w180" sent="7" para="2" offset="981" length="9">chiarisce</wf>
+    <wf wid="w181" sent="7" para="2" offset="991" length="5">quale</wf>
+    <wf wid="w182" sent="7" para="2" offset="997" length="4">tipo</wf>
+    <wf wid="w183" sent="7" para="2" offset="1002" length="2">di</wf>
+    <wf wid="w184" sent="7" para="2" offset="1005" length="4">dati</wf>
+    <wf wid="w185" sent="7" para="2" offset="1010" length="3">sia</wf>
+    <wf wid="w186" sent="7" para="2" offset="1014" length="5">stato</wf>
+    <wf wid="w187" sent="7" para="2" offset="1020" length="8">raccolto</wf>
+    <wf wid="w188" sent="7" para="2" offset="1029" length="5">dagli</wf>
+    <wf wid="w189" sent="7" para="2" offset="1035" length="9">americani</wf>
+    <wf wid="w190" sent="7" para="2" offset="1044" length="1">,</wf>
+    <wf wid="w191" sent="7" para="2" offset="1046" length="1">e</wf>
+    <wf wid="w192" sent="7" para="2" offset="1048" length="2">se</wf>
+    <wf wid="w193" sent="7" para="2" offset="1051" length="5">tutte</wf>
+    <wf wid="w194" sent="7" para="2" offset="1057" length="2">le</wf>
+    <wf wid="w195" sent="7" para="2" offset="1060" length="10">telefonate</wf>
+    <wf wid="w196" sent="7" para="2" offset="1071" length="1">o</wf>
+    <wf wid="w197" sent="7" para="2" offset="1073" length="4">solo</wf>
+    <wf wid="w198" sent="7" para="2" offset="1078" length="6">alcune</wf>
+    <wf wid="w199" sent="7" para="2" offset="1085" length="5">siano</wf>
+    <wf wid="w200" sent="7" para="2" offset="1091" length="5">state</wf>
+    <wf wid="w201" sent="7" para="2" offset="1097" length="9">ascoltate</wf>
+    <wf wid="w202" sent="7" para="2" offset="1106" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t177" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--documento-->
+    <term tid="t178" type="" lemma="documento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t179" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--chiarisce-->
+    <term tid="t180" type="" lemma="chiarire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--quale-->
+    <term tid="t181" type="" lemma="quale" pos="G" morphofeat="ADJ~IRNS">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--tipo-->
+    <term tid="t182" type="" lemma="tipo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t183" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--dati-->
+    <term tid="t184" type="" lemma="dato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--sia-->
+    <term tid="t185" type="" lemma="essere" pos="V" morphofeat="VAU~CGN1">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--stato-->
+    <term tid="t186" type="" lemma="essere" pos="V" morphofeat="VAU~PAMS">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--raccolto-->
+    <term tid="t187" type="" lemma="raccogliere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--dagli-->
+    <term tid="t188" type="" lemma="dagli" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--americani-->
+    <term tid="t189" type="" lemma="americano" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t190" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t191" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t192" type="" lemma="se" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--tutte-->
+    <term tid="t193" type="" lemma="tutto" pos="G" morphofeat="ADJ~INFP">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t194" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--telefonate-->
+    <term tid="t195" type="" lemma="telefonata" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--o-->
+    <term tid="t196" type="" lemma="o" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--solo-->
+    <term tid="t197" type="" lemma="solo" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--alcune-->
+    <term tid="t198" type="" lemma="alcuno" pos="G" morphofeat="ADJ~FP">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--siano-->
+    <term tid="t199" type="" lemma="essere" pos="V" morphofeat="VAU~CGN6">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--state-->
+    <term tid="t200" type="" lemma="essere" pos="V" morphofeat="VAU~PAFP">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--ascoltate-->
+    <term tid="t201" type="" lemma="ascoltare" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t202" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--documento-->
+        <span>
+          <target id="t178"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--quale tipo di dati-->
+        <span>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--non chiarisce-->
+        <span>
+          <target id="t179"/>
+          <target id="t180"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

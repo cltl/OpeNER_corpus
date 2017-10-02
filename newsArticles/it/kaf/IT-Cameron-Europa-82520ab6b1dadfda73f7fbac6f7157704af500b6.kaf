@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:27:50Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w186" sent="8" para="2" offset="956" length="2">Il</wf>
+    <wf wid="w187" sent="8" para="2" offset="959" length="5">primo</wf>
+    <wf wid="w188" sent="8" para="2" offset="965" length="8">ministro</wf>
+    <wf wid="w189" sent="8" para="2" offset="974" length="5">David</wf>
+    <wf wid="w190" sent="8" para="2" offset="980" length="7">Cameron</wf>
+    <wf wid="w191" sent="8" para="2" offset="988" length="2">ha</wf>
+    <wf wid="w192" sent="8" para="2" offset="991" length="8">ordinato</wf>
+    <wf wid="w193" sent="8" para="2" offset="1000" length="4">oggi</wf>
+    <wf wid="w194" sent="8" para="2" offset="1005" length="3">due</wf>
+    <wf wid="w195" sent="8" para="2" offset="1009" length="8">riunioni</wf>
+    <wf wid="w196" sent="8" para="2" offset="1018" length="3">del</wf>
+    <wf wid="w197" sent="8" para="2" offset="1022" length="8">comitato</wf>
+    <wf wid="w198" sent="8" para="2" offset="1031" length="3">per</wf>
+    <wf wid="w199" sent="8" para="2" offset="1035" length="2">le</wf>
+    <wf wid="w200" sent="8" para="2" offset="1038" length="9">emergenze</wf>
+    <wf wid="w201" sent="8" para="2" offset="1048" length="1">e</wf>
+    <wf wid="w202" sent="8" para="2" offset="1050" length="2">le</wf>
+    <wf wid="w203" sent="8" para="2" offset="1053" length="8">autorità</wf>
+    <wf wid="w204" sent="8" para="2" offset="1062" length="10">ambientali</wf>
+    <wf wid="w205" sent="8" para="2" offset="1073" length="5">hanno</wf>
+    <wf wid="w206" sent="8" para="2" offset="1079" length="8">diramato</wf>
+    <wf wid="w207" sent="8" para="2" offset="1088" length="5">oltre</wf>
+    <wf wid="w208" sent="8" para="2" offset="1094" length="2">50</wf>
+    <wf wid="w209" sent="8" para="2" offset="1097" length="7">allerte</wf>
+    <wf wid="w210" sent="8" para="2" offset="1105" length="11">inondazioni</wf>
+    <wf wid="w211" sent="8" para="2" offset="1117" length="2">ad</wf>
+    <wf wid="w212" sent="8" para="2" offset="1120" length="4">alto</wf>
+    <wf wid="w213" sent="8" para="2" offset="1125" length="7">livello</wf>
+    <wf wid="w214" sent="8" para="2" offset="1133" length="2">di</wf>
+    <wf wid="w215" sent="8" para="2" offset="1136" length="8">pericolo</wf>
+    <wf wid="w216" sent="8" para="2" offset="1144" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t186" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--primo-->
+    <term tid="t187" type="" lemma="primo" pos="G" morphofeat="ADJ~ORMS">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--ministro-->
+    <term tid="t188" type="" lemma="ministro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--David-->
+    <term tid="t189" type="" lemma="david" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t190" type="" lemma="cameron" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t191" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--ordinato-->
+    <term tid="t192" type="" lemma="ordinare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--oggi-->
+    <term tid="t193" type="" lemma="oggi" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--due-->
+    <term tid="t194" type="" lemma="due" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--riunioni-->
+    <term tid="t195" type="" lemma="riunione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t196" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--comitato-->
+    <term tid="t197" type="" lemma="comitato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t198" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t199" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--emergenze-->
+    <term tid="t200" type="" lemma="emergenza" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t201" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t202" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--autorità-->
+    <term tid="t203" type="" lemma="autorita'" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--ambientali-->
+    <term tid="t204" type="" lemma="ambientale" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--hanno-->
+    <term tid="t205" type="" lemma="avere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--diramato-->
+    <term tid="t206" type="" lemma="diramare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--oltre-->
+    <term tid="t207" type="" lemma="oltre" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--50-->
+    <term tid="t208" type="" lemma="50" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--allerte-->
+    <term tid="t209" type="" lemma="allerte" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--inondazioni-->
+    <term tid="t210" type="" lemma="inondazione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--ad-->
+    <term tid="t211" type="" lemma="ad" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--alto-->
+    <term tid="t212" type="" lemma="alto" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--livello-->
+    <term tid="t213" type="" lemma="livello" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t214" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--pericolo-->
+    <term tid="t215" type="" lemma="pericolo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t216" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:21Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w185" sent="8" para="2" offset="946" length="2">La</wf>
+    <wf wid="w186" sent="8" para="2" offset="949" length="11">Commissione</wf>
+    <wf wid="w187" sent="8" para="2" offset="961" length="6">accusa</wf>
+    <wf wid="w188" sent="8" para="2" offset="968" length="2">la</wf>
+    <wf wid="w189" sent="8" para="2" offset="971" length="4">Cina</wf>
+    <wf wid="w190" sent="8" para="2" offset="976" length="2">di</wf>
+    <wf wid="w191" sent="8" para="2" offset="979" length="4">fare</wf>
+    <wf wid="w192" sent="8" para="2" offset="984" length="1">“</wf>
+    <wf wid="w193" sent="8" para="2" offset="985" length="7">dumping</wf>
+    <wf wid="w194" sent="8" para="2" offset="992" length="1">”</wf>
+    <wf wid="w195" sent="8" para="2" offset="993" length="1">,</wf>
+    <wf wid="w196" sent="8" para="2" offset="995" length="4">cioè</wf>
+    <wf wid="w197" sent="8" para="2" offset="1000" length="2">di</wf>
+    <wf wid="w198" sent="8" para="2" offset="1003" length="8">invadere</wf>
+    <wf wid="w199" sent="8" para="2" offset="1012" length="2">il</wf>
+    <wf wid="w200" sent="8" para="2" offset="1015" length="7">mercato</wf>
+    <wf wid="w201" sent="8" para="2" offset="1023" length="7">europeo</wf>
+    <wf wid="w202" sent="8" para="2" offset="1031" length="3">con</wf>
+    <wf wid="w203" sent="8" para="2" offset="1035" length="6">prezzi</wf>
+    <wf wid="w204" sent="8" para="2" offset="1042" length="6">troppo</wf>
+    <wf wid="w205" sent="8" para="2" offset="1049" length="5">bassi</wf>
+    <wf wid="w206" sent="8" para="2" offset="1055" length="3">che</wf>
+    <wf wid="w207" sent="8" para="2" offset="1059" length="11">danneggiano</wf>
+    <wf wid="w208" sent="8" para="2" offset="1071" length="2">le</wf>
+    <wf wid="w209" sent="8" para="2" offset="1074" length="9">industrie</wf>
+    <wf wid="w210" sent="8" para="2" offset="1084" length="6">locali</wf>
+    <wf wid="w211" sent="8" para="2" offset="1090" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t185" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--Commissione-->
+    <term tid="t186" type="" lemma="commissione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--accusa-->
+    <term tid="t187" type="" lemma="accusare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t188" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--Cina-->
+    <term tid="t189" type="" lemma="cina" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t190" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--fare-->
+    <term tid="t191" type="" lemma="fare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--“-->
+    <term tid="t192" type="" lemma="“" pos="G" morphofeat="ADJ~MS">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--dumping-->
+    <term tid="t193" type="" lemma="dumping" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t194" type="" lemma="”" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t195" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--cioè-->
+    <term tid="t196" type="" lemma="cioè" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t197" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--invadere-->
+    <term tid="t198" type="" lemma="invadere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t199" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--mercato-->
+    <term tid="t200" type="" lemma="mercato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--europeo-->
+    <term tid="t201" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t202" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--prezzi-->
+    <term tid="t203" type="" lemma="prezzo" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--troppo-->
+    <term tid="t204" type="" lemma="troppo" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--bassi-->
+    <term tid="t205" type="" lemma="basso" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t206" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--danneggiano-->
+    <term tid="t207" type="" lemma="danneggiare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t208" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--industrie-->
+    <term tid="t209" type="" lemma="industria" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--locali-->
+    <term tid="t210" type="" lemma="locale" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t211" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--mercato europeo-->
+        <span>
+          <target id="t200"/>
+          <target id="t201"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--invadere-->
+        <span>
+          <target id="t198"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

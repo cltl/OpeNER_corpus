@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:21Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w147" sent="6" para="2" offset="818" length="1">«</wf>
+    <wf wid="w148" sent="6" para="2" offset="819" length="3">Non</wf>
+    <wf wid="w149" sent="6" para="2" offset="823" length="4">sarà</wf>
+    <wf wid="w150" sent="6" para="2" offset="828" length="8">perfetto</wf>
+    <wf wid="w151" sent="6" para="2" offset="837" length="1">-</wf>
+    <wf wid="w152" sent="6" para="2" offset="839" length="2">ha</wf>
+    <wf wid="w153" sent="6" para="2" offset="842" length="8">concesso</wf>
+    <wf wid="w154" sent="6" para="2" offset="851" length="2">il</wf>
+    <wf wid="w155" sent="6" para="2" offset="854" length="10">presidente</wf>
+    <wf wid="w156" sent="6" para="2" offset="865" length="3">del</wf>
+    <wf wid="w157" sent="6" para="2" offset="869" length="9">Consiglio</wf>
+    <wf wid="w158" sent="6" para="2" offset="879" length="2">Ue</wf>
+    <wf wid="w159" sent="6" para="2" offset="881" length="1">,</wf>
+    <wf wid="w160" sent="6" para="2" offset="883" length="6">Herman</wf>
+    <wf wid="w161" sent="6" para="2" offset="890" length="3">Van</wf>
+    <wf wid="w162" sent="6" para="2" offset="894" length="6">Rompuy</wf>
+    <wf wid="w163" sent="6" para="2" offset="901" length="1">-</wf>
+    <wf wid="w164" sent="6" para="2" offset="902" length="1">.</wf>
+  </text>
+  <terms>
+    <!--«-->
+    <term tid="t147" type="" lemma="«" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--Non-->
+    <term tid="t148" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--sarà-->
+    <term tid="t149" type="" lemma="essere" pos="V" morphofeat="VAU~FUN3">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--perfetto-->
+    <term tid="t150" type="" lemma="perfetto" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t151" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t152" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--concesso-->
+    <term tid="t153" type="" lemma="concedere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t154" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t155" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t156" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--Consiglio-->
+    <term tid="t157" type="" lemma="consiglio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--Ue-->
+    <term tid="t158" type="" lemma="ue" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t159" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--Herman-->
+    <term tid="t160" type="" lemma="herman" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--Van-->
+    <term tid="t161" type="" lemma="van" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--Rompuy-->
+    <term tid="t162" type="" lemma="rompuy" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t163" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t164" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--presidente del Consiglio Ue , Herman Van Rompuy-->
+        <span>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--Non sarà perfetto-->
+        <span>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

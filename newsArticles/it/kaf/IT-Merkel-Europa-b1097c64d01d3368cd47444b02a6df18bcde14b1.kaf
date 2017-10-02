@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:55Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w39" sent="4" para="2" offset="188" length="4">Oggi</wf>
+    <wf wid="w40" sent="4" para="2" offset="193" length="1">i</wf>
+    <wf wid="w41" sent="4" para="2" offset="195" length="8">ministri</wf>
+    <wf wid="w42" sent="4" para="2" offset="204" length="3">del</wf>
+    <wf wid="w43" sent="4" para="2" offset="208" length="9">Commercio</wf>
+    <wf wid="w44" sent="4" para="2" offset="218" length="5">dell’</wf>
+    <wf wid="w45" sent="4" para="2" offset="223" length="2">Ue</wf>
+    <wf wid="w46" sent="4" para="2" offset="226" length="4">sono</wf>
+    <wf wid="w47" sent="4" para="2" offset="231" length="8">chiamati</wf>
+    <wf wid="w48" sent="4" para="2" offset="240" length="2">ad</wf>
+    <wf wid="w49" sent="4" para="2" offset="243" length="9">approvare</wf>
+    <wf wid="w50" sent="4" para="2" offset="253" length="2">il</wf>
+    <wf wid="w51" sent="4" para="2" offset="256" length="7">mandato</wf>
+    <wf wid="w52" sent="4" para="2" offset="264" length="9">negoziale</wf>
+    <wf wid="w53" sent="4" para="2" offset="274" length="3">con</wf>
+    <wf wid="w54" sent="4" para="2" offset="278" length="3">cui</wf>
+    <wf wid="w55" sent="4" para="2" offset="282" length="2">la</wf>
+    <wf wid="w56" sent="4" para="2" offset="285" length="11">Commissione</wf>
+    <wf wid="w57" sent="4" para="2" offset="297" length="2">Ue</wf>
+    <wf wid="w58" sent="4" para="2" offset="300" length="5">dovrà</wf>
+    <wf wid="w59" sent="4" para="2" offset="306" length="8">definire</wf>
+    <wf wid="w60" sent="4" para="2" offset="315" length="2">l’</wf>
+    <wf wid="w61" sent="4" para="2" offset="317" length="7">accordo</wf>
+    <wf wid="w62" sent="4" para="2" offset="325" length="2">di</wf>
+    <wf wid="w63" sent="4" para="2" offset="328" length="6">libero</wf>
+    <wf wid="w64" sent="4" para="2" offset="335" length="6">scambi</wf>
+    <wf wid="w65" sent="4" para="2" offset="342" length="3">fra</wf>
+    <wf wid="w66" sent="4" para="2" offset="346" length="6">Europa</wf>
+    <wf wid="w67" sent="4" para="2" offset="353" length="1">e</wf>
+    <wf wid="w68" sent="4" para="2" offset="355" length="7">America</wf>
+    <wf wid="w69" sent="4" para="2" offset="362" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Oggi-->
+    <term tid="t39" type="" lemma="oggi" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t40" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--ministri-->
+    <term tid="t41" type="" lemma="ministro" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t42" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--Commercio-->
+    <term tid="t43" type="" lemma="commercio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--dell’-->
+    <term tid="t44" type="" lemma="dell’" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--Ue-->
+    <term tid="t45" type="" lemma="ue" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--sono-->
+    <term tid="t46" type="" lemma="essere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--chiamati-->
+    <term tid="t47" type="" lemma="chiamare" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--ad-->
+    <term tid="t48" type="" lemma="ad" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--approvare-->
+    <term tid="t49" type="" lemma="approvare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t50" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--mandato-->
+    <term tid="t51" type="" lemma="mandato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--negoziale-->
+    <term tid="t52" type="" lemma="negoziale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t53" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--cui-->
+    <term tid="t54" type="" lemma="cui" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t55" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--Commissione-->
+    <term tid="t56" type="" lemma="commissione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--Ue-->
+    <term tid="t57" type="" lemma="ue" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--dovrà-->
+    <term tid="t58" type="" lemma="dovere" pos="V" morphofeat="VMO~CON6">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--definire-->
+    <term tid="t59" type="" lemma="definire" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t60" type="" lemma="l’" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--accordo-->
+    <term tid="t61" type="" lemma="accordo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t62" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--libero-->
+    <term tid="t63" type="" lemma="libero" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--scambi-->
+    <term tid="t64" type="" lemma="scambiare" pos="V" morphofeat="VMA~IPN3">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--fra-->
+    <term tid="t65" type="" lemma="fra" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t66" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t67" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--America-->
+    <term tid="t68" type="" lemma="america" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t69" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--ministri del Commercio dell’ Ue-->
+        <span>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--mandato negoziale-->
+        <span>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--sono chiamati ad approvare-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

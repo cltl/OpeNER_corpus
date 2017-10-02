@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:44Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w290" sent="7" para="2" offset="1729" length="6">Questi</wf>
+    <wf wid="w291" sent="7" para="2" offset="1736" length="3">che</wf>
+    <wf wid="w292" sent="7" para="2" offset="1740" length="2">lo</wf>
+    <wf wid="w293" sent="7" para="2" offset="1743" length="7">Spiegel</wf>
+    <wf wid="w294" sent="7" para="2" offset="1751" length="9">definisce</wf>
+    <wf wid="w295" sent="7" para="2" offset="1761" length="1">«</wf>
+    <wf wid="w296" sent="7" para="2" offset="1762" length="11">contractual</wf>
+    <wf wid="w297" sent="7" para="2" offset="1774" length="12">arrangements</wf>
+    <wf wid="w298" sent="7" para="2" offset="1786" length="1">»</wf>
+    <wf wid="w299" sent="7" para="2" offset="1788" length="9">avrebbero</wf>
+    <wf wid="w300" sent="7" para="2" offset="1798" length="7">termini</wf>
+    <wf wid="w301" sent="7" para="2" offset="1806" length="1">e</wf>
+    <wf wid="w302" sent="7" para="2" offset="1808" length="9">obiettivi</wf>
+    <wf wid="w303" sent="7" para="2" offset="1818" length="9">specifici</wf>
+    <wf wid="w304" sent="7" para="2" offset="1827" length="1">,</wf>
+    <wf wid="w305" sent="7" para="2" offset="1829" length="2">da</wf>
+    <wf wid="w306" sent="7" para="2" offset="1832" length="10">sottoporre</wf>
+    <wf wid="w307" sent="7" para="2" offset="1843" length="1">a</wf>
+    <wf wid="w308" sent="7" para="2" offset="1845" length="9">verifiche</wf>
+    <wf wid="w309" sent="7" para="2" offset="1855" length="10">periodiche</wf>
+    <wf wid="w310" sent="7" para="2" offset="1865" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Questi-->
+    <term tid="t290" type="" lemma="questi" pos="Q" morphofeat="PRON~DEM6">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t291" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t292" type="" lemma="lo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--Spiegel-->
+    <term tid="t293" type="" lemma="spiegel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--definisce-->
+    <term tid="t294" type="" lemma="definire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t295" type="" lemma="«" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--contractual-->
+    <term tid="t296" type="" lemma="contractual" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--arrangements-->
+    <term tid="t297" type="" lemma="arrangements" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t298" type="" lemma="»" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--avrebbero-->
+    <term tid="t299" type="" lemma="avere" pos="V" morphofeat="VAU~CON6">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--termini-->
+    <term tid="t300" type="" lemma="terminare" pos="V" morphofeat="VMA~IPN3">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t301" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--obiettivi-->
+    <term tid="t302" type="" lemma="obiettivo" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--specifici-->
+    <term tid="t303" type="" lemma="specifico" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t304" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--da-->
+    <term tid="t305" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--sottoporre-->
+    <term tid="t306" type="" lemma="sottoporre" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t307" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--verifiche-->
+    <term tid="t308" type="" lemma="verifica" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <!--periodiche-->
+    <term tid="t309" type="" lemma="periodico" pos="G" morphofeat="ADJ~QUFP">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t310" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t290"/>
+          <target id="t291"/>
+          <target id="t292"/>
+          <target id="t293"/>
+          <target id="t294"/>
+          <target id="t295"/>
+          <target id="t296"/>
+          <target id="t297"/>
+          <target id="t298"/>
+          <target id="t299"/>
+          <target id="t300"/>
+          <target id="t301"/>
+          <target id="t302"/>
+          <target id="t303"/>
+          <target id="t304"/>
+          <target id="t305"/>
+          <target id="t306"/>
+          <target id="t307"/>
+          <target id="t308"/>
+          <target id="t309"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

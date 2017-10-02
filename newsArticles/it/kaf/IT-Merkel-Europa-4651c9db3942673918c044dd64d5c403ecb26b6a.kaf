@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:52Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w255" sent="19" para="2" offset="1355" length="5">Renzi</wf>
+    <wf wid="w256" sent="19" para="2" offset="1361" length="5">vuole</wf>
+    <wf wid="w257" sent="19" para="2" offset="1367" length="11">ottimizzare</wf>
+    <wf wid="w258" sent="19" para="2" offset="1379" length="2">il</wf>
+    <wf wid="w259" sent="19" para="2" offset="1382" length="6">furore</wf>
+    <wf wid="w260" sent="19" para="2" offset="1389" length="3">del</wf>
+    <wf wid="w261" sent="19" para="2" offset="1393" length="2">Pd</wf>
+    <wf wid="w262" sent="19" para="2" offset="1395" length="1">,</wf>
+    <wf wid="w263" sent="19" para="2" offset="1397" length="7">esploso</wf>
+    <wf wid="w264" sent="19" para="2" offset="1405" length="2">il</wf>
+    <wf wid="w265" sent="19" para="2" offset="1408" length="2">10</wf>
+    <wf wid="w266" sent="19" para="2" offset="1411" length="9">settembre</wf>
+    <wf wid="w267" sent="19" para="2" offset="1421" length="5">nella</wf>
+    <wf wid="w268" sent="19" para="2" offset="1427" length="6">giunta</wf>
+    <wf wid="w269" sent="19" para="2" offset="1434" length="3">per</wf>
+    <wf wid="w270" sent="19" para="2" offset="1438" length="2">le</wf>
+    <wf wid="w271" sent="19" para="2" offset="1441" length="8">elezioni</wf>
+    <wf wid="w272" sent="19" para="2" offset="1450" length="3">del</wf>
+    <wf wid="w273" sent="19" para="2" offset="1454" length="6">Senato</wf>
+    <wf wid="w274" sent="19" para="2" offset="1460" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Renzi-->
+    <term tid="t255" type="" lemma="renzi" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--vuole-->
+    <term tid="t256" type="" lemma="volere" pos="V" morphofeat="VMO~REN3">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--ottimizzare-->
+    <term tid="t257" type="" lemma="ottimizzare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t258" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--furore-->
+    <term tid="t259" type="" lemma="furore" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t260" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--Pd-->
+    <term tid="t261" type="" lemma="pd" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t262" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--esploso-->
+    <term tid="t263" type="" lemma="esplodere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t264" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--10-->
+    <term tid="t265" type="" lemma="10" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--settembre-->
+    <term tid="t266" type="" lemma="settembre" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--nella-->
+    <term tid="t267" type="" lemma="nella" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--giunta-->
+    <term tid="t268" type="" lemma="giunta" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t269" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t270" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--elezioni-->
+    <term tid="t271" type="" lemma="elezione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t272" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--Senato-->
+    <term tid="t273" type="" lemma="senato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t274" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Renzi-->
+        <span>
+          <target id="t255"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--furore del Pd-->
+        <span>
+          <target id="t259"/>
+          <target id="t260"/>
+          <target id="t261"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--vuole ottimizzare-->
+        <span>
+          <target id="t256"/>
+          <target id="t257"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

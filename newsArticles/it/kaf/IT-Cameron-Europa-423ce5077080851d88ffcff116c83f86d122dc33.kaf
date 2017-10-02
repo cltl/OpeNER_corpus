@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:02:24Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:51CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w288" sent="13" para="2" offset="1612" length="5">Edwin</wf>
+    <wf wid="w289" sent="13" para="2" offset="1618" length="6">Truman</wf>
+    <wf wid="w290" sent="13" para="2" offset="1625" length="3">del</wf>
+    <wf wid="w291" sent="13" para="2" offset="1629" length="8">Petersen</wf>
+    <wf wid="w292" sent="13" para="2" offset="1638" length="9">Institute</wf>
+    <wf wid="w293" sent="13" para="2" offset="1647" length="1">,</wf>
+    <wf wid="w294" sent="13" para="2" offset="1649" length="4">dove</wf>
+    <wf wid="w295" sent="13" para="2" offset="1654" length="5">Mario</wf>
+    <wf wid="w296" sent="13" para="2" offset="1660" length="5">Monti</wf>
+    <wf wid="w297" sent="13" para="2" offset="1666" length="2">ha</wf>
+    <wf wid="w298" sent="13" para="2" offset="1669" length="6">tenuto</wf>
+    <wf wid="w299" sent="13" para="2" offset="1676" length="3">una</wf>
+    <wf wid="w300" sent="13" para="2" offset="1680" length="10">conferenza</wf>
+    <wf wid="w301" sent="13" para="2" offset="1691" length="4">dopo</wf>
+    <wf wid="w302" sent="13" para="2" offset="1696" length="2">il</wf>
+    <wf wid="w303" sent="13" para="2" offset="1699" length="3">suo</wf>
+    <wf wid="w304" sent="13" para="2" offset="1703" length="8">incontro</wf>
+    <wf wid="w305" sent="13" para="2" offset="1712" length="4">alla</wf>
+    <wf wid="w306" sent="13" para="2" offset="1717" length="4">Casa</wf>
+    <wf wid="w307" sent="13" para="2" offset="1722" length="6">Bianca</wf>
+    <wf wid="w308" sent="13" para="2" offset="1728" length="1">,</wf>
+    <wf wid="w309" sent="13" para="2" offset="1730" length="6">accusa</wf>
+    <wf wid="w310" sent="13" para="2" offset="1736" length="1">:</wf>
+    <wf wid="w311" sent="13" para="2" offset="1738" length="1">"</wf>
+    <wf wid="w312" sent="13" para="2" offset="1739" length="2">L’</wf>
+    <wf wid="w313" sent="13" para="2" offset="1741" length="6">Europa</wf>
+    <wf wid="w314" sent="13" para="2" offset="1748" length="3">sta</wf>
+    <wf wid="w315" sent="13" para="2" offset="1752" length="3">già</wf>
+    <wf wid="w316" sent="13" para="2" offset="1756" length="9">imponendo</wf>
+    <wf wid="w317" sent="13" para="2" offset="1766" length="7">immensi</wf>
+    <wf wid="w318" sent="13" para="2" offset="1774" length="5">costi</wf>
+    <wf wid="w319" sent="13" para="2" offset="1780" length="9">economici</wf>
+    <wf wid="w320" sent="13" para="2" offset="1790" length="1">e</wf>
+    <wf wid="w321" sent="13" para="2" offset="1792" length="10">finanziari</wf>
+    <wf wid="w322" sent="13" para="2" offset="1803" length="2">al</wf>
+    <wf wid="w323" sent="13" para="2" offset="1806" length="5">resto</wf>
+    <wf wid="w324" sent="13" para="2" offset="1812" length="3">del</wf>
+    <wf wid="w325" sent="13" para="2" offset="1816" length="5">mondo</wf>
+    <wf wid="w326" sent="13" para="2" offset="1821" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Edwin-->
+    <term tid="t288" type="" lemma="edwin" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--Truman-->
+    <term tid="t289" type="" lemma="truman" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t290" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--Petersen-->
+    <term tid="t291" type="" lemma="petersen" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--Institute-->
+    <term tid="t292" type="" lemma="institute" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t293" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--dove-->
+    <term tid="t294" type="" lemma="dove" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--Mario-->
+    <term tid="t295" type="" lemma="mario" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t296" type="" lemma="monte" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t297" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--tenuto-->
+    <term tid="t298" type="" lemma="tenere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t299" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--conferenza-->
+    <term tid="t300" type="" lemma="conferenza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--dopo-->
+    <term tid="t301" type="" lemma="dopo" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t302" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--suo-->
+    <term tid="t303" type="" lemma="suo" pos="G" morphofeat="ADJ~POMS">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--incontro-->
+    <term tid="t304" type="" lemma="incontro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t305" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--Casa-->
+    <term tid="t306" type="" lemma="casa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--Bianca-->
+    <term tid="t307" type="" lemma="bianco" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t308" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <!--accusa-->
+    <term tid="t309" type="" lemma="accusa" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t310" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t311" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <!--L’-->
+    <term tid="t312" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t313" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <!--sta-->
+    <term tid="t314" type="" lemma="sta" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <!--già-->
+    <term tid="t315" type="" lemma="già" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--imponendo-->
+    <term tid="t316" type="" lemma="imporre" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--immensi-->
+    <term tid="t317" type="" lemma="immenso" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--costi-->
+    <term tid="t318" type="" lemma="costo" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--economici-->
+    <term tid="t319" type="" lemma="economico" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t320" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--finanziari-->
+    <term tid="t321" type="" lemma="finanziario" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t322" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--resto-->
+    <term tid="t323" type="" lemma="resto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t324" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--mondo-->
+    <term tid="t325" type="" lemma="mondo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t326" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--Europa-->
+        <span>
+          <target id="t313"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--immensi costi economici e finanziari-->
+        <span>
+          <target id="t317"/>
+          <target id="t318"/>
+          <target id="t319"/>
+          <target id="t320"/>
+          <target id="t321"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--sta già imponendo-->
+        <span>
+          <target id="t314"/>
+          <target id="t315"/>
+          <target id="t316"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--immensi costi-->
+        <span>
+          <target id="t317"/>
+          <target id="t318"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--Edwin Truman-->
+        <span>
+          <target id="t288"/>
+          <target id="t289"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--accusa-->
+        <span>
+          <target id="t309"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

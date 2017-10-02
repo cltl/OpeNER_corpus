@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:16:19Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w16" sent="2" para="2" offset="77" length="6">Merkel</wf>
+    <wf wid="w17" sent="2" para="2" offset="83" length="1">:</wf>
+    <wf wid="w18" sent="2" para="2" offset="85" length="1">"</wf>
+    <wf wid="w19" sent="2" para="2" offset="86" length="8">Sostengo</wf>
+    <wf wid="w20" sent="2" para="2" offset="95" length="2">le</wf>
+    <wf wid="w21" sent="2" para="2" offset="98" length="7">riforme</wf>
+    <wf wid="w22" sent="2" para="2" offset="106" length="2">di</wf>
+    <wf wid="w23" sent="2" para="2" offset="109" length="5">Mario</wf>
+    <wf wid="w24" sent="2" para="2" offset="115" length="5">Monti</wf>
+    <wf wid="w25" sent="2" para="2" offset="120" length="1">"</wf>
+    <wf wid="w26" sent="2" para="2" offset="121" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t16" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t17" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t18" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--Sostengo-->
+    <term tid="t19" type="" lemma="sostenere" pos="V" morphofeat="VMA~REN1">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t20" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--riforme-->
+    <term tid="t21" type="" lemma="riforma" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t22" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--Mario-->
+    <term tid="t23" type="" lemma="mario" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t24" type="" lemma="monte" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t25" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t26" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t16"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--riforme di Mario Monti-->
+        <span>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--Sostengo-->
+        <span>
+          <target id="t19"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

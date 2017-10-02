@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:09:00Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="4">Papa</wf>
+    <wf wid="w2" sent="1" para="1" offset="4" length="1">:</wf>
+    <wf wid="w3" sent="1" para="1" offset="6" length="2">ad</wf>
+    <wf wid="w4" sent="1" para="1" offset="9" length="6">Angela</wf>
+    <wf wid="w5" sent="1" para="1" offset="16" length="6">Merkel</wf>
+    <wf wid="w6" sent="1" para="1" offset="22" length="1">,</wf>
+    <wf wid="w7" sent="1" para="1" offset="24" length="2">il</wf>
+    <wf wid="w8" sent="1" para="1" offset="27" length="5">mondo</wf>
+    <wf wid="w9" sent="1" para="1" offset="33" length="2">ha</wf>
+    <wf wid="w10" sent="1" para="1" offset="36" length="7">bisogno</wf>
+    <wf wid="w11" sent="1" para="1" offset="44" length="2">di</wf>
+    <wf wid="w12" sent="1" para="1" offset="47" length="3">una</wf>
+    <wf wid="w13" sent="1" para="1" offset="51" length="6">Europa</wf>
+    <wf wid="w14" sent="1" para="1" offset="58" length="5">forte</wf>
+    <wf wid="w15" sent="1" para="1" offset="64" length="1">e</wf>
+    <wf wid="w16" sent="1" para="1" offset="66" length="6">giusta</wf>
+  </text>
+  <terms>
+    <!--Papa-->
+    <term tid="t1" type="" lemma="papa" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t2" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--ad-->
+    <term tid="t3" type="" lemma="ad" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t4" type="" lemma="angela" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t5" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t6" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t7" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--mondo-->
+    <term tid="t8" type="" lemma="mondo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t9" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--bisogno-->
+    <term tid="t10" type="" lemma="bisogno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t11" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t12" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t13" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--forte-->
+    <term tid="t14" type="" lemma="forte" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t15" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--giusta-->
+    <term tid="t16" type="" lemma="giusto" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t13"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--giusta-->
+        <span>
+          <target id="t16"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t13"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--forte-->
+        <span>
+          <target id="t14"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

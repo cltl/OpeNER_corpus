@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:49Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:49Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:13:26Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:51CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w283" sent="10" para="2" offset="1515" length="2">La</wf>
+    <wf wid="w284" sent="10" para="2" offset="1518" length="5">banda</wf>
+    <wf wid="w285" sent="10" para="2" offset="1524" length="5">della</wf>
+    <wf wid="w286" sent="10" para="2" offset="1530" length="5">Garde</wf>
+    <wf wid="w287" sent="10" para="2" offset="1536" length="12">Republicaine</wf>
+    <wf wid="w288" sent="10" para="2" offset="1549" length="5">suona</wf>
+    <wf wid="w289" sent="10" para="2" offset="1555" length="5">marce</wf>
+    <wf wid="w290" sent="10" para="2" offset="1561" length="1">e</wf>
+    <wf wid="w291" sent="10" para="2" offset="1563" length="7">qualche</wf>
+    <wf wid="w292" sent="10" para="2" offset="1571" length="7">melodia</wf>
+    <wf wid="w293" sent="10" para="2" offset="1579" length="9">evocativa</wf>
+    <wf wid="w294" sent="10" para="2" offset="1588" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t283" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--banda-->
+    <term tid="t284" type="" lemma="banda" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t285" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--Garde-->
+    <term tid="t286" type="" lemma="garde" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--Republicaine-->
+    <term tid="t287" type="" lemma="republicaine" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--suona-->
+    <term tid="t288" type="" lemma="sonare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--marce-->
+    <term tid="t289" type="" lemma="marcia" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t290" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--qualche-->
+    <term tid="t291" type="" lemma="qualche" pos="G" morphofeat="ADJ~NS">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--melodia-->
+    <term tid="t292" type="" lemma="melodia" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--evocativa-->
+    <term tid="t293" type="" lemma="evocativo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t294" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t283"/>
+          <target id="t284"/>
+          <target id="t285"/>
+          <target id="t286"/>
+          <target id="t287"/>
+          <target id="t288"/>
+          <target id="t289"/>
+          <target id="t290"/>
+          <target id="t291"/>
+          <target id="t292"/>
+          <target id="t293"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

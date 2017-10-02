@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:47Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:47Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:05:55Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w118" sent="5" para="2" offset="624" length="7">Sarkozy</wf>
+    <wf wid="w119" sent="5" para="2" offset="632" length="2">fa</wf>
+    <wf wid="w120" sent="5" para="2" offset="635" length="3">una</wf>
+    <wf wid="w121" sent="5" para="2" offset="639" length="5">corte</wf>
+    <wf wid="w122" sent="5" para="2" offset="645" length="8">spietata</wf>
+    <wf wid="w123" sent="5" para="2" offset="654" length="2">al</wf>
+    <wf wid="w124" sent="5" para="2" offset="657" length="5">Front</wf>
+    <wf wid="w125" sent="5" para="2" offset="663" length="8">National</wf>
+    <wf wid="w126" sent="5" para="2" offset="671" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Sarkozy-->
+    <term tid="t118" type="" lemma="sarkozy" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--fa-->
+    <term tid="t119" type="" lemma="fa" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t120" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--corte-->
+    <term tid="t121" type="" lemma="corte" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--spietata-->
+    <term tid="t122" type="" lemma="spietato" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t123" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--Front-->
+    <term tid="t124" type="" lemma="front" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--National-->
+    <term tid="t125" type="" lemma="national" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t126" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--corte-->
+        <span>
+          <target id="t121"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t118"/>
+          <target id="t119"/>
+          <target id="t120"/>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+          <target id="t124"/>
+          <target id="t125"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:03:13Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w249" sent="13" para="2" offset="1405" length="6">Queste</wf>
+    <wf wid="w250" sent="13" para="2" offset="1412" length="6">misure</wf>
+    <wf wid="w251" sent="13" para="2" offset="1418" length="1">,</wf>
+    <wf wid="w252" sent="13" para="2" offset="1420" length="2">in</wf>
+    <wf wid="w253" sent="13" para="2" offset="1423" length="4">gran</wf>
+    <wf wid="w254" sent="13" para="2" offset="1428" length="5">parte</wf>
+    <wf wid="w255" sent="13" para="2" offset="1434" length="6">giuste</wf>
+    <wf wid="w256" sent="13" para="2" offset="1440" length="1">,</wf>
+    <wf wid="w257" sent="13" para="2" offset="1442" length="5">hanno</wf>
+    <wf wid="w258" sent="13" para="2" offset="1448" length="7">portato</wf>
+    <wf wid="w259" sent="13" para="2" offset="1456" length="1">i</wf>
+    <wf wid="w260" sent="13" para="2" offset="1458" length="17">socialdemocratici</wf>
+    <wf wid="w261" sent="13" para="2" offset="1476" length="1">a</wf>
+    <wf wid="w262" sent="13" para="2" offset="1478" length="7">perdere</wf>
+    <wf wid="w263" sent="13" para="2" offset="1486" length="2">il</wf>
+    <wf wid="w264" sent="13" para="2" offset="1489" length="6">potere</wf>
+    <wf wid="w265" sent="13" para="2" offset="1495" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Queste-->
+    <term tid="t249" type="" lemma="queste" pos="G" morphofeat="ADJ~DIFP">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--misure-->
+    <term tid="t250" type="" lemma="misura" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t251" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t252" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--gran-->
+    <term tid="t253" type="" lemma="gran" pos="G" morphofeat="ADJ~QUNI">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--parte-->
+    <term tid="t254" type="" lemma="parte" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--giuste-->
+    <term tid="t255" type="" lemma="giusto" pos="G" morphofeat="ADJ~QUFP">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t256" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--hanno-->
+    <term tid="t257" type="" lemma="avere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--portato-->
+    <term tid="t258" type="" lemma="portare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t259" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--socialdemocratici-->
+    <term tid="t260" type="" lemma="socialdemocratico" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t261" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--perdere-->
+    <term tid="t262" type="" lemma="perdere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t263" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--potere-->
+    <term tid="t264" type="" lemma="potere" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t265" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--socialdemocratici-->
+        <span>
+          <target id="t260"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--potere-->
+        <span>
+          <target id="t264"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--perdere-->
+        <span>
+          <target id="t262"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

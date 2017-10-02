@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:18:10Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w314" sent="9" para="2" offset="1682" length="2">Il</wf>
+    <wf wid="w315" sent="9" para="2" offset="1685" length="11">cancelliere</wf>
+    <wf wid="w316" sent="9" para="2" offset="1697" length="7">tedesco</wf>
+    <wf wid="w317" sent="9" para="2" offset="1705" length="2">ha</wf>
+    <wf wid="w318" sent="9" para="2" offset="1708" length="3">poi</wf>
+    <wf wid="w319" sent="9" para="2" offset="1712" length="8">avanzato</wf>
+    <wf wid="w320" sent="9" para="2" offset="1721" length="2">la</wf>
+    <wf wid="w321" sent="9" para="2" offset="1724" length="8">proposta</wf>
+    <wf wid="w322" sent="9" para="2" offset="1733" length="2">di</wf>
+    <wf wid="w323" sent="9" para="2" offset="1736" length="9">istituire</wf>
+    <wf wid="w324" sent="9" para="2" offset="1746" length="2">un</wf>
+    <wf wid="w325" sent="9" para="2" offset="1749" length="5">fondo</wf>
+    <wf wid="w326" sent="9" para="2" offset="1755" length="2">di</wf>
+    <wf wid="w327" sent="9" para="2" offset="1758" length="11">solidarietà</wf>
+    <wf wid="w328" sent="9" para="2" offset="1770" length="3">per</wf>
+    <wf wid="w329" sent="9" para="2" offset="1774" length="9">sostenere</wf>
+    <wf wid="w330" sent="9" para="2" offset="1784" length="1">i</wf>
+    <wf wid="w331" sent="9" para="2" offset="1786" length="5">paesi</wf>
+    <wf wid="w332" sent="9" para="2" offset="1792" length="7">europei</wf>
+    <wf wid="w333" sent="9" para="2" offset="1800" length="3">che</wf>
+    <wf wid="w334" sent="9" para="2" offset="1804" length="5">hanno</wf>
+    <wf wid="w335" sent="9" para="2" offset="1810" length="7">bisogno</wf>
+    <wf wid="w336" sent="9" para="2" offset="1818" length="2">di</wf>
+    <wf wid="w337" sent="9" para="2" offset="1821" length="7">riforme</wf>
+    <wf wid="w338" sent="9" para="2" offset="1829" length="11">strutturali</wf>
+    <wf wid="w339" sent="9" para="2" offset="1841" length="3">per</wf>
+    <wf wid="w340" sent="9" para="2" offset="1845" length="8">superare</wf>
+    <wf wid="w341" sent="9" para="2" offset="1854" length="2">la</wf>
+    <wf wid="w342" sent="9" para="2" offset="1857" length="5">crisi</wf>
+    <wf wid="w343" sent="9" para="2" offset="1862" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t314" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <!--cancelliere-->
+    <term tid="t315" type="" lemma="cancelliere" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--tedesco-->
+    <term tid="t316" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t317" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--poi-->
+    <term tid="t318" type="" lemma="poi" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--avanzato-->
+    <term tid="t319" type="" lemma="avanzare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t320" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--proposta-->
+    <term tid="t321" type="" lemma="proposta" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t322" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--istituire-->
+    <term tid="t323" type="" lemma="istituire" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t324" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--fondo-->
+    <term tid="t325" type="" lemma="fondo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t326" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <!--solidarietà-->
+    <term tid="t327" type="" lemma="solidarieta'" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t328" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--sostenere-->
+    <term tid="t329" type="" lemma="sostenere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t330" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <!--paesi-->
+    <term tid="t331" type="" lemma="paese" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <!--europei-->
+    <term tid="t332" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t333" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <!--hanno-->
+    <term tid="t334" type="" lemma="avere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <!--bisogno-->
+    <term tid="t335" type="" lemma="bisogno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t336" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--riforme-->
+    <term tid="t337" type="" lemma="riforma" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--strutturali-->
+    <term tid="t338" type="" lemma="strutturale" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t339" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--superare-->
+    <term tid="t340" type="" lemma="superare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t341" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--crisi-->
+    <term tid="t342" type="" lemma="crisi" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t343" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--fondo di solidarietà-->
+        <span>
+          <target id="t325"/>
+          <target id="t326"/>
+          <target id="t327"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

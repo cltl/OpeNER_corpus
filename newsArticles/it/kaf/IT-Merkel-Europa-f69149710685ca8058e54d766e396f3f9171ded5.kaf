@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:38Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w158" sent="8" para="2" offset="835" length="2">La</wf>
+    <wf wid="w159" sent="8" para="2" offset="838" length="11">cancelliera</wf>
+    <wf wid="w160" sent="8" para="2" offset="850" length="7">tedesca</wf>
+    <wf wid="w161" sent="8" para="2" offset="858" length="2">ha</wf>
+    <wf wid="w162" sent="8" para="2" offset="861" length="8">proposto</wf>
+    <wf wid="w163" sent="8" para="2" offset="870" length="2">un</wf>
+    <wf wid="w164" sent="8" para="2" offset="873" length="10">referendum</wf>
+    <wf wid="w165" sent="8" para="2" offset="884" length="2">in</wf>
+    <wf wid="w166" sent="8" para="2" offset="887" length="6">Grecia</wf>
+    <wf wid="w167" sent="8" para="2" offset="894" length="5">sulla</wf>
+    <wf wid="w168" sent="8" para="2" offset="900" length="7">volontà</wf>
+    <wf wid="w169" sent="8" para="2" offset="908" length="2">di</wf>
+    <wf wid="w170" sent="8" para="2" offset="911" length="7">restare</wf>
+    <wf wid="w171" sent="8" para="2" offset="919" length="5">nell’</wf>
+    <wf wid="w172" sent="8" para="2" offset="924" length="8">eurozona</wf>
+    <wf wid="w173" sent="8" para="2" offset="932" length="1">,</wf>
+    <wf wid="w174" sent="8" para="2" offset="934" length="2">da</wf>
+    <wf wid="w175" sent="8" para="2" offset="937" length="7">tenersi</wf>
+    <wf wid="w176" sent="8" para="2" offset="945" length="1">a</wf>
+    <wf wid="w177" sent="8" para="2" offset="947" length="6">giugno</wf>
+    <wf wid="w178" sent="8" para="2" offset="954" length="7">assieme</wf>
+    <wf wid="w179" sent="8" para="2" offset="962" length="4">alle</wf>
+    <wf wid="w180" sent="8" para="2" offset="967" length="5">nuove</wf>
+    <wf wid="w181" sent="8" para="2" offset="973" length="8">elezioni</wf>
+    <wf wid="w182" sent="8" para="2" offset="982" length="9">politiche</wf>
+    <wf wid="w183" sent="8" para="2" offset="991" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t158" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--cancelliera-->
+    <term tid="t159" type="" lemma="cancelliera" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--tedesca-->
+    <term tid="t160" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t161" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--proposto-->
+    <term tid="t162" type="" lemma="proporre" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t163" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--referendum-->
+    <term tid="t164" type="" lemma="referendum" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t165" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--Grecia-->
+    <term tid="t166" type="" lemma="grecia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--sulla-->
+    <term tid="t167" type="" lemma="sulla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--volontà-->
+    <term tid="t168" type="" lemma="volonta'" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t169" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--restare-->
+    <term tid="t170" type="" lemma="restare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--nell’-->
+    <term tid="t171" type="" lemma="nell’" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--eurozona-->
+    <term tid="t172" type="" lemma="eurozona" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t173" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--da-->
+    <term tid="t174" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--tenersi-->
+    <term tid="t175" type="" lemma="tenersi" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t176" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--giugno-->
+    <term tid="t177" type="" lemma="giugno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--assieme-->
+    <term tid="t178" type="" lemma="assieme" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--alle-->
+    <term tid="t179" type="" lemma="alle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--nuove-->
+    <term tid="t180" type="" lemma="nuovo" pos="G" morphofeat="ADJ~QUFP">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--elezioni-->
+    <term tid="t181" type="" lemma="elezione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--politiche-->
+    <term tid="t182" type="" lemma="politico" pos="G" morphofeat="ADJ~QUFP">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t183" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

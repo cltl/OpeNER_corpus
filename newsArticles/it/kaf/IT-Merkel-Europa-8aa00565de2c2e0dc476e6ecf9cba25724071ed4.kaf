@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:19Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:19Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:19:05Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w29" sent="3" para="2" offset="179" length="7">Secondo</wf>
+    <wf wid="w30" sent="3" para="2" offset="187" length="1">i</wf>
+    <wf wid="w31" sent="3" para="2" offset="189" length="8">sondaggi</wf>
+    <wf wid="w32" sent="3" para="2" offset="198" length="6">Merkel</wf>
+    <wf wid="w33" sent="3" para="2" offset="205" length="3">non</wf>
+    <wf wid="w34" sent="3" para="2" offset="209" length="8">dovrebbe</wf>
+    <wf wid="w35" sent="3" para="2" offset="218" length="5">avere</wf>
+    <wf wid="w36" sent="3" para="2" offset="224" length="2">la</wf>
+    <wf wid="w37" sent="3" para="2" offset="227" length="11">maggioranza</wf>
+    <wf wid="w38" sent="3" para="2" offset="239" length="1">e</wf>
+    <wf wid="w39" sent="3" para="2" offset="241" length="7">sarebbe</wf>
+    <wf wid="w40" sent="3" para="2" offset="249" length="9">costretta</wf>
+    <wf wid="w41" sent="3" para="2" offset="259" length="2">ad</wf>
+    <wf wid="w42" sent="3" para="2" offset="262" length="8">allearsi</wf>
+    <wf wid="w43" sent="3" para="2" offset="271" length="3">con</wf>
+    <wf wid="w44" sent="3" para="2" offset="275" length="2">la</wf>
+    <wf wid="w45" sent="3" para="2" offset="278" length="8">sinistra</wf>
+    <wf wid="w46" sent="3" para="2" offset="286" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Secondo-->
+    <term tid="t29" type="" lemma="secondo" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t30" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--sondaggi-->
+    <term tid="t31" type="" lemma="sondaggio" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t32" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t33" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--dovrebbe-->
+    <term tid="t34" type="" lemma="dovere" pos="V" morphofeat="VMO~CON3">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--avere-->
+    <term tid="t35" type="" lemma="avere" pos="V" morphofeat="VAU~ININN">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t36" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--maggioranza-->
+    <term tid="t37" type="" lemma="maggioranza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t38" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--sarebbe-->
+    <term tid="t39" type="" lemma="essere" pos="V" morphofeat="VAU~CON3">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--costretta-->
+    <term tid="t40" type="" lemma="costringere" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--ad-->
+    <term tid="t41" type="" lemma="ad" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--allearsi-->
+    <term tid="t42" type="" lemma="allearsi" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t43" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t44" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--sinistra-->
+    <term tid="t45" type="" lemma="sinistra" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t46" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Secondo i sondaggi-->
+        <span>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Merkel-->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--non dovrebbe avere la maggioranza-->
+        <span>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

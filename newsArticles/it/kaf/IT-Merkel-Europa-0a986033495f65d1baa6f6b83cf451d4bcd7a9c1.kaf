@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:17:32Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w111" sent="5" para="2" offset="678" length="4">Ieri</wf>
+    <wf wid="w112" sent="5" para="2" offset="683" length="2">l’</wf>
+    <wf wid="w113" sent="5" para="2" offset="685" length="7">ufficio</wf>
+    <wf wid="w114" sent="5" para="2" offset="693" length="2">di</wf>
+    <wf wid="w115" sent="5" para="2" offset="696" length="10">statistica</wf>
+    <wf wid="w116" sent="5" para="2" offset="707" length="7">europeo</wf>
+    <wf wid="w117" sent="5" para="2" offset="714" length="1">,</wf>
+    <wf wid="w118" sent="5" para="2" offset="716" length="2">l’</wf>
+    <wf wid="w119" sent="5" para="2" offset="718" length="8">Eurostat</wf>
+    <wf wid="w120" sent="5" para="2" offset="726" length="1">,</wf>
+    <wf wid="w121" sent="5" para="2" offset="728" length="2">ha</wf>
+    <wf wid="w122" sent="5" para="2" offset="731" length="10">comunicato</wf>
+    <wf wid="w123" sent="5" para="2" offset="742" length="3">che</wf>
+    <wf wid="w124" sent="5" para="2" offset="746" length="3">nel</wf>
+    <wf wid="w125" sent="5" para="2" offset="750" length="9">complesso</wf>
+    <wf wid="w126" sent="5" para="2" offset="760" length="2">il</wf>
+    <wf wid="w127" sent="5" para="2" offset="763" length="8">prodotto</wf>
+    <wf wid="w128" sent="5" para="2" offset="772" length="7">interno</wf>
+    <wf wid="w129" sent="5" para="2" offset="780" length="5">lordo</wf>
+    <wf wid="w130" sent="5" para="2" offset="786" length="3">dei</wf>
+    <wf wid="w131" sent="5" para="2" offset="790" length="11">diciassette</wf>
+    <wf wid="w132" sent="5" para="2" offset="802" length="5">paesi</wf>
+    <wf wid="w133" sent="5" para="2" offset="808" length="5">della</wf>
+    <wf wid="w134" sent="5" para="2" offset="814" length="6">moneta</wf>
+    <wf wid="w135" sent="5" para="2" offset="821" length="5">unica</wf>
+    <wf wid="w136" sent="5" para="2" offset="827" length="1">è</wf>
+    <wf wid="w137" sent="5" para="2" offset="829" length="9">cresciuto</wf>
+    <wf wid="w138" sent="5" para="2" offset="839" length="5">dello</wf>
+    <wf wid="w139" sent="5" para="2" offset="845" length="3">0,3</wf>
+    <wf wid="w140" sent="5" para="2" offset="849" length="3">per</wf>
+    <wf wid="w141" sent="5" para="2" offset="853" length="5">cento</wf>
+    <wf wid="w142" sent="5" para="2" offset="859" length="3">nel</wf>
+    <wf wid="w143" sent="5" para="2" offset="863" length="7">secondo</wf>
+    <wf wid="w144" sent="5" para="2" offset="871" length="9">trimestre</wf>
+    <wf wid="w145" sent="5" para="2" offset="881" length="8">rispetto</wf>
+    <wf wid="w146" sent="5" para="2" offset="890" length="2">al</wf>
+    <wf wid="w147" sent="5" para="2" offset="893" length="5">primo</wf>
+    <wf wid="w148" sent="5" para="2" offset="898" length="1">,</wf>
+    <wf wid="w149" sent="5" para="2" offset="900" length="4">dopo</wf>
+    <wf wid="w150" sent="5" para="2" offset="905" length="3">una</wf>
+    <wf wid="w151" sent="5" para="2" offset="909" length="11">contrazione</wf>
+    <wf wid="w152" sent="5" para="2" offset="921" length="6">durata</wf>
+    <wf wid="w153" sent="5" para="2" offset="928" length="8">diciotto</wf>
+    <wf wid="w154" sent="5" para="2" offset="937" length="4">mesi</wf>
+    <wf wid="w155" sent="5" para="2" offset="941" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ieri-->
+    <term tid="t111" type="" lemma="ieri" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t112" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--ufficio-->
+    <term tid="t113" type="" lemma="ufficio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t114" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--statistica-->
+    <term tid="t115" type="" lemma="statistico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--europeo-->
+    <term tid="t116" type="" lemma="europeo" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t117" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t118" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--Eurostat-->
+    <term tid="t119" type="" lemma="eurostat" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t120" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t121" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--comunicato-->
+    <term tid="t122" type="" lemma="comunicato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t123" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t124" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--complesso-->
+    <term tid="t125" type="" lemma="complesso" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t126" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--prodotto-->
+    <term tid="t127" type="" lemma="produrre" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--interno-->
+    <term tid="t128" type="" lemma="interno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--lordo-->
+    <term tid="t129" type="" lemma="lordo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t130" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--diciassette-->
+    <term tid="t131" type="" lemma="diciassette" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--paesi-->
+    <term tid="t132" type="" lemma="paese" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t133" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--moneta-->
+    <term tid="t134" type="" lemma="moneta" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--unica-->
+    <term tid="t135" type="" lemma="unico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t136" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--cresciuto-->
+    <term tid="t137" type="" lemma="crescere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--dello-->
+    <term tid="t138" type="" lemma="dello" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--0,3-->
+    <term tid="t139" type="" lemma="0,3" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t140" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--cento-->
+    <term tid="t141" type="" lemma="cento" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t142" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--secondo-->
+    <term tid="t143" type="" lemma="secondo" pos="G" morphofeat="ADJ~ORMS">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--trimestre-->
+    <term tid="t144" type="" lemma="trimestre" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--rispetto-->
+    <term tid="t145" type="" lemma="rispetto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t146" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--primo-->
+    <term tid="t147" type="" lemma="primo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t148" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--dopo-->
+    <term tid="t149" type="" lemma="dopo" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t150" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--contrazione-->
+    <term tid="t151" type="" lemma="contrazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--durata-->
+    <term tid="t152" type="" lemma="durare" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--diciotto-->
+    <term tid="t153" type="" lemma="diciotto" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--mesi-->
+    <term tid="t154" type="" lemma="mese" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t155" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--ufficio di statistica europeo , l’ Eurostat-->
+        <span>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--prodotto interno lordo-->
+        <span>
+          <target id="t127"/>
+          <target id="t128"/>
+          <target id="t129"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--cresciuto-->
+        <span>
+          <target id="t137"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

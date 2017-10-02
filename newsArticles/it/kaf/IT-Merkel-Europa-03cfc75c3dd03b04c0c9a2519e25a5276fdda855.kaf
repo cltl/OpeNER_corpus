@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:09Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w198" sent="13" para="2" offset="1091" length="2">Il</wf>
+    <wf wid="w199" sent="13" para="2" offset="1094" length="7">vertice</wf>
+    <wf wid="w200" sent="13" para="2" offset="1102" length="7">europeo</wf>
+    <wf wid="w201" sent="13" para="2" offset="1110" length="8">deciderà</wf>
+    <wf wid="w202" sent="13" para="2" offset="1119" length="2">il</wf>
+    <wf wid="w203" sent="13" para="2" offset="1122" length="6">futuro</wf>
+    <wf wid="w204" sent="13" para="2" offset="1129" length="5">dell’</wf>
+    <wf wid="w205" sent="13" para="2" offset="1134" length="8">eurozona</wf>
+    <wf wid="w206" sent="13" para="2" offset="1142" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t198" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--vertice-->
+    <term tid="t199" type="" lemma="vertice" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--europeo-->
+    <term tid="t200" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--deciderà-->
+    <term tid="t201" type="" lemma="decidere" pos="V" morphofeat="VMA~RAN3">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t202" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--futuro-->
+    <term tid="t203" type="" lemma="futuro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--dell’-->
+    <term tid="t204" type="" lemma="dell’" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--eurozona-->
+    <term tid="t205" type="" lemma="eurozona" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t206" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--vertice europeo-->
+        <span>
+          <target id="t199"/>
+          <target id="t200"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--dell’ eurozona-->
+        <span>
+          <target id="t204"/>
+          <target id="t205"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--futuro-->
+        <span>
+          <target id="t203"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

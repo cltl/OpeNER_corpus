@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:18:27Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w205" sent="11" para="2" offset="946" length="2">La</wf>
+    <wf wid="w206" sent="11" para="2" offset="949" length="8">Germania</wf>
+    <wf wid="w207" sent="11" para="2" offset="958" length="5">torna</wf>
+    <wf wid="w208" sent="11" para="2" offset="964" length="2">in</wf>
+    <wf wid="w209" sent="11" para="2" offset="967" length="9">vantaggio</wf>
+    <wf wid="w210" sent="11" para="2" offset="976" length="1">,</wf>
+    <wf wid="w211" sent="11" para="2" offset="978" length="3">poi</wf>
+    <wf wid="w212" sent="11" para="2" offset="982" length="2">in</wf>
+    <wf wid="w213" sent="11" para="2" offset="985" length="5">dieci</wf>
+    <wf wid="w214" sent="11" para="2" offset="991" length="6">minuti</wf>
+    <wf wid="w215" sent="11" para="2" offset="998" length="5">mette</wf>
+    <wf wid="w216" sent="11" para="2" offset="1004" length="15">definitivamente</wf>
+    <wf wid="w217" sent="11" para="2" offset="1020" length="2">in</wf>
+    <wf wid="w218" sent="11" para="2" offset="1023" length="9">ginocchio</wf>
+    <wf wid="w219" sent="11" para="2" offset="1033" length="2">l’</wf>
+    <wf wid="w220" sent="11" para="2" offset="1035" length="10">avversario</wf>
+    <wf wid="w221" sent="11" para="2" offset="1045" length="1">,</wf>
+    <wf wid="w222" sent="11" para="2" offset="1047" length="1">3</wf>
+    <wf wid="w223" sent="11" para="2" offset="1049" length="1">a</wf>
+    <wf wid="w224" sent="11" para="2" offset="1051" length="1">1</wf>
+    <wf wid="w225" sent="11" para="2" offset="1052" length="1">,</wf>
+    <wf wid="w226" sent="11" para="2" offset="1054" length="1">e</wf>
+    <wf wid="w227" sent="11" para="2" offset="1056" length="1">4</wf>
+    <wf wid="w228" sent="11" para="2" offset="1058" length="1">a</wf>
+    <wf wid="w229" sent="11" para="2" offset="1060" length="1">1</wf>
+    <wf wid="w230" sent="11" para="2" offset="1061" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t205" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--Germania-->
+    <term tid="t206" type="" lemma="germania" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--torna-->
+    <term tid="t207" type="" lemma="tornare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t208" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--vantaggio-->
+    <term tid="t209" type="" lemma="vantaggio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t210" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--poi-->
+    <term tid="t211" type="" lemma="poi" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t212" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--dieci-->
+    <term tid="t213" type="" lemma="dieci" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--minuti-->
+    <term tid="t214" type="" lemma="minuto" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--mette-->
+    <term tid="t215" type="" lemma="mettere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--definitivamente-->
+    <term tid="t216" type="" lemma="definitivamente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t217" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--ginocchio-->
+    <term tid="t218" type="" lemma="ginocchio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t219" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--avversario-->
+    <term tid="t220" type="" lemma="avversario" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t221" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--3-->
+    <term tid="t222" type="" lemma="3" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t223" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--1-->
+    <term tid="t224" type="" lemma="1" pos="N" morphofeat="NOU~CSNS">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t225" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t226" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--4-->
+    <term tid="t227" type="" lemma="4" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t228" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--1-->
+    <term tid="t229" type="" lemma="1" pos="N" morphofeat="NOU~CSNS">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t230" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Germania-->
+        <span>
+          <target id="t206"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--torna in vantaggio-->
+        <span>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

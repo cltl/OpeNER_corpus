@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:41Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w98" sent="3" para="2" offset="558" length="1">I</wf>
+    <wf wid="w99" sent="3" para="2" offset="560" length="5">primi</wf>
+    <wf wid="w100" sent="3" para="2" offset="566" length="8">sondaggi</wf>
+    <wf wid="w101" sent="3" para="2" offset="575" length="4">dopo</wf>
+    <wf wid="w102" sent="3" para="2" offset="580" length="2">il</wf>
+    <wf wid="w103" sent="3" para="2" offset="583" length="9">confronto</wf>
+    <wf wid="w104" sent="3" para="2" offset="593" length="2">tv</wf>
+    <wf wid="w105" sent="3" para="2" offset="596" length="8">indicano</wf>
+    <wf wid="w106" sent="3" para="2" offset="604" length="1">,</wf>
+    <wf wid="w107" sent="3" para="2" offset="606" length="11">esattamente</wf>
+    <wf wid="w108" sent="3" para="2" offset="618" length="4">come</wf>
+    <wf wid="w109" sent="3" para="2" offset="623" length="6">quelli</wf>
+    <wf wid="w110" sent="3" para="2" offset="630" length="5">sulle</wf>
+    <wf wid="w111" sent="3" para="2" offset="636" length="10">intenzioni</wf>
+    <wf wid="w112" sent="3" para="2" offset="647" length="2">di</wf>
+    <wf wid="w113" sent="3" para="2" offset="650" length="4">voto</wf>
+    <wf wid="w114" sent="3" para="2" offset="654" length="1">,</wf>
+    <wf wid="w115" sent="3" para="2" offset="656" length="2">la</wf>
+    <wf wid="w116" sent="3" para="2" offset="659" length="11">cancelliera</wf>
+    <wf wid="w117" sent="3" para="2" offset="671" length="10">vincitrice</wf>
+    <wf wid="w118" sent="3" para="2" offset="681" length="1">.</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term tid="t98" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--primi-->
+    <term tid="t99" type="" lemma="primo" pos="G" morphofeat="ADJ~ORMP">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--sondaggi-->
+    <term tid="t100" type="" lemma="sondaggio" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--dopo-->
+    <term tid="t101" type="" lemma="dopo" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t102" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--confronto-->
+    <term tid="t103" type="" lemma="confronto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--tv-->
+    <term tid="t104" type="" lemma="tv" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--indicano-->
+    <term tid="t105" type="" lemma="indicare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t106" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--esattamente-->
+    <term tid="t107" type="" lemma="esattamente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--come-->
+    <term tid="t108" type="" lemma="come" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--quelli-->
+    <term tid="t109" type="" lemma="quelli" pos="Q" morphofeat="PRON~DEM6">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--sulle-->
+    <term tid="t110" type="" lemma="sulle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--intenzioni-->
+    <term tid="t111" type="" lemma="intenzione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t112" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--voto-->
+    <term tid="t113" type="" lemma="voto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t114" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t115" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--cancelliera-->
+    <term tid="t116" type="" lemma="cancelliera" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--vincitrice-->
+    <term tid="t117" type="" lemma="vincitore" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t118" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--cancelliera-->
+        <span>
+          <target id="t116"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--vincitrice-->
+        <span>
+          <target id="t117"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

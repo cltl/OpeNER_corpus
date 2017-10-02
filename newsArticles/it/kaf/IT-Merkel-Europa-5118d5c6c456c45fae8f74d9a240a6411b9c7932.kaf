@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:17:59Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:13CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w52" sent="3" para="2" offset="270" length="2">La</wf>
+    <wf wid="w53" sent="3" para="2" offset="273" length="5">Corte</wf>
+    <wf wid="w54" sent="3" para="2" offset="279" length="8">federale</wf>
+    <wf wid="w55" sent="3" para="2" offset="288" length="7">tedesca</wf>
+    <wf wid="w56" sent="3" para="2" offset="296" length="2">di</wf>
+    <wf wid="w57" sent="3" para="2" offset="299" length="9">Karlsruhe</wf>
+    <wf wid="w58" sent="3" para="2" offset="308" length="1">,</wf>
+    <wf wid="w59" sent="3" para="2" offset="310" length="4">ieri</wf>
+    <wf wid="w60" sent="3" para="2" offset="315" length="7">mattina</wf>
+    <wf wid="w61" sent="3" para="2" offset="322" length="1">,</wf>
+    <wf wid="w62" sent="3" para="2" offset="324" length="2">ha</wf>
+    <wf wid="w63" sent="3" para="2" offset="327" length="4">dato</wf>
+    <wf wid="w64" sent="3" para="2" offset="332" length="2">il</wf>
+    <wf wid="w65" sent="3" para="2" offset="335" length="3">suo</wf>
+    <wf wid="w66" sent="3" para="2" offset="339" length="6">avallo</wf>
+    <wf wid="w67" sent="3" para="2" offset="346" length="2">al</wf>
+    <wf wid="w68" sent="3" para="2" offset="349" length="6">Fiscal</wf>
+    <wf wid="w69" sent="3" para="2" offset="356" length="7">compact</wf>
+    <wf wid="w70" sent="3" para="2" offset="364" length="1">e</wf>
+    <wf wid="w71" sent="3" para="2" offset="366" length="2">al</wf>
+    <wf wid="w72" sent="3" para="2" offset="369" length="5">Fondo</wf>
+    <wf wid="w73" sent="3" para="2" offset="375" length="5">salva</wf>
+    <wf wid="w74" sent="3" para="2" offset="381" length="5">stati</wf>
+    <wf wid="w75" sent="3" para="2" offset="387" length="1">(</wf>
+    <wf wid="w76" sent="3" para="2" offset="388" length="3">Esm</wf>
+    <wf wid="w77" sent="3" para="2" offset="391" length="1">)</wf>
+    <wf wid="w78" sent="3" para="2" offset="392" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t52" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--Corte-->
+    <term tid="t53" type="" lemma="corte" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--federale-->
+    <term tid="t54" type="" lemma="federale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--tedesca-->
+    <term tid="t55" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t56" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--Karlsruhe-->
+    <term tid="t57" type="" lemma="karlsruhe" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t58" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--ieri-->
+    <term tid="t59" type="" lemma="ieri" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--mattina-->
+    <term tid="t60" type="" lemma="mattina" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t61" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t62" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--dato-->
+    <term tid="t63" type="" lemma="dare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t64" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--suo-->
+    <term tid="t65" type="" lemma="suo" pos="G" morphofeat="ADJ~POMS">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--avallo-->
+    <term tid="t66" type="" lemma="avallo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t67" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--Fiscal-->
+    <term tid="t68" type="" lemma="fiscal" pos="G" morphofeat="ADJ~NI">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--compact-->
+    <term tid="t69" type="" lemma="compact" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t70" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t71" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--Fondo-->
+    <term tid="t72" type="" lemma="fondo" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--salva-->
+    <term tid="t73" type="" lemma="salvo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--stati-->
+    <term tid="t74" type="" lemma="essere" pos="V" morphofeat="VAU~PAMP">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--(-->
+    <term tid="t75" type="" lemma="(" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--Esm-->
+    <term tid="t76" type="" lemma="esm" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t77" type="" lemma=")" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t78" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Corte federale tedesca-->
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Fiscal compact-->
+        <span>
+          <target id="t68"/>
+          <target id="t69"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ha dato il suo avallo-->
+        <span>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Corte federale tedesca-->
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Fondo salva stati-->
+        <span>
+          <target id="t72"/>
+          <target id="t73"/>
+          <target id="t74"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ha dato il suo avallo-->
+        <span>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

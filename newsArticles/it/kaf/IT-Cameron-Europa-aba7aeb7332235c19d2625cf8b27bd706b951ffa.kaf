@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:05Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w158" sent="10" para="2" offset="863" length="2">Il</wf>
+    <wf wid="w159" sent="10" para="2" offset="866" length="6">prezzo</wf>
+    <wf wid="w160" sent="10" para="2" offset="873" length="5">delle</wf>
+    <wf wid="w161" sent="10" para="2" offset="879" length="9">Olimpiadi</wf>
+    <wf wid="w162" sent="10" para="2" offset="889" length="2">di</wf>
+    <wf wid="w163" sent="10" para="2" offset="892" length="6">Londra</wf>
+    <wf wid="w164" sent="10" para="2" offset="899" length="1">è</wf>
+    <wf wid="w165" sent="10" para="2" offset="901" length="3">già</wf>
+    <wf wid="w166" sent="10" para="2" offset="905" length="11">raddoppiato</wf>
+    <wf wid="w167" sent="10" para="2" offset="917" length="8">rispetto</wf>
+    <wf wid="w168" sent="10" para="2" offset="926" length="4">alle</wf>
+    <wf wid="w169" sent="10" para="2" offset="931" length="10">previsioni</wf>
+    <wf wid="w170" sent="10" para="2" offset="941" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t158" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--prezzo-->
+    <term tid="t159" type="" lemma="prezzo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--delle-->
+    <term tid="t160" type="" lemma="delle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--Olimpiadi-->
+    <term tid="t161" type="" lemma="olimpiade" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t162" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--Londra-->
+    <term tid="t163" type="" lemma="londra" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t164" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--già-->
+    <term tid="t165" type="" lemma="già" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--raddoppiato-->
+    <term tid="t166" type="" lemma="raddoppiare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--rispetto-->
+    <term tid="t167" type="" lemma="rispetto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--alle-->
+    <term tid="t168" type="" lemma="alle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--previsioni-->
+    <term tid="t169" type="" lemma="previsione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t170" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--prezzo-->
+        <span>
+          <target id="t159"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--raddoppiato-->
+        <span>
+          <target id="t166"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

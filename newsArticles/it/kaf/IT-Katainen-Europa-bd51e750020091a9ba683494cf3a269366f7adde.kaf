@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:47Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:47Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:05:17Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w120" sent="6" para="2" offset="626" length="7">Juncker</wf>
+    <wf wid="w121" sent="6" para="2" offset="634" length="2">ha</wf>
+    <wf wid="w122" sent="6" para="2" offset="637" length="4">però</wf>
+    <wf wid="w123" sent="6" para="2" offset="642" length="5">anche</wf>
+    <wf wid="w124" sent="6" para="2" offset="648" length="8">aggiunto</wf>
+    <wf wid="w125" sent="6" para="2" offset="657" length="2">di</wf>
+    <wf wid="w126" sent="6" para="2" offset="660" length="5">voler</wf>
+    <wf wid="w127" sent="6" para="2" offset="666" length="4">dare</wf>
+    <wf wid="w128" sent="6" para="2" offset="671" length="5">pieno</wf>
+    <wf wid="w129" sent="6" para="2" offset="677" length="8">sostengo</wf>
+    <wf wid="w130" sent="6" para="2" offset="686" length="4">alla</wf>
+    <wf wid="w131" sent="6" para="2" offset="691" length="9">possibile</wf>
+    <wf wid="w132" sent="6" para="2" offset="701" length="11">successione</wf>
+    <wf wid="w133" sent="6" para="2" offset="713" length="3">del</wf>
+    <wf wid="w134" sent="6" para="2" offset="717" length="7">tedesco</wf>
+    <wf wid="w135" sent="6" para="2" offset="725" length="8">Wolfgang</wf>
+    <wf wid="w136" sent="6" para="2" offset="734" length="9">Schaeuble</wf>
+    <wf wid="w137" sent="6" para="2" offset="743" length="1">,</wf>
+    <wf wid="w138" sent="6" para="2" offset="745" length="2">il</wf>
+    <wf wid="w139" sent="6" para="2" offset="748" length="6">severo</wf>
+    <wf wid="w140" sent="6" para="2" offset="755" length="8">ministro</wf>
+    <wf wid="w141" sent="6" para="2" offset="764" length="5">delle</wf>
+    <wf wid="w142" sent="6" para="2" offset="770" length="7">Finanze</wf>
+    <wf wid="w143" sent="6" para="2" offset="778" length="5">della</wf>
+    <wf wid="w144" sent="6" para="2" offset="784" length="11">cancelliera</wf>
+    <wf wid="w145" sent="6" para="2" offset="796" length="6">Angela</wf>
+    <wf wid="w146" sent="6" para="2" offset="803" length="6">Merkel</wf>
+    <wf wid="w147" sent="6" para="2" offset="809" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Juncker-->
+    <term tid="t120" type="" lemma="juncker" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t121" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--però-->
+    <term tid="t122" type="" lemma="però" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--anche-->
+    <term tid="t123" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--aggiunto-->
+    <term tid="t124" type="" lemma="aggiunto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t125" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--voler-->
+    <term tid="t126" type="" lemma="voler" pos="V" morphofeat="VMO~ININN">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--dare-->
+    <term tid="t127" type="" lemma="dare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--pieno-->
+    <term tid="t128" type="" lemma="pieno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--sostengo-->
+    <term tid="t129" type="" lemma="sostenere" pos="V" morphofeat="VMA~REN1">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t130" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--possibile-->
+    <term tid="t131" type="" lemma="possibile" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--successione-->
+    <term tid="t132" type="" lemma="successione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t133" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--tedesco-->
+    <term tid="t134" type="" lemma="tedesco" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--Wolfgang-->
+    <term tid="t135" type="" lemma="wolfgang" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--Schaeuble-->
+    <term tid="t136" type="" lemma="schaeuble" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t137" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t138" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--severo-->
+    <term tid="t139" type="" lemma="severo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--ministro-->
+    <term tid="t140" type="" lemma="ministro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--delle-->
+    <term tid="t141" type="" lemma="delle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--Finanze-->
+    <term tid="t142" type="" lemma="finanza" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t143" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--cancelliera-->
+    <term tid="t144" type="" lemma="cancelliera" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t145" type="" lemma="angela" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t146" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t147" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--pieno sostengo-->
+        <span>
+          <target id="t128"/>
+          <target id="t129"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

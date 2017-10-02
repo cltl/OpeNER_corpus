@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:35Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:35Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:10:01Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w178" sent="4" para="2" offset="941" length="2">In</wf>
+    <wf wid="w179" sent="4" para="2" offset="944" length="3">un'</wf>
+    <wf wid="w180" sent="4" para="2" offset="947" length="10">intervista</wf>
+    <wf wid="w181" sent="4" para="2" offset="958" length="4">alla</wf>
+    <wf wid="w182" sent="4" para="2" offset="963" length="4">rete</wf>
+    <wf wid="w183" sent="4" para="2" offset="968" length="8">pubblica</wf>
+    <wf wid="w184" sent="4" para="2" offset="977" length="3">Ard</wf>
+    <wf wid="w185" sent="4" para="2" offset="980" length="1">,</wf>
+    <wf wid="w186" sent="4" para="2" offset="982" length="6">Merkel</wf>
+    <wf wid="w187" sent="4" para="2" offset="989" length="2">ha</wf>
+    <wf wid="w188" sent="4" para="2" offset="992" length="8">espresso</wf>
+    <wf wid="w189" sent="4" para="2" offset="1001" length="2">la</wf>
+    <wf wid="w190" sent="4" para="2" offset="1004" length="9">necessita</wf>
+    <wf wid="w191" sent="4" para="2" offset="1013" length="1">'</wf>
+    <wf wid="w192" sent="4" para="2" offset="1015" length="2">di</wf>
+    <wf wid="w193" sent="4" para="2" offset="1018" length="1">"</wf>
+    <wf wid="w194" sent="4" para="2" offset="1019" length="9">negoziare</wf>
+    <wf wid="w195" sent="4" para="2" offset="1029" length="3">una</wf>
+    <wf wid="w196" sent="4" para="2" offset="1033" length="16">regolamentazione</wf>
+    <wf wid="w197" sent="4" para="2" offset="1050" length="1">a</wf>
+    <wf wid="w198" sent="4" para="2" offset="1052" length="7">livello</wf>
+    <wf wid="w199" sent="4" para="2" offset="1060" length="14">internazionale</wf>
+    <wf wid="w200" sent="4" para="2" offset="1074" length="1">"</wf>
+    <wf wid="w201" sent="4" para="2" offset="1076" length="3">per</wf>
+    <wf wid="w202" sent="4" para="2" offset="1080" length="2">la</wf>
+    <wf wid="w203" sent="4" para="2" offset="1083" length="5">quale</wf>
+    <wf wid="w204" sent="4" para="2" offset="1088" length="1">,</wf>
+    <wf wid="w205" sent="4" para="2" offset="1090" length="1">"</wf>
+    <wf wid="w206" sent="4" para="2" offset="1091" length="7">sarebbe</wf>
+    <wf wid="w207" sent="4" para="2" offset="1099" length="4">bene</wf>
+    <wf wid="w208" sent="4" para="2" offset="1104" length="3">che</wf>
+    <wf wid="w209" sent="4" para="2" offset="1108" length="2">l'</wf>
+    <wf wid="w210" sent="4" para="2" offset="1110" length="2">Ue</wf>
+    <wf wid="w211" sent="4" para="2" offset="1113" length="8">parlasse</wf>
+    <wf wid="w212" sent="4" para="2" offset="1122" length="3">con</wf>
+    <wf wid="w213" sent="4" para="2" offset="1126" length="3">una</wf>
+    <wf wid="w214" sent="4" para="2" offset="1130" length="4">voce</wf>
+    <wf wid="w215" sent="4" para="2" offset="1135" length="4">sola</wf>
+    <wf wid="w216" sent="4" para="2" offset="1139" length="1">"</wf>
+    <wf wid="w217" sent="4" para="2" offset="1140" length="1">.</wf>
+  </text>
+  <terms>
+    <!--In-->
+    <term tid="t178" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--un'-->
+    <term tid="t179" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--intervista-->
+    <term tid="t180" type="" lemma="intervista" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t181" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--rete-->
+    <term tid="t182" type="" lemma="rete" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--pubblica-->
+    <term tid="t183" type="" lemma="pubblico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--Ard-->
+    <term tid="t184" type="" lemma="ard" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t185" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t186" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t187" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--espresso-->
+    <term tid="t188" type="" lemma="esprimere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t189" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--necessita-->
+    <term tid="t190" type="" lemma="necessita" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t191" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t192" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t193" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--negoziare-->
+    <term tid="t194" type="" lemma="negoziare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t195" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--regolamentazione-->
+    <term tid="t196" type="" lemma="regolamentazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t197" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--livello-->
+    <term tid="t198" type="" lemma="livello" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--internazionale-->
+    <term tid="t199" type="" lemma="internazionale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t200" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t201" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t202" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--quale-->
+    <term tid="t203" type="" lemma="quale" pos="Q" morphofeat="PRON~REN3">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t204" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t205" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--sarebbe-->
+    <term tid="t206" type="" lemma="essere" pos="V" morphofeat="VAU~CON3">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--bene-->
+    <term tid="t207" type="" lemma="bene" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t208" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t209" type="" lemma="l'" pos="Q" morphofeat="PRON~PEN3">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--Ue-->
+    <term tid="t210" type="" lemma="ue" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--parlasse-->
+    <term tid="t211" type="" lemma="parlare" pos="V" morphofeat="VMA~CGN3">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t212" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t213" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--voce-->
+    <term tid="t214" type="" lemma="voce" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--sola-->
+    <term tid="t215" type="" lemma="solo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t216" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t217" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+          <target id="t193"/>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+          <target id="t200"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

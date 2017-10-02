@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:16:24Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w217" sent="10" para="2" offset="1323" length="3">Gli</wf>
+    <wf wid="w218" sent="10" para="2" offset="1327" length="6">ultimi</wf>
+    <wf wid="w219" sent="10" para="2" offset="1334" length="8">sondaggi</wf>
+    <wf wid="w220" sent="10" para="2" offset="1343" length="8">mostrano</wf>
+    <wf wid="w221" sent="10" para="2" offset="1352" length="7">infatti</wf>
+    <wf wid="w222" sent="10" para="2" offset="1360" length="2">un</wf>
+    <wf wid="w223" sent="10" para="2" offset="1363" length="5">testa</wf>
+    <wf wid="w224" sent="10" para="2" offset="1369" length="1">a</wf>
+    <wf wid="w225" sent="10" para="2" offset="1371" length="5">testa</wf>
+    <wf wid="w226" sent="10" para="2" offset="1377" length="3">fra</wf>
+    <wf wid="w227" sent="10" para="2" offset="1381" length="2">il</wf>
+    <wf wid="w228" sent="10" para="2" offset="1384" length="11">governatore</wf>
+    <wf wid="w229" sent="10" para="2" offset="1396" length="7">uscente</wf>
+    <wf wid="w230" sent="10" para="2" offset="1404" length="1">e</wf>
+    <wf wid="w231" sent="10" para="2" offset="1406" length="2">il</wf>
+    <wf wid="w232" sent="10" para="2" offset="1409" length="9">candidato</wf>
+    <wf wid="w233" sent="10" para="2" offset="1419" length="3">Spd</wf>
+    <wf wid="w234" sent="10" para="2" offset="1422" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Gli-->
+    <term tid="t217" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--ultimi-->
+    <term tid="t218" type="" lemma="ultimo" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--sondaggi-->
+    <term tid="t219" type="" lemma="sondaggio" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--mostrano-->
+    <term tid="t220" type="" lemma="mostrare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--infatti-->
+    <term tid="t221" type="" lemma="infatti" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t222" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--testa-->
+    <term tid="t223" type="" lemma="testare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t224" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--testa-->
+    <term tid="t225" type="" lemma="testa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--fra-->
+    <term tid="t226" type="" lemma="fra" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t227" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--governatore-->
+    <term tid="t228" type="" lemma="governatore" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--uscente-->
+    <term tid="t229" type="" lemma="uscire" pos="V" morphofeat="VMA~PPNS">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t230" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t231" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--candidato-->
+    <term tid="t232" type="" lemma="candidato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--Spd-->
+    <term tid="t233" type="" lemma="spd" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t234" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t217"/>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:18:41Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w42" sent="3" para="2" offset="216" length="3">Via</wf>
+    <wf wid="w43" sent="3" para="2" offset="220" length="6">libera</wf>
+    <wf wid="w44" sent="3" para="2" offset="227" length="1">a</wf>
+    <wf wid="w45" sent="3" para="2" offset="229" length="9">ispezioni</wf>
+    <wf wid="w46" sent="3" para="2" offset="239" length="3">Onu</wf>
+    <wf wid="w47" sent="3" para="2" offset="243" length="5">sulle</wf>
+    <wf wid="w48" sent="3" para="2" offset="249" length="4">armi</wf>
+    <wf wid="w49" sent="3" para="2" offset="254" length="8">chimiche</wf>
+    <wf wid="w50" sent="3" para="2" offset="262" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Via-->
+    <term tid="t42" type="" lemma="via" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--libera-->
+    <term tid="t43" type="" lemma="liberare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t44" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--ispezioni-->
+    <term tid="t45" type="" lemma="ispezione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--Onu-->
+    <term tid="t46" type="" lemma="onu" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--sulle-->
+    <term tid="t47" type="" lemma="sulle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--armi-->
+    <term tid="t48" type="" lemma="arma" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--chimiche-->
+    <term tid="t49" type="" lemma="chimico" pos="G" morphofeat="ADJ~QUFP">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t50" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--ispezioni Onu sulle armi chimiche-->
+        <span>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--Via libera-->
+        <span>
+          <target id="t42"/>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

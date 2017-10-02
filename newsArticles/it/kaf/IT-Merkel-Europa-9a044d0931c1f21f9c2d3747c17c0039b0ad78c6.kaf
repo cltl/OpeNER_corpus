@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:49Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:49Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:12:37Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w247" sent="8" para="2" offset="1296" length="5">Tutto</wf>
+    <wf wid="w248" sent="8" para="2" offset="1302" length="6">questo</wf>
+    <wf wid="w249" sent="8" para="2" offset="1308" length="1">,</wf>
+    <wf wid="w250" sent="8" para="2" offset="1310" length="6">scrive</wf>
+    <wf wid="w251" sent="8" para="2" offset="1317" length="2">il</wf>
+    <wf wid="w252" sent="8" para="2" offset="1320" length="9">direttore</wf>
+    <wf wid="w253" sent="8" para="2" offset="1330" length="10">Napoletano</wf>
+    <wf wid="w254" sent="8" para="2" offset="1340" length="1">,</wf>
+    <wf wid="w255" sent="8" para="2" offset="1342" length="1">"</wf>
+    <wf wid="w256" sent="8" para="2" offset="1343" length="5">serve</wf>
+    <wf wid="w257" sent="8" para="2" offset="1349" length="6">subito</wf>
+    <wf wid="w258" sent="8" para="2" offset="1355" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Tutto-->
+    <term tid="t247" type="" lemma="tutto" pos="G" morphofeat="ADJ~INMS">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--questo-->
+    <term tid="t248" type="" lemma="questo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t249" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--scrive-->
+    <term tid="t250" type="" lemma="scrivere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t251" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--direttore-->
+    <term tid="t252" type="" lemma="direttore" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--Napoletano-->
+    <term tid="t253" type="" lemma="napoletano" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t254" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t255" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--serve-->
+    <term tid="t256" type="" lemma="servire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--subito-->
+    <term tid="t257" type="" lemma="subito" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t258" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--il direttore Napoletano-->
+        <span>
+          <target id="t251"/>
+          <target id="t252"/>
+          <target id="t253"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Tutto questo-->
+        <span>
+          <target id="t247"/>
+          <target id="t248"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--serve subito-->
+        <span>
+          <target id="t256"/>
+          <target id="t257"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

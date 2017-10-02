@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:46:26Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:24CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w25" sent="3" para="2" offset="144" length="7">Secondo</wf>
+    <wf wid="w26" sent="3" para="2" offset="152" length="2">il</wf>
+    <wf wid="w27" sent="3" para="2" offset="155" length="9">tribunale</wf>
+    <wf wid="w28" sent="3" para="2" offset="165" length="2">di</wf>
+    <wf wid="w29" sent="3" para="2" offset="168" length="5">Mosca</wf>
+    <wf wid="w30" sent="3" para="2" offset="173" length="1">,</wf>
+    <wf wid="w31" sent="3" para="2" offset="175" length="2">le</wf>
+    <wf wid="w32" sent="3" para="2" offset="178" length="3">tre</wf>
+    <wf wid="w33" sent="3" para="2" offset="182" length="8">cantanti</wf>
+    <wf wid="w34" sent="3" para="2" offset="191" length="4">punk</wf>
+    <wf wid="w35" sent="3" para="2" offset="195" length="1">,</wf>
+    <wf wid="w36" sent="3" para="2" offset="197" length="7">simbolo</wf>
+    <wf wid="w37" sent="3" para="2" offset="205" length="3">del</wf>
+    <wf wid="w38" sent="3" para="2" offset="209" length="8">dissenso</wf>
+    <wf wid="w39" sent="3" para="2" offset="218" length="6">contro</wf>
+    <wf wid="w40" sent="3" para="2" offset="225" length="8">Vladimir</wf>
+    <wf wid="w41" sent="3" para="2" offset="234" length="5">Putin</wf>
+    <wf wid="w42" sent="3" para="2" offset="239" length="1">,</wf>
+    <wf wid="w43" sent="3" para="2" offset="241" length="5">hanno</wf>
+    <wf wid="w44" sent="3" para="2" offset="247" length="8">commesso</wf>
+    <wf wid="w45" sent="3" para="2" offset="256" length="2">un</wf>
+    <wf wid="w46" sent="3" para="2" offset="259" length="5">reato</wf>
+    <wf wid="w47" sent="3" para="2" offset="265" length="2">di</wf>
+    <wf wid="w48" sent="3" para="2" offset="268" length="8">teppismo</wf>
+    <wf wid="w49" sent="3" para="2" offset="277" length="1">a</wf>
+    <wf wid="w50" sent="3" para="2" offset="279" length="6">sfondo</wf>
+    <wf wid="w51" sent="3" para="2" offset="286" length="9">religioso</wf>
+    <wf wid="w52" sent="3" para="2" offset="295" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Secondo-->
+    <term tid="t25" type="" lemma="secondo" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t26" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--tribunale-->
+    <term tid="t27" type="" lemma="tribunale" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t28" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--Mosca-->
+    <term tid="t29" type="" lemma="mosca" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t30" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t31" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--tre-->
+    <term tid="t32" type="" lemma="tre" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--cantanti-->
+    <term tid="t33" type="" lemma="cantante" pos="N" morphofeat="NOU~CPNP">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--punk-->
+    <term tid="t34" type="" lemma="punk" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t35" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--simbolo-->
+    <term tid="t36" type="" lemma="simbolo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t37" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--dissenso-->
+    <term tid="t38" type="" lemma="dissenso" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--contro-->
+    <term tid="t39" type="" lemma="contro" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--Vladimir-->
+    <term tid="t40" type="" lemma="vladimir" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--Putin-->
+    <term tid="t41" type="" lemma="putin" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t42" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--hanno-->
+    <term tid="t43" type="" lemma="avere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--commesso-->
+    <term tid="t44" type="" lemma="commettere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t45" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--reato-->
+    <term tid="t46" type="" lemma="reato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t47" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--teppismo-->
+    <term tid="t48" type="" lemma="teppismo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t49" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--sfondo-->
+    <term tid="t50" type="" lemma="sfondo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--religioso-->
+    <term tid="t51" type="" lemma="religioso" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t52" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--il tribunale di Mosca-->
+        <span>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--le tre cantanti punk-->
+        <span>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--hanno commesso un reato di teppismo-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:11:25Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="5">Monti</wf>
+    <wf wid="w2" sent="1" para="1" offset="5" length="1">:</wf>
+    <wf wid="w3" sent="1" para="1" offset="7" length="1">'</wf>
+    <wf wid="w4" sent="1" para="1" offset="8" length="6">Italia</wf>
+    <wf wid="w5" sent="1" para="1" offset="15" length="5">vuole</wf>
+    <wf wid="w6" sent="1" para="1" offset="21" length="6">Grecia</wf>
+    <wf wid="w7" sent="1" para="1" offset="28" length="2">in</wf>
+    <wf wid="w8" sent="1" para="1" offset="31" length="4">euro</wf>
+    <wf wid="w9" sent="1" para="1" offset="35" length="1">'</wf>
+    <wf wid="w10" sent="1" para="1" offset="36" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Monti-->
+    <term tid="t1" type="" lemma="montare" pos="V" morphofeat="VMA~IPN3">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t2" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t3" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t4" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--vuole-->
+    <term tid="t5" type="" lemma="volere" pos="V" morphofeat="VMO~REN3">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--Grecia-->
+    <term tid="t6" type="" lemma="grecia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t7" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t8" type="" lemma="euro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t9" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t10" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Italia-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Grecia in euro-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--vuole-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

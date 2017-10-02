@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:15:52Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w240" sent="7" para="2" offset="1319" length="2">La</wf>
+    <wf wid="w241" sent="7" para="2" offset="1322" length="7">moschea</wf>
+    <wf wid="w242" sent="7" para="2" offset="1330" length="2">di</wf>
+    <wf wid="w243" sent="7" para="2" offset="1333" length="5">Rabaa</wf>
+    <wf wid="w244" sent="7" para="2" offset="1339" length="1">è</wf>
+    <wf wid="w245" sent="7" para="2" offset="1341" length="5">stata</wf>
+    <wf wid="w246" sent="7" para="2" offset="1347" length="12">praticamente</wf>
+    <wf wid="w247" sent="7" para="2" offset="1360" length="9">distrutta</wf>
+    <wf wid="w248" sent="7" para="2" offset="1370" length="5">dalle</wf>
+    <wf wid="w249" sent="7" para="2" offset="1376" length="6">fiamme</wf>
+    <wf wid="w250" sent="7" para="2" offset="1382" length="1">,</wf>
+    <wf wid="w251" sent="7" para="2" offset="1384" length="2">un</wf>
+    <wf wid="w252" sent="7" para="2" offset="1387" length="4">atto</wf>
+    <wf wid="w253" sent="7" para="2" offset="1392" length="1">"</wf>
+    <wf wid="w254" sent="7" para="2" offset="1394" length="13">imperdonabile</wf>
+    <wf wid="w255" sent="7" para="2" offset="1407" length="1">"</wf>
+    <wf wid="w256" sent="7" para="2" offset="1410" length="3">per</wf>
+    <wf wid="w257" sent="7" para="2" offset="1414" length="1">i</wf>
+    <wf wid="w258" sent="7" para="2" offset="1416" length="9">musulmani</wf>
+    <wf wid="w259" sent="7" para="2" offset="1425" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t240" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--moschea-->
+    <term tid="t241" type="" lemma="moschea" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t242" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--Rabaa-->
+    <term tid="t243" type="" lemma="rabaa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t244" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--stata-->
+    <term tid="t245" type="" lemma="essere" pos="V" morphofeat="VAU~PAFS">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--praticamente-->
+    <term tid="t246" type="" lemma="praticamente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--distrutta-->
+    <term tid="t247" type="" lemma="distruggere" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--dalle-->
+    <term tid="t248" type="" lemma="dalle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--fiamme-->
+    <term tid="t249" type="" lemma="fiamma" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t250" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t251" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--atto-->
+    <term tid="t252" type="" lemma="atto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t253" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--imperdonabile-->
+    <term tid="t254" type="" lemma="imperdonabile" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t255" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t256" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t257" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--musulmani-->
+    <term tid="t258" type="" lemma="musulmano" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t259" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--La moschea di Rabaa-->
+        <span>
+          <target id="t240"/>
+          <target id="t241"/>
+          <target id="t242"/>
+          <target id="t243"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongNegative">
+        <!--è stata praticamente distrutta dalle fiamme-->
+        <span>
+          <target id="t244"/>
+          <target id="t245"/>
+          <target id="t246"/>
+          <target id="t247"/>
+          <target id="t248"/>
+          <target id="t249"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--musulmani-->
+        <span>
+          <target id="t258"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--atto-->
+        <span>
+          <target id="t252"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--imperdonabile-->
+        <span>
+          <target id="t254"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

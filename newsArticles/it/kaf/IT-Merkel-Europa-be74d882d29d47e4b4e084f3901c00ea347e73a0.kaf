@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:13:05Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w56" sent="4" para="2" offset="287" length="2">Il</wf>
+    <wf wid="w57" sent="4" para="2" offset="290" length="7">premier</wf>
+    <wf wid="w58" sent="4" para="2" offset="298" length="7">uscente</wf>
+    <wf wid="w59" sent="4" para="2" offset="306" length="5">aveva</wf>
+    <wf wid="w60" sent="4" para="2" offset="312" length="8">indicato</wf>
+    <wf wid="w61" sent="4" para="2" offset="321" length="4">come</wf>
+    <wf wid="w62" sent="4" para="2" offset="326" length="9">obiettivo</wf>
+    <wf wid="w63" sent="4" para="2" offset="336" length="5">quota</wf>
+    <wf wid="w64" sent="4" para="2" offset="342" length="3">287</wf>
+    <wf wid="w65" sent="4" para="2" offset="345" length="1">,</wf>
+    <wf wid="w66" sent="4" para="2" offset="347" length="5">ossia</wf>
+    <wf wid="w67" sent="4" para="2" offset="353" length="2">la</wf>
+    <wf wid="w68" sent="4" para="2" offset="356" length="4">metà</wf>
+    <wf wid="w69" sent="4" para="2" offset="361" length="2">di</wf>
+    <wf wid="w70" sent="4" para="2" offset="364" length="4">quei</wf>
+    <wf wid="w71" sent="4" para="2" offset="369" length="3">574</wf>
+    <wf wid="w72" sent="4" para="2" offset="373" length="5">punti</wf>
+    <wf wid="w73" sent="4" para="2" offset="379" length="9">ereditati</wf>
+    <wf wid="w74" sent="4" para="2" offset="389" length="3">dal</wf>
+    <wf wid="w75" sent="4" para="2" offset="393" length="7">governo</wf>
+    <wf wid="w76" sent="4" para="2" offset="401" length="10">Berlusconi</wf>
+    <wf wid="w77" sent="4" para="2" offset="412" length="1">a</wf>
+    <wf wid="w78" sent="4" para="2" offset="414" length="8">novembre</wf>
+    <wf wid="w79" sent="4" para="2" offset="423" length="4">2011</wf>
+    <wf wid="w80" sent="4" para="2" offset="427" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t56" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t57" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--uscente-->
+    <term tid="t58" type="" lemma="uscire" pos="V" morphofeat="VMA~PPNS">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--aveva-->
+    <term tid="t59" type="" lemma="avere" pos="V" morphofeat="VAU~IMN3">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--indicato-->
+    <term tid="t60" type="" lemma="indicare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--come-->
+    <term tid="t61" type="" lemma="come" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--obiettivo-->
+    <term tid="t62" type="" lemma="obiettivo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--quota-->
+    <term tid="t63" type="" lemma="quotare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--287-->
+    <term tid="t64" type="" lemma="287" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t65" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--ossia-->
+    <term tid="t66" type="" lemma="ossia" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t67" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--metà-->
+    <term tid="t68" type="" lemma="meta'" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t69" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--quei-->
+    <term tid="t70" type="" lemma="quei" pos="G" morphofeat="ADJ~DIMP">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--574-->
+    <term tid="t71" type="" lemma="574" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--punti-->
+    <term tid="t72" type="" lemma="punto" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--ereditati-->
+    <term tid="t73" type="" lemma="ereditare" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--dal-->
+    <term tid="t74" type="" lemma="dal" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--governo-->
+    <term tid="t75" type="" lemma="governo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--Berlusconi-->
+    <term tid="t76" type="" lemma="berlusconi" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t77" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--novembre-->
+    <term tid="t78" type="" lemma="novembre" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--2011-->
+    <term tid="t79" type="" lemma="2011" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t80" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

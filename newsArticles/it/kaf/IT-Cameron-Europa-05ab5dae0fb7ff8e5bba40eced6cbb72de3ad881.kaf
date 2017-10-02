@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:51Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:51Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:10:13Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="8">Datagate</wf>
+    <wf wid="w2" sent="1" para="1" offset="9" length="8">travolge</wf>
+    <wf wid="w3" sent="1" para="1" offset="18" length="7">vertice</wf>
+    <wf wid="w4" sent="1" para="1" offset="25" length="1">,</wf>
+    <wf wid="w5" sent="1" para="1" offset="27" length="2">ma</wf>
+    <wf wid="w6" sent="1" para="1" offset="30" length="2">Ue</wf>
+    <wf wid="w7" sent="1" para="1" offset="33" length="3">non</wf>
+    <wf wid="w8" sent="1" para="1" offset="37" length="5">trova</wf>
+    <wf wid="w9" sent="1" para="1" offset="43" length="8">risposte</wf>
+  </text>
+  <terms>
+    <!--Datagate-->
+    <term tid="t1" type="" lemma="datagate" pos="V" morphofeat="VMA~REN5">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--travolge-->
+    <term tid="t2" type="" lemma="travolgere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--vertice-->
+    <term tid="t3" type="" lemma="vertice" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t4" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t5" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--Ue-->
+    <term tid="t6" type="" lemma="ue" pos="O" morphofeat="INTERJ">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t7" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--trova-->
+    <term tid="t8" type="" lemma="trovare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--risposte-->
+    <term tid="t9" type="" lemma="rispondere" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder>
+        <!--vertice-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Datagate-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--travolge-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Ue-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--risposte-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--non trova-->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

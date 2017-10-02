@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:53Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:53Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:18:53Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w79" sent="4" para="2" offset="439" length="2">Lo</wf>
+    <wf wid="w80" sent="4" para="2" offset="442" length="2">ha</wf>
+    <wf wid="w81" sent="4" para="2" offset="445" length="5">detto</wf>
+    <wf wid="w82" sent="4" para="2" offset="451" length="2">il</wf>
+    <wf wid="w83" sent="4" para="2" offset="454" length="8">ministro</wf>
+    <wf wid="w84" sent="4" para="2" offset="463" length="5">degli</wf>
+    <wf wid="w85" sent="4" para="2" offset="469" length="6">Esteri</wf>
+    <wf wid="w86" sent="4" para="2" offset="476" length="4">Emma</wf>
+    <wf wid="w87" sent="4" para="2" offset="481" length="6">Bonino</wf>
+    <wf wid="w88" sent="4" para="2" offset="487" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Lo-->
+    <term tid="t79" type="" lemma="lo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t80" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--detto-->
+    <term tid="t81" type="" lemma="dettare" pos="V" morphofeat="VMA~REN1">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t82" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--ministro-->
+    <term tid="t83" type="" lemma="ministro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--degli-->
+    <term tid="t84" type="" lemma="degli" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--Esteri-->
+    <term tid="t85" type="" lemma="estere" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--Emma-->
+    <term tid="t86" type="" lemma="emma" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--Bonino-->
+    <term tid="t87" type="" lemma="bonino" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t88" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t79"/>
+          <target id="t80"/>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

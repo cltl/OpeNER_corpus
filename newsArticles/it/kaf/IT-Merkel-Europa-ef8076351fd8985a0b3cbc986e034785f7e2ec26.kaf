@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:35Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:35Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:44Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w240" sent="13" para="2" offset="1326" length="5">Atene</wf>
+    <wf wid="w241" sent="13" para="2" offset="1332" length="5">torna</wf>
+    <wf wid="w242" sent="13" para="2" offset="1338" length="6">quindi</wf>
+    <wf wid="w243" sent="13" para="2" offset="1345" length="4">alla</wf>
+    <wf wid="w244" sent="13" para="2" offset="1350" length="5">piena</wf>
+    <wf wid="w245" sent="13" para="2" offset="1356" length="11">legittimità</wf>
+    <wf wid="w246" sent="13" para="2" offset="1368" length="1">e</wf>
+    <wf wid="w247" sent="13" para="2" offset="1370" length="9">normalità</wf>
+    <wf wid="w248" sent="13" para="2" offset="1380" length="11">democratica</wf>
+    <wf wid="w249" sent="13" para="2" offset="1391" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Atene-->
+    <term tid="t240" type="" lemma="atene" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--torna-->
+    <term tid="t241" type="" lemma="tornare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--quindi-->
+    <term tid="t242" type="" lemma="quindi" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t243" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--piena-->
+    <term tid="t244" type="" lemma="pieno" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--legittimità-->
+    <term tid="t245" type="" lemma="legittimita'" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t246" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--normalità-->
+    <term tid="t247" type="" lemma="normalita'" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--democratica-->
+    <term tid="t248" type="" lemma="democratico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t249" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Atene-->
+        <span>
+          <target id="t240"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--torna quindi alla piena legittimità e normalità democratica-->
+        <span>
+          <target id="t241"/>
+          <target id="t242"/>
+          <target id="t243"/>
+          <target id="t244"/>
+          <target id="t245"/>
+          <target id="t246"/>
+          <target id="t247"/>
+          <target id="t248"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:19Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:19Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:19:01Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w290" sent="10" para="2" offset="1388" length="2">Le</wf>
+    <wf wid="w291" sent="10" para="2" offset="1390" length="11">aspirazioni</wf>
+    <wf wid="w292" sent="10" para="2" offset="1401" length="2">di</wf>
+    <wf wid="w293" sent="10" para="2" offset="1403" length="5">Monti</wf>
+    <wf wid="w294" sent="10" para="2" offset="1408" length="1">,</wf>
+    <wf wid="w295" sent="10" para="2" offset="1409" length="1">e</wf>
+    <wf wid="w296" sent="10" para="2" offset="1410" length="2">di</wf>
+    <wf wid="w297" sent="10" para="2" offset="1412" length="3">chi</wf>
+    <wf wid="w298" sent="10" para="2" offset="1415" length="2">lo</wf>
+    <wf wid="w299" sent="10" para="2" offset="1417" length="2">ha</wf>
+    <wf wid="w300" sent="10" para="2" offset="1419" length="8">nominato</wf>
+    <wf wid="w301" sent="10" para="2" offset="1427" length="1">«</wf>
+    <wf wid="w302" sent="10" para="2" offset="1428" length="8">senatore</wf>
+    <wf wid="w303" sent="10" para="2" offset="1436" length="1">a</wf>
+    <wf wid="w304" sent="10" para="2" offset="1437" length="4">vita</wf>
+    <wf wid="w305" sent="10" para="2" offset="1441" length="1">»</wf>
+    <wf wid="w306" sent="10" para="2" offset="1442" length="1">,</wf>
+    <wf wid="w307" sent="10" para="2" offset="1443" length="4">sono</wf>
+    <wf wid="w308" sent="10" para="2" offset="1447" length="10">naufragate</wf>
+    <wf wid="w309" sent="10" para="2" offset="1457" length="1">,</wf>
+    <wf wid="w310" sent="10" para="2" offset="1458" length="2">ma</wf>
+    <wf wid="w311" sent="10" para="2" offset="1460" length="2">il</wf>
+    <wf wid="w312" sent="10" para="2" offset="1462" length="8">progetto</wf>
+    <wf wid="w313" sent="10" para="2" offset="1470" length="8">prosegue</wf>
+    <wf wid="w314" sent="10" para="2" offset="1478" length="8">immutato</wf>
+    <wf wid="w315" sent="10" para="2" offset="1486" length="3">con</wf>
+    <wf wid="w316" sent="10" para="2" offset="1489" length="2">l'</wf>
+    <wf wid="w317" sent="10" para="2" offset="1491" length="9">ircocervo</wf>
+    <wf wid="w318" sent="10" para="2" offset="1500" length="13">Pd-Pdl-Scelta</wf>
+    <wf wid="w319" sent="10" para="2" offset="1513" length="6">Civica</wf>
+    <wf wid="w320" sent="10" para="2" offset="1519" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t290" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--aspirazioni-->
+    <term tid="t291" type="" lemma="aspirazione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t292" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t293" type="" lemma="monte" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t294" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t295" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t296" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--chi-->
+    <term tid="t297" type="" lemma="chi" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t298" type="" lemma="lo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t299" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--nominato-->
+    <term tid="t300" type="" lemma="nominare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t301" type="" lemma="«" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--senatore-->
+    <term tid="t302" type="" lemma="senatore" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t303" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--vita-->
+    <term tid="t304" type="" lemma="vita" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t305" type="" lemma="»" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t306" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--sono-->
+    <term tid="t307" type="" lemma="essere" pos="V" morphofeat="VAU~REN1">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--naufragate-->
+    <term tid="t308" type="" lemma="naufragare" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t309" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t310" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t311" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <!--progetto-->
+    <term tid="t312" type="" lemma="progetto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <!--prosegue-->
+    <term tid="t313" type="" lemma="proseguire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <!--immutato-->
+    <term tid="t314" type="" lemma="immutato" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t315" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t316" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--ircocervo-->
+    <term tid="t317" type="" lemma="ircocervo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--Pd-Pdl-Scelta-->
+    <term tid="t318" type="" lemma="pd-pdl-scelta" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--Civica-->
+    <term tid="t319" type="" lemma="civico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t320" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Le aspirazioni di Monti-->
+        <span>
+          <target id="t290"/>
+          <target id="t291"/>
+          <target id="t292"/>
+          <target id="t293"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--sono naufragate-->
+        <span>
+          <target id="t307"/>
+          <target id="t308"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

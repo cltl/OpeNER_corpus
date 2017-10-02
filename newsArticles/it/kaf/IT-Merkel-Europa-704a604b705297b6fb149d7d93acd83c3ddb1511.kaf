@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:05:38Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w59" sent="3" para="2" offset="320" length="2">Lo</wf>
+    <wf wid="w60" sent="3" para="2" offset="323" length="2">ha</wf>
+    <wf wid="w61" sent="3" para="2" offset="326" length="5">detto</wf>
+    <wf wid="w62" sent="3" para="2" offset="332" length="2">il</wf>
+    <wf wid="w63" sent="3" para="2" offset="335" length="10">presidente</wf>
+    <wf wid="w64" sent="3" para="2" offset="346" length="5">della</wf>
+    <wf wid="w65" sent="3" para="2" offset="352" length="10">Repubblica</wf>
+    <wf wid="w66" sent="3" para="2" offset="362" length="1">,</wf>
+    <wf wid="w67" sent="3" para="2" offset="364" length="7">Giorgio</wf>
+    <wf wid="w68" sent="3" para="2" offset="372" length="10">Napolitano</wf>
+    <wf wid="w69" sent="3" para="2" offset="382" length="1">,</wf>
+    <wf wid="w70" sent="3" para="2" offset="384" length="8">parlando</wf>
+    <wf wid="w71" sent="3" para="2" offset="393" length="3">con</wf>
+    <wf wid="w72" sent="3" para="2" offset="397" length="1">i</wf>
+    <wf wid="w73" sent="3" para="2" offset="399" length="11">giornalisti</wf>
+    <wf wid="w74" sent="3" para="2" offset="411" length="4">oggi</wf>
+    <wf wid="w75" sent="3" para="2" offset="416" length="1">a</wf>
+    <wf wid="w76" sent="3" para="2" offset="418" length="4">Roma</wf>
+    <wf wid="w77" sent="3" para="2" offset="422" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Lo-->
+    <term tid="t59" type="" lemma="lo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t60" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--detto-->
+    <term tid="t61" type="" lemma="dettare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t62" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t63" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t64" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--Repubblica-->
+    <term tid="t65" type="" lemma="repubblica" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t66" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--Giorgio-->
+    <term tid="t67" type="" lemma="giorgio" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--Napolitano-->
+    <term tid="t68" type="" lemma="napolitano" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t69" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--parlando-->
+    <term tid="t70" type="" lemma="parlare" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t71" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t72" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--giornalisti-->
+    <term tid="t73" type="" lemma="giornalista" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--oggi-->
+    <term tid="t74" type="" lemma="oggi" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t75" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--Roma-->
+    <term tid="t76" type="" lemma="roma" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t77" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

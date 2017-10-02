@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:44Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:44Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:03:31Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w8" sent="2" para="1" offset="33" length="7">Aumenta</wf>
+    <wf wid="w9" sent="2" para="1" offset="41" length="2">la</wf>
+    <wf wid="w10" sent="2" para="1" offset="44" length="5">paura</wf>
+    <wf wid="w11" sent="2" para="1" offset="50" length="3">dei</wf>
+    <wf wid="w12" sent="2" para="1" offset="54" length="7">mercati</wf>
+  </text>
+  <terms>
+    <!--Aumenta-->
+    <term tid="t8" type="" lemma="aumentare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t9" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--paura-->
+    <term tid="t10" type="" lemma="paura" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t11" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--mercati-->
+    <term tid="t12" type="" lemma="mercato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--paura-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

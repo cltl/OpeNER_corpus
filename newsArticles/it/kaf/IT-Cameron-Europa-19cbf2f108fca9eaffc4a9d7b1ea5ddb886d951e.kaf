@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:25Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:25Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:06:16Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w66" sent="5" para="2" offset="339" length="2">Il</wf>
+    <wf wid="w67" sent="5" para="2" offset="342" length="7">premier</wf>
+    <wf wid="w68" sent="5" para="2" offset="350" length="5">Mario</wf>
+    <wf wid="w69" sent="5" para="2" offset="356" length="5">Monti</wf>
+    <wf wid="w70" sent="5" para="2" offset="361" length="1">,</wf>
+    <wf wid="w71" sent="5" para="2" offset="363" length="3">nel</wf>
+    <wf wid="w72" sent="5" para="2" offset="367" length="5">corso</wf>
+    <wf wid="w73" sent="5" para="2" offset="373" length="2">di</wf>
+    <wf wid="w74" sent="5" para="2" offset="376" length="3">una</wf>
+    <wf wid="w75" sent="5" para="2" offset="380" length="10">conferenza</wf>
+    <wf wid="w76" sent="5" para="2" offset="391" length="6">stampa</wf>
+    <wf wid="w77" sent="5" para="2" offset="397" length="1">,</wf>
+    <wf wid="w78" sent="5" para="2" offset="399" length="2">ha</wf>
+    <wf wid="w79" sent="5" para="2" offset="402" length="10">assicurato</wf>
+    <wf wid="w80" sent="5" para="2" offset="413" length="3">che</wf>
+    <wf wid="w81" sent="5" para="2" offset="417" length="3">gli</wf>
+    <wf wid="w82" sent="5" para="2" offset="421" length="8">incontri</wf>
+    <wf wid="w83" sent="5" para="2" offset="430" length="2">di</wf>
+    <wf wid="w84" sent="5" para="2" offset="433" length="4">ieri</wf>
+    <wf wid="w85" sent="5" para="2" offset="438" length="1">e</wf>
+    <wf wid="w86" sent="5" para="2" offset="440" length="4">oggi</wf>
+    <wf wid="w87" sent="5" para="2" offset="445" length="1">"</wf>
+    <wf wid="w88" sent="5" para="2" offset="446" length="5">hanno</wf>
+    <wf wid="w89" sent="5" para="2" offset="452" length="8">mostrato</wf>
+    <wf wid="w90" sent="5" para="2" offset="461" length="2">un</wf>
+    <wf wid="w91" sent="5" para="2" offset="464" length="11">sufficiente</wf>
+    <wf wid="w92" sent="5" para="2" offset="476" length="5">grado</wf>
+    <wf wid="w93" sent="5" para="2" offset="482" length="2">di</wf>
+    <wf wid="w94" sent="5" para="2" offset="485" length="11">convergenza</wf>
+    <wf wid="w95" sent="5" para="2" offset="497" length="10">potenziale</wf>
+    <wf wid="w96" sent="5" para="2" offset="508" length="2">da</wf>
+    <wf wid="w97" sent="5" para="2" offset="511" length="7">lasciar</wf>
+    <wf wid="w98" sent="5" para="2" offset="519" length="8">supporre</wf>
+    <wf wid="w99" sent="5" para="2" offset="528" length="3">che</wf>
+    <wf wid="w100" sent="5" para="2" offset="532" length="2">ci</wf>
+    <wf wid="w101" sent="5" para="2" offset="535" length="3">sia</wf>
+    <wf wid="w102" sent="5" para="2" offset="539" length="2">la</wf>
+    <wf wid="w103" sent="5" para="2" offset="542" length="11">possibilità</wf>
+    <wf wid="w104" sent="5" para="2" offset="554" length="2">di</wf>
+    <wf wid="w105" sent="5" para="2" offset="557" length="2">un</wf>
+    <wf wid="w106" sent="5" para="2" offset="560" length="7">accordo</wf>
+    <wf wid="w107" sent="5" para="2" offset="568" length="4">all'</wf>
+    <wf wid="w108" sent="5" para="2" offset="572" length="6">inizio</wf>
+    <wf wid="w109" sent="5" para="2" offset="579" length="3">del</wf>
+    <wf wid="w110" sent="5" para="2" offset="583" length="5">nuovo</wf>
+    <wf wid="w111" sent="5" para="2" offset="589" length="4">anno</wf>
+    <wf wid="w112" sent="5" para="2" offset="593" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t66" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t67" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--Mario-->
+    <term tid="t68" type="" lemma="mario" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t69" type="" lemma="monte" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t70" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t71" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--corso-->
+    <term tid="t72" type="" lemma="corso" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t73" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t74" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--conferenza-->
+    <term tid="t75" type="" lemma="conferenza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--stampa-->
+    <term tid="t76" type="" lemma="stampa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t77" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t78" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--assicurato-->
+    <term tid="t79" type="" lemma="assicurare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t80" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--gli-->
+    <term tid="t81" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--incontri-->
+    <term tid="t82" type="" lemma="incontro" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t83" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--ieri-->
+    <term tid="t84" type="" lemma="ieri" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t85" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--oggi-->
+    <term tid="t86" type="" lemma="oggi" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t87" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--hanno-->
+    <term tid="t88" type="" lemma="avere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--mostrato-->
+    <term tid="t89" type="" lemma="mostrare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t90" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--sufficiente-->
+    <term tid="t91" type="" lemma="sufficiente" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--grado-->
+    <term tid="t92" type="" lemma="grado" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t93" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--convergenza-->
+    <term tid="t94" type="" lemma="convergenza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--potenziale-->
+    <term tid="t95" type="" lemma="potenziale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--da-->
+    <term tid="t96" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--lasciar-->
+    <term tid="t97" type="" lemma="lasciar" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--supporre-->
+    <term tid="t98" type="" lemma="supporre" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t99" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--ci-->
+    <term tid="t100" type="" lemma="ci" pos="Q" morphofeat="PRON~DEN3">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--sia-->
+    <term tid="t101" type="" lemma="essere" pos="V" morphofeat="VAU~CGN3">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t102" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--possibilità-->
+    <term tid="t103" type="" lemma="possibilita'" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t104" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t105" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--accordo-->
+    <term tid="t106" type="" lemma="accordo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--all'-->
+    <term tid="t107" type="" lemma="all'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--inizio-->
+    <term tid="t108" type="" lemma="inizio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t109" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--nuovo-->
+    <term tid="t110" type="" lemma="nuovo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--anno-->
+    <term tid="t111" type="" lemma="anno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t112" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--premier Mario Monti-->
+        <span>
+          <target id="t67"/>
+          <target id="t68"/>
+          <target id="t69"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--gli incontri di ieri e oggi " hanno mostrato un sufficiente grado di convergenza-->
+        <span>
+          <target id="t81"/>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ha assicurato-->
+        <span>
+          <target id="t78"/>
+          <target id="t79"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

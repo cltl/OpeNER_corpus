@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:40Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:40Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:21:50Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:23CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="8">Germania</wf>
+    <wf wid="w2" sent="1" para="1" offset="8" length="1">,</wf>
+    <wf wid="w3" sent="1" para="1" offset="10" length="6">Merkel</wf>
+    <wf wid="w4" sent="1" para="1" offset="16" length="1">:</wf>
+    <wf wid="w5" sent="1" para="1" offset="18" length="1">«</wf>
+    <wf wid="w6" sent="1" para="1" offset="19" length="5">Serve</wf>
+    <wf wid="w7" sent="1" para="1" offset="25" length="2">un</wf>
+    <wf wid="w8" sent="1" para="1" offset="28" length="7">governo</wf>
+    <wf wid="w9" sent="1" para="1" offset="36" length="7">stabile</wf>
+    <wf wid="w10" sent="1" para="1" offset="44" length="5">presi</wf>
+    <wf wid="w11" sent="1" para="1" offset="50" length="1">i</wf>
+    <wf wid="w12" sent="1" para="1" offset="52" length="5">primi</wf>
+    <wf wid="w13" sent="1" para="1" offset="58" length="8">contatti</wf>
+    <wf wid="w14" sent="1" para="1" offset="67" length="3">con</wf>
+    <wf wid="w15" sent="1" para="1" offset="71" length="2">la</wf>
+    <wf wid="w16" sent="1" para="1" offset="74" length="3">Spd</wf>
+    <wf wid="w17" sent="1" para="1" offset="77" length="1">»</wf>
+  </text>
+  <terms>
+    <!--Germania-->
+    <term tid="t1" type="" lemma="germania" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t2" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t3" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t4" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t5" type="" lemma="«" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--Serve-->
+    <term tid="t6" type="" lemma="servire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t7" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--governo-->
+    <term tid="t8" type="" lemma="governo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--stabile-->
+    <term tid="t9" type="" lemma="stabile" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--presi-->
+    <term tid="t10" type="" lemma="prendere" pos="V" morphofeat="VMA~RAN1">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t11" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--primi-->
+    <term tid="t12" type="" lemma="primo" pos="G" morphofeat="ADJ~ORMP">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--contatti-->
+    <term tid="t13" type="" lemma="contatto" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t14" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t15" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--Spd-->
+    <term tid="t16" type="" lemma="spd" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t17" type="" lemma="»" pos="V" morphofeat="VMA~CGN3">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--governo stabile-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

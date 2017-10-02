@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:46:55Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w48" sent="3" para="2" offset="281" length="1">E</wf>
+    <wf wid="w49" sent="3" para="2" offset="282" length="1">,</wf>
+    <wf wid="w50" sent="3" para="2" offset="284" length="2">se</wf>
+    <wf wid="w51" sent="3" para="2" offset="287" length="2">da</wf>
+    <wf wid="w52" sent="3" para="2" offset="290" length="2">un</wf>
+    <wf wid="w53" sent="3" para="2" offset="293" length="5">parte</wf>
+    <wf wid="w54" sent="3" para="2" offset="299" length="7">Samaras</wf>
+    <wf wid="w55" sent="3" para="2" offset="307" length="6">chiede</wf>
+    <wf wid="w56" sent="3" para="2" offset="314" length="6">ancora</wf>
+    <wf wid="w57" sent="3" para="2" offset="321" length="2">un</wf>
+    <wf wid="w58" sent="3" para="2" offset="324" length="2">po</wf>
+    <wf wid="w59" sent="3" para="2" offset="326" length="1">'</wf>
+    <wf wid="w60" sent="3" para="2" offset="328" length="2">di</wf>
+    <wf wid="w61" sent="3" para="2" offset="331" length="5">tempo</wf>
+    <wf wid="w62" sent="3" para="2" offset="336" length="1">,</wf>
+    <wf wid="w63" sent="3" para="2" offset="338" length="2">la</wf>
+    <wf wid="w64" sent="3" para="2" offset="341" length="6">Merkel</wf>
+    <wf wid="w65" sent="3" para="2" offset="348" length="9">certifica</wf>
+    <wf wid="w66" sent="3" para="2" offset="357" length="1">:</wf>
+    <wf wid="w67" sent="3" para="2" offset="359" length="1">"</wf>
+    <wf wid="w68" sent="3" para="2" offset="360" length="5">Atene</wf>
+    <wf wid="w69" sent="3" para="2" offset="367" length="4">deve</wf>
+    <wf wid="w70" sent="3" para="2" offset="372" length="7">restare</wf>
+    <wf wid="w71" sent="3" para="2" offset="380" length="5">nell'</wf>
+    <wf wid="w72" sent="3" para="2" offset="385" length="8">Eurozona</wf>
+    <wf wid="w73" sent="3" para="2" offset="393" length="1">"</wf>
+    <wf wid="w74" sent="3" para="2" offset="394" length="1">.</wf>
+  </text>
+  <terms>
+    <!--E-->
+    <term tid="t48" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t49" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t50" type="" lemma="se" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--da-->
+    <term tid="t51" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t52" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--parte-->
+    <term tid="t53" type="" lemma="parte" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--Samaras-->
+    <term tid="t54" type="" lemma="samaras" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--chiede-->
+    <term tid="t55" type="" lemma="chiedere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--ancora-->
+    <term tid="t56" type="" lemma="ancora" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t57" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--po-->
+    <term tid="t58" type="" lemma="po" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t59" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t60" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--tempo-->
+    <term tid="t61" type="" lemma="tempo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t62" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t63" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t64" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--certifica-->
+    <term tid="t65" type="" lemma="certifica" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t66" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t67" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--Atene-->
+    <term tid="t68" type="" lemma="atene" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--deve-->
+    <term tid="t69" type="" lemma="dovere" pos="V" morphofeat="VMO~REN3">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--restare-->
+    <term tid="t70" type="" lemma="restare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--nell'-->
+    <term tid="t71" type="" lemma="nell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--Eurozona-->
+    <term tid="t72" type="" lemma="eurozona" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t73" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t74" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t64"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Atene-->
+        <span>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--deve restare nell' Eurozona-->
+        <span>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--un po ' di tempo-->
+        <span>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

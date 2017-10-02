@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:02:37Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w249" sent="11" para="2" offset="1412" length="2">L’</wf>
+    <wf wid="w250" sent="11" para="2" offset="1414" length="15">amministrazione</wf>
+    <wf wid="w251" sent="11" para="2" offset="1430" length="5">Obama</wf>
+    <wf wid="w252" sent="11" para="2" offset="1436" length="1">è</wf>
+    <wf wid="w253" sent="11" para="2" offset="1438" length="8">convinta</wf>
+    <wf wid="w254" sent="11" para="2" offset="1447" length="3">che</wf>
+    <wf wid="w255" sent="11" para="2" offset="1451" length="2">l’</wf>
+    <wf wid="w256" sent="11" para="2" offset="1453" length="6">Unione</wf>
+    <wf wid="w257" sent="11" para="2" offset="1460" length="7">Europea</wf>
+    <wf wid="w258" sent="11" para="2" offset="1468" length="3">non</wf>
+    <wf wid="w259" sent="11" para="2" offset="1472" length="4">stia</wf>
+    <wf wid="w260" sent="11" para="2" offset="1477" length="7">facendo</wf>
+    <wf wid="w261" sent="11" para="2" offset="1485" length="10">abbastanza</wf>
+    <wf wid="w262" sent="11" para="2" offset="1496" length="3">per</wf>
+    <wf wid="w263" sent="11" para="2" offset="1500" length="7">salvare</wf>
+    <wf wid="w264" sent="11" para="2" offset="1508" length="3">non</wf>
+    <wf wid="w265" sent="11" para="2" offset="1512" length="4">solo</wf>
+    <wf wid="w266" sent="11" para="2" offset="1517" length="2">la</wf>
+    <wf wid="w267" sent="11" para="2" offset="1520" length="6">Grecia</wf>
+    <wf wid="w268" sent="11" para="2" offset="1526" length="1">,</wf>
+    <wf wid="w269" sent="11" para="2" offset="1528" length="2">ma</wf>
+    <wf wid="w270" sent="11" para="2" offset="1531" length="2">se</wf>
+    <wf wid="w271" sent="11" para="2" offset="1534" length="6">stessa</wf>
+    <wf wid="w272" sent="11" para="2" offset="1540" length="1">.</wf>
+  </text>
+  <terms>
+    <!--L’-->
+    <term tid="t249" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--amministrazione-->
+    <term tid="t250" type="" lemma="amministrazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term tid="t251" type="" lemma="obama" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t252" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--convinta-->
+    <term tid="t253" type="" lemma="convincere" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t254" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t255" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--Unione-->
+    <term tid="t256" type="" lemma="unione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--Europea-->
+    <term tid="t257" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t258" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--stia-->
+    <term tid="t259" type="" lemma="stia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--facendo-->
+    <term tid="t260" type="" lemma="fare" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--abbastanza-->
+    <term tid="t261" type="" lemma="abbastanza" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t262" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--salvare-->
+    <term tid="t263" type="" lemma="salvare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t264" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--solo-->
+    <term tid="t265" type="" lemma="solo" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t266" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--Grecia-->
+    <term tid="t267" type="" lemma="grecia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t268" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t269" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t270" type="" lemma="se" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--stessa-->
+    <term tid="t271" type="" lemma="stessa" pos="G" morphofeat="ADJ~DIFS">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t272" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Unione Europea-->
+        <span>
+          <target id="t256"/>
+          <target id="t257"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--per salvare non solo la Grecia-->
+        <span>
+          <target id="t262"/>
+          <target id="t263"/>
+          <target id="t264"/>
+          <target id="t265"/>
+          <target id="t266"/>
+          <target id="t267"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--non stia facendo abbastanza-->
+        <span>
+          <target id="t258"/>
+          <target id="t259"/>
+          <target id="t260"/>
+          <target id="t261"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Unione Europea-->
+        <span>
+          <target id="t256"/>
+          <target id="t257"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--ma se stessa-->
+        <span>
+          <target id="t269"/>
+          <target id="t270"/>
+          <target id="t271"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--non stia facendo abbastanza-->
+        <span>
+          <target id="t258"/>
+          <target id="t259"/>
+          <target id="t260"/>
+          <target id="t261"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

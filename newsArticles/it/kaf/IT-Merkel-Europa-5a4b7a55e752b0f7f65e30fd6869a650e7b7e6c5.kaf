@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:44Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:44Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:14:15Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w204" sent="6" para="2" offset="1261" length="2">La</wf>
+    <wf wid="w205" sent="6" para="2" offset="1264" length="10">corruzione</wf>
+    <wf wid="w206" sent="6" para="2" offset="1275" length="11">germogliata</wf>
+    <wf wid="w207" sent="6" para="2" offset="1287" length="3">nel</wf>
+    <wf wid="w208" sent="6" para="2" offset="1291" length="6">nostro</wf>
+    <wf wid="w209" sent="6" para="2" offset="1298" length="5">paese</wf>
+    <wf wid="w210" sent="6" para="2" offset="1304" length="2">ha</wf>
+    <wf wid="w211" sent="6" para="2" offset="1307" length="4">reso</wf>
+    <wf wid="w212" sent="6" para="2" offset="1312" length="2">la</wf>
+    <wf wid="w213" sent="6" para="2" offset="1315" length="10">situazione</wf>
+    <wf wid="w214" sent="6" para="2" offset="1326" length="8">politica</wf>
+    <wf wid="w215" sent="6" para="2" offset="1335" length="7">attuale</wf>
+    <wf wid="w216" sent="6" para="2" offset="1343" length="14">insopportabile</wf>
+    <wf wid="w217" sent="6" para="2" offset="1358" length="1">e</wf>
+    <wf wid="w218" sent="6" para="2" offset="1360" length="2">il</wf>
+    <wf wid="w219" sent="6" para="2" offset="1363" length="7">rinnovo</wf>
+    <wf wid="w220" sent="6" para="2" offset="1371" length="5">della</wf>
+    <wf wid="w221" sent="6" para="2" offset="1377" length="6">nostra</wf>
+    <wf wid="w222" sent="6" para="2" offset="1384" length="10">democrazia</wf>
+    <wf wid="w223" sent="6" para="2" offset="1395" length="14">indispensabile</wf>
+    <wf wid="w224" sent="6" para="2" offset="1409" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t204" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--corruzione-->
+    <term tid="t205" type="" lemma="corruzione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--germogliata-->
+    <term tid="t206" type="" lemma="germogliare" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t207" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--nostro-->
+    <term tid="t208" type="" lemma="nostro" pos="G" morphofeat="ADJ~POMS">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--paese-->
+    <term tid="t209" type="" lemma="paese" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t210" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--reso-->
+    <term tid="t211" type="" lemma="rendere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t212" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--situazione-->
+    <term tid="t213" type="" lemma="situazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--politica-->
+    <term tid="t214" type="" lemma="politico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--attuale-->
+    <term tid="t215" type="" lemma="attuale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--insopportabile-->
+    <term tid="t216" type="" lemma="insopportabile" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t217" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t218" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--rinnovo-->
+    <term tid="t219" type="" lemma="rinnovo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t220" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--nostra-->
+    <term tid="t221" type="" lemma="nostro" pos="G" morphofeat="ADJ~POFS">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--democrazia-->
+    <term tid="t222" type="" lemma="democrazia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--indispensabile-->
+    <term tid="t223" type="" lemma="indispensabile" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t224" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--corruzione-->
+        <span>
+          <target id="t205"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--corruzione-->
+        <span>
+          <target id="t205"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--situazione politica attuale-->
+        <span>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--insopportabile-->
+        <span>
+          <target id="t216"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

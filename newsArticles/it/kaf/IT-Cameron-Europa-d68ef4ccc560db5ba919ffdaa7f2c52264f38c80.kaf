@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:23Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:23Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:06:47Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:53CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w19" sent="3" para="2" offset="92" length="1">(</wf>
+    <wf wid="w20" sent="3" para="2" offset="93" length="9">Adnkronos</wf>
+    <wf wid="w21" sent="3" para="2" offset="102" length="1">/</wf>
+    <wf wid="w22" sent="3" para="2" offset="103" length="3">Ign</wf>
+    <wf wid="w23" sent="3" para="2" offset="106" length="1">)</wf>
+    <wf wid="w24" sent="3" para="2" offset="108" length="1">-</wf>
+    <wf wid="w25" sent="3" para="2" offset="110" length="7">Attacco</wf>
+    <wf wid="w26" sent="3" para="2" offset="118" length="4">all'</wf>
+    <wf wid="w27" sent="3" para="2" offset="122" length="2">ex</wf>
+    <wf wid="w28" sent="3" para="2" offset="125" length="7">premier</wf>
+    <wf wid="w29" sent="3" para="2" offset="133" length="6">Silvio</wf>
+    <wf wid="w30" sent="3" para="2" offset="140" length="10">Berlusconi</wf>
+    <wf wid="w31" sent="3" para="2" offset="151" length="3">dal</wf>
+    <wf wid="w32" sent="3" para="2" offset="155" length="11">commissario</wf>
+    <wf wid="w33" sent="3" para="2" offset="167" length="7">europeo</wf>
+    <wf wid="w34" sent="3" para="2" offset="175" length="3">per</wf>
+    <wf wid="w35" sent="3" para="2" offset="179" length="3">gli</wf>
+    <wf wid="w36" sent="3" para="2" offset="183" length="6">Affari</wf>
+    <wf wid="w37" sent="3" para="2" offset="190" length="9">economici</wf>
+    <wf wid="w38" sent="3" para="2" offset="200" length="1">e</wf>
+    <wf wid="w39" sent="3" para="2" offset="202" length="8">monetari</wf>
+    <wf wid="w40" sent="3" para="2" offset="210" length="1">,</wf>
+    <wf wid="w41" sent="3" para="2" offset="212" length="4">Olli</wf>
+    <wf wid="w42" sent="3" para="2" offset="217" length="4">Rehn</wf>
+    <wf wid="w43" sent="3" para="2" offset="221" length="1">.</wf>
+  </text>
+  <terms>
+    <!--(-->
+    <term tid="t19" type="" lemma="(" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--Adnkronos-->
+    <term tid="t20" type="" lemma="adnkronos" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--/-->
+    <term tid="t21" type="" lemma="/" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--Ign-->
+    <term tid="t22" type="" lemma="ign" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t23" type="" lemma=")" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t24" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--Attacco-->
+    <term tid="t25" type="" lemma="attacco" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--all'-->
+    <term tid="t26" type="" lemma="all'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--ex-->
+    <term tid="t27" type="" lemma="ex" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t28" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--Silvio-->
+    <term tid="t29" type="" lemma="silvio" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--Berlusconi-->
+    <term tid="t30" type="" lemma="berlusconi" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--dal-->
+    <term tid="t31" type="" lemma="dal" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--commissario-->
+    <term tid="t32" type="" lemma="commissario" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--europeo-->
+    <term tid="t33" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t34" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--gli-->
+    <term tid="t35" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--Affari-->
+    <term tid="t36" type="" lemma="affare" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--economici-->
+    <term tid="t37" type="" lemma="economico" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t38" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--monetari-->
+    <term tid="t39" type="" lemma="monetario" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t40" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--Olli-->
+    <term tid="t41" type="" lemma="olli" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--Rehn-->
+    <term tid="t42" type="" lemma="rehn" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t43" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--Attacco-->
+        <span>
+          <target id="t25"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

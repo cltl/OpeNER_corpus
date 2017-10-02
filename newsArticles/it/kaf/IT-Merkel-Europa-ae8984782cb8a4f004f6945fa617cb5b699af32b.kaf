@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:53Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w89" sent="5" para="2" offset="479" length="1">E</wf>
+    <wf wid="w90" sent="5" para="2" offset="481" length="1">a</wf>
+    <wf wid="w91" sent="5" para="2" offset="483" length="7">Berlino</wf>
+    <wf wid="w92" sent="5" para="2" offset="491" length="3">non</wf>
+    <wf wid="w93" sent="5" para="2" offset="495" length="4">solo</wf>
+    <wf wid="w94" sent="5" para="2" offset="500" length="2">l’</wf>
+    <wf wid="w95" sent="5" para="2" offset="502" length="11">opposizione</wf>
+    <wf wid="w96" sent="5" para="2" offset="514" length="2">ma</wf>
+    <wf wid="w97" sent="5" para="2" offset="517" length="5">anche</wf>
+    <wf wid="w98" sent="5" para="2" offset="523" length="2">il</wf>
+    <wf wid="w99" sent="5" para="2" offset="526" length="8">ministro</wf>
+    <wf wid="w100" sent="5" para="2" offset="535" length="5">degli</wf>
+    <wf wid="w101" sent="5" para="2" offset="541" length="7">Interni</wf>
+    <wf wid="w102" sent="5" para="2" offset="549" length="2">si</wf>
+    <wf wid="w103" sent="5" para="2" offset="552" length="6">mostra</wf>
+    <wf wid="w104" sent="5" para="2" offset="559" length="12">possibilista</wf>
+    <wf wid="w105" sent="5" para="2" offset="572" length="1">e</wf>
+    <wf wid="w106" sent="5" para="2" offset="574" length="4">dice</wf>
+    <wf wid="w107" sent="5" para="2" offset="578" length="1">:</wf>
+    <wf wid="w108" sent="5" para="2" offset="580" length="2">se</wf>
+    <wf wid="w109" sent="5" para="2" offset="583" length="5">vuole</wf>
+    <wf wid="w110" sent="5" para="2" offset="589" length="7">parlare</wf>
+    <wf wid="w111" sent="5" para="2" offset="596" length="1">,</wf>
+    <wf wid="w112" sent="5" para="2" offset="598" length="9">troveremo</wf>
+    <wf wid="w113" sent="5" para="2" offset="608" length="2">il</wf>
+    <wf wid="w114" sent="5" para="2" offset="611" length="4">modo</wf>
+    <wf wid="w115" sent="5" para="2" offset="615" length="1">.</wf>
+  </text>
+  <terms>
+    <!--E-->
+    <term tid="t89" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t90" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--Berlino-->
+    <term tid="t91" type="" lemma="berlino" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t92" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--solo-->
+    <term tid="t93" type="" lemma="solo" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t94" type="" lemma="l’" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--opposizione-->
+    <term tid="t95" type="" lemma="opposizione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t96" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--anche-->
+    <term tid="t97" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t98" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--ministro-->
+    <term tid="t99" type="" lemma="ministro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--degli-->
+    <term tid="t100" type="" lemma="degli" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--Interni-->
+    <term tid="t101" type="" lemma="interno" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t102" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--mostra-->
+    <term tid="t103" type="" lemma="mostrare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--possibilista-->
+    <term tid="t104" type="" lemma="possibilista" pos="N" morphofeat="NOU~CSNS">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t105" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--dice-->
+    <term tid="t106" type="" lemma="dire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t107" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t108" type="" lemma="se" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--vuole-->
+    <term tid="t109" type="" lemma="volere" pos="V" morphofeat="VMO~REN3">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--parlare-->
+    <term tid="t110" type="" lemma="parlare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t111" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--troveremo-->
+    <term tid="t112" type="" lemma="trovare" pos="V" morphofeat="VMA~FUN4">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t113" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--modo-->
+    <term tid="t114" type="" lemma="modo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t115" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--opposizione-->
+        <span>
+          <target id="t95"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--si mostra possibilista-->
+        <span>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--ministro degli Interni-->
+        <span>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--si mostra possibilista-->
+        <span>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:23Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:23Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:08:07Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:13CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w162" sent="9" para="2" offset="841" length="2">Le</wf>
+    <wf wid="w163" sent="9" para="2" offset="844" length="8">riunioni</wf>
+    <wf wid="w164" sent="9" para="2" offset="853" length="2">si</wf>
+    <wf wid="w165" sent="9" para="2" offset="856" length="4">sono</wf>
+    <wf wid="w166" sent="9" para="2" offset="861" length="6">svolte</wf>
+    <wf wid="w167" sent="9" para="2" offset="868" length="1">"</wf>
+    <wf wid="w168" sent="9" para="2" offset="869" length="2">in</wf>
+    <wf wid="w169" sent="9" para="2" offset="872" length="5">clima</wf>
+    <wf wid="w170" sent="9" para="2" offset="878" length="5">molto</wf>
+    <wf wid="w171" sent="9" para="2" offset="884" length="6">sereno</wf>
+    <wf wid="w172" sent="9" para="2" offset="891" length="1">e</wf>
+    <wf wid="w173" sent="9" para="2" offset="893" length="11">costruttivo</wf>
+    <wf wid="w174" sent="9" para="2" offset="905" length="3">con</wf>
+    <wf wid="w175" sent="9" para="2" offset="909" length="2">il</wf>
+    <wf wid="w176" sent="9" para="2" offset="912" length="9">desiderio</wf>
+    <wf wid="w177" sent="9" para="2" offset="922" length="2">di</wf>
+    <wf wid="w178" sent="9" para="2" offset="925" length="5">tutti</wf>
+    <wf wid="w179" sent="9" para="2" offset="931" length="2">di</wf>
+    <wf wid="w180" sent="9" para="2" offset="934" length="8">arrivare</wf>
+    <wf wid="w181" sent="9" para="2" offset="943" length="2">in</wf>
+    <wf wid="w182" sent="9" para="2" offset="946" length="6">alcune</wf>
+    <wf wid="w183" sent="9" para="2" offset="953" length="9">settimane</wf>
+    <wf wid="w184" sent="9" para="2" offset="963" length="1">a</wf>
+    <wf wid="w185" sent="9" para="2" offset="965" length="2">un</wf>
+    <wf wid="w186" sent="9" para="2" offset="968" length="7">accordo</wf>
+    <wf wid="w187" sent="9" para="2" offset="975" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t162" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--riunioni-->
+    <term tid="t163" type="" lemma="riunione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t164" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--sono-->
+    <term tid="t165" type="" lemma="essere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--svolte-->
+    <term tid="t166" type="" lemma="svolgere" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t167" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t168" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--clima-->
+    <term tid="t169" type="" lemma="clima" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--molto-->
+    <term tid="t170" type="" lemma="molto" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--sereno-->
+    <term tid="t171" type="" lemma="sereno" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t172" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--costruttivo-->
+    <term tid="t173" type="" lemma="costruttivo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t174" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t175" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--desiderio-->
+    <term tid="t176" type="" lemma="desiderio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t177" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--tutti-->
+    <term tid="t178" type="" lemma="tutti" pos="Q" morphofeat="PRON~IDM6">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t179" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--arrivare-->
+    <term tid="t180" type="" lemma="arrivare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t181" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--alcune-->
+    <term tid="t182" type="" lemma="alcuno" pos="G" morphofeat="ADJ~FP">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--settimane-->
+    <term tid="t183" type="" lemma="settimana" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t184" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t185" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--accordo-->
+    <term tid="t186" type="" lemma="accordo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t187" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Le riunioni-->
+        <span>
+          <target id="t162"/>
+          <target id="t163"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--clima-->
+        <span>
+          <target id="t169"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--molto sereno e costruttivo-->
+        <span>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

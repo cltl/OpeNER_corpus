@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:59Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:59Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:15:05Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w70" sent="5" para="2" offset="324" length="2">Il</wf>
+    <wf wid="w71" sent="5" para="2" offset="327" length="11">commissario</wf>
+    <wf wid="w72" sent="5" para="2" offset="339" length="4">Olli</wf>
+    <wf wid="w73" sent="5" para="2" offset="344" length="4">Rehn</wf>
+    <wf wid="w74" sent="5" para="2" offset="348" length="1">:</wf>
+    <wf wid="w75" sent="5" para="2" offset="350" length="1">“</wf>
+    <wf wid="w76" sent="5" para="2" offset="351" length="4">Pesa</wf>
+    <wf wid="w77" sent="5" para="2" offset="356" length="2">il</wf>
+    <wf wid="w78" sent="5" para="2" offset="359" length="11">risanamento</wf>
+    <wf wid="w79" sent="5" para="2" offset="371" length="3">dei</wf>
+    <wf wid="w80" sent="5" para="2" offset="375" length="7">bilanci</wf>
+    <wf wid="w81" sent="5" para="2" offset="382" length="1">,</wf>
+    <wf wid="w82" sent="5" para="2" offset="384" length="2">ma</wf>
+    <wf wid="w83" sent="5" para="2" offset="387" length="8">dobbiamo</wf>
+    <wf wid="w84" sent="5" para="2" offset="396" length="7">restare</wf>
+    <wf wid="w85" sent="5" para="2" offset="404" length="5">sulla</wf>
+    <wf wid="w86" sent="5" para="2" offset="410" length="6">strada</wf>
+    <wf wid="w87" sent="5" para="2" offset="417" length="5">delle</wf>
+    <wf wid="w88" sent="5" para="2" offset="423" length="7">riforme</wf>
+    <wf wid="w89" sent="5" para="2" offset="431" length="1">o</wf>
+    <wf wid="w90" sent="5" para="2" offset="433" length="9">rischiamo</wf>
+    <wf wid="w91" sent="5" para="2" offset="443" length="3">che</wf>
+    <wf wid="w92" sent="5" para="2" offset="447" length="2">si</wf>
+    <wf wid="w93" sent="5" para="2" offset="450" length="9">deteriori</wf>
+    <wf wid="w94" sent="5" para="2" offset="460" length="2">di</wf>
+    <wf wid="w95" sent="5" para="2" offset="463" length="5">nuovo</wf>
+    <wf wid="w96" sent="5" para="2" offset="469" length="2">la</wf>
+    <wf wid="w97" sent="5" para="2" offset="472" length="7">fiducia</wf>
+    <wf wid="w98" sent="5" para="2" offset="479" length="1">”</wf>
+    <wf wid="w99" sent="5" para="2" offset="480" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t70" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--commissario-->
+    <term tid="t71" type="" lemma="commissario" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--Olli-->
+    <term tid="t72" type="" lemma="olli" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--Rehn-->
+    <term tid="t73" type="" lemma="rehn" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t74" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--“-->
+    <term tid="t75" type="" lemma="“" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--Pesa-->
+    <term tid="t76" type="" lemma="pesare" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t77" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--risanamento-->
+    <term tid="t78" type="" lemma="risanamento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t79" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--bilanci-->
+    <term tid="t80" type="" lemma="bilancio" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t81" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t82" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--dobbiamo-->
+    <term tid="t83" type="" lemma="dovere" pos="V" morphofeat="VMO~REN4">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--restare-->
+    <term tid="t84" type="" lemma="restare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--sulla-->
+    <term tid="t85" type="" lemma="sulla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--strada-->
+    <term tid="t86" type="" lemma="strada" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--delle-->
+    <term tid="t87" type="" lemma="delle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--riforme-->
+    <term tid="t88" type="" lemma="riforma" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--o-->
+    <term tid="t89" type="" lemma="o" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--rischiamo-->
+    <term tid="t90" type="" lemma="rischiare" pos="V" morphofeat="VMA~IPN4">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t91" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t92" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--deteriori-->
+    <term tid="t93" type="" lemma="deteriori" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t94" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--nuovo-->
+    <term tid="t95" type="" lemma="nuovo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t96" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--fiducia-->
+    <term tid="t97" type="" lemma="fiducia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t98" type="" lemma="”" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t99" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--commissario Olli Rehn-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+          <target id="t73"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--il risanamento dei bilanci-->
+        <span>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+          <target id="t80"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--Pesa-->
+        <span>
+          <target id="t76"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

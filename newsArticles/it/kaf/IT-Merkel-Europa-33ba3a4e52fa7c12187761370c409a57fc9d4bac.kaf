@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:02:35Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w378" sent="13" para="2" offset="2168" length="1">"</wf>
+    <wf wid="w379" sent="13" para="2" offset="2170" length="3">Per</wf>
+    <wf wid="w380" sent="13" para="2" offset="2174" length="8">superare</wf>
+    <wf wid="w381" sent="13" para="2" offset="2183" length="2">la</wf>
+    <wf wid="w382" sent="13" para="2" offset="2186" length="5">crisi</wf>
+    <wf wid="w383" sent="13" para="2" offset="2192" length="3">che</wf>
+    <wf wid="w384" sent="13" para="2" offset="2196" length="2">la</wf>
+    <wf wid="w385" sent="13" para="2" offset="2199" length="8">colpisce</wf>
+    <wf wid="w386" sent="13" para="2" offset="2208" length="1">-</wf>
+    <wf wid="w387" sent="13" para="2" offset="2210" length="2">ha</wf>
+    <wf wid="w388" sent="13" para="2" offset="2213" length="5">detto</wf>
+    <wf wid="w389" sent="13" para="2" offset="2219" length="8">Hollande</wf>
+    <wf wid="w390" sent="13" para="2" offset="2228" length="1">-</wf>
+    <wf wid="w391" sent="13" para="2" offset="2230" length="2">l'</wf>
+    <wf wid="w392" sent="13" para="2" offset="2232" length="6">Europa</wf>
+    <wf wid="w393" sent="13" para="2" offset="2239" length="2">ha</wf>
+    <wf wid="w394" sent="13" para="2" offset="2242" length="7">bisogno</wf>
+    <wf wid="w395" sent="13" para="2" offset="2250" length="2">di</wf>
+    <wf wid="w396" sent="13" para="2" offset="2253" length="8">progetti</wf>
+    <wf wid="w397" sent="13" para="2" offset="2261" length="1">,</wf>
+    <wf wid="w398" sent="13" para="2" offset="2263" length="2">di</wf>
+    <wf wid="w399" sent="13" para="2" offset="2266" length="11">solidarietà</wf>
+    <wf wid="w400" sent="13" para="2" offset="2277" length="1">,</wf>
+    <wf wid="w401" sent="13" para="2" offset="2279" length="2">di</wf>
+    <wf wid="w402" sent="13" para="2" offset="2282" length="8">crescita</wf>
+    <wf wid="w403" sent="13" para="2" offset="2290" length="1">"</wf>
+    <wf wid="w404" sent="13" para="2" offset="2292" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t378" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w378"/>
+      </span>
+    </term>
+    <!--Per-->
+    <term tid="t379" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+    <!--superare-->
+    <term tid="t380" type="" lemma="superare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w380"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t381" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w381"/>
+      </span>
+    </term>
+    <!--crisi-->
+    <term tid="t382" type="" lemma="crisi" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w382"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t383" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w383"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t384" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w384"/>
+      </span>
+    </term>
+    <!--colpisce-->
+    <term tid="t385" type="" lemma="colpire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w385"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t386" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w386"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t387" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w387"/>
+      </span>
+    </term>
+    <!--detto-->
+    <term tid="t388" type="" lemma="detto" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w388"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t389" type="" lemma="hollande" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w389"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t390" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w390"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t391" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w391"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t392" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w392"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t393" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w393"/>
+      </span>
+    </term>
+    <!--bisogno-->
+    <term tid="t394" type="" lemma="bisogno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w394"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t395" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w395"/>
+      </span>
+    </term>
+    <!--progetti-->
+    <term tid="t396" type="" lemma="progetto" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t397" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t398" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <!--solidarietà-->
+    <term tid="t399" type="" lemma="solidarieta'" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t400" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t401" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--crescita-->
+    <term tid="t402" type="" lemma="crescita" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t403" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t404" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Europa-->
+        <span>
+          <target id="t392"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--progetti-->
+        <span>
+          <target id="t396"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ha bisogno-->
+        <span>
+          <target id="t393"/>
+          <target id="t394"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Europa-->
+        <span>
+          <target id="t392"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--solidarietà-->
+        <span>
+          <target id="t399"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ha bisogno-->
+        <span>
+          <target id="t393"/>
+          <target id="t394"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Europa-->
+        <span>
+          <target id="t392"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--crescita-->
+        <span>
+          <target id="t402"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ha bisogno-->
+        <span>
+          <target id="t393"/>
+          <target id="t394"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t391"/>
+          <target id="t392"/>
+          <target id="t393"/>
+          <target id="t394"/>
+          <target id="t395"/>
+          <target id="t396"/>
+          <target id="t397"/>
+          <target id="t398"/>
+          <target id="t399"/>
+          <target id="t400"/>
+          <target id="t401"/>
+          <target id="t402"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:59Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:59Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:16:36Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w176" sent="5" para="2" offset="925" length="2">Lo</wf>
+    <wf wid="w177" sent="5" para="2" offset="928" length="2">ha</wf>
+    <wf wid="w178" sent="5" para="2" offset="931" length="8">ribadito</wf>
+    <wf wid="w179" sent="5" para="2" offset="940" length="2">il</wf>
+    <wf wid="w180" sent="5" para="2" offset="943" length="10">presidente</wf>
+    <wf wid="w181" sent="5" para="2" offset="954" length="3">del</wf>
+    <wf wid="w182" sent="5" para="2" offset="958" length="9">Consiglio</wf>
+    <wf wid="w183" sent="5" para="2" offset="968" length="6">Enrico</wf>
+    <wf wid="w184" sent="5" para="2" offset="975" length="5">Letta</wf>
+    <wf wid="w185" sent="5" para="2" offset="980" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Lo-->
+    <term tid="t176" type="" lemma="lo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t177" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--ribadito-->
+    <term tid="t178" type="" lemma="ribadire" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t179" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t180" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t181" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--Consiglio-->
+    <term tid="t182" type="" lemma="consiglio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--Enrico-->
+    <term tid="t183" type="" lemma="enrico" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--Letta-->
+    <term tid="t184" type="" lemma="letta" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t185" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t176"/>
+          <target id="t177"/>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

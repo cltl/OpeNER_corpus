@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:10:12Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w97" sent="4" para="2" offset="461" length="5">Dall'</wf>
+    <wf wid="w98" sent="4" para="2" offset="466" length="6">inizio</wf>
+    <wf wid="w99" sent="4" para="2" offset="473" length="5">della</wf>
+    <wf wid="w100" sent="4" para="2" offset="479" length="5">crisi</wf>
+    <wf wid="w101" sent="4" para="2" offset="485" length="2">ho</wf>
+    <wf wid="w102" sent="4" para="2" offset="488" length="11">considerato</wf>
+    <wf wid="w103" sent="4" para="2" offset="500" length="9">sbagliato</wf>
+    <wf wid="w104" sent="4" para="2" offset="510" length="7">mettere</wf>
+    <wf wid="w105" sent="4" para="2" offset="518" length="1">a</wf>
+    <wf wid="w106" sent="4" para="2" offset="520" length="12">disposizione</wf>
+    <wf wid="w107" sent="4" para="2" offset="533" length="4">solo</wf>
+    <wf wid="w108" sent="4" para="2" offset="538" length="6">denaro</wf>
+    <wf wid="w109" sent="4" para="2" offset="544" length="1">,</wf>
+    <wf wid="w110" sent="4" para="2" offset="546" length="5">senza</wf>
+    <wf wid="w111" sent="4" para="2" offset="552" length="3">che</wf>
+    <wf wid="w112" sent="4" para="2" offset="556" length="2">vi</wf>
+    <wf wid="w113" sent="4" para="2" offset="559" length="3">sia</wf>
+    <wf wid="w114" sent="4" para="2" offset="563" length="2">la</wf>
+    <wf wid="w115" sent="4" para="2" offset="566" length="13">disponibilita</wf>
+    <wf wid="w116" sent="4" para="2" offset="579" length="1">'</wf>
+    <wf wid="w117" sent="4" para="2" offset="581" length="3">per</wf>
+    <wf wid="w118" sent="4" para="2" offset="585" length="7">riforme</wf>
+    <wf wid="w119" sent="4" para="2" offset="593" length="2">di</wf>
+    <wf wid="w120" sent="4" para="2" offset="596" length="5">fondo</wf>
+    <wf wid="w121" sent="4" para="2" offset="601" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Dall'-->
+    <term tid="t97" type="" lemma="dall'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--inizio-->
+    <term tid="t98" type="" lemma="inizio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t99" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--crisi-->
+    <term tid="t100" type="" lemma="crisi" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--ho-->
+    <term tid="t101" type="" lemma="avere" pos="V" morphofeat="VAU~REN1">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--considerato-->
+    <term tid="t102" type="" lemma="considerare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--sbagliato-->
+    <term tid="t103" type="" lemma="sbagliare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--mettere-->
+    <term tid="t104" type="" lemma="mettere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t105" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--disposizione-->
+    <term tid="t106" type="" lemma="disposizione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--solo-->
+    <term tid="t107" type="" lemma="solo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--denaro-->
+    <term tid="t108" type="" lemma="denaro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t109" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--senza-->
+    <term tid="t110" type="" lemma="senza" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t111" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--vi-->
+    <term tid="t112" type="" lemma="vi" pos="Q" morphofeat="PRON~PEN5">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--sia-->
+    <term tid="t113" type="" lemma="essere" pos="V" morphofeat="VAU~CGN3">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t114" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--disponibilita-->
+    <term tid="t115" type="" lemma="disponibilita" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t116" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t117" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--riforme-->
+    <term tid="t118" type="" lemma="riforma" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t119" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--fondo-->
+    <term tid="t120" type="" lemma="fondo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t121" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--mettere a disposizione solo denaro-->
+        <span>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ho considerato sbagliato-->
+        <span>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:04Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:52CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w56" sent="3" para="2" offset="261" length="7">Secondo</wf>
+    <wf wid="w57" sent="3" para="2" offset="269" length="2">il</wf>
+    <wf wid="w58" sent="3" para="2" offset="272" length="7">premier</wf>
+    <wf wid="w59" sent="3" para="2" offset="280" length="8">italiano</wf>
+    <wf wid="w60" sent="3" para="2" offset="289" length="5">Mario</wf>
+    <wf wid="w61" sent="3" para="2" offset="295" length="5">Monti</wf>
+    <wf wid="w62" sent="3" para="2" offset="301" length="5">sulle</wf>
+    <wf wid="w63" sent="3" para="2" offset="307" length="9">possibili</wf>
+    <wf wid="w64" sent="3" para="2" offset="317" length="9">soluzioni</wf>
+    <wf wid="w65" sent="3" para="2" offset="327" length="2">le</wf>
+    <wf wid="w66" sent="3" para="2" offset="330" length="9">posizioni</wf>
+    <wf wid="w67" sent="3" para="2" offset="340" length="2">in</wf>
+    <wf wid="w68" sent="3" para="2" offset="343" length="6">Europa</wf>
+    <wf wid="w69" sent="3" para="2" offset="350" length="2">si</wf>
+    <wf wid="w70" sent="3" para="2" offset="353" length="6">stanno</wf>
+    <wf wid="w71" sent="3" para="2" offset="360" length="11">avvicinando</wf>
+    <wf wid="w72" sent="3" para="2" offset="371" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Secondo-->
+    <term tid="t56" type="" lemma="secondo" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t57" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t58" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--italiano-->
+    <term tid="t59" type="" lemma="italiano" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--Mario-->
+    <term tid="t60" type="" lemma="mario" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t61" type="" lemma="monte" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--sulle-->
+    <term tid="t62" type="" lemma="sulle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--possibili-->
+    <term tid="t63" type="" lemma="possibile" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--soluzioni-->
+    <term tid="t64" type="" lemma="soluzione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t65" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--posizioni-->
+    <term tid="t66" type="" lemma="posizione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t67" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t68" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t69" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--stanno-->
+    <term tid="t70" type="" lemma="stare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--avvicinando-->
+    <term tid="t71" type="" lemma="avvicinare" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t72" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Secondo il premier italiano Mario Monti-->
+        <span>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--posizioni in Europa-->
+        <span>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--si stanno avvicinando-->
+        <span>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

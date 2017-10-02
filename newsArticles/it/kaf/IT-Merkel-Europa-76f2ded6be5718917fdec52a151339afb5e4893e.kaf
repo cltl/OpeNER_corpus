@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:02:53Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w56" sent="4" para="2" offset="295" length="2">Il</wf>
+    <wf wid="w57" sent="4" para="2" offset="298" length="4">capo</wf>
+    <wf wid="w58" sent="4" para="2" offset="303" length="5">dello</wf>
+    <wf wid="w59" sent="4" para="2" offset="309" length="5">Stato</wf>
+    <wf wid="w60" sent="4" para="2" offset="315" length="2">ha</wf>
+    <wf wid="w61" sent="4" para="2" offset="318" length="7">copiato</wf>
+    <wf wid="w62" sent="4" para="2" offset="326" length="2">la</wf>
+    <wf wid="w63" sent="4" para="2" offset="329" length="3">sua</wf>
+    <wf wid="w64" sent="4" para="2" offset="333" length="4">tesi</wf>
+    <wf wid="w65" sent="4" para="2" offset="338" length="2">di</wf>
+    <wf wid="w66" sent="4" para="2" offset="341" length="9">dottorato</wf>
+    <wf wid="w67" sent="4" para="2" offset="351" length="1">e</wf>
+    <wf wid="w68" sent="4" para="2" offset="353" length="2">l'</wf>
+    <wf wid="w69" sent="4" para="2" offset="355" length="11">opposizione</wf>
+    <wf wid="w70" sent="4" para="2" offset="367" length="6">chiede</wf>
+    <wf wid="w71" sent="4" para="2" offset="374" length="2">la</wf>
+    <wf wid="w72" sent="4" para="2" offset="377" length="3">sua</wf>
+    <wf wid="w73" sent="4" para="2" offset="381" length="5">testa</wf>
+    <wf wid="w74" sent="4" para="2" offset="386" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t56" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--capo-->
+    <term tid="t57" type="" lemma="capo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--dello-->
+    <term tid="t58" type="" lemma="dello" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--Stato-->
+    <term tid="t59" type="" lemma="stato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t60" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--copiato-->
+    <term tid="t61" type="" lemma="copiare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t62" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--sua-->
+    <term tid="t63" type="" lemma="suo" pos="G" morphofeat="ADJ~POFS">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--tesi-->
+    <term tid="t64" type="" lemma="tesi" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t65" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--dottorato-->
+    <term tid="t66" type="" lemma="dottorato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t67" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t68" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--opposizione-->
+    <term tid="t69" type="" lemma="opposizione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--chiede-->
+    <term tid="t70" type="" lemma="chiedere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t71" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--sua-->
+    <term tid="t72" type="" lemma="suo" pos="G" morphofeat="ADJ~POFS">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--testa-->
+    <term tid="t73" type="" lemma="testa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t74" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--capo dello Stato-->
+        <span>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--la sua tesi di dottorato-->
+        <span>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ha copiato-->
+        <span>
+          <target id="t60"/>
+          <target id="t61"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--la sua testa-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

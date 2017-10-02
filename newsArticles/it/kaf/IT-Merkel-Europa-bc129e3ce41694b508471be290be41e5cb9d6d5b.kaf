@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:25Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w42" sent="5" para="2" offset="231" length="5">Nella</wf>
+    <wf wid="w43" sent="5" para="2" offset="237" length="10">Repubblica</wf>
+    <wf wid="w44" sent="5" para="2" offset="248" length="4">Ceca</wf>
+    <wf wid="w45" sent="5" para="2" offset="253" length="2">le</wf>
+    <wf wid="w46" sent="5" para="2" offset="256" length="8">autorità</wf>
+    <wf wid="w47" sent="5" para="2" offset="265" length="5">hanno</wf>
+    <wf wid="w48" sent="5" para="2" offset="271" length="6">chiuso</wf>
+    <wf wid="w49" sent="5" para="2" offset="278" length="3">una</wf>
+    <wf wid="w50" sent="5" para="2" offset="282" length="6">decina</wf>
+    <wf wid="w51" sent="5" para="2" offset="289" length="2">di</wf>
+    <wf wid="w52" sent="5" para="2" offset="292" length="5">linee</wf>
+    <wf wid="w53" sent="5" para="2" offset="298" length="11">ferroviarie</wf>
+    <wf wid="w54" sent="5" para="2" offset="309" length="1">,</wf>
+    <wf wid="w55" sent="5" para="2" offset="311" length="8">evacuato</wf>
+    <wf wid="w56" sent="5" para="2" offset="320" length="4">case</wf>
+    <wf wid="w57" sent="5" para="2" offset="325" length="2">ed</wf>
+    <wf wid="w58" sent="5" para="2" offset="328" length="6">eretto</wf>
+    <wf wid="w59" sent="5" para="2" offset="335" length="8">barriere</wf>
+    <wf wid="w60" sent="5" para="2" offset="344" length="1">a</wf>
+    <wf wid="w61" sent="5" para="2" offset="346" length="5">Praga</wf>
+    <wf wid="w62" sent="5" para="2" offset="351" length="1">,</wf>
+    <wf wid="w63" sent="5" para="2" offset="353" length="4">dove</wf>
+    <wf wid="w64" sent="5" para="2" offset="358" length="2">si</wf>
+    <wf wid="w65" sent="5" para="2" offset="361" length="4">teme</wf>
+    <wf wid="w66" sent="5" para="2" offset="366" length="2">il</wf>
+    <wf wid="w67" sent="5" para="2" offset="369" length="9">ripetersi</wf>
+    <wf wid="w68" sent="5" para="2" offset="379" length="2">di</wf>
+    <wf wid="w69" sent="5" para="2" offset="382" length="3">uno</wf>
+    <wf wid="w70" sent="5" para="2" offset="386" length="8">scenario</wf>
+    <wf wid="w71" sent="5" para="2" offset="395" length="6">uguale</wf>
+    <wf wid="w72" sent="5" para="2" offset="402" length="1">a</wf>
+    <wf wid="w73" sent="5" para="2" offset="404" length="6">quello</wf>
+    <wf wid="w74" sent="5" para="2" offset="411" length="3">del</wf>
+    <wf wid="w75" sent="5" para="2" offset="415" length="4">2002</wf>
+    <wf wid="w76" sent="5" para="2" offset="419" length="1">,</wf>
+    <wf wid="w77" sent="5" para="2" offset="421" length="3">con</wf>
+    <wf wid="w78" sent="5" para="2" offset="425" length="2">le</wf>
+    <wf wid="w79" sent="5" para="2" offset="428" length="11">inondazioni</wf>
+    <wf wid="w80" sent="5" para="2" offset="440" length="3">che</wf>
+    <wf wid="w81" sent="5" para="2" offset="444" length="13">paralizzarono</wf>
+    <wf wid="w82" sent="5" para="2" offset="458" length="2">la</wf>
+    <wf wid="w83" sent="5" para="2" offset="461" length="5">città</wf>
+    <wf wid="w84" sent="5" para="2" offset="466" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Nella-->
+    <term tid="t42" type="" lemma="nella" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--Repubblica-->
+    <term tid="t43" type="" lemma="repubblica" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--Ceca-->
+    <term tid="t44" type="" lemma="ceco" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t45" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--autorità-->
+    <term tid="t46" type="" lemma="autorita'" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--hanno-->
+    <term tid="t47" type="" lemma="avere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--chiuso-->
+    <term tid="t48" type="" lemma="chiudere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t49" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--decina-->
+    <term tid="t50" type="" lemma="decina" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t51" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--linee-->
+    <term tid="t52" type="" lemma="linea" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--ferroviarie-->
+    <term tid="t53" type="" lemma="ferroviario" pos="G" morphofeat="ADJ~QUFP">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t54" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--evacuato-->
+    <term tid="t55" type="" lemma="evacuare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--case-->
+    <term tid="t56" type="" lemma="casa" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--ed-->
+    <term tid="t57" type="" lemma="ed" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--eretto-->
+    <term tid="t58" type="" lemma="eretto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--barriere-->
+    <term tid="t59" type="" lemma="barriera" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t60" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--Praga-->
+    <term tid="t61" type="" lemma="praga" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t62" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--dove-->
+    <term tid="t63" type="" lemma="dove" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t64" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--teme-->
+    <term tid="t65" type="" lemma="temere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t66" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--ripetersi-->
+    <term tid="t67" type="" lemma="ripetersi" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t68" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--uno-->
+    <term tid="t69" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--scenario-->
+    <term tid="t70" type="" lemma="scenario" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--uguale-->
+    <term tid="t71" type="" lemma="uguale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t72" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--quello-->
+    <term tid="t73" type="" lemma="quello" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t74" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--2002-->
+    <term tid="t75" type="" lemma="2002" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t76" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t77" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t78" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--inondazioni-->
+    <term tid="t79" type="" lemma="inondazione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t80" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--paralizzarono-->
+    <term tid="t81" type="" lemma="paralizzare" pos="V" morphofeat="VMA~RAN6">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t82" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--città-->
+    <term tid="t83" type="" lemma="citta'" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t84" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--autorità-->
+        <span>
+          <target id="t46"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--una decina di linee ferroviarie-->
+        <span>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--hanno chiuso-->
+        <span>
+          <target id="t47"/>
+          <target id="t48"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

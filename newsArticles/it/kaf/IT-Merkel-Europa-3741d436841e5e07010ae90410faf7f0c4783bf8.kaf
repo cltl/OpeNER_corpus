@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:47Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:47Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:11:58Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w58" sent="3" para="2" offset="289" length="7">Secondo</wf>
+    <wf wid="w59" sent="3" para="2" offset="297" length="6">Merkel</wf>
+    <wf wid="w60" sent="3" para="2" offset="303" length="1">,</wf>
+    <wf wid="w61" sent="3" para="2" offset="305" length="2">le</wf>
+    <wf wid="w62" sent="3" para="2" offset="308" length="7">riforme</wf>
+    <wf wid="w63" sent="3" para="2" offset="316" length="11">strutturali</wf>
+    <wf wid="w64" sent="3" para="2" offset="328" length="5">danno</wf>
+    <wf wid="w65" sent="3" para="2" offset="334" length="9">risultati</wf>
+    <wf wid="w66" sent="3" para="2" offset="344" length="12">estremamente</wf>
+    <wf wid="w67" sent="3" para="2" offset="357" length="8">positivi</wf>
+    <wf wid="w68" sent="3" para="2" offset="365" length="1">,</wf>
+    <wf wid="w69" sent="3" para="2" offset="367" length="4">come</wf>
+    <wf wid="w70" sent="3" para="2" offset="372" length="8">dimostra</wf>
+    <wf wid="w71" sent="3" para="2" offset="381" length="2">lo</wf>
+    <wf wid="w72" sent="3" para="2" offset="384" length="5">stato</wf>
+    <wf wid="w73" sent="3" para="2" offset="390" length="7">odierno</wf>
+    <wf wid="w74" sent="3" para="2" offset="398" length="5">dell'</wf>
+    <wf wid="w75" sent="3" para="2" offset="403" length="8">economia</wf>
+    <wf wid="w76" sent="3" para="2" offset="412" length="7">tedesca</wf>
+    <wf wid="w77" sent="3" para="2" offset="419" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Secondo-->
+    <term tid="t58" type="" lemma="secondo" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t59" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t60" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t61" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--riforme-->
+    <term tid="t62" type="" lemma="riforma" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--strutturali-->
+    <term tid="t63" type="" lemma="strutturale" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--danno-->
+    <term tid="t64" type="" lemma="dannare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--risultati-->
+    <term tid="t65" type="" lemma="risultato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--estremamente-->
+    <term tid="t66" type="" lemma="estremamente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--positivi-->
+    <term tid="t67" type="" lemma="positivo" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t68" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--come-->
+    <term tid="t69" type="" lemma="come" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--dimostra-->
+    <term tid="t70" type="" lemma="dimostrare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t71" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--stato-->
+    <term tid="t72" type="" lemma="stato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--odierno-->
+    <term tid="t73" type="" lemma="odierno" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t74" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--economia-->
+    <term tid="t75" type="" lemma="economia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--tedesca-->
+    <term tid="t76" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t77" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t59"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--le riforme strutturali-->
+        <span>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--danno risultati estremamente positivi-->
+        <span>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:49Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:49Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:12:09Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Merkel</wf>
+    <wf wid="w2" sent="1" para="1" offset="6" length="1">,</wf>
+    <wf wid="w3" sent="1" para="1" offset="8" length="6">Europa</wf>
+    <wf wid="w4" sent="1" para="1" offset="15" length="3">sia</wf>
+    <wf wid="w5" sent="1" para="1" offset="19" length="4">meno</wf>
+    <wf wid="w6" sent="1" para="1" offset="24" length="10">dipendente</wf>
+    <wf wid="w7" sent="1" para="1" offset="35" length="7">mercati</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t1" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t2" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t3" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--sia-->
+    <term tid="t4" type="" lemma="essere" pos="V" morphofeat="VAU~CGN3">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--meno-->
+    <term tid="t5" type="" lemma="meno" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--dipendente-->
+    <term tid="t6" type="" lemma="dipendere" pos="V" morphofeat="VMA~PPNS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--mercati-->
+    <term tid="t7" type="" lemma="mercato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--sia meno dipendente-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

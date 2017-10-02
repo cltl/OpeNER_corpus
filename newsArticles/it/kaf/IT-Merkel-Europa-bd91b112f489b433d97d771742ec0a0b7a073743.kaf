@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:01Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:01Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:16:38Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w32" sent="5" para="2" offset="178" length="9">Sconfitti</wf>
+    <wf wid="w33" sent="5" para="2" offset="188" length="13">euroscetticiI</wf>
+    <wf wid="w34" sent="5" para="2" offset="202" length="5">primi</wf>
+    <wf wid="w35" sent="5" para="2" offset="208" length="9">risultati</wf>
+    <wf wid="w36" sent="5" para="2" offset="218" length="5">dello</wf>
+    <wf wid="w37" sent="5" para="2" offset="224" length="7">spoglio</wf>
+    <wf wid="w38" sent="5" para="2" offset="232" length="10">elettorale</wf>
+    <wf wid="w39" sent="5" para="2" offset="243" length="10">confermano</wf>
+    <wf wid="w40" sent="5" para="2" offset="254" length="6">quanto</wf>
+    <wf wid="w41" sent="5" para="2" offset="261" length="6">emerso</wf>
+    <wf wid="w42" sent="5" para="2" offset="268" length="5">dagli</wf>
+    <wf wid="w43" sent="5" para="2" offset="274" length="4">exit</wf>
+    <wf wid="w44" sent="5" para="2" offset="279" length="4">poll</wf>
+    <wf wid="w45" sent="5" para="2" offset="283" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Sconfitti-->
+    <term tid="t32" type="" lemma="sconfiggere" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--euroscetticiI-->
+    <term tid="t33" type="" lemma="euroscetticii" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--primi-->
+    <term tid="t34" type="" lemma="primo" pos="G" morphofeat="ADJ~ORMP">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--risultati-->
+    <term tid="t35" type="" lemma="risultato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--dello-->
+    <term tid="t36" type="" lemma="dello" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--spoglio-->
+    <term tid="t37" type="" lemma="spoglio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--elettorale-->
+    <term tid="t38" type="" lemma="elettorale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--confermano-->
+    <term tid="t39" type="" lemma="confermare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--quanto-->
+    <term tid="t40" type="" lemma="quanto" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--emerso-->
+    <term tid="t41" type="" lemma="emergere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--dagli-->
+    <term tid="t42" type="" lemma="dagli" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--exit-->
+    <term tid="t43" type="" lemma="exit" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--poll-->
+    <term tid="t44" type="" lemma="poll" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t45" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--primi risultati dello spoglio-->
+        <span>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--quanto emerso dagli exit poll-->
+        <span>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--confermano-->
+        <span>
+          <target id="t39"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--euroscetticiI-->
+        <span>
+          <target id="t33"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--Sconfitti-->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

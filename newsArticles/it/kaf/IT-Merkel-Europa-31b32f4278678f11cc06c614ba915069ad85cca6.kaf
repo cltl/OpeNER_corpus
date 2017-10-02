@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:13Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w163" sent="9" para="2" offset="913" length="1">«</wf>
+    <wf wid="w164" sent="9" para="2" offset="914" length="5">Penso</wf>
+    <wf wid="w165" sent="9" para="2" offset="920" length="5">siano</wf>
+    <wf wid="w166" sent="9" para="2" offset="926" length="5">stati</wf>
+    <wf wid="w167" sent="9" para="2" offset="932" length="2">l’</wf>
+    <wf wid="w168" sent="9" para="2" offset="934" length="8">opinione</wf>
+    <wf wid="w169" sent="9" para="2" offset="943" length="8">pubblica</wf>
+    <wf wid="w170" sent="9" para="2" offset="952" length="8">mondiale</wf>
+    <wf wid="w171" sent="9" para="2" offset="961" length="1">e</wf>
+    <wf wid="w172" sent="9" para="2" offset="963" length="1">i</wf>
+    <wf wid="w173" sent="9" para="2" offset="965" length="5">media</wf>
+    <wf wid="w174" sent="9" para="2" offset="971" length="3">che</wf>
+    <wf wid="w175" sent="9" para="2" offset="975" length="5">hanno</wf>
+    <wf wid="w176" sent="9" para="2" offset="981" length="4">reso</wf>
+    <wf wid="w177" sent="9" para="2" offset="986" length="9">possibile</wf>
+    <wf wid="w178" sent="9" para="2" offset="996" length="5">molte</wf>
+    <wf wid="w179" sent="9" para="2" offset="1002" length="4">cose</wf>
+    <wf wid="w180" sent="9" para="2" offset="1007" length="3">per</wf>
+    <wf wid="w181" sent="9" para="2" offset="1011" length="5">molte</wf>
+    <wf wid="w182" sent="9" para="2" offset="1017" length="7">persone</wf>
+    <wf wid="w183" sent="9" para="2" offset="1024" length="1">.</wf>
+  </text>
+  <terms>
+    <!--«-->
+    <term tid="t163" type="" lemma="«" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--Penso-->
+    <term tid="t164" type="" lemma="penso" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--siano-->
+    <term tid="t165" type="" lemma="essere" pos="V" morphofeat="VAU~CGN6">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--stati-->
+    <term tid="t166" type="" lemma="essere" pos="V" morphofeat="VAU~PAMP">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t167" type="" lemma="l’" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--opinione-->
+    <term tid="t168" type="" lemma="opinione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--pubblica-->
+    <term tid="t169" type="" lemma="pubblico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--mondiale-->
+    <term tid="t170" type="" lemma="mondiale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t171" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t172" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--media-->
+    <term tid="t173" type="" lemma="medio" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t174" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--hanno-->
+    <term tid="t175" type="" lemma="avere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--reso-->
+    <term tid="t176" type="" lemma="rendere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--possibile-->
+    <term tid="t177" type="" lemma="possibile" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--molte-->
+    <term tid="t178" type="" lemma="molto" pos="G" morphofeat="ADJ~INFP">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--cose-->
+    <term tid="t179" type="" lemma="cosa" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t180" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--molte-->
+    <term tid="t181" type="" lemma="molto" pos="G" morphofeat="ADJ~INFP">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--persone-->
+    <term tid="t182" type="" lemma="persona" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t183" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--opinione pubblica mondiale-->
+        <span>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--molte cose per molte persone-->
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--hanno reso possibile-->
+        <span>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--i media-->
+        <span>
+          <target id="t172"/>
+          <target id="t173"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--molte cose per molte persone-->
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--hanno reso possibile-->
+        <span>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

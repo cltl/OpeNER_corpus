@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:12:14Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="7">Effetto</wf>
+    <wf wid="w2" sent="1" para="1" offset="8" length="3">Bce</wf>
+    <wf wid="w3" sent="1" para="1" offset="12" length="3">sui</wf>
+    <wf wid="w4" sent="1" para="1" offset="16" length="7">mercati</wf>
+    <wf wid="w5" sent="1" para="1" offset="24" length="5">Monti</wf>
+    <wf wid="w6" sent="1" para="1" offset="29" length="1">:</wf>
+    <wf wid="w7" sent="1" para="1" offset="30" length="1">'</wf>
+    <wf wid="w8" sent="1" para="1" offset="31" length="7">Evitato</wf>
+    <wf wid="w9" sent="1" para="1" offset="39" length="8">tracollo</wf>
+    <wf wid="w10" sent="1" para="1" offset="47" length="1">'</wf>
+  </text>
+  <terms>
+    <!--Effetto-->
+    <term tid="t1" type="" lemma="effetto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Bce-->
+    <term tid="t2" type="" lemma="bce" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--sui-->
+    <term tid="t3" type="" lemma="sui" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--mercati-->
+    <term tid="t4" type="" lemma="mercato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t5" type="" lemma="montare" pos="V" morphofeat="VMA~IPN3">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t6" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t7" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Evitato-->
+    <term tid="t8" type="" lemma="evitare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--tracollo-->
+    <term tid="t9" type="" lemma="tracollo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t10" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Monti-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--tracollo-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--Evitato-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

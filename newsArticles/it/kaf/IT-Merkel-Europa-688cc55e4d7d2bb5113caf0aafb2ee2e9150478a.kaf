@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:12:12Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w30" sent="3" para="2" offset="156" length="1">E</wf>
+    <wf wid="w31" sent="3" para="2" offset="158" length="2">la</wf>
+    <wf wid="w32" sent="3" para="2" offset="161" length="3">Cdu</wf>
+    <wf wid="w33" sent="3" para="2" offset="165" length="4">teme</wf>
+    <wf wid="w34" sent="3" para="2" offset="170" length="2">la</wf>
+    <wf wid="w35" sent="3" para="2" offset="173" length="11">sconfitta06</wf>
+    <wf wid="w36" sent="3" para="2" offset="185" length="6">maggio</wf>
+    <wf wid="w37" sent="3" para="2" offset="191" length="1">,</wf>
+    <wf wid="w38" sent="3" para="2" offset="193" length="11">14:14Angela</wf>
+    <wf wid="w39" sent="3" para="2" offset="205" length="8">Merkeldi</wf>
+    <wf wid="w40" sent="3" para="2" offset="214" length="7">Rosanna</wf>
+    <wf wid="w41" sent="3" para="2" offset="222" length="10">PuglieseSi</wf>
+    <wf wid="w42" sent="3" para="2" offset="233" length="4">vota</wf>
+    <wf wid="w43" sent="3" para="2" offset="238" length="2">in</wf>
+    <wf wid="w44" sent="3" para="2" offset="241" length="3">tre</wf>
+    <wf wid="w45" sent="3" para="2" offset="245" length="5">città</wf>
+    <wf wid="w46" sent="3" para="2" offset="251" length="7">europee</wf>
+    <wf wid="w47" sent="3" para="2" offset="258" length="1">,</wf>
+    <wf wid="w48" sent="3" para="2" offset="260" length="2">ma</wf>
+    <wf wid="w49" sent="3" para="2" offset="263" length="5">tutti</wf>
+    <wf wid="w50" sent="3" para="2" offset="269" length="3">gli</wf>
+    <wf wid="w51" sent="3" para="2" offset="273" length="5">occhi</wf>
+    <wf wid="w52" sent="3" para="2" offset="279" length="4">sono</wf>
+    <wf wid="w53" sent="3" para="2" offset="284" length="7">puntati</wf>
+    <wf wid="w54" sent="3" para="2" offset="292" length="5">sulla</wf>
+    <wf wid="w55" sent="3" para="2" offset="298" length="11">cancelliera</wf>
+    <wf wid="w56" sent="3" para="2" offset="310" length="7">tedesca</wf>
+    <wf wid="w57" sent="3" para="2" offset="317" length="1">.</wf>
+  </text>
+  <terms>
+    <!--E-->
+    <term tid="t30" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t31" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--Cdu-->
+    <term tid="t32" type="" lemma="cdu" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--teme-->
+    <term tid="t33" type="" lemma="temere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t34" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--sconfitta06-->
+    <term tid="t35" type="" lemma="sconfitta06" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--maggio-->
+    <term tid="t36" type="" lemma="maggio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t37" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--14:14Angela-->
+    <term tid="t38" type="" lemma="14:14angela" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--Merkeldi-->
+    <term tid="t39" type="" lemma="merkeldi" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--Rosanna-->
+    <term tid="t40" type="" lemma="rosanna" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--PuglieseSi-->
+    <term tid="t41" type="" lemma="pugliesesi" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--vota-->
+    <term tid="t42" type="" lemma="votare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t43" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--tre-->
+    <term tid="t44" type="" lemma="tre" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--città-->
+    <term tid="t45" type="" lemma="città" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--europee-->
+    <term tid="t46" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUFP">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t47" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t48" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--tutti-->
+    <term tid="t49" type="" lemma="tutto" pos="G" morphofeat="ADJ~INMP">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--gli-->
+    <term tid="t50" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--occhi-->
+    <term tid="t51" type="" lemma="occhio" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--sono-->
+    <term tid="t52" type="" lemma="essere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--puntati-->
+    <term tid="t53" type="" lemma="puntare" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--sulla-->
+    <term tid="t54" type="" lemma="sulla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--cancelliera-->
+    <term tid="t55" type="" lemma="cancelliera" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--tedesca-->
+    <term tid="t56" type="" lemma="tedesco" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t57" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Cdu-->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--la sconfitta06-->
+        <span>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--teme-->
+        <span>
+          <target id="t33"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--sconfitta06-->
+        <span>
+          <target id="t35"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

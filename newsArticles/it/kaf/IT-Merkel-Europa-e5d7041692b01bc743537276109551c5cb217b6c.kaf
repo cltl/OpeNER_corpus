@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:26Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:26Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:09:46Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w147" sent="7" para="2" offset="763" length="1">A</wf>
+    <wf wid="w148" sent="7" para="2" offset="765" length="10">cominciare</wf>
+    <wf wid="w149" sent="7" para="2" offset="776" length="3">dal</wf>
+    <wf wid="w150" sent="7" para="2" offset="781" length="10">segretario</wf>
+    <wf wid="w151" sent="7" para="2" offset="792" length="8">generale</wf>
+    <wf wid="w152" sent="7" para="2" offset="800" length="1">,</wf>
+    <wf wid="w153" sent="7" para="2" offset="802" length="9">Alexander</wf>
+    <wf wid="w154" sent="7" para="2" offset="812" length="8">Dobrindt</wf>
+    <wf wid="w155" sent="7" para="2" offset="820" length="1">,</wf>
+    <wf wid="w156" sent="7" para="2" offset="822" length="3">per</wf>
+    <wf wid="w157" sent="7" para="2" offset="826" length="2">il</wf>
+    <wf wid="w158" sent="7" para="2" offset="829" length="5">quale</wf>
+    <wf wid="w159" sent="7" para="2" offset="835" length="2">l'</wf>
+    <wf wid="w160" sent="7" para="2" offset="837" length="6">uscita</wf>
+    <wf wid="w161" sent="7" para="2" offset="844" length="5">della</wf>
+    <wf wid="w162" sent="7" para="2" offset="850" length="6">Grecia</wf>
+    <wf wid="w163" sent="7" para="2" offset="857" length="5">dall'</wf>
+    <wf wid="w164" sent="7" para="2" offset="862" length="4">euro</wf>
+    <wf wid="w165" sent="7" para="2" offset="867" length="1">è</wf>
+    <wf wid="w166" sent="7" para="2" offset="869" length="11">inevitabile</wf>
+    <wf wid="w167" sent="7" para="2" offset="880" length="1">.</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term tid="t147" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--cominciare-->
+    <term tid="t148" type="" lemma="cominciare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--dal-->
+    <term tid="t149" type="" lemma="dal" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--segretario-->
+    <term tid="t150" type="" lemma="segretario" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--generale-->
+    <term tid="t151" type="" lemma="generale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t152" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--Alexander-->
+    <term tid="t153" type="" lemma="alexander" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--Dobrindt-->
+    <term tid="t154" type="" lemma="dobrindt" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t155" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t156" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t157" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--quale-->
+    <term tid="t158" type="" lemma="quale" pos="Q" morphofeat="PRON~REN3">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t159" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--uscita-->
+    <term tid="t160" type="" lemma="uscita" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t161" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--Grecia-->
+    <term tid="t162" type="" lemma="grecia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--dall'-->
+    <term tid="t163" type="" lemma="dall'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t164" type="" lemma="euro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t165" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--inevitabile-->
+    <term tid="t166" type="" lemma="inevitabile" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t167" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--uscita inevitabile-->
+        <span>
+          <target id="t160"/>
+          <target id="t166"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

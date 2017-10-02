@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:19:35Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w128" sent="6" para="2" offset="676" length="2">Il</wf>
+    <wf wid="w129" sent="6" para="2" offset="679" length="7">premier</wf>
+    <wf wid="w130" sent="6" para="2" offset="687" length="10">britannico</wf>
+    <wf wid="w131" sent="6" para="2" offset="698" length="5">David</wf>
+    <wf wid="w132" sent="6" para="2" offset="704" length="7">Cameron</wf>
+    <wf wid="w133" sent="6" para="2" offset="711" length="1">,</wf>
+    <wf wid="w134" sent="6" para="2" offset="713" length="10">presidente</wf>
+    <wf wid="w135" sent="6" para="2" offset="724" length="2">di</wf>
+    <wf wid="w136" sent="6" para="2" offset="727" length="5">turno</wf>
+    <wf wid="w137" sent="6" para="2" offset="733" length="3">del</wf>
+    <wf wid="w138" sent="6" para="2" offset="737" length="4">club</wf>
+    <wf wid="w139" sent="6" para="2" offset="742" length="3">dei</wf>
+    <wf wid="w140" sent="6" para="2" offset="746" length="7">Potenti</wf>
+    <wf wid="w141" sent="6" para="2" offset="754" length="2">ci</wf>
+    <wf wid="w142" sent="6" para="2" offset="757" length="5">tiene</wf>
+    <wf wid="w143" sent="6" para="2" offset="763" length="1">a</wf>
+    <wf wid="w144" sent="6" para="2" offset="765" length="8">mostrare</wf>
+    <wf wid="w145" sent="6" para="2" offset="774" length="2">al</wf>
+    <wf wid="w146" sent="6" para="2" offset="777" length="5">mondo</wf>
+    <wf wid="w147" sent="6" para="2" offset="783" length="4">come</wf>
+    <wf wid="w148" sent="6" para="2" offset="788" length="2">la</wf>
+    <wf wid="w149" sent="6" para="2" offset="791" length="9">questione</wf>
+    <wf wid="w150" sent="6" para="2" offset="801" length="6">Ulster</wf>
+    <wf wid="w151" sent="6" para="2" offset="807" length="1">,</wf>
+    <wf wid="w152" sent="6" para="2" offset="809" length="3">che</wf>
+    <wf wid="w153" sent="6" para="2" offset="813" length="3">per</wf>
+    <wf wid="w154" sent="6" para="2" offset="817" length="7">decenni</wf>
+    <wf wid="w155" sent="6" para="2" offset="825" length="2">ha</wf>
+    <wf wid="w156" sent="6" para="2" offset="828" length="12">insanguinato</wf>
+    <wf wid="w157" sent="6" para="2" offset="841" length="6">questa</wf>
+    <wf wid="w158" sent="6" para="2" offset="848" length="5">terra</wf>
+    <wf wid="w159" sent="6" para="2" offset="853" length="1">,</wf>
+    <wf wid="w160" sent="6" para="2" offset="855" length="1">è</wf>
+    <wf wid="w161" sent="6" para="2" offset="857" length="15">definitivamente</wf>
+    <wf wid="w162" sent="6" para="2" offset="873" length="6">chiusa</wf>
+    <wf wid="w163" sent="6" para="2" offset="879" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t128" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t129" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--britannico-->
+    <term tid="t130" type="" lemma="britannico" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--David-->
+    <term tid="t131" type="" lemma="david" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t132" type="" lemma="cameron" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t133" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t134" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t135" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--turno-->
+    <term tid="t136" type="" lemma="turno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t137" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--club-->
+    <term tid="t138" type="" lemma="club" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t139" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--Potenti-->
+    <term tid="t140" type="" lemma="potente" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--ci-->
+    <term tid="t141" type="" lemma="ci" pos="Q" morphofeat="PRON~DEN3">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--tiene-->
+    <term tid="t142" type="" lemma="tenere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t143" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--mostrare-->
+    <term tid="t144" type="" lemma="mostrare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t145" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--mondo-->
+    <term tid="t146" type="" lemma="mondo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--come-->
+    <term tid="t147" type="" lemma="come" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t148" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--questione-->
+    <term tid="t149" type="" lemma="questione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--Ulster-->
+    <term tid="t150" type="" lemma="ulster" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t151" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t152" type="" lemma="che" pos="G" morphofeat="ADJ~IRNI">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t153" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--decenni-->
+    <term tid="t154" type="" lemma="decenne" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t155" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--insanguinato-->
+    <term tid="t156" type="" lemma="insanguinare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--questa-->
+    <term tid="t157" type="" lemma="questa" pos="G" morphofeat="ADJ~DIFS">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--terra-->
+    <term tid="t158" type="" lemma="terra" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t159" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t160" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--definitivamente-->
+    <term tid="t161" type="" lemma="definitivamente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--chiusa-->
+    <term tid="t162" type="" lemma="chiudere" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t163" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--premier britannico David Cameron-->
+        <span>
+          <target id="t129"/>
+          <target id="t130"/>
+          <target id="t131"/>
+          <target id="t132"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--come la questione Ulster è definitivamente chiusa-->
+        <span>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ci tiene a mostrare-->
+        <span>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

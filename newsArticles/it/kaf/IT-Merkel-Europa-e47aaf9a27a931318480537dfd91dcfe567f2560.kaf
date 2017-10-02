@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:44Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:44Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:03:32Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w170" sent="11" para="2" offset="886" length="5">Hanno</wf>
+    <wf wid="w171" sent="11" para="2" offset="892" length="7">gridato</wf>
+    <wf wid="w172" sent="11" para="2" offset="900" length="6">ancora</wf>
+    <wf wid="w173" sent="11" para="2" offset="907" length="4">allo</wf>
+    <wf wid="w174" sent="11" para="2" offset="912" length="8">scandalo</wf>
+    <wf wid="w175" sent="11" para="2" offset="921" length="6">quelli</wf>
+    <wf wid="w176" sent="11" para="2" offset="928" length="3">del</wf>
+    <wf wid="w177" sent="11" para="2" offset="932" length="6">fronte</wf>
+    <wf wid="w178" sent="11" para="2" offset="939" length="3">del</wf>
+    <wf wid="w179" sent="11" para="2" offset="943" length="4">Nord</wf>
+    <wf wid="w180" sent="11" para="2" offset="947" length="1">,</wf>
+    <wf wid="w181" sent="11" para="2" offset="949" length="1">i</wf>
+    <wf wid="w182" sent="11" para="2" offset="951" length="9">rigoristi</wf>
+    <wf wid="w183" sent="11" para="2" offset="961" length="3">per</wf>
+    <wf wid="w184" sent="11" para="2" offset="965" length="10">eccellenza</wf>
+    <wf wid="w185" sent="11" para="2" offset="975" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Hanno-->
+    <term tid="t170" type="" lemma="avere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--gridato-->
+    <term tid="t171" type="" lemma="gridare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--ancora-->
+    <term tid="t172" type="" lemma="ancora" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--allo-->
+    <term tid="t173" type="" lemma="allo" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--scandalo-->
+    <term tid="t174" type="" lemma="scandalo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--quelli-->
+    <term tid="t175" type="" lemma="quelli" pos="Q" morphofeat="PRON~DEM6">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t176" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--fronte-->
+    <term tid="t177" type="" lemma="fronte" pos="N" morphofeat="NOU~CSNS">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t178" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--Nord-->
+    <term tid="t179" type="" lemma="nord" pos="R" morphofeat="NOU~PMI">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t180" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t181" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--rigoristi-->
+    <term tid="t182" type="" lemma="rigorista" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t183" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--eccellenza-->
+    <term tid="t184" type="" lemma="eccellenza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t185" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--quelli del fronte del Nord-->
+        <span>
+          <target id="t175"/>
+          <target id="t176"/>
+          <target id="t177"/>
+          <target id="t178"/>
+          <target id="t179"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--Hanno gridato ancora allo scandalo-->
+        <span>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

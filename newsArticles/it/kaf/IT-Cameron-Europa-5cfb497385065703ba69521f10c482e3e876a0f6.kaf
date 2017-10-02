@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:25Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:25Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:06:28Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:59CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w147" sent="7" para="2" offset="755" length="5">Nell'</wf>
+    <wf wid="w148" sent="7" para="2" offset="760" length="9">incidente</wf>
+    <wf wid="w149" sent="7" para="2" offset="770" length="3">due</wf>
+    <wf wid="w150" sent="7" para="2" offset="774" length="7">bambini</wf>
+    <wf wid="w151" sent="7" para="2" offset="782" length="4">sono</wf>
+    <wf wid="w152" sent="7" para="2" offset="787" length="7">rimasti</wf>
+    <wf wid="w153" sent="7" para="2" offset="795" length="6">feriti</wf>
+    <wf wid="w154" sent="7" para="2" offset="801" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Nell'-->
+    <term tid="t147" type="" lemma="nell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--incidente-->
+    <term tid="t148" type="" lemma="incidente" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--due-->
+    <term tid="t149" type="" lemma="due" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--bambini-->
+    <term tid="t150" type="" lemma="bambino" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--sono-->
+    <term tid="t151" type="" lemma="essere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--rimasti-->
+    <term tid="t152" type="" lemma="rimanere" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--feriti-->
+    <term tid="t153" type="" lemma="ferito" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t154" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--due bambini-->
+        <span>
+          <target id="t149"/>
+          <target id="t150"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Negative">
+        <!--sono rimasti feriti-->
+        <span>
+          <target id="t151"/>
+          <target id="t152"/>
+          <target id="t153"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+          <target id="t152"/>
+          <target id="t153"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

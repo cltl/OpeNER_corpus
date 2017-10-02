@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:37Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:10CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w320" sent="12" para="2" offset="1745" length="4">Alla</wf>
+    <wf wid="w321" sent="12" para="2" offset="1750" length="4">fine</wf>
+    <wf wid="w322" sent="12" para="2" offset="1755" length="5">della</wf>
+    <wf wid="w323" sent="12" para="2" offset="1761" length="9">cerimonia</wf>
+    <wf wid="w324" sent="12" para="2" offset="1771" length="2">di</wf>
+    <wf wid="w325" sent="12" para="2" offset="1774" length="12">insediamento</wf>
+    <wf wid="w326" sent="12" para="2" offset="1786" length="1">,</wf>
+    <wf wid="w327" sent="12" para="2" offset="1788" length="2">il</wf>
+    <wf wid="w328" sent="12" para="2" offset="1791" length="3">neo</wf>
+    <wf wid="w329" sent="12" para="2" offset="1795" length="10">presidente</wf>
+    <wf wid="w330" sent="12" para="2" offset="1805" length="1">,</wf>
+    <wf wid="w331" sent="12" para="2" offset="1807" length="13">completamente</wf>
+    <wf wid="w332" sent="12" para="2" offset="1821" length="5">zuppo</wf>
+    <wf wid="w333" sent="12" para="2" offset="1826" length="1">,</wf>
+    <wf wid="w334" sent="12" para="2" offset="1828" length="1">è</wf>
+    <wf wid="w335" sent="12" para="2" offset="1830" length="8">arrivato</wf>
+    <wf wid="w336" sent="12" para="2" offset="1839" length="4">all’</wf>
+    <wf wid="w337" sent="12" para="2" offset="1843" length="4">Arco</wf>
+    <wf wid="w338" sent="12" para="2" offset="1848" length="2">di</wf>
+    <wf wid="w339" sent="12" para="2" offset="1851" length="7">Trionfo</wf>
+    <wf wid="w340" sent="12" para="2" offset="1859" length="3">per</wf>
+    <wf wid="w341" sent="12" para="2" offset="1863" length="2">un</wf>
+    <wf wid="w342" sent="12" para="2" offset="1866" length="7">omaggio</wf>
+    <wf wid="w343" sent="12" para="2" offset="1874" length="4">alla</wf>
+    <wf wid="w344" sent="12" para="2" offset="1879" length="5">tomba</wf>
+    <wf wid="w345" sent="12" para="2" offset="1885" length="3">del</wf>
+    <wf wid="w346" sent="12" para="2" offset="1889" length="6">Milite</wf>
+    <wf wid="w347" sent="12" para="2" offset="1896" length="6">ignoto</wf>
+    <wf wid="w348" sent="12" para="2" offset="1902" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Alla-->
+    <term tid="t320" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--fine-->
+    <term tid="t321" type="" lemma="fine" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t322" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--cerimonia-->
+    <term tid="t323" type="" lemma="cerimonia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t324" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--insediamento-->
+    <term tid="t325" type="" lemma="insediamento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t326" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t327" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <!--neo-->
+    <term tid="t328" type="" lemma="neo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t329" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t330" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w330"/>
+      </span>
+    </term>
+    <!--completamente-->
+    <term tid="t331" type="" lemma="completamente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w331"/>
+      </span>
+    </term>
+    <!--zuppo-->
+    <term tid="t332" type="" lemma="zuppo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w332"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t333" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w333"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t334" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w334"/>
+      </span>
+    </term>
+    <!--arrivato-->
+    <term tid="t335" type="" lemma="arrivare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w335"/>
+      </span>
+    </term>
+    <!--all’-->
+    <term tid="t336" type="" lemma="all’" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w336"/>
+      </span>
+    </term>
+    <!--Arco-->
+    <term tid="t337" type="" lemma="arco" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w337"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t338" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w338"/>
+      </span>
+    </term>
+    <!--Trionfo-->
+    <term tid="t339" type="" lemma="trionfo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w339"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t340" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w340"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t341" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w341"/>
+      </span>
+    </term>
+    <!--omaggio-->
+    <term tid="t342" type="" lemma="omaggio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t343" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--tomba-->
+    <term tid="t344" type="" lemma="tomba" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t345" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--Milite-->
+    <term tid="t346" type="" lemma="milite" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--ignoto-->
+    <term tid="t347" type="" lemma="ignoto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t348" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t327"/>
+          <target id="t328"/>
+          <target id="t329"/>
+          <target id="t330"/>
+          <target id="t331"/>
+          <target id="t332"/>
+          <target id="t333"/>
+          <target id="t334"/>
+          <target id="t335"/>
+          <target id="t336"/>
+          <target id="t337"/>
+          <target id="t338"/>
+          <target id="t339"/>
+          <target id="t340"/>
+          <target id="t341"/>
+          <target id="t342"/>
+          <target id="t343"/>
+          <target id="t344"/>
+          <target id="t345"/>
+          <target id="t346"/>
+          <target id="t347"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

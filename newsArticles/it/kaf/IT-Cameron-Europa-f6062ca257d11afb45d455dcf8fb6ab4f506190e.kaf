@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:10:34Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w299" sent="12" para="2" offset="1644" length="2">Il</wf>
+    <wf wid="w300" sent="12" para="2" offset="1647" length="4">voto</wf>
+    <wf wid="w301" sent="12" para="2" offset="1652" length="2">di</wf>
+    <wf wid="w302" sent="12" para="2" offset="1655" length="4">ieri</wf>
+    <wf wid="w303" sent="12" para="2" offset="1660" length="2">in</wf>
+    <wf wid="w304" sent="12" para="2" offset="1663" length="4">Gran</wf>
+    <wf wid="w305" sent="12" para="2" offset="1668" length="8">Bretagna</wf>
+    <wf wid="w306" sent="12" para="2" offset="1677" length="2">ha</wf>
+    <wf wid="w307" sent="12" para="2" offset="1680" length="11">tinteggiato</wf>
+    <wf wid="w308" sent="12" para="2" offset="1692" length="2">di</wf>
+    <wf wid="w309" sent="12" para="2" offset="1695" length="5">rosso</wf>
+    <wf wid="w310" sent="12" para="2" offset="1701" length="2">la</wf>
+    <wf wid="w311" sent="12" para="2" offset="1704" length="5">mappa</wf>
+    <wf wid="w312" sent="12" para="2" offset="1710" length="8">politica</wf>
+    <wf wid="w313" sent="12" para="2" offset="1719" length="3">del</wf>
+    <wf wid="w314" sent="12" para="2" offset="1723" length="5">Paese</wf>
+    <wf wid="w315" sent="12" para="2" offset="1729" length="1">e</wf>
+    <wf wid="w316" sent="12" para="2" offset="1731" length="2">la</wf>
+    <wf wid="w317" sent="12" para="2" offset="1734" length="10">riconferma</wf>
+    <wf wid="w318" sent="12" para="2" offset="1745" length="2">di</wf>
+    <wf wid="w319" sent="12" para="2" offset="1748" length="7">Johnson</wf>
+    <wf wid="w320" sent="12" para="2" offset="1756" length="11">costringerà</wf>
+    <wf wid="w321" sent="12" para="2" offset="1768" length="13">probabilmente</wf>
+    <wf wid="w322" sent="12" para="2" offset="1782" length="5">David</wf>
+    <wf wid="w323" sent="12" para="2" offset="1788" length="2">ad</wf>
+    <wf wid="w324" sent="12" para="2" offset="1791" length="6">essere</wf>
+    <wf wid="w325" sent="12" para="2" offset="1798" length="3">più</wf>
+    <wf wid="w326" sent="12" para="2" offset="1802" length="6">simile</wf>
+    <wf wid="w327" sent="12" para="2" offset="1809" length="1">a</wf>
+    <wf wid="w328" sent="12" para="2" offset="1811" length="5">Boris</wf>
+    <wf wid="w329" sent="12" para="2" offset="1816" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t299" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--voto-->
+    <term tid="t300" type="" lemma="voto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t301" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--ieri-->
+    <term tid="t302" type="" lemma="ieri" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t303" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--Gran-->
+    <term tid="t304" type="" lemma="gran" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--Bretagna-->
+    <term tid="t305" type="" lemma="bretagna" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t306" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--tinteggiato-->
+    <term tid="t307" type="" lemma="tinteggiato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t308" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <!--rosso-->
+    <term tid="t309" type="" lemma="rosso" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t310" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <!--mappa-->
+    <term tid="t311" type="" lemma="mappare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <!--politica-->
+    <term tid="t312" type="" lemma="politico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t313" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <!--Paese-->
+    <term tid="t314" type="" lemma="paese" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t315" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t316" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--riconferma-->
+    <term tid="t317" type="" lemma="riconferma" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t318" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--Johnson-->
+    <term tid="t319" type="" lemma="johnson" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--costringerà-->
+    <term tid="t320" type="" lemma="costringere" pos="V" morphofeat="VMA~CGN6">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--probabilmente-->
+    <term tid="t321" type="" lemma="probabilmente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--David-->
+    <term tid="t322" type="" lemma="david" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--ad-->
+    <term tid="t323" type="" lemma="ad" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--essere-->
+    <term tid="t324" type="" lemma="essera" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--più-->
+    <term tid="t325" type="" lemma="più" pos="V" morphofeat="VMA~IPN5">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+    <!--simile-->
+    <term tid="t326" type="" lemma="simile" pos="G" morphofeat="ADJ~DINS">
+      <span>
+        <target id="w326"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t327" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w327"/>
+      </span>
+    </term>
+    <!--Boris-->
+    <term tid="t328" type="" lemma="boris" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w328"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t329" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w329"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t299"/>
+          <target id="t300"/>
+          <target id="t301"/>
+          <target id="t302"/>
+          <target id="t303"/>
+          <target id="t304"/>
+          <target id="t305"/>
+          <target id="t306"/>
+          <target id="t307"/>
+          <target id="t308"/>
+          <target id="t309"/>
+          <target id="t310"/>
+          <target id="t311"/>
+          <target id="t312"/>
+          <target id="t313"/>
+          <target id="t314"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

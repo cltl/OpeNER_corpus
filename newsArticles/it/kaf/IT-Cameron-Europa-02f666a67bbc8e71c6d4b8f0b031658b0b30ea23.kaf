@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:23Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:23Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:06:03Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:25CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w89" sent="5" para="2" offset="493" length="7">Francia</wf>
+    <wf wid="w90" sent="5" para="2" offset="501" length="1">e</wf>
+    <wf wid="w91" sent="5" para="2" offset="503" length="8">Germania</wf>
+    <wf wid="w92" sent="5" para="2" offset="511" length="1">,</wf>
+    <wf wid="w93" sent="5" para="2" offset="513" length="7">inoltre</wf>
+    <wf wid="w94" sent="5" para="2" offset="520" length="1">,</wf>
+    <wf wid="w95" sent="5" para="2" offset="522" length="11">tratteranno</wf>
+    <wf wid="w96" sent="5" para="2" offset="534" length="3">con</wf>
+    <wf wid="w97" sent="5" para="2" offset="538" length="3">gli</wf>
+    <wf wid="w98" sent="5" para="2" offset="542" length="5">Stati</wf>
+    <wf wid="w99" sent="5" para="2" offset="548" length="5">Uniti</wf>
+    <wf wid="w100" sent="5" para="2" offset="554" length="3">per</wf>
+    <wf wid="w101" sent="5" para="2" offset="558" length="7">mettere</wf>
+    <wf wid="w102" sent="5" para="2" offset="566" length="1">a</wf>
+    <wf wid="w103" sent="5" para="2" offset="568" length="5">punto</wf>
+    <wf wid="w104" sent="5" para="2" offset="574" length="5">entro</wf>
+    <wf wid="w105" sent="5" para="2" offset="580" length="4">fine</wf>
+    <wf wid="w106" sent="5" para="2" offset="585" length="4">anno</wf>
+    <wf wid="w107" sent="5" para="2" offset="590" length="2">un</wf>
+    <wf wid="w108" sent="5" para="2" offset="593" length="1">'</wf>
+    <wf wid="w109" sent="5" para="2" offset="594" length="6">codice</wf>
+    <wf wid="w110" sent="5" para="2" offset="601" length="2">di</wf>
+    <wf wid="w111" sent="5" para="2" offset="604" length="8">condotta</wf>
+    <wf wid="w112" sent="5" para="2" offset="612" length="1">'</wf>
+    <wf wid="w113" sent="5" para="2" offset="614" length="5">sull’</wf>
+    <wf wid="w114" sent="5" para="2" offset="619" length="7">operato</wf>
+    <wf wid="w115" sent="5" para="2" offset="627" length="3">dei</wf>
+    <wf wid="w116" sent="5" para="2" offset="631" length="7">servizi</wf>
+    <wf wid="w117" sent="5" para="2" offset="639" length="7">segreti</wf>
+    <wf wid="w118" sent="5" para="2" offset="646" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Francia-->
+    <term tid="t89" type="" lemma="francia" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t90" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--Germania-->
+    <term tid="t91" type="" lemma="germania" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t92" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--inoltre-->
+    <term tid="t93" type="" lemma="inoltre" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t94" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--tratteranno-->
+    <term tid="t95" type="" lemma="trattare" pos="V" morphofeat="VMA~FUN6">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t96" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--gli-->
+    <term tid="t97" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--Stati-->
+    <term tid="t98" type="" lemma="stato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--Uniti-->
+    <term tid="t99" type="" lemma="uniti" pos="R" morphofeat="NOU~PMP">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t100" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--mettere-->
+    <term tid="t101" type="" lemma="mettere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t102" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--punto-->
+    <term tid="t103" type="" lemma="punto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--entro-->
+    <term tid="t104" type="" lemma="entro" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--fine-->
+    <term tid="t105" type="" lemma="fine" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--anno-->
+    <term tid="t106" type="" lemma="anno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t107" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t108" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--codice-->
+    <term tid="t109" type="" lemma="codice" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t110" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--condotta-->
+    <term tid="t111" type="" lemma="condotta" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t112" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--sull’-->
+    <term tid="t113" type="" lemma="sull’" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--operato-->
+    <term tid="t114" type="" lemma="operato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t115" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--servizi-->
+    <term tid="t116" type="" lemma="servizio" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--segreti-->
+    <term tid="t117" type="" lemma="segreto" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t118" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Francia-->
+        <span>
+          <target id="t89"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--con gli Stati Uniti-->
+        <span>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--tratteranno-->
+        <span>
+          <target id="t95"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Germania-->
+        <span>
+          <target id="t91"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--con gli Stati Uniti-->
+        <span>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--tratteranno-->
+        <span>
+          <target id="t95"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

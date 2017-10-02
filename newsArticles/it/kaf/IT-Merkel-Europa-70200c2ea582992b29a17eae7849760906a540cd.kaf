@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:18Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w187" sent="8" para="2" offset="1003" length="2">Ma</wf>
+    <wf wid="w188" sent="8" para="2" offset="1006" length="2">la</wf>
+    <wf wid="w189" sent="8" para="2" offset="1009" length="4">scia</wf>
+    <wf wid="w190" sent="8" para="2" offset="1014" length="2">di</wf>
+    <wf wid="w191" sent="8" para="2" offset="1017" length="9">divisioni</wf>
+    <wf wid="w192" sent="8" para="2" offset="1027" length="4">all’</wf>
+    <wf wid="w193" sent="8" para="2" offset="1031" length="7">intreno</wf>
+    <wf wid="w194" sent="8" para="2" offset="1039" length="5">dell’</wf>
+    <wf wid="w195" sent="8" para="2" offset="1044" length="6">Unione</wf>
+    <wf wid="w196" sent="8" para="2" offset="1051" length="7">Europea</wf>
+    <wf wid="w197" sent="8" para="2" offset="1059" length="8">potrebbe</wf>
+    <wf wid="w198" sent="8" para="2" offset="1068" length="2">in</wf>
+    <wf wid="w199" sent="8" para="2" offset="1071" length="6">futuro</wf>
+    <wf wid="w200" sent="8" para="2" offset="1078" length="3">non</wf>
+    <wf wid="w201" sent="8" para="2" offset="1082" length="7">giovare</wf>
+    <wf wid="w202" sent="8" para="2" offset="1090" length="4">alla</wf>
+    <wf wid="w203" sent="8" para="2" offset="1095" length="9">stabilità</wf>
+    <wf wid="w204" sent="8" para="2" offset="1104" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ma-->
+    <term tid="t187" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t188" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--scia-->
+    <term tid="t189" type="" lemma="scia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t190" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--divisioni-->
+    <term tid="t191" type="" lemma="divisione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--all’-->
+    <term tid="t192" type="" lemma="all’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--intreno-->
+    <term tid="t193" type="" lemma="intreno" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--dell’-->
+    <term tid="t194" type="" lemma="dell’" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--Unione-->
+    <term tid="t195" type="" lemma="unione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--Europea-->
+    <term tid="t196" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--potrebbe-->
+    <term tid="t197" type="" lemma="potere" pos="V" morphofeat="VMO~CON3">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t198" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--futuro-->
+    <term tid="t199" type="" lemma="futuro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t200" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--giovare-->
+    <term tid="t201" type="" lemma="giovare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t202" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--stabilità-->
+    <term tid="t203" type="" lemma="stabilita'" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t204" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--la scia di divisioni-->
+        <span>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--alla stabilità-->
+        <span>
+          <target id="t202"/>
+          <target id="t203"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--potrebbe non giovare-->
+        <span>
+          <target id="t197"/>
+          <target id="t200"/>
+          <target id="t201"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:29:15Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:51CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2">L’</wf>
+    <wf wid="w2" sent="1" para="1" offset="2" length="6">Europa</wf>
+    <wf wid="w3" sent="1" para="1" offset="8" length="1">,</wf>
+    <wf wid="w4" sent="1" para="1" offset="10" length="5">forte</wf>
+    <wf wid="w5" sent="1" para="1" offset="16" length="9">messaggio</wf>
+    <wf wid="w6" sent="1" para="1" offset="26" length="1">a</wf>
+    <wf wid="w7" sent="1" para="1" offset="28" length="5">Obama</wf>
+    <wf wid="w8" sent="1" para="1" offset="34" length="1">“</wf>
+    <wf wid="w9" sent="1" para="1" offset="35" length="2">Le</wf>
+    <wf wid="w10" sent="1" para="1" offset="38" length="15">intercettazioni</wf>
+    <wf wid="w11" sent="1" para="1" offset="54" length="6">minano</wf>
+    <wf wid="w12" sent="1" para="1" offset="61" length="2">la</wf>
+    <wf wid="w13" sent="1" para="1" offset="64" length="7">fiducia</wf>
+    <wf wid="w14" sent="1" para="1" offset="71" length="1">”</wf>
+  </text>
+  <terms>
+    <!--L’-->
+    <term tid="t1" type="" lemma="l’" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t2" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t3" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--forte-->
+    <term tid="t4" type="" lemma="forte" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--messaggio-->
+    <term tid="t5" type="" lemma="messaggio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t6" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term tid="t7" type="" lemma="obama" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--“-->
+    <term tid="t8" type="" lemma="“" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--Le-->
+    <term tid="t9" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--intercettazioni-->
+    <term tid="t10" type="" lemma="intercettazione" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--minano-->
+    <term tid="t11" type="" lemma="minare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t12" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--fiducia-->
+    <term tid="t13" type="" lemma="fiducia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t14" type="" lemma="”" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--Europa-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--messaggio a Obama-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--forte-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--intercettazioni-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--fiducia-->
+        <span>
+          <target id="t13"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--minano-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

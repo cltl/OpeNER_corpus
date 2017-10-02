@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:06Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:22CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w79" sent="4" para="2" offset="418" length="1">“</wf>
+    <wf wid="w80" sent="4" para="2" offset="419" length="4">Oggi</wf>
+    <wf wid="w81" sent="4" para="2" offset="424" length="2">la</wf>
+    <wf wid="w82" sent="4" para="2" offset="427" length="9">delusione</wf>
+    <wf wid="w83" sent="4" para="2" offset="437" length="3">dei</wf>
+    <wf wid="w84" sent="4" para="2" offset="441" length="9">cittadini</wf>
+    <wf wid="w85" sent="4" para="2" offset="451" length="5">verso</wf>
+    <wf wid="w86" sent="4" para="2" offset="457" length="2">l’</wf>
+    <wf wid="w87" sent="4" para="2" offset="459" length="6">Unione</wf>
+    <wf wid="w88" sent="4" para="2" offset="466" length="7">Europea</wf>
+    <wf wid="w89" sent="4" para="2" offset="474" length="1">è</wf>
+    <wf wid="w90" sent="4" para="2" offset="476" length="2">ai</wf>
+    <wf wid="w91" sent="4" para="2" offset="479" length="7">massimi</wf>
+    <wf wid="w92" sent="4" para="2" offset="487" length="7">livelli</wf>
+    <wf wid="w93" sent="4" para="2" offset="495" length="2">di</wf>
+    <wf wid="w94" sent="4" para="2" offset="498" length="6">sempre</wf>
+    <wf wid="w95" sent="4" para="2" offset="504" length="1">”</wf>
+    <wf wid="w96" sent="4" para="2" offset="506" length="2">ha</wf>
+    <wf wid="w97" sent="4" para="2" offset="509" length="10">dichiarato</wf>
+    <wf wid="w98" sent="4" para="2" offset="520" length="7">Cameron</wf>
+    <wf wid="w99" sent="4" para="2" offset="527" length="1">.</wf>
+  </text>
+  <terms>
+    <!--“-->
+    <term tid="t79" type="" lemma="“" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--Oggi-->
+    <term tid="t80" type="" lemma="oggi" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t81" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--delusione-->
+    <term tid="t82" type="" lemma="delusione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t83" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--cittadini-->
+    <term tid="t84" type="" lemma="cittadino" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--verso-->
+    <term tid="t85" type="" lemma="verso" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t86" type="" lemma="l’" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--Unione-->
+    <term tid="t87" type="" lemma="unione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--Europea-->
+    <term tid="t88" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t89" type="" lemma="è" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--ai-->
+    <term tid="t90" type="" lemma="ai" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--massimi-->
+    <term tid="t91" type="" lemma="massimo" pos="G" morphofeat="ADJ~MP">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--livelli-->
+    <term tid="t92" type="" lemma="livello" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t93" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--sempre-->
+    <term tid="t94" type="" lemma="sempre" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t95" type="" lemma="”" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t96" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--dichiarato-->
+    <term tid="t97" type="" lemma="dichiarare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t98" type="" lemma="cameron" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t99" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--delusione-->
+        <span>
+          <target id="t82"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:02Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w155" sent="7" para="2" offset="759" length="3">Per</wf>
+    <wf wid="w156" sent="7" para="2" offset="763" length="5">tanti</wf>
+    <wf wid="w157" sent="7" para="2" offset="769" length="9">cittadini</wf>
+    <wf wid="w158" sent="7" para="2" offset="779" length="1">e</wf>
+    <wf wid="w159" sent="7" para="2" offset="781" length="9">cittadine</wf>
+    <wf wid="w160" sent="7" para="2" offset="791" length="3">del</wf>
+    <wf wid="w161" sent="7" para="2" offset="795" length="5">Regno</wf>
+    <wf wid="w162" sent="7" para="2" offset="801" length="1">è</wf>
+    <wf wid="w163" sent="7" para="2" offset="803" length="5">stata</wf>
+    <wf wid="w164" sent="7" para="2" offset="809" length="13">semplicemente</wf>
+    <wf wid="w165" sent="7" para="2" offset="823" length="3">una</wf>
+    <wf wid="w166" sent="7" para="2" offset="827" length="4">gran</wf>
+    <wf wid="w167" sent="7" para="2" offset="832" length="5">donna</wf>
+    <wf wid="w168" sent="7" para="2" offset="837" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Per-->
+    <term tid="t155" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--tanti-->
+    <term tid="t156" type="" lemma="tanto" pos="G" morphofeat="ADJ~INMP">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--cittadini-->
+    <term tid="t157" type="" lemma="cittadino" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t158" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--cittadine-->
+    <term tid="t159" type="" lemma="cittadino" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t160" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--Regno-->
+    <term tid="t161" type="" lemma="regno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t162" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--stata-->
+    <term tid="t163" type="" lemma="essere" pos="V" morphofeat="VAU~PAFS">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--semplicemente-->
+    <term tid="t164" type="" lemma="semplicemente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t165" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--gran-->
+    <term tid="t166" type="" lemma="gran" pos="G" morphofeat="ADJ~QUNI">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--donna-->
+    <term tid="t167" type="" lemma="donna" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t168" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Per tanti cittadini e cittadine del Regno-->
+        <span>
+          <target id="t155"/>
+          <target id="t156"/>
+          <target id="t157"/>
+          <target id="t158"/>
+          <target id="t159"/>
+          <target id="t160"/>
+          <target id="t161"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--donna-->
+        <span>
+          <target id="t167"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--una gran-->
+        <span>
+          <target id="t165"/>
+          <target id="t166"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

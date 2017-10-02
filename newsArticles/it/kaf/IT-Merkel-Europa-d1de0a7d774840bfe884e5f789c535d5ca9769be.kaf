@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:49Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:49Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:13:29Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:24CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w10" sent="2" para="2" offset="44" length="2">L'</wf>
+    <wf wid="w11" sent="2" para="2" offset="46" length="9">andamento</wf>
+    <wf wid="w12" sent="2" para="2" offset="56" length="1">a</wf>
+    <wf wid="w13" sent="2" para="2" offset="58" length="6">Piazza</wf>
+    <wf wid="w14" sent="2" para="2" offset="65" length="13">AffariBERLINO</wf>
+    <wf wid="w15" sent="2" para="2" offset="79" length="1">-</wf>
+    <wf wid="w16" sent="2" para="2" offset="81" length="1">"</wf>
+    <wf wid="w17" sent="2" para="2" offset="82" length="2">La</wf>
+    <wf wid="w18" sent="2" para="2" offset="85" length="11">cancelliera</wf>
+    <wf wid="w19" sent="2" para="2" offset="97" length="6">Angela</wf>
+    <wf wid="w20" sent="2" para="2" offset="104" length="6">Merkel</wf>
+    <wf wid="w21" sent="2" para="2" offset="111" length="8">aderisce</wf>
+    <wf wid="w22" sent="2" para="2" offset="120" length="10">volentieri</wf>
+    <wf wid="w23" sent="2" para="2" offset="131" length="4">all'</wf>
+    <wf wid="w24" sent="2" para="2" offset="135" length="6">invito</wf>
+    <wf wid="w25" sent="2" para="2" offset="142" length="3">del</wf>
+    <wf wid="w26" sent="2" para="2" offset="146" length="7">premier</wf>
+    <wf wid="w27" sent="2" para="2" offset="154" length="8">italiano</wf>
+    <wf wid="w28" sent="2" para="2" offset="163" length="5">Mario</wf>
+    <wf wid="w29" sent="2" para="2" offset="169" length="5">Monti</wf>
+    <wf wid="w30" sent="2" para="2" offset="175" length="3">per</wf>
+    <wf wid="w31" sent="2" para="2" offset="179" length="2">il</wf>
+    <wf wid="w32" sent="2" para="2" offset="182" length="7">vertice</wf>
+    <wf wid="w33" sent="2" para="2" offset="190" length="1">a</wf>
+    <wf wid="w34" sent="2" para="2" offset="192" length="7">quattro</wf>
+    <wf wid="w35" sent="2" para="2" offset="200" length="1">a</wf>
+    <wf wid="w36" sent="2" para="2" offset="202" length="4">Roma</wf>
+    <wf wid="w37" sent="2" para="2" offset="206" length="1">,</wf>
+    <wf wid="w38" sent="2" para="2" offset="208" length="3">con</wf>
+    <wf wid="w39" sent="2" para="2" offset="212" length="2">il</wf>
+    <wf wid="w40" sent="2" para="2" offset="215" length="10">presidente</wf>
+    <wf wid="w41" sent="2" para="2" offset="226" length="8">francese</wf>
+    <wf wid="w42" sent="2" para="2" offset="235" length="1">e</wf>
+    <wf wid="w43" sent="2" para="2" offset="237" length="2">il</wf>
+    <wf wid="w44" sent="2" para="2" offset="240" length="7">premier</wf>
+    <wf wid="w45" sent="2" para="2" offset="248" length="8">spagnolo</wf>
+    <wf wid="w46" sent="2" para="2" offset="256" length="1">"</wf>
+    <wf wid="w47" sent="2" para="2" offset="258" length="10">annunciato</wf>
+    <wf wid="w48" sent="2" para="2" offset="269" length="1">a</wf>
+    <wf wid="w49" sent="2" para="2" offset="271" length="6">giugno</wf>
+    <wf wid="w50" sent="2" para="2" offset="277" length="1">.</wf>
+  </text>
+  <terms>
+    <!--L'-->
+    <term tid="t10" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--andamento-->
+    <term tid="t11" type="" lemma="andamento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t12" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--Piazza-->
+    <term tid="t13" type="" lemma="piazza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--AffariBERLINO-->
+    <term tid="t14" type="" lemma="affariberlino" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t15" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t16" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--La-->
+    <term tid="t17" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--cancelliera-->
+    <term tid="t18" type="" lemma="cancelliera" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t19" type="" lemma="angela" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t20" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--aderisce-->
+    <term tid="t21" type="" lemma="aderire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--volentieri-->
+    <term tid="t22" type="" lemma="volentieri" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--all'-->
+    <term tid="t23" type="" lemma="all'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--invito-->
+    <term tid="t24" type="" lemma="invito" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t25" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t26" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--italiano-->
+    <term tid="t27" type="" lemma="italiano" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--Mario-->
+    <term tid="t28" type="" lemma="mario" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t29" type="" lemma="monte" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t30" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w30"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t31" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w31"/>
+      </span>
+    </term>
+    <!--vertice-->
+    <term tid="t32" type="" lemma="vertice" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w32"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t33" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w33"/>
+      </span>
+    </term>
+    <!--quattro-->
+    <term tid="t34" type="" lemma="quattro" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w34"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t35" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--Roma-->
+    <term tid="t36" type="" lemma="roma" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t37" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t38" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t39" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t40" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--francese-->
+    <term tid="t41" type="" lemma="francese" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t42" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t43" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t44" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--spagnolo-->
+    <term tid="t45" type="" lemma="spagnolo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t46" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--annunciato-->
+    <term tid="t47" type="" lemma="annunciare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t48" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--giugno-->
+    <term tid="t49" type="" lemma="giugno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t50" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--cancelliera Angela Merkel-->
+        <span>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--invito del premier italiano Mario Monti-->
+        <span>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+          <target id="t29"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--aderisce volentieri-->
+        <span>
+          <target id="t21"/>
+          <target id="t22"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

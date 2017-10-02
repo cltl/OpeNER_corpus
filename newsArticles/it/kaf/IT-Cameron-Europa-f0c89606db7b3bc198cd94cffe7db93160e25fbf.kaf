@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:15:17Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:24CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w619" sent="18" para="2" offset="3262" length="2">Il</wf>
+    <wf wid="w620" sent="18" para="2" offset="3265" length="10">segretario</wf>
+    <wf wid="w621" sent="18" para="2" offset="3276" length="8">generale</wf>
+    <wf wid="w622" sent="18" para="2" offset="3285" length="5">dell'</wf>
+    <wf wid="w623" sent="18" para="2" offset="3290" length="3">Onu</wf>
+    <wf wid="w624" sent="18" para="2" offset="3294" length="3">Ban</wf>
+    <wf wid="w625" sent="18" para="2" offset="3298" length="7">Ki-moon</wf>
+    <wf wid="w626" sent="18" para="2" offset="3306" length="2">lo</wf>
+    <wf wid="w627" sent="18" para="2" offset="3309" length="2">ha</wf>
+    <wf wid="w628" sent="18" para="2" offset="3312" length="8">definito</wf>
+    <wf wid="w629" sent="18" para="2" offset="3321" length="1">"</wf>
+    <wf wid="w630" sent="18" para="2" offset="3323" length="2">un</wf>
+    <wf wid="w631" sent="18" para="2" offset="3326" length="7">gigante</wf>
+    <wf wid="w632" sent="18" para="2" offset="3334" length="3">per</wf>
+    <wf wid="w633" sent="18" para="2" offset="3338" length="2">la</wf>
+    <wf wid="w634" sent="18" para="2" offset="3341" length="9">giustizia</wf>
+    <wf wid="w635" sent="18" para="2" offset="3351" length="1">e</wf>
+    <wf wid="w636" sent="18" para="2" offset="3353" length="5">fonte</wf>
+    <wf wid="w637" sent="18" para="2" offset="3359" length="2">di</wf>
+    <wf wid="w638" sent="18" para="2" offset="3362" length="11">ispirazione</wf>
+    <wf wid="w639" sent="18" para="2" offset="3374" length="3">per</wf>
+    <wf wid="w640" sent="18" para="2" offset="3378" length="2">l'</wf>
+    <wf wid="w641" sent="18" para="2" offset="3380" length="7">umanità</wf>
+    <wf wid="w642" sent="18" para="2" offset="3387" length="1">"</wf>
+    <wf wid="w643" sent="18" para="2" offset="3389" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t619" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w619"/>
+      </span>
+    </term>
+    <!--segretario-->
+    <term tid="t620" type="" lemma="segretario" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w620"/>
+      </span>
+    </term>
+    <!--generale-->
+    <term tid="t621" type="" lemma="generale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w621"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t622" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w622"/>
+      </span>
+    </term>
+    <!--Onu-->
+    <term tid="t623" type="" lemma="onu" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w623"/>
+      </span>
+    </term>
+    <!--Ban-->
+    <term tid="t624" type="" lemma="ban" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w624"/>
+      </span>
+    </term>
+    <!--Ki-moon-->
+    <term tid="t625" type="" lemma="ki-moon" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w625"/>
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t626" type="" lemma="lo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w626"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t627" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w627"/>
+      </span>
+    </term>
+    <!--definito-->
+    <term tid="t628" type="" lemma="definire" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w628"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t629" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w629"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t630" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w630"/>
+      </span>
+    </term>
+    <!--gigante-->
+    <term tid="t631" type="" lemma="gigante" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w631"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t632" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w632"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t633" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w633"/>
+      </span>
+    </term>
+    <!--giustizia-->
+    <term tid="t634" type="" lemma="giustizia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w634"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t635" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w635"/>
+      </span>
+    </term>
+    <!--fonte-->
+    <term tid="t636" type="" lemma="fonte" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w636"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t637" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w637"/>
+      </span>
+    </term>
+    <!--ispirazione-->
+    <term tid="t638" type="" lemma="ispirazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w638"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t639" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w639"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t640" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w640"/>
+      </span>
+    </term>
+    <!--umanità-->
+    <term tid="t641" type="" lemma="umanita'" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w641"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t642" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w642"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t643" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w643"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--segretario generale dell' Onu Ban Ki-moon-->
+        <span>
+          <target id="t620"/>
+          <target id="t621"/>
+          <target id="t622"/>
+          <target id="t623"/>
+          <target id="t624"/>
+          <target id="t625"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--lo-->
+        <span>
+          <target id="t626"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--un gigante per la giustizia-->
+        <span>
+          <target id="t630"/>
+          <target id="t631"/>
+          <target id="t632"/>
+          <target id="t633"/>
+          <target id="t634"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--segretario generale dell' Onu Ban Ki-moon-->
+        <span>
+          <target id="t620"/>
+          <target id="t621"/>
+          <target id="t622"/>
+          <target id="t623"/>
+          <target id="t624"/>
+          <target id="t625"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--lo-->
+        <span>
+          <target id="t626"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--fonte di ispirazione per l' umanità-->
+        <span>
+          <target id="t636"/>
+          <target id="t637"/>
+          <target id="t638"/>
+          <target id="t639"/>
+          <target id="t640"/>
+          <target id="t641"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

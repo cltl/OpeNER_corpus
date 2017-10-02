@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:44Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:44Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:03:24Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:09CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w134" sent="10" para="2" offset="686" length="4">Frau</wf>
+    <wf wid="w135" sent="10" para="2" offset="691" length="6">Merkel</wf>
+    <wf wid="w136" sent="10" para="2" offset="698" length="2">ha</wf>
+    <wf wid="w137" sent="10" para="2" offset="701" length="8">risposto</wf>
+    <wf wid="w138" sent="10" para="2" offset="710" length="6">picche</wf>
+    <wf wid="w139" sent="10" para="2" offset="716" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Frau-->
+    <term tid="t134" type="" lemma="frau" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t135" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t136" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--risposto-->
+    <term tid="t137" type="" lemma="rispondere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--picche-->
+    <term tid="t138" type="" lemma="picche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t139" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--picche-->
+        <span>
+          <target id="t138"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:12:15Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:59CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w41" sent="3" para="2" offset="157" length="2">Lo</wf>
+    <wf wid="w42" sent="3" para="2" offset="160" length="2">ha</wf>
+    <wf wid="w43" sent="3" para="2" offset="163" length="5">detto</wf>
+    <wf wid="w44" sent="3" para="2" offset="169" length="2">la</wf>
+    <wf wid="w45" sent="3" para="2" offset="172" length="11">cancelliera</wf>
+    <wf wid="w46" sent="3" para="2" offset="184" length="7">tedesca</wf>
+    <wf wid="w47" sent="3" para="2" offset="192" length="6">Angela</wf>
+    <wf wid="w48" sent="3" para="2" offset="199" length="6">Merkel</wf>
+    <wf wid="w49" sent="3" para="2" offset="206" length="2">in</wf>
+    <wf wid="w50" sent="3" para="2" offset="209" length="7">Baviera</wf>
+    <wf wid="w51" sent="3" para="2" offset="216" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Lo-->
+    <term tid="t41" type="" lemma="lo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t42" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--detto-->
+    <term tid="t43" type="" lemma="dettare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t44" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--cancelliera-->
+    <term tid="t45" type="" lemma="cancelliera" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--tedesca-->
+    <term tid="t46" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t47" type="" lemma="angela" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t48" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t49" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--Baviera-->
+    <term tid="t50" type="" lemma="baviera" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t51" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

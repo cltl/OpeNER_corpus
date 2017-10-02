@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:59Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:59Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:16:12Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:13CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="5">Obama</wf>
+    <wf wid="w2" sent="1" para="1" offset="6" length="4">alla</wf>
+    <wf wid="w3" sent="1" para="1" offset="11" length="3">Nsa</wf>
+    <wf wid="w4" sent="1" para="1" offset="14" length="1">:</wf>
+    <wf wid="w5" sent="1" para="1" offset="16" length="5">basta</wf>
+    <wf wid="w6" sent="1" para="1" offset="22" length="6">spiare</wf>
+    <wf wid="w7" sent="1" para="1" offset="29" length="1">i</wf>
+    <wf wid="w8" sent="1" para="1" offset="31" length="6">leader</wf>
+  </text>
+  <terms>
+    <!--Obama-->
+    <term tid="t1" type="" lemma="obama" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t2" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Nsa-->
+    <term tid="t3" type="" lemma="nsa" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t4" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--basta-->
+    <term tid="t5" type="" lemma="bastare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--spiare-->
+    <term tid="t6" type="" lemma="spiare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t7" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term tid="t8" type="" lemma="leader" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Obama-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--spiare i leader-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--basta-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

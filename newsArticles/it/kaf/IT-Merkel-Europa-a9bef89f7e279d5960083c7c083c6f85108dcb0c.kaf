@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:46:45Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w206" sent="8" para="2" offset="1115" length="3">Ora</wf>
+    <wf wid="w207" sent="8" para="2" offset="1119" length="5">tutti</wf>
+    <wf wid="w208" sent="8" para="2" offset="1125" length="9">aspettano</wf>
+    <wf wid="w209" sent="8" para="2" offset="1135" length="7">pesanti</wf>
+    <wf wid="w210" sent="8" para="2" offset="1143" length="13">ripercussioni</wf>
+    <wf wid="w211" sent="8" para="2" offset="1157" length="3">nel</wf>
+    <wf wid="w212" sent="8" para="2" offset="1161" length="7">partito</wf>
+    <wf wid="w213" sent="8" para="2" offset="1169" length="2">di</wf>
+    <wf wid="w214" sent="8" para="2" offset="1172" length="4">Frau</wf>
+    <wf wid="w215" sent="8" para="2" offset="1177" length="6">Merkel</wf>
+    <wf wid="w216" sent="8" para="2" offset="1184" length="1">e</wf>
+    <wf wid="w217" sent="8" para="2" offset="1186" length="5">forse</wf>
+    <wf wid="w218" sent="8" para="2" offset="1192" length="5">anche</wf>
+    <wf wid="w219" sent="8" para="2" offset="1198" length="3">nel</wf>
+    <wf wid="w220" sent="8" para="2" offset="1202" length="3">suo</wf>
+    <wf wid="w221" sent="8" para="2" offset="1206" length="7">governo</wf>
+    <wf wid="w222" sent="8" para="2" offset="1213" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ora-->
+    <term tid="t206" type="" lemma="ora" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--tutti-->
+    <term tid="t207" type="" lemma="tutti" pos="Q" morphofeat="PRON~IDM6">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--aspettano-->
+    <term tid="t208" type="" lemma="aspettare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--pesanti-->
+    <term tid="t209" type="" lemma="pesare" pos="V" morphofeat="VMA~PPNP">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--ripercussioni-->
+    <term tid="t210" type="" lemma="ripercussione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t211" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--partito-->
+    <term tid="t212" type="" lemma="partito" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t213" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--Frau-->
+    <term tid="t214" type="" lemma="frau" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t215" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t216" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--forse-->
+    <term tid="t217" type="" lemma="forse" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--anche-->
+    <term tid="t218" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t219" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--suo-->
+    <term tid="t220" type="" lemma="suo" pos="G" morphofeat="ADJ~POMS">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--governo-->
+    <term tid="t221" type="" lemma="governo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t222" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--pesanti ripercussioni-->
+        <span>
+          <target id="t209"/>
+          <target id="t210"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

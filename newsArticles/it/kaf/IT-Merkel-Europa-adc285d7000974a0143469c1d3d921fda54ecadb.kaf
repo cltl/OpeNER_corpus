@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:16:22Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:06CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w179" sent="7" para="2" offset="1023" length="2">L'</wf>
+    <wf wid="w180" sent="7" para="2" offset="1025" length="6">accusa</wf>
+    <wf wid="w181" sent="7" para="2" offset="1032" length="12">pesantissima</wf>
+    <wf wid="w182" sent="7" para="2" offset="1045" length="1">e</wf>
+    <wf wid="w183" sent="7" para="2" offset="1047" length="9">clamorosa</wf>
+    <wf wid="w184" sent="7" para="2" offset="1057" length="6">arriva</wf>
+    <wf wid="w185" sent="7" para="2" offset="1064" length="12">direttamente</wf>
+    <wf wid="w186" sent="7" para="2" offset="1077" length="3">dal</wf>
+    <wf wid="w187" sent="7" para="2" offset="1081" length="7">governo</wf>
+    <wf wid="w188" sent="7" para="2" offset="1089" length="8">federale</wf>
+    <wf wid="w189" sent="7" para="2" offset="1098" length="7">tedesco</wf>
+    <wf wid="w190" sent="7" para="2" offset="1106" length="3">nel</wf>
+    <wf wid="w191" sent="7" para="2" offset="1110" length="5">pieno</wf>
+    <wf wid="w192" sent="7" para="2" offset="1116" length="5">della</wf>
+    <wf wid="w193" sent="7" para="2" offset="1122" length="5">nuova</wf>
+    <wf wid="w194" sent="7" para="2" offset="1128" length="6">bufera</wf>
+    <wf wid="w195" sent="7" para="2" offset="1135" length="5">sullo</wf>
+    <wf wid="w196" sent="7" para="2" offset="1141" length="10">spionaggio</wf>
+    <wf wid="w197" sent="7" para="2" offset="1152" length="5">della</wf>
+    <wf wid="w198" sent="7" para="2" offset="1158" length="3">Nsa</wf>
+    <wf wid="w199" sent="7" para="2" offset="1162" length="9">americana</wf>
+    <wf wid="w200" sent="7" para="2" offset="1171" length="1">,</wf>
+    <wf wid="w201" sent="7" para="2" offset="1173" length="3">che</wf>
+    <wf wid="w202" sent="7" para="2" offset="1177" length="2">ha</wf>
+    <wf wid="w203" sent="7" para="2" offset="1180" length="3">già</wf>
+    <wf wid="w204" sent="7" para="2" offset="1184" length="5">fatto</wf>
+    <wf wid="w205" sent="7" para="2" offset="1190" length="9">infuriare</wf>
+    <wf wid="w206" sent="7" para="2" offset="1200" length="2">il</wf>
+    <wf wid="w207" sent="7" para="2" offset="1203" length="10">presidente</wf>
+    <wf wid="w208" sent="7" para="2" offset="1214" length="8">francese</wf>
+    <wf wid="w209" sent="7" para="2" offset="1223" length="8">Francois</wf>
+    <wf wid="w210" sent="7" para="2" offset="1232" length="8">Hollande</wf>
+    <wf wid="w211" sent="7" para="2" offset="1241" length="1">e</wf>
+    <wf wid="w212" sent="7" para="2" offset="1243" length="7">lambito</wf>
+    <wf wid="w213" sent="7" para="2" offset="1251" length="2">l'</wf>
+    <wf wid="w214" sent="7" para="2" offset="1253" length="6">Italia</wf>
+    <wf wid="w215" sent="7" para="2" offset="1259" length="1">.</wf>
+  </text>
+  <terms>
+    <!--L'-->
+    <term tid="t179" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--accusa-->
+    <term tid="t180" type="" lemma="accusa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--pesantissima-->
+    <term tid="t181" type="" lemma="pesantissima" pos="G" morphofeat="ADJ~FS">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t182" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--clamorosa-->
+    <term tid="t183" type="" lemma="clamoroso" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--arriva-->
+    <term tid="t184" type="" lemma="arrivare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--direttamente-->
+    <term tid="t185" type="" lemma="direttamente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--dal-->
+    <term tid="t186" type="" lemma="dal" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--governo-->
+    <term tid="t187" type="" lemma="governo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--federale-->
+    <term tid="t188" type="" lemma="federale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--tedesco-->
+    <term tid="t189" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t190" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--pieno-->
+    <term tid="t191" type="" lemma="pieno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t192" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--nuova-->
+    <term tid="t193" type="" lemma="nuovo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--bufera-->
+    <term tid="t194" type="" lemma="bufera" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--sullo-->
+    <term tid="t195" type="" lemma="sullo" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--spionaggio-->
+    <term tid="t196" type="" lemma="spionaggio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t197" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--Nsa-->
+    <term tid="t198" type="" lemma="nsa" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--americana-->
+    <term tid="t199" type="" lemma="americano" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t200" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t201" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t202" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--già-->
+    <term tid="t203" type="" lemma="gia'" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--fatto-->
+    <term tid="t204" type="" lemma="fare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--infuriare-->
+    <term tid="t205" type="" lemma="infuriare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t206" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t207" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--francese-->
+    <term tid="t208" type="" lemma="francese" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--Francois-->
+    <term tid="t209" type="" lemma="francois" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--Hollande-->
+    <term tid="t210" type="" lemma="hollande" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t211" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--lambito-->
+    <term tid="t212" type="" lemma="lambire" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t213" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t214" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t215" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder>
+        <!--presidente francese Francois Hollande-->
+        <span>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+          <target id="t210"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--bufera sullo spionaggio della Nsa americana-->
+        <span>
+          <target id="t194"/>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+          <target id="t198"/>
+          <target id="t199"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--ha già fatto infuriare-->
+        <span>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+          <target id="t205"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--governo federale tedesco-->
+        <span>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--accusa-->
+        <span>
+          <target id="t180"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--pesantissima-->
+        <span>
+          <target id="t181"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--governo federale tedesco-->
+        <span>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--accusa-->
+        <span>
+          <target id="t180"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--clamorosa-->
+        <span>
+          <target id="t183"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

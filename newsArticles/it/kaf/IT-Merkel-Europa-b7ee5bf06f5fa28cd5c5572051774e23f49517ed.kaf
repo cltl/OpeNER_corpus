@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:18:15Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w440" sent="13" para="2" offset="2381" length="2">Al</wf>
+    <wf wid="w441" sent="13" para="2" offset="2384" length="1">“</wf>
+    <wf wid="w442" sent="13" para="2" offset="2385" length="2">no</wf>
+    <wf wid="w443" sent="13" para="2" offset="2387" length="1">”</wf>
+    <wf wid="w444" sent="13" para="2" offset="2388" length="1">,</wf>
+    <wf wid="w445" sent="13" para="2" offset="2390" length="11">soprattutto</wf>
+    <wf wid="w446" sent="13" para="2" offset="2401" length="1">,</wf>
+    <wf wid="w447" sent="13" para="2" offset="2403" length="3">non</wf>
+    <wf wid="w448" sent="13" para="2" offset="2407" length="5">crede</wf>
+    <wf wid="w449" sent="13" para="2" offset="2413" length="2">il</wf>
+    <wf wid="w450" sent="13" para="2" offset="2416" length="7">governo</wf>
+    <wf wid="w451" sent="13" para="2" offset="2424" length="2">di</wf>
+    <wf wid="w452" sent="13" para="2" offset="2427" length="7">Berlino</wf>
+    <wf wid="w453" sent="13" para="2" offset="2434" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Al-->
+    <term tid="t440" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w440"/>
+      </span>
+    </term>
+    <!--“-->
+    <term tid="t441" type="" lemma="“" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w441"/>
+      </span>
+    </term>
+    <!--no-->
+    <term tid="t442" type="" lemma="no" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w442"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t443" type="" lemma="”" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w443"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t444" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w444"/>
+      </span>
+    </term>
+    <!--soprattutto-->
+    <term tid="t445" type="" lemma="soprattutto" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w445"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t446" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w446"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t447" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w447"/>
+      </span>
+    </term>
+    <!--crede-->
+    <term tid="t448" type="" lemma="credere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w448"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t449" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w449"/>
+      </span>
+    </term>
+    <!--governo-->
+    <term tid="t450" type="" lemma="governo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w450"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t451" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w451"/>
+      </span>
+    </term>
+    <!--Berlino-->
+    <term tid="t452" type="" lemma="berlino" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w452"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t453" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w453"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--governo di Berlino-->
+        <span>
+          <target id="t450"/>
+          <target id="t451"/>
+          <target id="t452"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Al “ no ?-->
+        <span>
+          <target id="t440"/>
+          <target id="t441"/>
+          <target id="t442"/>
+          <target id="t443"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--non crede-->
+        <span>
+          <target id="t447"/>
+          <target id="t448"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

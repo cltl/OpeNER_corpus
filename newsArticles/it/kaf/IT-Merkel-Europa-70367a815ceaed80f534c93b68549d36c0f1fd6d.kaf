@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:39Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:26CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w143" sent="6" para="2" offset="779" length="1">I</wf>
+    <wf wid="w144" sent="6" para="2" offset="781" length="4">dati</wf>
+    <wf wid="w145" sent="6" para="2" offset="786" length="3">che</wf>
+    <wf wid="w146" sent="6" para="2" offset="790" length="2">l’</wf>
+    <wf wid="w147" sent="6" para="2" offset="792" length="7">Ufficio</wf>
+    <wf wid="w148" sent="6" para="2" offset="800" length="8">federale</wf>
+    <wf wid="w149" sent="6" para="2" offset="809" length="2">di</wf>
+    <wf wid="w150" sent="6" para="2" offset="812" length="10">statistica</wf>
+    <wf wid="w151" sent="6" para="2" offset="823" length="7">tedesco</wf>
+    <wf wid="w152" sent="6" para="2" offset="831" length="1">(</wf>
+    <wf wid="w153" sent="6" para="2" offset="832" length="8">Destatis</wf>
+    <wf wid="w154" sent="6" para="2" offset="840" length="1">)</wf>
+    <wf wid="w155" sent="6" para="2" offset="842" length="2">ha</wf>
+    <wf wid="w156" sent="6" para="2" offset="845" length="4">reso</wf>
+    <wf wid="w157" sent="6" para="2" offset="850" length="4">noti</wf>
+    <wf wid="w158" sent="6" para="2" offset="855" length="4">oggi</wf>
+    <wf wid="w159" sent="6" para="2" offset="860" length="4">sono</wf>
+    <wf wid="w160" sent="6" para="2" offset="865" length="14">impressionanti</wf>
+    <wf wid="w161" sent="6" para="2" offset="879" length="1">,</wf>
+    <wf wid="w162" sent="6" para="2" offset="881" length="1">a</wf>
+    <wf wid="w163" sent="6" para="2" offset="883" length="8">metterli</wf>
+    <wf wid="w164" sent="6" para="2" offset="892" length="2">in</wf>
+    <wf wid="w165" sent="6" para="2" offset="895" length="4">fila</wf>
+    <wf wid="w166" sent="6" para="2" offset="899" length="1">.</wf>
+  </text>
+  <terms>
+    <!--I-->
+    <term tid="t143" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--dati-->
+    <term tid="t144" type="" lemma="dato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t145" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t146" type="" lemma="l’" pos="Q" morphofeat="PRON~PEF6">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--Ufficio-->
+    <term tid="t147" type="" lemma="ufficio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--federale-->
+    <term tid="t148" type="" lemma="federale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t149" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--statistica-->
+    <term tid="t150" type="" lemma="statistica" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--tedesco-->
+    <term tid="t151" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--(-->
+    <term tid="t152" type="" lemma="(" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--Destatis-->
+    <term tid="t153" type="" lemma="destatis" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t154" type="" lemma=")" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t155" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--reso-->
+    <term tid="t156" type="" lemma="rendere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--noti-->
+    <term tid="t157" type="" lemma="noto" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--oggi-->
+    <term tid="t158" type="" lemma="oggi" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--sono-->
+    <term tid="t159" type="" lemma="essere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--impressionanti-->
+    <term tid="t160" type="" lemma="impressionante" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t161" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t162" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--metterli-->
+    <term tid="t163" type="" lemma="metterli" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t164" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--fila-->
+    <term tid="t165" type="" lemma="fila" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t166" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Ufficio federale di statistica tedesco-->
+        <span>
+          <target id="t147"/>
+          <target id="t148"/>
+          <target id="t149"/>
+          <target id="t150"/>
+          <target id="t151"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--dati-->
+        <span>
+          <target id="t144"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--sono impressionanti-->
+        <span>
+          <target id="t159"/>
+          <target id="t160"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

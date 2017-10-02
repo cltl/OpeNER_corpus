@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:17:39Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w219" sent="9" para="2" offset="1172" length="2">La</wf>
+    <wf wid="w220" sent="9" para="2" offset="1175" length="6">Merkel</wf>
+    <wf wid="w221" sent="9" para="2" offset="1182" length="2">ha</wf>
+    <wf wid="w222" sent="9" para="2" offset="1185" length="3">poi</wf>
+    <wf wid="w223" sent="9" para="2" offset="1189" length="10">affrontato</wf>
+    <wf wid="w224" sent="9" para="2" offset="1200" length="2">il</wf>
+    <wf wid="w225" sent="9" para="2" offset="1203" length="4">tema</wf>
+    <wf wid="w226" sent="9" para="2" offset="1208" length="5">caldo</wf>
+    <wf wid="w227" sent="9" para="2" offset="1214" length="3">del</wf>
+    <wf wid="w228" sent="9" para="2" offset="1218" length="8">dissidio</wf>
+    <wf wid="w229" sent="9" para="2" offset="1227" length="9">religioso</wf>
+    <wf wid="w230" sent="9" para="2" offset="1237" length="3">tra</wf>
+    <wf wid="w231" sent="9" para="2" offset="1241" length="2">l'</wf>
+    <wf wid="w232" sent="9" para="2" offset="1243" length="5">islam</wf>
+    <wf wid="w233" sent="9" para="2" offset="1249" length="1">e</wf>
+    <wf wid="w234" sent="9" para="2" offset="1251" length="2">il</wf>
+    <wf wid="w235" sent="9" para="2" offset="1254" length="5">mondo</wf>
+    <wf wid="w236" sent="9" para="2" offset="1260" length="11">occidentale</wf>
+    <wf wid="w237" sent="9" para="2" offset="1272" length="10">affermando</wf>
+    <wf wid="w238" sent="9" para="2" offset="1283" length="3">che</wf>
+    <wf wid="w239" sent="9" para="2" offset="1287" length="1">"</wf>
+    <wf wid="w240" sent="9" para="2" offset="1288" length="2">la</wf>
+    <wf wid="w241" sent="9" para="2" offset="1291" length="8">violenza</wf>
+    <wf wid="w242" sent="9" para="2" offset="1300" length="3">non</wf>
+    <wf wid="w243" sent="9" para="2" offset="1304" length="1">è</wf>
+    <wf wid="w244" sent="9" para="2" offset="1306" length="2">in</wf>
+    <wf wid="w245" sent="9" para="2" offset="1309" length="5">alcun</wf>
+    <wf wid="w246" sent="9" para="2" offset="1315" length="4">modo</wf>
+    <wf wid="w247" sent="9" para="2" offset="1320" length="2">un</wf>
+    <wf wid="w248" sent="9" para="2" offset="1323" length="5">mezzo</wf>
+    <wf wid="w249" sent="9" para="2" offset="1329" length="3">per</wf>
+    <wf wid="w250" sent="9" para="2" offset="1333" length="9">risolvere</wf>
+    <wf wid="w251" sent="9" para="2" offset="1343" length="2">le</wf>
+    <wf wid="w252" sent="9" para="2" offset="1346" length="10">differenze</wf>
+    <wf wid="w253" sent="9" para="2" offset="1356" length="1">"</wf>
+    <wf wid="w254" sent="9" para="2" offset="1358" length="9">esortando</wf>
+    <wf wid="w255" sent="9" para="2" offset="1368" length="4">alla</wf>
+    <wf wid="w256" sent="9" para="2" offset="1373" length="8">pacifica</wf>
+    <wf wid="w257" sent="9" para="2" offset="1382" length="11">coesistenza</wf>
+    <wf wid="w258" sent="9" para="2" offset="1394" length="3">tra</wf>
+    <wf wid="w259" sent="9" para="2" offset="1398" length="9">religioni</wf>
+    <wf wid="w260" sent="9" para="2" offset="1407" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t219" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t220" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t221" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--poi-->
+    <term tid="t222" type="" lemma="poi" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--affrontato-->
+    <term tid="t223" type="" lemma="affrontare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t224" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--tema-->
+    <term tid="t225" type="" lemma="tema" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--caldo-->
+    <term tid="t226" type="" lemma="caldo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t227" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--dissidio-->
+    <term tid="t228" type="" lemma="dissidio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--religioso-->
+    <term tid="t229" type="" lemma="religioso" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--tra-->
+    <term tid="t230" type="" lemma="tra" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t231" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--islam-->
+    <term tid="t232" type="" lemma="islam" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t233" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t234" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--mondo-->
+    <term tid="t235" type="" lemma="mondo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--occidentale-->
+    <term tid="t236" type="" lemma="occidentale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--affermando-->
+    <term tid="t237" type="" lemma="affermare" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t238" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t239" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t240" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--violenza-->
+    <term tid="t241" type="" lemma="violenza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t242" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t243" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t244" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+    <!--alcun-->
+    <term tid="t245" type="" lemma="alcun" pos="G" morphofeat="ADJ~MS">
+      <span>
+        <target id="w245"/>
+      </span>
+    </term>
+    <!--modo-->
+    <term tid="t246" type="" lemma="modo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w246"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t247" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w247"/>
+      </span>
+    </term>
+    <!--mezzo-->
+    <term tid="t248" type="" lemma="mezzo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t249" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--risolvere-->
+    <term tid="t250" type="" lemma="risolvere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t251" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--differenze-->
+    <term tid="t252" type="" lemma="differenza" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t253" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--esortando-->
+    <term tid="t254" type="" lemma="esortare" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t255" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--pacifica-->
+    <term tid="t256" type="" lemma="pacifico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--coesistenza-->
+    <term tid="t257" type="" lemma="coesistenza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--tra-->
+    <term tid="t258" type="" lemma="tra" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--religioni-->
+    <term tid="t259" type="" lemma="religione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t260" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--dissidio religioso-->
+        <span>
+          <target id="t228"/>
+          <target id="t229"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t220"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--tema caldo del dissidio religioso-->
+        <span>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+          <target id="t229"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ha poi affrontato-->
+        <span>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

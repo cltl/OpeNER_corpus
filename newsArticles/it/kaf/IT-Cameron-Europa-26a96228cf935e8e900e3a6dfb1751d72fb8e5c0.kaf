@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:10:25Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w75" sent="4" para="2" offset="429" length="2">La</wf>
+    <wf wid="w76" sent="4" para="2" offset="432" length="6">Findus</wf>
+    <wf wid="w77" sent="4" para="2" offset="439" length="2">Uk</wf>
+    <wf wid="w78" sent="4" para="2" offset="441" length="1">,</wf>
+    <wf wid="w79" sent="4" para="2" offset="443" length="4">dopo</wf>
+    <wf wid="w80" sent="4" para="2" offset="448" length="4">aver</wf>
+    <wf wid="w81" sent="4" para="2" offset="453" length="8">ritirato</wf>
+    <wf wid="w82" sent="4" para="2" offset="462" length="3">nel</wf>
+    <wf wid="w83" sent="4" para="2" offset="466" length="5">Regno</wf>
+    <wf wid="w84" sent="4" para="2" offset="472" length="2">le</wf>
+    <wf wid="w85" sent="4" para="2" offset="475" length="3">sue</wf>
+    <wf wid="w86" sent="4" para="2" offset="479" length="7">lasagne</wf>
+    <wf wid="w87" sent="4" para="2" offset="487" length="9">surgelate</wf>
+    <wf wid="w88" sent="4" para="2" offset="497" length="9">spacciate</wf>
+    <wf wid="w89" sent="4" para="2" offset="507" length="4">come</wf>
+    <wf wid="w90" sent="4" para="2" offset="512" length="1">"</wf>
+    <wf wid="w91" sent="4" para="2" offset="513" length="2">di</wf>
+    <wf wid="w92" sent="4" para="2" offset="516" length="5">manzo</wf>
+    <wf wid="w93" sent="4" para="2" offset="521" length="1">"</wf>
+    <wf wid="w94" sent="4" para="2" offset="523" length="2">ma</wf>
+    <wf wid="w95" sent="4" para="2" offset="526" length="10">contenenti</wf>
+    <wf wid="w96" sent="4" para="2" offset="537" length="5">carne</wf>
+    <wf wid="w97" sent="4" para="2" offset="543" length="6">equina</wf>
+    <wf wid="w98" sent="4" para="2" offset="549" length="1">,</wf>
+    <wf wid="w99" sent="4" para="2" offset="551" length="2">lo</wf>
+    <wf wid="w100" sent="4" para="2" offset="554" length="2">ha</wf>
+    <wf wid="w101" sent="4" para="2" offset="557" length="5">fatto</wf>
+    <wf wid="w102" sent="4" para="2" offset="563" length="5">anche</wf>
+    <wf wid="w103" sent="4" para="2" offset="569" length="3">per</wf>
+    <wf wid="w104" sent="4" para="2" offset="573" length="6">quelle</wf>
+    <wf wid="w105" sent="4" para="2" offset="580" length="7">vendute</wf>
+    <wf wid="w106" sent="4" para="2" offset="588" length="2">in</wf>
+    <wf wid="w107" sent="4" para="2" offset="591" length="7">Francia</wf>
+    <wf wid="w108" sent="4" para="2" offset="599" length="1">e</wf>
+    <wf wid="w109" sent="4" para="2" offset="601" length="2">in</wf>
+    <wf wid="w110" sent="4" para="2" offset="604" length="6">Svezia</wf>
+    <wf wid="w111" sent="4" para="2" offset="610" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t75" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--Findus-->
+    <term tid="t76" type="" lemma="findus" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--Uk-->
+    <term tid="t77" type="" lemma="uk" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t78" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--dopo-->
+    <term tid="t79" type="" lemma="dopo" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--aver-->
+    <term tid="t80" type="" lemma="aver" pos="V" morphofeat="VAU~ININN">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--ritirato-->
+    <term tid="t81" type="" lemma="ritirare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t82" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--Regno-->
+    <term tid="t83" type="" lemma="regno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t84" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--sue-->
+    <term tid="t85" type="" lemma="suo" pos="G" morphofeat="ADJ~POFP">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--lasagne-->
+    <term tid="t86" type="" lemma="lasagna" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--surgelate-->
+    <term tid="t87" type="" lemma="surgelare" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--spacciate-->
+    <term tid="t88" type="" lemma="spacciare" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--come-->
+    <term tid="t89" type="" lemma="come" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t90" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t91" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--manzo-->
+    <term tid="t92" type="" lemma="manzo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t93" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t94" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--contenenti-->
+    <term tid="t95" type="" lemma="contenere" pos="V" morphofeat="VMA~PPNP">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--carne-->
+    <term tid="t96" type="" lemma="carne" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--equina-->
+    <term tid="t97" type="" lemma="equino" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t98" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t99" type="" lemma="lo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t100" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--fatto-->
+    <term tid="t101" type="" lemma="fatto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--anche-->
+    <term tid="t102" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t103" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--quelle-->
+    <term tid="t104" type="" lemma="quelle" pos="Q" morphofeat="PRON~DEF6">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--vendute-->
+    <term tid="t105" type="" lemma="vendere" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t106" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--Francia-->
+    <term tid="t107" type="" lemma="francia" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t108" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t109" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--Svezia-->
+    <term tid="t110" type="" lemma="svezia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t111" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--La Findus Uk-->
+        <span>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--lo-->
+        <span>
+          <target id="t99"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--fatto-->
+        <span>
+          <target id="t101"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--La Findus Uk-->
+        <span>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--le sue lasagne surgelate-->
+        <span>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--ritirato-->
+        <span>
+          <target id="t81"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

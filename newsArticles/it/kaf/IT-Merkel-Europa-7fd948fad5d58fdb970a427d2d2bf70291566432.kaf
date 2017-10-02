@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:01Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:01Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:16:07Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:24CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w82" sent="4" para="2" offset="487" length="2">La</wf>
+    <wf wid="w83" sent="4" para="2" offset="490" length="6">Merkel</wf>
+    <wf wid="w84" sent="4" para="2" offset="497" length="6">spiega</wf>
+    <wf wid="w85" sent="4" para="2" offset="504" length="3">che</wf>
+    <wf wid="w86" sent="4" para="2" offset="508" length="1">“</wf>
+    <wf wid="w87" sent="4" para="2" offset="509" length="3">non</wf>
+    <wf wid="w88" sent="4" para="2" offset="513" length="1">è</wf>
+    <wf wid="w89" sent="4" para="2" offset="515" length="2">un</wf>
+    <wf wid="w90" sent="4" para="2" offset="518" length="7">segreto</wf>
+    <wf wid="w91" sent="4" para="2" offset="526" length="3">che</wf>
+    <wf wid="w92" sent="4" para="2" offset="530" length="5">Mario</wf>
+    <wf wid="w93" sent="4" para="2" offset="536" length="5">Monti</wf>
+    <wf wid="w94" sent="4" para="2" offset="542" length="7">difende</wf>
+    <wf wid="w95" sent="4" para="2" offset="550" length="2">in</wf>
+    <wf wid="w96" sent="4" para="2" offset="553" length="4">modo</wf>
+    <wf wid="w97" sent="4" para="2" offset="558" length="5">molto</wf>
+    <wf wid="w98" sent="4" para="2" offset="564" length="6">deciso</wf>
+    <wf wid="w99" sent="4" para="2" offset="571" length="3">gli</wf>
+    <wf wid="w100" sent="4" para="2" offset="575" length="9">interessi</wf>
+    <wf wid="w101" sent="4" para="2" offset="585" length="5">dell'</wf>
+    <wf wid="w102" sent="4" para="2" offset="590" length="6">Italia</wf>
+    <wf wid="w103" sent="4" para="2" offset="596" length="1">"</wf>
+    <wf wid="w104" sent="4" para="2" offset="597" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t82" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t83" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--spiega-->
+    <term tid="t84" type="" lemma="spiegare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t85" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--“-->
+    <term tid="t86" type="" lemma="“" pos="V" morphofeat="VMA~IPN3">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t87" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t88" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t89" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--segreto-->
+    <term tid="t90" type="" lemma="segreto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t91" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--Mario-->
+    <term tid="t92" type="" lemma="mario" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t93" type="" lemma="monte" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--difende-->
+    <term tid="t94" type="" lemma="difendere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t95" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--modo-->
+    <term tid="t96" type="" lemma="modo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--molto-->
+    <term tid="t97" type="" lemma="molto" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--deciso-->
+    <term tid="t98" type="" lemma="decidere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--gli-->
+    <term tid="t99" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--interessi-->
+    <term tid="t100" type="" lemma="interesse" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t101" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t102" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t103" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t104" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Mario Monti-->
+        <span>
+          <target id="t92"/>
+          <target id="t93"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--gli interessi dell' Italia-->
+        <span>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--difende-->
+        <span>
+          <target id="t94"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:11:59Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w98" sent="4" para="2" offset="532" length="1">"</wf>
+    <wf wid="w99" sent="4" para="2" offset="533" length="6">Questa</wf>
+    <wf wid="w100" sent="4" para="2" offset="540" length="8">amicizia</wf>
+    <wf wid="w101" sent="4" para="2" offset="549" length="2">ha</wf>
+    <wf wid="w102" sent="4" para="2" offset="552" length="6">grande</wf>
+    <wf wid="w103" sent="4" para="2" offset="559" length="6">valore</wf>
+    <wf wid="w104" sent="4" para="2" offset="566" length="1">-</wf>
+    <wf wid="w105" sent="4" para="2" offset="568" length="2">ha</wf>
+    <wf wid="w106" sent="4" para="2" offset="571" length="5">detto</wf>
+    <wf wid="w107" sent="4" para="2" offset="577" length="1">-</wf>
+    <wf wid="w108" sent="4" para="2" offset="579" length="1">è</wf>
+    <wf wid="w109" sent="4" para="2" offset="581" length="15">imprescindibile</wf>
+    <wf wid="w110" sent="4" para="2" offset="596" length="1">,</wf>
+    <wf wid="w111" sent="4" para="2" offset="598" length="10">necessaria</wf>
+    <wf wid="w112" sent="4" para="2" offset="609" length="1">e</wf>
+    <wf wid="w113" sent="4" para="2" offset="611" length="3">non</wf>
+    <wf wid="w114" sent="4" para="2" offset="615" length="1">è</wf>
+    <wf wid="w115" sent="4" para="2" offset="617" length="10">separabile</wf>
+    <wf wid="w116" sent="4" para="2" offset="628" length="5">dalla</wf>
+    <wf wid="w117" sent="4" para="2" offset="634" length="12">integrazione</wf>
+    <wf wid="w118" sent="4" para="2" offset="647" length="7">europea</wf>
+    <wf wid="w119" sent="4" para="2" offset="654" length="1">"</wf>
+    <wf wid="w120" sent="4" para="2" offset="655" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t98" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--Questa-->
+    <term tid="t99" type="" lemma="questa" pos="G" morphofeat="ADJ~DIFS">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--amicizia-->
+    <term tid="t100" type="" lemma="amicizia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t101" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--grande-->
+    <term tid="t102" type="" lemma="grande" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--valore-->
+    <term tid="t103" type="" lemma="valore" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t104" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t105" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--detto-->
+    <term tid="t106" type="" lemma="dettare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t107" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t108" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--imprescindibile-->
+    <term tid="t109" type="" lemma="imprescindibile" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t110" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--necessaria-->
+    <term tid="t111" type="" lemma="necessario" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t112" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t113" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t114" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--separabile-->
+    <term tid="t115" type="" lemma="separabile" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--dalla-->
+    <term tid="t116" type="" lemma="dalla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--integrazione-->
+    <term tid="t117" type="" lemma="integrazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--europea-->
+    <term tid="t118" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t119" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t120" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Questa amicizia-->
+        <span>
+          <target id="t99"/>
+          <target id="t100"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--è imprescindibile-->
+        <span>
+          <target id="t108"/>
+          <target id="t109"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Questa amicizia-->
+        <span>
+          <target id="t99"/>
+          <target id="t100"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--necessaria-->
+        <span>
+          <target id="t111"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Questa amicizia-->
+        <span>
+          <target id="t99"/>
+          <target id="t100"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--non è separabile dalla integrazione europea-->
+        <span>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+          <target id="t118"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Questa amicizia-->
+        <span>
+          <target id="t99"/>
+          <target id="t100"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--ha grande valore-->
+        <span>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

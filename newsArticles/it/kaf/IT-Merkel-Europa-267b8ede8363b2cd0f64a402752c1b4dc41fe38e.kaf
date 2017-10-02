@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:51Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:51Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:11:47Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w7" sent="2" para="1" offset="26" length="6">Spread</wf>
+    <wf wid="w8" sent="2" para="1" offset="33" length="6">scende</wf>
+    <wf wid="w9" sent="2" para="1" offset="40" length="1">a</wf>
+    <wf wid="w10" sent="2" para="1" offset="42" length="3">330</wf>
+    <wf wid="w11" sent="2" para="1" offset="46" length="5">punti</wf>
+  </text>
+  <terms>
+    <!--Spread-->
+    <term tid="t7" type="" lemma="spread" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--scende-->
+    <term tid="t8" type="" lemma="scendere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t9" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--330-->
+    <term tid="t10" type="" lemma="330" pos="O" morphofeat="GNNP00">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--punti-->
+    <term tid="t11" type="" lemma="punto" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Spread-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--scende a 330 punti-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

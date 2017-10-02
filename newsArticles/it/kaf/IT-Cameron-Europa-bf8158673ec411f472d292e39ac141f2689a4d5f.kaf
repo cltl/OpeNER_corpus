@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:07Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w166" sent="9" para="2" offset="891" length="2">Le</wf>
+    <wf wid="w167" sent="9" para="2" offset="894" length="6">nostre</wf>
+    <wf wid="w168" sent="9" para="2" offset="901" length="8">economie</wf>
+    <wf wid="w169" sent="9" para="2" offset="910" length="4">sono</wf>
+    <wf wid="w170" sent="9" para="2" offset="915" length="13">interconnesse</wf>
+    <wf wid="w171" sent="9" para="2" offset="928" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Le-->
+    <term tid="t166" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--nostre-->
+    <term tid="t167" type="" lemma="nostro" pos="G" morphofeat="ADJ~POFP">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--economie-->
+    <term tid="t168" type="" lemma="economia" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--sono-->
+    <term tid="t169" type="" lemma="essere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--interconnesse-->
+    <term tid="t170" type="" lemma="interconnettere" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t171" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Le nostre economie-->
+        <span>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-Positive">
+        <!--interconnesse-->
+        <span>
+          <target id="t170"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:59Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:59Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:16:59Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Piogge</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="1">e</wf>
+    <wf wid="w3" sent="1" para="1" offset="9" length="11">inondazioni</wf>
+    <wf wid="w4" sent="1" para="1" offset="21" length="10">flagellano</wf>
+    <wf wid="w5" sent="1" para="1" offset="32" length="2">il</wf>
+    <wf wid="w6" sent="1" para="1" offset="35" length="4">Nord</wf>
+    <wf wid="w7" sent="1" para="1" offset="40" length="6">Europa</wf>
+    <wf wid="w8" sent="1" para="1" offset="47" length="5">Stato</wf>
+    <wf wid="w9" sent="1" para="1" offset="53" length="2">d’</wf>
+    <wf wid="w10" sent="1" para="1" offset="55" length="9">emergenza</wf>
+    <wf wid="w11" sent="1" para="1" offset="65" length="1">a</wf>
+    <wf wid="w12" sent="1" para="1" offset="67" length="5">Praga</wf>
+    <wf wid="w13" sent="1" para="1" offset="72" length="1">:</wf>
+    <wf wid="w14" sent="1" para="1" offset="74" length="5">morti</wf>
+    <wf wid="w15" sent="1" para="1" offset="80" length="1">e</wf>
+    <wf wid="w16" sent="1" para="1" offset="82" length="8">dispersi</wf>
+  </text>
+  <terms>
+    <!--Piogge-->
+    <term tid="t1" type="" lemma="pioggia" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t2" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--inondazioni-->
+    <term tid="t3" type="" lemma="inondazione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--flagellano-->
+    <term tid="t4" type="" lemma="flagellare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t5" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--Nord-->
+    <term tid="t6" type="" lemma="nord" pos="R" morphofeat="NOU~PMI">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t7" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Stato-->
+    <term tid="t8" type="" lemma="essere" pos="V" morphofeat="VAU~PAMS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--d’-->
+    <term tid="t9" type="" lemma="d’" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--emergenza-->
+    <term tid="t10" type="" lemma="emergenza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t11" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--Praga-->
+    <term tid="t12" type="" lemma="praga" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t13" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--morti-->
+    <term tid="t14" type="" lemma="morte" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t15" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--dispersi-->
+    <term tid="t16" type="" lemma="disperdere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Piogge-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Nord Europa-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--flagellano-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--inondazioni-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Nord Europa-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--flagellano-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

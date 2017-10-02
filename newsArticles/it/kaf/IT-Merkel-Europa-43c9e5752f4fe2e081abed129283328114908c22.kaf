@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:38Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:38Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:03:59Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w396" sent="22" para="2" offset="2061" length="1">"</wf>
+    <wf wid="w397" sent="22" para="2" offset="2062" length="2">Il</wf>
+    <wf wid="w398" sent="22" para="2" offset="2065" length="10">sentimento</wf>
+    <wf wid="w399" sent="22" para="2" offset="2076" length="3">tra</wf>
+    <wf wid="w400" sent="22" para="2" offset="2080" length="8">italiani</wf>
+    <wf wid="w401" sent="22" para="2" offset="2089" length="1">e</wf>
+    <wf wid="w402" sent="22" para="2" offset="2091" length="8">tedeschi</wf>
+    <wf wid="w403" sent="22" para="2" offset="2100" length="2">ha</wf>
+    <wf wid="w404" sent="22" para="2" offset="2103" length="2">un</wf>
+    <wf wid="w405" sent="22" para="2" offset="2106" length="8">retaggio</wf>
+    <wf wid="w406" sent="22" para="2" offset="2115" length="11">particolare</wf>
+    <wf wid="w407" sent="22" para="2" offset="2126" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t396" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <!--Il-->
+    <term tid="t397" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <!--sentimento-->
+    <term tid="t398" type="" lemma="sentimento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <!--tra-->
+    <term tid="t399" type="" lemma="tra" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <!--italiani-->
+    <term tid="t400" type="" lemma="italiano" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t401" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--tedeschi-->
+    <term tid="t402" type="" lemma="tedesco" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t403" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t404" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+    <!--retaggio-->
+    <term tid="t405" type="" lemma="retaggio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <!--particolare-->
+    <term tid="t406" type="" lemma="particolare" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t407" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t397"/>
+          <target id="t398"/>
+          <target id="t399"/>
+          <target id="t400"/>
+          <target id="t401"/>
+          <target id="t402"/>
+          <target id="t403"/>
+          <target id="t404"/>
+          <target id="t405"/>
+          <target id="t406"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

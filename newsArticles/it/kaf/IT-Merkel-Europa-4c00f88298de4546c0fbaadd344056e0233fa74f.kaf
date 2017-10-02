@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:27Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:27Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:08:01Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w439" sent="18" para="2" offset="2379" length="2">L'</wf>
+    <wf wid="w440" sent="18" para="2" offset="2381" length="6">Italia</wf>
+    <wf wid="w441" sent="18" para="2" offset="2387" length="1">,</wf>
+    <wf wid="w442" sent="18" para="2" offset="2389" length="6">spiega</wf>
+    <wf wid="w443" sent="18" para="2" offset="2396" length="5">Monti</wf>
+    <wf wid="w444" sent="18" para="2" offset="2401" length="1">,</wf>
+    <wf wid="w445" sent="18" para="2" offset="2403" length="1">"</wf>
+    <wf wid="w446" sent="18" para="2" offset="2404" length="2">ha</wf>
+    <wf wid="w447" sent="18" para="2" offset="2407" length="8">proposto</wf>
+    <wf wid="w448" sent="18" para="2" offset="2416" length="1">e</wf>
+    <wf wid="w449" sent="18" para="2" offset="2418" length="2">si</wf>
+    <wf wid="w450" sent="18" para="2" offset="2421" length="1">è</wf>
+    <wf wid="w451" sent="18" para="2" offset="2423" length="7">battuta</wf>
+    <wf wid="w452" sent="18" para="2" offset="2431" length="3">per</wf>
+    <wf wid="w453" sent="18" para="2" offset="2435" length="5">avere</wf>
+    <wf wid="w454" sent="18" para="2" offset="2441" length="2">le</wf>
+    <wf wid="w455" sent="18" para="2" offset="2444" length="14">considerazioni</wf>
+    <wf wid="w456" sent="18" para="2" offset="2459" length="5">sulle</wf>
+    <wf wid="w457" sent="18" para="2" offset="2465" length="6">misure</wf>
+    <wf wid="w458" sent="18" para="2" offset="2472" length="5">prese</wf>
+    <wf wid="w459" sent="18" para="2" offset="2477" length="1">,</wf>
+    <wf wid="w460" sent="18" para="2" offset="2479" length="9">superando</wf>
+    <wf wid="w461" sent="18" para="2" offset="2489" length="2">un</wf>
+    <wf wid="w462" sent="18" para="2" offset="2492" length="5">certo</wf>
+    <wf wid="w463" sent="18" para="2" offset="2498" length="6">numero</wf>
+    <wf wid="w464" sent="18" para="2" offset="2505" length="2">di</wf>
+    <wf wid="w465" sent="18" para="2" offset="2508" length="8">ostacoli</wf>
+    <wf wid="w466" sent="18" para="2" offset="2516" length="1">,</wf>
+    <wf wid="w467" sent="18" para="2" offset="2518" length="2">ma</wf>
+    <wf wid="w468" sent="18" para="2" offset="2521" length="3">non</wf>
+    <wf wid="w469" sent="18" para="2" offset="2525" length="1">è</wf>
+    <wf wid="w470" sent="18" para="2" offset="2527" length="12">intendimento</wf>
+    <wf wid="w471" sent="18" para="2" offset="2540" length="5">dell'</wf>
+    <wf wid="w472" sent="18" para="2" offset="2545" length="6">Italia</wf>
+    <wf wid="w473" sent="18" para="2" offset="2552" length="2">di</wf>
+    <wf wid="w474" sent="18" para="2" offset="2555" length="8">chiedere</wf>
+    <wf wid="w475" sent="18" para="2" offset="2564" length="2">l'</wf>
+    <wf wid="w476" sent="18" para="2" offset="2566" length="11">attivazione</wf>
+    <wf wid="w477" sent="18" para="2" offset="2577" length="1">"</wf>
+    <wf wid="w478" sent="18" para="2" offset="2579" length="3">del</wf>
+    <wf wid="w479" sent="18" para="2" offset="2583" length="10">meccanismo</wf>
+    <wf wid="w480" sent="18" para="2" offset="2594" length="2">di</wf>
+    <wf wid="w481" sent="18" para="2" offset="2597" length="9">stabilità</wf>
+    <wf wid="w482" sent="18" para="2" offset="2606" length="1">,</wf>
+    <wf wid="w483" sent="18" para="2" offset="2608" length="1">"</wf>
+    <wf wid="w484" sent="18" para="2" offset="2609" length="2">ma</wf>
+    <wf wid="w485" sent="18" para="2" offset="2612" length="2">ci</wf>
+    <wf wid="w486" sent="18" para="2" offset="2615" length="9">interessa</wf>
+    <wf wid="w487" sent="18" para="2" offset="2625" length="3">che</wf>
+    <wf wid="w488" sent="18" para="2" offset="2629" length="2">il</wf>
+    <wf wid="w489" sent="18" para="2" offset="2632" length="10">meccanismo</wf>
+    <wf wid="w490" sent="18" para="2" offset="2643" length="7">diventi</wf>
+    <wf wid="w491" sent="18" para="2" offset="2651" length="6">presto</wf>
+    <wf wid="w492" sent="18" para="2" offset="2658" length="6">attivo</wf>
+    <wf wid="w493" sent="18" para="2" offset="2664" length="1">"</wf>
+    <wf wid="w494" sent="18" para="2" offset="2665" length="1">.</wf>
+  </text>
+  <terms>
+    <!--L'-->
+    <term tid="t439" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w439"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t440" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w440"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t441" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w441"/>
+      </span>
+    </term>
+    <!--spiega-->
+    <term tid="t442" type="" lemma="spiegare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w442"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t443" type="" lemma="monte" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w443"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t444" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w444"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t445" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w445"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t446" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w446"/>
+      </span>
+    </term>
+    <!--proposto-->
+    <term tid="t447" type="" lemma="proporre" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w447"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t448" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w448"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t449" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w449"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t450" type="" lemma="essere" pos="V" morphofeat="VMA~CGN3">
+      <span>
+        <target id="w450"/>
+      </span>
+    </term>
+    <!--battuta-->
+    <term tid="t451" type="" lemma="battuta" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w451"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t452" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w452"/>
+      </span>
+    </term>
+    <!--avere-->
+    <term tid="t453" type="" lemma="avere" pos="V" morphofeat="VAU~ININN">
+      <span>
+        <target id="w453"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t454" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w454"/>
+      </span>
+    </term>
+    <!--considerazioni-->
+    <term tid="t455" type="" lemma="considerazione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w455"/>
+      </span>
+    </term>
+    <!--sulle-->
+    <term tid="t456" type="" lemma="sulle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w456"/>
+      </span>
+    </term>
+    <!--misure-->
+    <term tid="t457" type="" lemma="misura" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w457"/>
+      </span>
+    </term>
+    <!--prese-->
+    <term tid="t458" type="" lemma="prendere" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w458"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t459" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w459"/>
+      </span>
+    </term>
+    <!--superando-->
+    <term tid="t460" type="" lemma="superare" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w460"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t461" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w461"/>
+      </span>
+    </term>
+    <!--certo-->
+    <term tid="t462" type="" lemma="certo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w462"/>
+      </span>
+    </term>
+    <!--numero-->
+    <term tid="t463" type="" lemma="numero" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w463"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t464" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w464"/>
+      </span>
+    </term>
+    <!--ostacoli-->
+    <term tid="t465" type="" lemma="ostacolo" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w465"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t466" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w466"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t467" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w467"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t468" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w468"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t469" type="" lemma="essere" pos="V" morphofeat="VMA~IPN2">
+      <span>
+        <target id="w469"/>
+      </span>
+    </term>
+    <!--intendimento-->
+    <term tid="t470" type="" lemma="intendimento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w470"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t471" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w471"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t472" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w472"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t473" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w473"/>
+      </span>
+    </term>
+    <!--chiedere-->
+    <term tid="t474" type="" lemma="chiedere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w474"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t475" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w475"/>
+      </span>
+    </term>
+    <!--attivazione-->
+    <term tid="t476" type="" lemma="attivazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w476"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t477" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w477"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t478" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w478"/>
+      </span>
+    </term>
+    <!--meccanismo-->
+    <term tid="t479" type="" lemma="meccanismo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w479"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t480" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w480"/>
+      </span>
+    </term>
+    <!--stabilità-->
+    <term tid="t481" type="" lemma="stabilita'" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w481"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t482" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w482"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t483" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w483"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t484" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w484"/>
+      </span>
+    </term>
+    <!--ci-->
+    <term tid="t485" type="" lemma="ci" pos="Q" morphofeat="PRON~DEN3">
+      <span>
+        <target id="w485"/>
+      </span>
+    </term>
+    <!--interessa-->
+    <term tid="t486" type="" lemma="interessare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w486"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t487" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w487"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t488" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w488"/>
+      </span>
+    </term>
+    <!--meccanismo-->
+    <term tid="t489" type="" lemma="meccanismo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w489"/>
+      </span>
+    </term>
+    <!--diventi-->
+    <term tid="t490" type="" lemma="diventare" pos="V" morphofeat="VMA~IPN3">
+      <span>
+        <target id="w490"/>
+      </span>
+    </term>
+    <!--presto-->
+    <term tid="t491" type="" lemma="presto" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w491"/>
+      </span>
+    </term>
+    <!--attivo-->
+    <term tid="t492" type="" lemma="attivo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w492"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t493" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w493"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t494" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w494"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Monti-->
+        <span>
+          <target id="t443"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Italia-->
+        <span>
+          <target id="t440"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ha proposto-->
+        <span>
+          <target id="t446"/>
+          <target id="t447"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Monti-->
+        <span>
+          <target id="t443"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Italia-->
+        <span>
+          <target id="t440"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--si è battuta-->
+        <span>
+          <target id="t449"/>
+          <target id="t450"/>
+          <target id="t451"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

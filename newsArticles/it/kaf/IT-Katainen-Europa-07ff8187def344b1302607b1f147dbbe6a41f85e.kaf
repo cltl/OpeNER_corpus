@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:02Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="9">Finlandia</wf>
+    <wf wid="w2" sent="1" para="1" offset="9" length="1">,</wf>
+    <wf wid="w3" sent="1" para="1" offset="11" length="8">sventato</wf>
+    <wf wid="w4" sent="1" para="1" offset="20" length="2">il</wf>
+    <wf wid="w5" sent="1" para="1" offset="23" length="9">tentativo</wf>
+    <wf wid="w6" sent="1" para="1" offset="33" length="2">di</wf>
+    <wf wid="w7" sent="1" para="1" offset="36" length="12">accoltellare</wf>
+    <wf wid="w8" sent="1" para="1" offset="49" length="2">il</wf>
+    <wf wid="w9" sent="1" para="1" offset="52" length="7">premier</wf>
+  </text>
+  <terms>
+    <!--Finlandia-->
+    <term tid="t1" type="" lemma="finlandia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t2" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--sventato-->
+    <term tid="t3" type="" lemma="sventare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t4" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--tentativo-->
+    <term tid="t5" type="" lemma="tentativo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t6" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--accoltellare-->
+    <term tid="t7" type="" lemma="accoltellare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t8" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t9" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--tentativo di accoltellare il premier-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--sventato-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--accoltellare-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

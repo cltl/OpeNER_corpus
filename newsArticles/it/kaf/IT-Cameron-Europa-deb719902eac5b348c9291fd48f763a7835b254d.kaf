@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:27Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:27Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:06:50Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w94" sent="5" para="2" offset="473" length="1">(</wf>
+    <wf wid="w95" sent="5" para="2" offset="474" length="9">Adnkronos</wf>
+    <wf wid="w96" sent="5" para="2" offset="483" length="1">/</wf>
+    <wf wid="w97" sent="5" para="2" offset="484" length="3">Ign</wf>
+    <wf wid="w98" sent="5" para="2" offset="487" length="1">)</wf>
+    <wf wid="w99" sent="5" para="2" offset="489" length="1">-</wf>
+    <wf wid="w100" sent="5" para="2" offset="491" length="1">E</wf>
+    <wf wid="w101" sent="5" para="2" offset="492" length="1">'</wf>
+    <wf wid="w102" sent="5" para="2" offset="494" length="6">salito</wf>
+    <wf wid="w103" sent="5" para="2" offset="501" length="1">a</wf>
+    <wf wid="w104" sent="5" para="2" offset="503" length="4">otto</wf>
+    <wf wid="w105" sent="5" para="2" offset="508" length="5">morti</wf>
+    <wf wid="w106" sent="5" para="2" offset="514" length="2">il</wf>
+    <wf wid="w107" sent="5" para="2" offset="517" length="8">bilancio</wf>
+    <wf wid="w108" sent="5" para="2" offset="526" length="5">delle</wf>
+    <wf wid="w109" sent="5" para="2" offset="532" length="7">vittime</wf>
+    <wf wid="w110" sent="5" para="2" offset="540" length="9">provocate</wf>
+    <wf wid="w111" sent="5" para="2" offset="550" length="5">dalla</wf>
+    <wf wid="w112" sent="5" para="2" offset="556" length="8">tempesta</wf>
+    <wf wid="w113" sent="5" para="2" offset="565" length="3">San</wf>
+    <wf wid="w114" sent="5" para="2" offset="569" length="5">Giuda</wf>
+    <wf wid="w115" sent="5" para="2" offset="575" length="3">che</wf>
+    <wf wid="w116" sent="5" para="2" offset="579" length="3">sta</wf>
+    <wf wid="w117" sent="5" para="2" offset="583" length="8">colpendo</wf>
+    <wf wid="w118" sent="5" para="2" offset="592" length="2">il</wf>
+    <wf wid="w119" sent="5" para="2" offset="595" length="4">nord</wf>
+    <wf wid="w120" sent="5" para="2" offset="600" length="5">dell'</wf>
+    <wf wid="w121" sent="5" para="2" offset="605" length="6">Europa</wf>
+    <wf wid="w122" sent="5" para="2" offset="611" length="1">.</wf>
+  </text>
+  <terms>
+    <!--(-->
+    <term tid="t94" type="" lemma="(" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--Adnkronos-->
+    <term tid="t95" type="" lemma="adnkronos" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--/-->
+    <term tid="t96" type="" lemma="/" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--Ign-->
+    <term tid="t97" type="" lemma="ign" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t98" type="" lemma=")" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t99" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--E-->
+    <term tid="t100" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t101" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--salito-->
+    <term tid="t102" type="" lemma="salire" pos="V" morphofeat="VMA~REN1">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t103" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--otto-->
+    <term tid="t104" type="" lemma="otto" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--morti-->
+    <term tid="t105" type="" lemma="morire" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t106" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--bilancio-->
+    <term tid="t107" type="" lemma="bilancio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--delle-->
+    <term tid="t108" type="" lemma="delle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--vittime-->
+    <term tid="t109" type="" lemma="vittima" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--provocate-->
+    <term tid="t110" type="" lemma="provocare" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--dalla-->
+    <term tid="t111" type="" lemma="dalla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--tempesta-->
+    <term tid="t112" type="" lemma="tempesta" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--San-->
+    <term tid="t113" type="" lemma="san" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--Giuda-->
+    <term tid="t114" type="" lemma="giuda" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t115" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--sta-->
+    <term tid="t116" type="" lemma="sta" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--colpendo-->
+    <term tid="t117" type="" lemma="colpire" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t118" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--nord-->
+    <term tid="t119" type="" lemma="nord" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t120" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t121" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t122" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--otto morti-->
+        <span>
+          <target id="t104"/>
+          <target id="t105"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--bilancio delle vittime-->
+        <span>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--a otto morti-->
+        <span>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--E ' salito-->
+        <span>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+          <target id="t112"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

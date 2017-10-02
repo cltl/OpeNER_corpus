@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:08:55Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w125" sent="7" para="2" offset="639" length="6">Italia</wf>
+    <wf wid="w126" sent="7" para="2" offset="646" length="1">e</wf>
+    <wf wid="w127" sent="7" para="2" offset="648" length="6">Spagna</wf>
+    <wf wid="w128" sent="7" para="2" offset="654" length="1">,</wf>
+    <wf wid="w129" sent="7" para="2" offset="656" length="9">sostenute</wf>
+    <wf wid="w130" sent="7" para="2" offset="666" length="5">dalla</wf>
+    <wf wid="w131" sent="7" para="2" offset="672" length="7">Francia</wf>
+    <wf wid="w132" sent="7" para="2" offset="679" length="1">,</wf>
+    <wf wid="w133" sent="7" para="2" offset="681" length="9">ottengono</wf>
+    <wf wid="w134" sent="7" para="2" offset="691" length="6">quello</wf>
+    <wf wid="w135" sent="7" para="2" offset="698" length="3">che</wf>
+    <wf wid="w136" sent="7" para="2" offset="702" length="9">cercavano</wf>
+    <wf wid="w137" sent="7" para="2" offset="711" length="1">,</wf>
+    <wf wid="w138" sent="7" para="2" offset="713" length="2">un</wf>
+    <wf wid="w139" sent="7" para="2" offset="716" length="10">intervento</wf>
+    <wf wid="w140" sent="7" para="2" offset="727" length="9">immediato</wf>
+    <wf wid="w141" sent="7" para="2" offset="737" length="3">per</wf>
+    <wf wid="w142" sent="7" para="2" offset="741" length="12">stabilizzare</wf>
+    <wf wid="w143" sent="7" para="2" offset="754" length="1">i</wf>
+    <wf wid="w144" sent="7" para="2" offset="756" length="7">mercati</wf>
+    <wf wid="w145" sent="7" para="2" offset="764" length="1">e</wf>
+    <wf wid="w146" sent="7" para="2" offset="766" length="9">sottrarsi</wf>
+    <wf wid="w147" sent="7" para="2" offset="776" length="4">all'</wf>
+    <wf wid="w148" sent="7" para="2" offset="780" length="7">effetto</wf>
+    <wf wid="w149" sent="7" para="2" offset="788" length="8">contagio</wf>
+    <wf wid="w150" sent="7" para="2" offset="797" length="3">che</wf>
+    <wf wid="w151" sent="7" para="2" offset="801" length="2">da</wf>
+    <wf wid="w152" sent="7" para="2" offset="804" length="4">mesi</wf>
+    <wf wid="w153" sent="7" para="2" offset="809" length="5">ormai</wf>
+    <wf wid="w154" sent="7" para="2" offset="815" length="7">rischia</wf>
+    <wf wid="w155" sent="7" para="2" offset="823" length="2">di</wf>
+    <wf wid="w156" sent="7" para="2" offset="826" length="13">compromettere</wf>
+    <wf wid="w157" sent="7" para="2" offset="840" length="2">le</wf>
+    <wf wid="w158" sent="7" para="2" offset="843" length="4">loro</wf>
+    <wf wid="w159" sent="7" para="2" offset="848" length="11">possibilità</wf>
+    <wf wid="w160" sent="7" para="2" offset="860" length="2">di</wf>
+    <wf wid="w161" sent="7" para="2" offset="863" length="15">rifinanziamento</wf>
+    <wf wid="w162" sent="7" para="2" offset="878" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Italia-->
+    <term tid="t125" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t126" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--Spagna-->
+    <term tid="t127" type="" lemma="spagna" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t128" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--sostenute-->
+    <term tid="t129" type="" lemma="sostenere" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--dalla-->
+    <term tid="t130" type="" lemma="dalla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--Francia-->
+    <term tid="t131" type="" lemma="francia" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t132" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--ottengono-->
+    <term tid="t133" type="" lemma="ottenere" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--quello-->
+    <term tid="t134" type="" lemma="quello" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t135" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--cercavano-->
+    <term tid="t136" type="" lemma="cercare" pos="V" morphofeat="VMA~IMN6">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t137" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t138" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--intervento-->
+    <term tid="t139" type="" lemma="intervento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--immediato-->
+    <term tid="t140" type="" lemma="immediato" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t141" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--stabilizzare-->
+    <term tid="t142" type="" lemma="stabilizzare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t143" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--mercati-->
+    <term tid="t144" type="" lemma="mercato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t145" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--sottrarsi-->
+    <term tid="t146" type="" lemma="sottrarsi" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--all'-->
+    <term tid="t147" type="" lemma="all'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--effetto-->
+    <term tid="t148" type="" lemma="effetto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--contagio-->
+    <term tid="t149" type="" lemma="contagio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t150" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--da-->
+    <term tid="t151" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--mesi-->
+    <term tid="t152" type="" lemma="mese" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--ormai-->
+    <term tid="t153" type="" lemma="ormai" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--rischia-->
+    <term tid="t154" type="" lemma="rischiare" pos="V" morphofeat="VMA~IPN2">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t155" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--compromettere-->
+    <term tid="t156" type="" lemma="compromettere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t157" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--loro-->
+    <term tid="t158" type="" lemma="loro" pos="G" morphofeat="ADJ~PONI">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--possibilità-->
+    <term tid="t159" type="" lemma="possibilita'" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t160" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--rifinanziamento-->
+    <term tid="t161" type="" lemma="rifinanziamento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t162" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Spagna-->
+        <span>
+          <target id="t127"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--un intervento immediato per stabilizzare i mercati-->
+        <span>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ottengono-->
+        <span>
+          <target id="t133"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Italia-->
+        <span>
+          <target id="t125"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--un intervento immediato per stabilizzare i mercati-->
+        <span>
+          <target id="t138"/>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+          <target id="t142"/>
+          <target id="t143"/>
+          <target id="t144"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ottengono-->
+        <span>
+          <target id="t133"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

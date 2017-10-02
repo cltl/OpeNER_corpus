@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:06Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:06Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:05Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w160" sent="6" para="2" offset="879" length="2">Un</wf>
+    <wf wid="w161" sent="6" para="2" offset="882" length="8">processo</wf>
+    <wf wid="w162" sent="6" para="2" offset="891" length="3">che</wf>
+    <wf wid="w163" sent="6" para="2" offset="895" length="5">dovrà</wf>
+    <wf wid="w164" sent="6" para="2" offset="901" length="11">concludersi</wf>
+    <wf wid="w165" sent="6" para="2" offset="913" length="5">entro</wf>
+    <wf wid="w166" sent="6" para="2" offset="919" length="4">fine</wf>
+    <wf wid="w167" sent="6" para="2" offset="924" length="4">2014</wf>
+    <wf wid="w168" sent="6" para="2" offset="928" length="1">,</wf>
+    <wf wid="w169" sent="6" para="2" offset="930" length="3">che</wf>
+    <wf wid="w170" sent="6" para="2" offset="934" length="4">pone</wf>
+    <wf wid="w171" sent="6" para="2" offset="939" length="13">interrogativi</wf>
+    <wf wid="w172" sent="6" para="2" offset="953" length="6">enormi</wf>
+    <wf wid="w173" sent="6" para="2" offset="960" length="1">e</wf>
+    <wf wid="w174" sent="6" para="2" offset="962" length="3">sul</wf>
+    <wf wid="w175" sent="6" para="2" offset="966" length="5">quale</wf>
+    <wf wid="w176" sent="6" para="2" offset="972" length="2">il</wf>
+    <wf wid="w177" sent="6" para="2" offset="975" length="7">Premier</wf>
+    <wf wid="w178" sent="6" para="2" offset="983" length="10">britannico</wf>
+    <wf wid="w179" sent="6" para="2" offset="994" length="2">ha</wf>
+    <wf wid="w180" sent="6" para="2" offset="997" length="10">confermato</wf>
+    <wf wid="w181" sent="6" para="2" offset="1008" length="2">il</wf>
+    <wf wid="w182" sent="6" para="2" offset="1011" length="5">pieno</wf>
+    <wf wid="w183" sent="6" para="2" offset="1017" length="8">appoggio</wf>
+    <wf wid="w184" sent="6" para="2" offset="1026" length="2">ad</wf>
+    <wf wid="w185" sent="6" para="2" offset="1029" length="5">Obama</wf>
+    <wf wid="w186" sent="6" para="2" offset="1034" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Un-->
+    <term tid="t160" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--processo-->
+    <term tid="t161" type="" lemma="processo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t162" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--dovrà-->
+    <term tid="t163" type="" lemma="dovere" pos="V" morphofeat="VMO~CON6">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--concludersi-->
+    <term tid="t164" type="" lemma="concludersi" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--entro-->
+    <term tid="t165" type="" lemma="entro" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--fine-->
+    <term tid="t166" type="" lemma="fine" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--2014-->
+    <term tid="t167" type="" lemma="2014" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t168" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t169" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--pone-->
+    <term tid="t170" type="" lemma="porre" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--interrogativi-->
+    <term tid="t171" type="" lemma="interrogativo" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--enormi-->
+    <term tid="t172" type="" lemma="enorme" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t173" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--sul-->
+    <term tid="t174" type="" lemma="sul" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--quale-->
+    <term tid="t175" type="" lemma="quale" pos="Q" morphofeat="PRON~REN3">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t176" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--Premier-->
+    <term tid="t177" type="" lemma="premier" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--britannico-->
+    <term tid="t178" type="" lemma="britannico" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t179" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--confermato-->
+    <term tid="t180" type="" lemma="confermare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t181" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--pieno-->
+    <term tid="t182" type="" lemma="pieno" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--appoggio-->
+    <term tid="t183" type="" lemma="appoggio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--ad-->
+    <term tid="t184" type="" lemma="ad" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--Obama-->
+    <term tid="t185" type="" lemma="obama" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t186" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--Premier britannico-->
+        <span>
+          <target id="t177"/>
+          <target id="t178"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="I-Positive">
+        <!--pieno appoggio-->
+        <span>
+          <target id="t182"/>
+          <target id="t183"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

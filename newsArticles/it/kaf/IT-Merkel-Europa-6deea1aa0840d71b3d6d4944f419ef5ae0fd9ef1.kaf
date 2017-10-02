@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:34Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:50CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w35" sent="3" para="2" offset="162" length="8">Colloqui</wf>
+    <wf wid="w36" sent="3" para="2" offset="172" length="3">tra</wf>
+    <wf wid="w37" sent="3" para="2" offset="176" length="5">Letta</wf>
+    <wf wid="w38" sent="3" para="2" offset="181" length="1">,</wf>
+    <wf wid="w39" sent="3" para="2" offset="183" length="6">Merkel</wf>
+    <wf wid="w40" sent="3" para="2" offset="190" length="1">e</wf>
+    <wf wid="w41" sent="3" para="2" offset="192" length="14">HollandeSangue</wf>
+    <wf wid="w42" sent="3" para="2" offset="206" length="1">,</wf>
+    <wf wid="w43" sent="3" para="2" offset="208" length="6">sangue</wf>
+    <wf wid="w44" sent="3" para="2" offset="215" length="1">e</wf>
+    <wf wid="w45" sent="3" para="2" offset="217" length="6">ancora</wf>
+    <wf wid="w46" sent="3" para="2" offset="224" length="6">sangue</wf>
+    <wf wid="w47" sent="3" para="2" offset="230" length="1">:</wf>
+    <wf wid="w48" sent="3" para="2" offset="232" length="2">l’</wf>
+    <wf wid="w49" sent="3" para="2" offset="234" length="6">Egitto</wf>
+    <wf wid="w50" sent="3" para="2" offset="241" length="1">è</wf>
+    <wf wid="w51" sent="3" para="2" offset="243" length="11">sprofondato</wf>
+    <wf wid="w52" sent="3" para="2" offset="255" length="5">nell’</wf>
+    <wf wid="w53" sent="3" para="2" offset="260" length="6">abisso</wf>
+    <wf wid="w54" sent="3" para="2" offset="266" length="1">,</wf>
+    <wf wid="w55" sent="3" para="2" offset="268" length="1">i</wf>
+    <wf wid="w56" sent="3" para="2" offset="270" length="6">moniti</wf>
+    <wf wid="w57" sent="3" para="2" offset="277" length="1">e</wf>
+    <wf wid="w58" sent="3" para="2" offset="279" length="2">le</wf>
+    <wf wid="w59" sent="3" para="2" offset="282" length="8">condanne</wf>
+    <wf wid="w60" sent="3" para="2" offset="291" length="5">della</wf>
+    <wf wid="w61" sent="3" para="2" offset="297" length="8">comunità</wf>
+    <wf wid="w62" sent="3" para="2" offset="306" length="14">internazionale</wf>
+    <wf wid="w63" sent="3" para="2" offset="321" length="4">sono</wf>
+    <wf wid="w64" sent="3" para="2" offset="326" length="6">caduti</wf>
+    <wf wid="w65" sent="3" para="2" offset="333" length="3">nel</wf>
+    <wf wid="w66" sent="3" para="2" offset="337" length="5">vuoto</wf>
+    <wf wid="w67" sent="3" para="2" offset="342" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Colloqui-->
+    <term tid="t35" type="" lemma="colloquio" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w35"/>
+      </span>
+    </term>
+    <!--tra-->
+    <term tid="t36" type="" lemma="tra" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w36"/>
+      </span>
+    </term>
+    <!--Letta-->
+    <term tid="t37" type="" lemma="letta" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w37"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t38" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w38"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t39" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t40" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--HollandeSangue-->
+    <term tid="t41" type="" lemma="hollandesangue" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t42" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--sangue-->
+    <term tid="t43" type="" lemma="sangue" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t44" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--ancora-->
+    <term tid="t45" type="" lemma="ancorare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--sangue-->
+    <term tid="t46" type="" lemma="sangue" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t47" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t48" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--Egitto-->
+    <term tid="t49" type="" lemma="egitto" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t50" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--sprofondato-->
+    <term tid="t51" type="" lemma="sprofondare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--nell’-->
+    <term tid="t52" type="" lemma="nell’" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--abisso-->
+    <term tid="t53" type="" lemma="abisso" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t54" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t55" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--moniti-->
+    <term tid="t56" type="" lemma="monito" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t57" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t58" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--condanne-->
+    <term tid="t59" type="" lemma="condanna" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t60" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--comunità-->
+    <term tid="t61" type="" lemma="comunita'" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--internazionale-->
+    <term tid="t62" type="" lemma="internazionale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--sono-->
+    <term tid="t63" type="" lemma="essere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--caduti-->
+    <term tid="t64" type="" lemma="caduto" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t65" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--vuoto-->
+    <term tid="t66" type="" lemma="vuoto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t67" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--HollandeSangue-->
+        <span>
+          <target id="t41"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Egitto-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--sangue e ancora sangue-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t39"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Egitto-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--sangue e ancora sangue-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Letta-->
+        <span>
+          <target id="t37"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Egitto-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--sangue e ancora sangue-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--HollandeSangue-->
+        <span>
+          <target id="t41"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Egitto-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--sprofondato nell’ abisso-->
+        <span>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o4">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t39"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Egitto-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--sprofondato nell’ abisso-->
+        <span>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Letta-->
+        <span>
+          <target id="t37"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Egitto-->
+        <span>
+          <target id="t49"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--sprofondato nell’ abisso-->
+        <span>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:46:23Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="2">La</wf>
+    <wf wid="w2" sent="1" para="1" offset="3" length="14">preoccupazione</wf>
+    <wf wid="w3" sent="1" para="1" offset="18" length="3">del</wf>
+    <wf wid="w4" sent="1" para="1" offset="22" length="7">premier</wf>
+    <wf wid="w5" sent="1" para="1" offset="30" length="5">Monti</wf>
+    <wf wid="w6" sent="1" para="1" offset="35" length="1">:</wf>
+    <wf wid="w7" sent="1" para="1" offset="37" length="1">"</wf>
+    <wf wid="w8" sent="1" para="1" offset="38" length="6">Troppo</wf>
+    <wf wid="w9" sent="1" para="1" offset="45" length="6">livore</wf>
+    <wf wid="w10" sent="1" para="1" offset="52" length="6">contro</wf>
+    <wf wid="w11" sent="1" para="1" offset="59" length="1">i</wf>
+    <wf wid="w12" sent="1" para="1" offset="61" length="8">tedeschi</wf>
+    <wf wid="w13" sent="1" para="1" offset="69" length="1">"</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t1" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--preoccupazione-->
+    <term tid="t2" type="" lemma="preoccupazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t3" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t4" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t5" type="" lemma="montare" pos="V" morphofeat="VMA~IPN3">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t6" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t7" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Troppo-->
+    <term tid="t8" type="" lemma="troppo" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--livore-->
+    <term tid="t9" type="" lemma="livore" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--contro-->
+    <term tid="t10" type="" lemma="contro" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t11" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--tedeschi-->
+    <term tid="t12" type="" lemma="tedesco" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t13" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--La preoccupazione-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:11:29Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w84" sent="3" para="2" offset="489" length="5">Sull'</wf>
+    <wf wid="w85" sent="3" para="2" offset="494" length="5">isola</wf>
+    <wf wid="w86" sent="3" para="2" offset="500" length="2">il</wf>
+    <wf wid="w87" sent="3" para="2" offset="503" length="4">capo</wf>
+    <wf wid="w88" sent="3" para="2" offset="508" length="5">dello</wf>
+    <wf wid="w89" sent="3" para="2" offset="514" length="5">Stato</wf>
+    <wf wid="w90" sent="3" para="2" offset="520" length="11">trascorrerà</wf>
+    <wf wid="w91" sent="3" para="2" offset="532" length="7">qualche</wf>
+    <wf wid="w92" sent="3" para="2" offset="540" length="6">giorno</wf>
+    <wf wid="w93" sent="3" para="2" offset="547" length="2">di</wf>
+    <wf wid="w94" sent="3" para="2" offset="550" length="7">vacanza</wf>
+    <wf wid="w95" sent="3" para="2" offset="557" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Sull'-->
+    <term tid="t84" type="" lemma="sull'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--isola-->
+    <term tid="t85" type="" lemma="isolare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t86" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--capo-->
+    <term tid="t87" type="" lemma="capo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--dello-->
+    <term tid="t88" type="" lemma="dello" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--Stato-->
+    <term tid="t89" type="" lemma="essere" pos="V" morphofeat="VAU~PAMS">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--trascorrerà-->
+    <term tid="t90" type="" lemma="trascorrerà" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--qualche-->
+    <term tid="t91" type="" lemma="qualche" pos="G" morphofeat="ADJ~NS">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--giorno-->
+    <term tid="t92" type="" lemma="giorno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t93" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--vacanza-->
+    <term tid="t94" type="" lemma="vacanza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t95" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

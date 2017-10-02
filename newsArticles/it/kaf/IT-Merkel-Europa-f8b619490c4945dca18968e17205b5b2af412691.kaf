@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:44Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:44Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:03:34Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w110" sent="7" para="2" offset="567" length="7">Peccato</wf>
+    <wf wid="w111" sent="7" para="2" offset="575" length="3">che</wf>
+    <wf wid="w112" sent="7" para="2" offset="579" length="4">ogni</wf>
+    <wf wid="w113" sent="7" para="2" offset="584" length="9">richiesta</wf>
+    <wf wid="w114" sent="7" para="2" offset="594" length="5">abbia</wf>
+    <wf wid="w115" sent="7" para="2" offset="600" length="6">sempre</wf>
+    <wf wid="w116" sent="7" para="2" offset="607" length="2">un</wf>
+    <wf wid="w117" sent="7" para="2" offset="610" length="6">prezzo</wf>
+    <wf wid="w118" sent="7" para="2" offset="617" length="2">da</wf>
+    <wf wid="w119" sent="7" para="2" offset="620" length="6">pagare</wf>
+    <wf wid="w120" sent="7" para="2" offset="626" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Peccato-->
+    <term tid="t110" type="" lemma="peccare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t111" type="" lemma="che" pos="G" morphofeat="ADJ~IRNI">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--ogni-->
+    <term tid="t112" type="" lemma="ogni" pos="G" morphofeat="ADJ~INNS">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--richiesta-->
+    <term tid="t113" type="" lemma="richiesto" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--abbia-->
+    <term tid="t114" type="" lemma="avere" pos="V" morphofeat="VAU~CGN1">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--sempre-->
+    <term tid="t115" type="" lemma="sempre" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t116" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--prezzo-->
+    <term tid="t117" type="" lemma="prezzo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--da-->
+    <term tid="t118" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--pagare-->
+    <term tid="t119" type="" lemma="pagare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t120" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--prezzo da pagare-->
+        <span>
+          <target id="t117"/>
+          <target id="t118"/>
+          <target id="t119"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

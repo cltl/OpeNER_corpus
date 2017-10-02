@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:26Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:26Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:08:47Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w279" sent="14" para="2" offset="1489" length="2">Ue</wf>
+    <wf wid="w280" sent="14" para="2" offset="1492" length="1">-</wf>
+    <wf wid="w281" sent="14" para="2" offset="1494" length="2">L'</wf>
+    <wf wid="w282" sent="14" para="2" offset="1496" length="6">Europa</wf>
+    <wf wid="w283" sent="14" para="2" offset="1503" length="1">"</wf>
+    <wf wid="w284" sent="14" para="2" offset="1504" length="3">non</wf>
+    <wf wid="w285" sent="14" para="2" offset="1508" length="2">ha</wf>
+    <wf wid="w286" sent="14" para="2" offset="1511" length="7">bisogno</wf>
+    <wf wid="w287" sent="14" para="2" offset="1519" length="2">di</wf>
+    <wf wid="w288" sent="14" para="2" offset="1522" length="6">rinvii</wf>
+    <wf wid="w289" sent="14" para="2" offset="1528" length="1">,</wf>
+    <wf wid="w290" sent="14" para="2" offset="1530" length="2">ma</wf>
+    <wf wid="w291" sent="14" para="2" offset="1533" length="2">di</wf>
+    <wf wid="w292" sent="14" para="2" offset="1536" length="9">decisioni</wf>
+    <wf wid="w293" sent="14" para="2" offset="1546" length="8">concrete</wf>
+    <wf wid="w294" sent="14" para="2" offset="1554" length="1">"</wf>
+    <wf wid="w295" sent="14" para="2" offset="1555" length="1">,</wf>
+    <wf wid="w296" sent="14" para="2" offset="1557" length="2">ha</wf>
+    <wf wid="w297" sent="14" para="2" offset="1560" length="9">affermato</wf>
+    <wf wid="w298" sent="14" para="2" offset="1570" length="5">Monti</wf>
+    <wf wid="w299" sent="14" para="2" offset="1576" length="2">al</wf>
+    <wf wid="w300" sent="14" para="2" offset="1579" length="7">termine</wf>
+    <wf wid="w301" sent="14" para="2" offset="1587" length="3">del</wf>
+    <wf wid="w302" sent="14" para="2" offset="1591" length="7">vertice</wf>
+    <wf wid="w303" sent="14" para="2" offset="1598" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ue-->
+    <term tid="t279" type="" lemma="ue" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t280" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--L'-->
+    <term tid="t281" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t282" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t283" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t284" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t285" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--bisogno-->
+    <term tid="t286" type="" lemma="bisogno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t287" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--rinvii-->
+    <term tid="t288" type="" lemma="rinvio" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t289" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t290" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t291" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--decisioni-->
+    <term tid="t292" type="" lemma="decisione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--concrete-->
+    <term tid="t293" type="" lemma="concreto" pos="G" morphofeat="ADJ~QUFP">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t294" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t295" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t296" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--affermato-->
+    <term tid="t297" type="" lemma="affermare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t298" type="" lemma="monte" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t299" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--termine-->
+    <term tid="t300" type="" lemma="termine" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t301" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--vertice-->
+    <term tid="t302" type="" lemma="vertice" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t303" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Monti-->
+        <span>
+          <target id="t298"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Europa-->
+        <span>
+          <target id="t282"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ma di decisioni concrete-->
+        <span>
+          <target id="t290"/>
+          <target id="t291"/>
+          <target id="t292"/>
+          <target id="t293"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

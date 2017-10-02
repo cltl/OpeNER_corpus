@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:05:12Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w164" sent="9" para="2" offset="875" length="7">Wilfred</wf>
+    <wf wid="w165" sent="9" para="2" offset="883" length="7">Martens</wf>
+    <wf wid="w166" sent="9" para="2" offset="890" length="1">,</wf>
+    <wf wid="w167" sent="9" para="2" offset="892" length="10">presidente</wf>
+    <wf wid="w168" sent="9" para="2" offset="903" length="3">del</wf>
+    <wf wid="w169" sent="9" para="2" offset="907" length="3">PPE</wf>
+    <wf wid="w170" sent="9" para="2" offset="910" length="1">,</wf>
+    <wf wid="w171" sent="9" para="2" offset="912" length="3">non</wf>
+    <wf wid="w172" sent="9" para="2" offset="916" length="3">usa</wf>
+    <wf wid="w173" sent="9" para="2" offset="920" length="2">il</wf>
+    <wf wid="w174" sent="9" para="2" offset="923" length="6">solito</wf>
+    <wf wid="w175" sent="9" para="2" offset="930" length="10">linguaggio</wf>
+    <wf wid="w176" sent="9" para="2" offset="941" length="13">democristiano</wf>
+    <wf wid="w177" sent="9" para="2" offset="955" length="1">e</wf>
+    <wf wid="w178" sent="9" para="2" offset="957" length="7">affonda</wf>
+    <wf wid="w179" sent="9" para="2" offset="964" length="1">:</wf>
+    <wf wid="w180" sent="9" para="2" offset="966" length="1">"</wf>
+    <wf wid="w181" sent="9" para="2" offset="967" length="5">Mario</wf>
+    <wf wid="w182" sent="9" para="2" offset="973" length="5">Monti</wf>
+    <wf wid="w183" sent="9" para="2" offset="979" length="4">deve</wf>
+    <wf wid="w184" sent="9" para="2" offset="984" length="10">continuare</wf>
+    <wf wid="w185" sent="9" para="2" offset="995" length="2">la</wf>
+    <wf wid="w186" sent="9" para="2" offset="998" length="3">sua</wf>
+    <wf wid="w187" sent="9" para="2" offset="1002" length="6">azione</wf>
+    <wf wid="w188" sent="9" para="2" offset="1008" length="1">,</wf>
+    <wf wid="w189" sent="9" para="2" offset="1010" length="1">e</wf>
+    <wf wid="w190" sent="9" para="2" offset="1011" length="1">'</wf>
+    <wf wid="w191" sent="9" para="2" offset="1013" length="10">essenziale</wf>
+    <wf wid="w192" sent="9" para="2" offset="1024" length="3">per</wf>
+    <wf wid="w193" sent="9" para="2" offset="1028" length="2">l'</wf>
+    <wf wid="w194" sent="9" para="2" offset="1030" length="6">Italia</wf>
+    <wf wid="w195" sent="9" para="2" offset="1037" length="1">e</wf>
+    <wf wid="w196" sent="9" para="2" offset="1039" length="2">l'</wf>
+    <wf wid="w197" sent="9" para="2" offset="1041" length="6">Europa</wf>
+    <wf wid="w198" sent="9" para="2" offset="1047" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Wilfred-->
+    <term tid="t164" type="" lemma="wilfred" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--Martens-->
+    <term tid="t165" type="" lemma="martens" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t166" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t167" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t168" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--PPE-->
+    <term tid="t169" type="" lemma="ppe" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t170" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t171" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--usa-->
+    <term tid="t172" type="" lemma="usare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t173" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--solito-->
+    <term tid="t174" type="" lemma="solito" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--linguaggio-->
+    <term tid="t175" type="" lemma="linguaggio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--democristiano-->
+    <term tid="t176" type="" lemma="democristiano" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t177" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--affonda-->
+    <term tid="t178" type="" lemma="affondare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t179" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t180" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--Mario-->
+    <term tid="t181" type="" lemma="mario" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t182" type="" lemma="monte" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--deve-->
+    <term tid="t183" type="" lemma="dovere" pos="V" morphofeat="VMO~REN3">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--continuare-->
+    <term tid="t184" type="" lemma="continuare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t185" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--sua-->
+    <term tid="t186" type="" lemma="suo" pos="G" morphofeat="ADJ~POFS">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--azione-->
+    <term tid="t187" type="" lemma="azione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t188" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t189" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t190" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--essenziale-->
+    <term tid="t191" type="" lemma="essenziale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t192" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t193" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t194" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t195" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t196" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t197" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t198" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--la sua azione-->
+        <span>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="I-StrongPositive">
+        <!--e ' essenziale-->
+        <span>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

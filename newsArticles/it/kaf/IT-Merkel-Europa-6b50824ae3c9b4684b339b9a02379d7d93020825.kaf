@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:23Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:23Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:08:35Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w215" sent="8" para="2" offset="1111" length="5">FONDO</wf>
+    <wf wid="w216" sent="8" para="2" offset="1117" length="5">SALVA</wf>
+    <wf wid="w217" sent="8" para="2" offset="1123" length="5">STATI</wf>
+    <wf wid="w218" sent="8" para="2" offset="1129" length="1">-</wf>
+    <wf wid="w219" sent="8" para="2" offset="1131" length="1">I</wf>
+    <wf wid="w220" sent="8" para="2" offset="1133" length="6">leader</wf>
+    <wf wid="w221" sent="8" para="2" offset="1140" length="5">hanno</wf>
+    <wf wid="w222" sent="8" para="2" offset="1146" length="9">approvato</wf>
+    <wf wid="w223" sent="8" para="2" offset="1156" length="2">l'</wf>
+    <wf wid="w224" sent="8" para="2" offset="1158" length="8">anticipo</wf>
+    <wf wid="w225" sent="8" para="2" offset="1167" length="1">a</wf>
+    <wf wid="w226" sent="8" para="2" offset="1169" length="6">luglio</wf>
+    <wf wid="w227" sent="8" para="2" offset="1176" length="5">dell'</wf>
+    <wf wid="w228" sent="8" para="2" offset="1181" length="7">entrata</wf>
+    <wf wid="w229" sent="8" para="2" offset="1189" length="2">in</wf>
+    <wf wid="w230" sent="8" para="2" offset="1192" length="6">vigore</wf>
+    <wf wid="w231" sent="8" para="2" offset="1199" length="3">del</wf>
+    <wf wid="w232" sent="8" para="2" offset="1203" length="10">Meccanismo</wf>
+    <wf wid="w233" sent="8" para="2" offset="1214" length="7">europeo</wf>
+    <wf wid="w234" sent="8" para="2" offset="1222" length="2">di</wf>
+    <wf wid="w235" sent="8" para="2" offset="1225" length="9">stabilità</wf>
+    <wf wid="w236" sent="8" para="2" offset="1235" length="1">(</wf>
+    <wf wid="w237" sent="8" para="2" offset="1236" length="3">Esm</wf>
+    <wf wid="w238" sent="8" para="2" offset="1239" length="1">)</wf>
+    <wf wid="w239" sent="8" para="2" offset="1240" length="1">.</wf>
+  </text>
+  <terms>
+    <!--FONDO-->
+    <term tid="t215" type="" lemma="fondo" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--SALVA-->
+    <term tid="t216" type="" lemma="salva" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--STATI-->
+    <term tid="t217" type="" lemma="stato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t218" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--I-->
+    <term tid="t219" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term tid="t220" type="" lemma="leader" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--hanno-->
+    <term tid="t221" type="" lemma="avere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--approvato-->
+    <term tid="t222" type="" lemma="approvare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t223" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--anticipo-->
+    <term tid="t224" type="" lemma="anticipo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t225" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--luglio-->
+    <term tid="t226" type="" lemma="luglio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t227" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--entrata-->
+    <term tid="t228" type="" lemma="entrata" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t229" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--vigore-->
+    <term tid="t230" type="" lemma="vigore" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t231" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--Meccanismo-->
+    <term tid="t232" type="" lemma="meccanismo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--europeo-->
+    <term tid="t233" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t234" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--stabilità-->
+    <term tid="t235" type="" lemma="stabilita'" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--(-->
+    <term tid="t236" type="" lemma="(" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--Esm-->
+    <term tid="t237" type="" lemma="esm" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t238" type="" lemma=")" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t239" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--leader-->
+        <span>
+          <target id="t220"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--anticipo a luglio-->
+        <span>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--hanno approvato-->
+        <span>
+          <target id="t221"/>
+          <target id="t222"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t219"/>
+          <target id="t220"/>
+          <target id="t221"/>
+          <target id="t222"/>
+          <target id="t223"/>
+          <target id="t224"/>
+          <target id="t225"/>
+          <target id="t226"/>
+          <target id="t227"/>
+          <target id="t228"/>
+          <target id="t229"/>
+          <target id="t230"/>
+          <target id="t231"/>
+          <target id="t232"/>
+          <target id="t233"/>
+          <target id="t234"/>
+          <target id="t235"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

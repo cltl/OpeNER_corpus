@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:35Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:35Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:43Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w108" sent="5" para="2" offset="483" length="9">Significa</wf>
+    <wf wid="w109" sent="5" para="2" offset="493" length="3">che</wf>
+    <wf wid="w110" sent="5" para="2" offset="497" length="2">le</wf>
+    <wf wid="w111" sent="5" para="2" offset="500" length="8">risposte</wf>
+    <wf wid="w112" sent="5" para="2" offset="509" length="5">hanno</wf>
+    <wf wid="w113" sent="5" para="2" offset="515" length="5">avuto</wf>
+    <wf wid="w114" sent="5" para="2" offset="521" length="2">un</wf>
+    <wf wid="w115" sent="5" para="2" offset="524" length="6">prezzo</wf>
+    <wf wid="w116" sent="5" para="2" offset="530" length="1">"</wf>
+    <wf wid="w117" sent="5" para="2" offset="531" length="1">,</wf>
+    <wf wid="w118" sent="5" para="2" offset="533" length="2">ha</wf>
+    <wf wid="w119" sent="5" para="2" offset="536" length="5">detto</wf>
+    <wf wid="w120" sent="5" para="2" offset="542" length="6">Merkel</wf>
+    <wf wid="w121" sent="5" para="2" offset="548" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Significa-->
+    <term tid="t108" type="" lemma="significare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t109" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t110" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--risposte-->
+    <term tid="t111" type="" lemma="risposta" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--hanno-->
+    <term tid="t112" type="" lemma="avere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--avuto-->
+    <term tid="t113" type="" lemma="avere" pos="V" morphofeat="VAU~PAMS">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t114" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--prezzo-->
+    <term tid="t115" type="" lemma="prezzo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t116" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t117" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t118" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--detto-->
+    <term tid="t119" type="" lemma="dettare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t120" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t121" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Merkel-->
+        <span>
+          <target id="t120"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--risposte-->
+        <span>
+          <target id="t111"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--hanno avuto un prezzo-->
+        <span>
+          <target id="t112"/>
+          <target id="t113"/>
+          <target id="t114"/>
+          <target id="t115"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

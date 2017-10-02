@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:46:41Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w44" sent="3" para="2" offset="231" length="2">L'</wf>
+    <wf wid="w45" sent="3" para="2" offset="233" length="2">ex</wf>
+    <wf wid="w46" sent="3" para="2" offset="236" length="7">premier</wf>
+    <wf wid="w47" sent="3" para="2" offset="244" length="2">lo</wf>
+    <wf wid="w48" sent="3" para="2" offset="247" length="2">ha</wf>
+    <wf wid="w49" sent="3" para="2" offset="250" length="5">detto</wf>
+    <wf wid="w50" sent="3" para="2" offset="256" length="2">in</wf>
+    <wf wid="w51" sent="3" para="2" offset="259" length="3">una</wf>
+    <wf wid="w52" sent="3" para="2" offset="263" length="10">intervista</wf>
+    <wf wid="w53" sent="3" para="2" offset="274" length="4">alla</wf>
+    <wf wid="w54" sent="3" para="2" offset="279" length="4">Bild</wf>
+    <wf wid="w55" sent="3" para="2" offset="284" length="3">che</wf>
+    <wf wid="w56" sent="3" para="2" offset="288" length="6">uscirÃ</wf>
+    <wf wid="w57" sent="3" para="2" offset="296" length="6">domani</wf>
+    <wf wid="w58" sent="3" para="2" offset="302" length="1">,</wf>
+    <wf wid="w59" sent="3" para="2" offset="304" length="7">secondo</wf>
+    <wf wid="w60" sent="3" para="2" offset="312" length="6">alcune</wf>
+    <wf wid="w61" sent="3" para="2" offset="319" length="13">anticipazioni</wf>
+    <wf wid="w62" sent="3" para="2" offset="332" length="1">.</wf>
+  </text>
+  <terms>
+    <!--L'-->
+    <term tid="t44" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--ex-->
+    <term tid="t45" type="" lemma="ex" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t46" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t47" type="" lemma="lo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t48" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--detto-->
+    <term tid="t49" type="" lemma="detto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t50" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t51" type="" lemma="una" pos="Q" morphofeat="PRON~IDF3">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--intervista-->
+    <term tid="t52" type="" lemma="intervistare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t53" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--Bild-->
+    <term tid="t54" type="" lemma="bild" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t55" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--uscirÃ-->
+    <term tid="t56" type="" lemma="uscirã" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--domani-->
+    <term tid="t57" type="" lemma="domani" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t58" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--secondo-->
+    <term tid="t59" type="" lemma="secondo" pos="G" morphofeat="ADJ~ORMS">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--alcune-->
+    <term tid="t60" type="" lemma="alcuno" pos="G" morphofeat="ADJ~FP">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--anticipazioni-->
+    <term tid="t61" type="" lemma="anticipazione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t62" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

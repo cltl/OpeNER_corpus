@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:12Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w18" sent="3" para="2" offset="94" length="2">Il</wf>
+    <wf wid="w19" sent="3" para="2" offset="97" length="4">veto</wf>
+    <wf wid="w20" sent="3" para="2" offset="102" length="2">di</wf>
+    <wf wid="w21" sent="3" para="2" offset="105" length="7">Cameron</wf>
+    <wf wid="w22" sent="3" para="2" offset="113" length="8">rallenta</wf>
+    <wf wid="w23" sent="3" para="2" offset="122" length="2">le</wf>
+    <wf wid="w24" sent="3" para="2" offset="125" length="10">trattative</wf>
+    <wf wid="w25" sent="3" para="2" offset="136" length="4">fino</wf>
+    <wf wid="w26" sent="3" para="2" offset="141" length="1">a</wf>
+    <wf wid="w27" sent="3" para="2" offset="143" length="5">tarda</wf>
+    <wf wid="w28" sent="3" para="2" offset="149" length="5">notte</wf>
+    <wf wid="w29" sent="3" para="2" offset="154" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t18" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--veto-->
+    <term tid="t19" type="" lemma="veto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t20" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w20"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t21" type="" lemma="cameron" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w21"/>
+      </span>
+    </term>
+    <!--rallenta-->
+    <term tid="t22" type="" lemma="rallentare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w22"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t23" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w23"/>
+      </span>
+    </term>
+    <!--trattative-->
+    <term tid="t24" type="" lemma="trattativa" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w24"/>
+      </span>
+    </term>
+    <!--fino-->
+    <term tid="t25" type="" lemma="fino" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w25"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t26" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w26"/>
+      </span>
+    </term>
+    <!--tarda-->
+    <term tid="t27" type="" lemma="tardo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w27"/>
+      </span>
+    </term>
+    <!--notte-->
+    <term tid="t28" type="" lemma="notte" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w28"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t29" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w29"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--veto di Cameron-->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--trattative-->
+        <span>
+          <target id="t24"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--rallenta-->
+        <span>
+          <target id="t22"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

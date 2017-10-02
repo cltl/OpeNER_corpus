@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:10Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:14CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w195" sent="5" para="2" offset="1022" length="2">Il</wf>
+    <wf wid="w196" sent="5" para="2" offset="1025" length="7">premier</wf>
+    <wf wid="w197" sent="5" para="2" offset="1033" length="5">Letta</wf>
+    <wf wid="w198" sent="5" para="2" offset="1038" length="1">,</wf>
+    <wf wid="w199" sent="5" para="2" offset="1040" length="1">a</wf>
+    <wf wid="w200" sent="5" para="2" offset="1042" length="7">Berlino</wf>
+    <wf wid="w201" sent="5" para="2" offset="1050" length="3">per</wf>
+    <wf wid="w202" sent="5" para="2" offset="1054" length="2">la</wf>
+    <wf wid="w203" sent="5" para="2" offset="1057" length="10">conferenza</wf>
+    <wf wid="w204" sent="5" para="2" offset="1068" length="3">sul</wf>
+    <wf wid="w205" sent="5" para="2" offset="1072" length="6">lavoro</wf>
+    <wf wid="w206" sent="5" para="2" offset="1079" length="9">convocata</wf>
+    <wf wid="w207" sent="5" para="2" offset="1089" length="5">dalla</wf>
+    <wf wid="w208" sent="5" para="2" offset="1095" length="6">Merkel</wf>
+    <wf wid="w209" sent="5" para="2" offset="1101" length="1">,</wf>
+    <wf wid="w210" sent="5" para="2" offset="1103" length="7">intende</wf>
+    <wf wid="w211" sent="5" para="2" offset="1111" length="8">cogliere</wf>
+    <wf wid="w212" sent="5" para="2" offset="1120" length="6">subito</wf>
+    <wf wid="w213" sent="5" para="2" offset="1127" length="2">la</wf>
+    <wf wid="w214" sent="5" para="2" offset="1130" length="5">nuova</wf>
+    <wf wid="w215" sent="5" para="2" offset="1136" length="11">possibilità</wf>
+    <wf wid="w216" sent="5" para="2" offset="1148" length="7">offerta</wf>
+    <wf wid="w217" sent="5" para="2" offset="1156" length="5">dalla</wf>
+    <wf wid="w218" sent="5" para="2" offset="1162" length="2">Ue</wf>
+    <wf wid="w219" sent="5" para="2" offset="1164" length="1">:</wf>
+    <wf wid="w220" sent="5" para="2" offset="1166" length="1">«</wf>
+    <wf wid="w221" sent="5" para="2" offset="1167" length="11">Sicuramente</wf>
+    <wf wid="w222" sent="5" para="2" offset="1179" length="5">nella</wf>
+    <wf wid="w223" sent="5" para="2" offset="1185" length="5">legge</wf>
+    <wf wid="w224" sent="5" para="2" offset="1191" length="2">di</wf>
+    <wf wid="w225" sent="5" para="2" offset="1194" length="9">stabilità</wf>
+    <wf wid="w226" sent="5" para="2" offset="1204" length="9">metteremo</wf>
+    <wf wid="w227" sent="5" para="2" offset="1214" length="2">in</wf>
+    <wf wid="w228" sent="5" para="2" offset="1217" length="5">campo</wf>
+    <wf wid="w229" sent="5" para="2" offset="1223" length="12">investimenti</wf>
+    <wf wid="w230" sent="5" para="2" offset="1236" length="3">per</wf>
+    <wf wid="w231" sent="5" para="2" offset="1240" length="2">le</wf>
+    <wf wid="w232" sent="5" para="2" offset="1243" length="14">infrastrutture</wf>
+    <wf wid="w233" sent="5" para="2" offset="1257" length="1">,</wf>
+    <wf wid="w234" sent="5" para="2" offset="1259" length="3">non</wf>
+    <wf wid="w235" sent="5" para="2" offset="1263" length="4">solo</wf>
+    <wf wid="w236" sent="5" para="2" offset="1268" length="6">quelle</wf>
+    <wf wid="w237" sent="5" para="2" offset="1275" length="5">delle</wf>
+    <wf wid="w238" sent="5" para="2" offset="1281" length="6">grandi</wf>
+    <wf wid="w239" sent="5" para="2" offset="1288" length="5">opere</wf>
+    <wf wid="w240" sent="5" para="2" offset="1294" length="2">ma</wf>
+    <wf wid="w241" sent="5" para="2" offset="1297" length="5">anche</wf>
+    <wf wid="w242" sent="5" para="2" offset="1303" length="6">quella</wf>
+    <wf wid="w243" sent="5" para="2" offset="1310" length="8">digitale</wf>
+    <wf wid="w244" sent="5" para="2" offset="1318" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t195" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t196" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--Letta-->
+    <term tid="t197" type="" lemma="letta" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t198" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t199" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--Berlino-->
+    <term tid="t200" type="" lemma="berlino" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t201" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t202" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--conferenza-->
+    <term tid="t203" type="" lemma="conferenza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--sul-->
+    <term tid="t204" type="" lemma="sul" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--lavoro-->
+    <term tid="t205" type="" lemma="lavoro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--convocata-->
+    <term tid="t206" type="" lemma="convocare" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--dalla-->
+    <term tid="t207" type="" lemma="dalla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t208" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t209" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--intende-->
+    <term tid="t210" type="" lemma="intendere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--cogliere-->
+    <term tid="t211" type="" lemma="cogliere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--subito-->
+    <term tid="t212" type="" lemma="subito" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t213" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--nuova-->
+    <term tid="t214" type="" lemma="nuova" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--possibilità-->
+    <term tid="t215" type="" lemma="possibilità" pos="V" morphofeat="VMO~CGN3">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--offerta-->
+    <term tid="t216" type="" lemma="offrire" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--dalla-->
+    <term tid="t217" type="" lemma="dalla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--Ue-->
+    <term tid="t218" type="" lemma="ue" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t219" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t220" type="" lemma="«" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--Sicuramente-->
+    <term tid="t221" type="" lemma="sicuramente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--nella-->
+    <term tid="t222" type="" lemma="nella" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--legge-->
+    <term tid="t223" type="" lemma="legge" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t224" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+    <!--stabilità-->
+    <term tid="t225" type="" lemma="stabilita'" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w225"/>
+      </span>
+    </term>
+    <!--metteremo-->
+    <term tid="t226" type="" lemma="mettere" pos="V" morphofeat="VMA~FUN4">
+      <span>
+        <target id="w226"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t227" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w227"/>
+      </span>
+    </term>
+    <!--campo-->
+    <term tid="t228" type="" lemma="campo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w228"/>
+      </span>
+    </term>
+    <!--investimenti-->
+    <term tid="t229" type="" lemma="investimento" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w229"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t230" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w230"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t231" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w231"/>
+      </span>
+    </term>
+    <!--infrastrutture-->
+    <term tid="t232" type="" lemma="infrastruttura" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w232"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t233" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w233"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t234" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w234"/>
+      </span>
+    </term>
+    <!--solo-->
+    <term tid="t235" type="" lemma="solo" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w235"/>
+      </span>
+    </term>
+    <!--quelle-->
+    <term tid="t236" type="" lemma="quelle" pos="Q" morphofeat="PRON~DEF6">
+      <span>
+        <target id="w236"/>
+      </span>
+    </term>
+    <!--delle-->
+    <term tid="t237" type="" lemma="delle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w237"/>
+      </span>
+    </term>
+    <!--grandi-->
+    <term tid="t238" type="" lemma="grande" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w238"/>
+      </span>
+    </term>
+    <!--opere-->
+    <term tid="t239" type="" lemma="opera" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w239"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t240" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w240"/>
+      </span>
+    </term>
+    <!--anche-->
+    <term tid="t241" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w241"/>
+      </span>
+    </term>
+    <!--quella-->
+    <term tid="t242" type="" lemma="quella" pos="Q" morphofeat="PRON~DEF3">
+      <span>
+        <target id="w242"/>
+      </span>
+    </term>
+    <!--digitale-->
+    <term tid="t243" type="" lemma="digitale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w243"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t244" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w244"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Il premier Letta-->
+        <span>
+          <target id="t195"/>
+          <target id="t196"/>
+          <target id="t197"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--nuova possibilità offerta dalla Ue-->
+        <span>
+          <target id="t214"/>
+          <target id="t215"/>
+          <target id="t216"/>
+          <target id="t217"/>
+          <target id="t218"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--intende cogliere subito-->
+        <span>
+          <target id="t210"/>
+          <target id="t211"/>
+          <target id="t212"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

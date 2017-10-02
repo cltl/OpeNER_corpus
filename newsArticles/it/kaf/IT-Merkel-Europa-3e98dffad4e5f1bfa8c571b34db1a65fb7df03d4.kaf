@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:50Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:50Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:12:02Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w272" sent="9" para="2" offset="1571" length="3">Una</wf>
+    <wf wid="w273" sent="9" para="2" offset="1575" length="1">'</wf>
+    <wf wid="w274" sent="9" para="2" offset="1576" length="6">svolta</wf>
+    <wf wid="w275" sent="9" para="2" offset="1582" length="1">'</wf>
+    <wf wid="w276" sent="9" para="2" offset="1584" length="3">che</wf>
+    <wf wid="w277" sent="9" para="2" offset="1588" length="2">ha</wf>
+    <wf wid="w278" sent="9" para="2" offset="1591" length="2">il</wf>
+    <wf wid="w279" sent="9" para="2" offset="1594" length="8">consenso</wf>
+    <wf wid="w280" sent="9" para="2" offset="1603" length="5">della</wf>
+    <wf wid="w281" sent="9" para="2" offset="1609" length="11">cancelliera</wf>
+    <wf wid="w282" sent="9" para="2" offset="1621" length="7">tedesca</wf>
+    <wf wid="w283" sent="9" para="2" offset="1629" length="6">Angela</wf>
+    <wf wid="w284" sent="9" para="2" offset="1636" length="6">Merkel</wf>
+    <wf wid="w285" sent="9" para="2" offset="1642" length="1">:</wf>
+    <wf wid="w286" sent="9" para="2" offset="1644" length="1">"</wf>
+    <wf wid="w287" sent="9" para="2" offset="1645" length="2">la</wf>
+    <wf wid="w288" sent="9" para="2" offset="1648" length="3">Bce</wf>
+    <wf wid="w289" sent="9" para="2" offset="1652" length="6">agisce</wf>
+    <wf wid="w290" sent="9" para="2" offset="1659" length="2">in</wf>
+    <wf wid="w291" sent="9" para="2" offset="1662" length="4">modo</wf>
+    <wf wid="w292" sent="9" para="2" offset="1667" length="12">indipendente</wf>
+    <wf wid="w293" sent="9" para="2" offset="1679" length="1">,</wf>
+    <wf wid="w294" sent="9" para="2" offset="1681" length="3">nel</wf>
+    <wf wid="w295" sent="9" para="2" offset="1685" length="6">quadro</wf>
+    <wf wid="w296" sent="9" para="2" offset="1692" length="3">del</wf>
+    <wf wid="w297" sent="9" para="2" offset="1696" length="3">suo</wf>
+    <wf wid="w298" sent="9" para="2" offset="1700" length="7">mandato</wf>
+    <wf wid="w299" sent="9" para="2" offset="1707" length="1">"</wf>
+    <wf wid="w300" sent="9" para="2" offset="1708" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Una-->
+    <term tid="t272" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t273" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--svolta-->
+    <term tid="t274" type="" lemma="svolgere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t275" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t276" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t277" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t278" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--consenso-->
+    <term tid="t279" type="" lemma="consenso" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t280" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--cancelliera-->
+    <term tid="t281" type="" lemma="cancelliera" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--tedesca-->
+    <term tid="t282" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t283" type="" lemma="angela" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t284" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t285" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t286" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t287" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--Bce-->
+    <term tid="t288" type="" lemma="bce" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--agisce-->
+    <term tid="t289" type="" lemma="agire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t290" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--modo-->
+    <term tid="t291" type="" lemma="modo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--indipendente-->
+    <term tid="t292" type="" lemma="indipendente" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t293" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t294" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--quadro-->
+    <term tid="t295" type="" lemma="quadro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t296" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--suo-->
+    <term tid="t297" type="" lemma="suo" pos="G" morphofeat="ADJ~POMS">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--mandato-->
+    <term tid="t298" type="" lemma="mandato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t299" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t300" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--cancelliera tedesca Angela Merkel-->
+        <span>
+          <target id="t281"/>
+          <target id="t282"/>
+          <target id="t283"/>
+          <target id="t284"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Una ' svolta-->
+        <span>
+          <target id="t272"/>
+          <target id="t273"/>
+          <target id="t274"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ha il consenso-->
+        <span>
+          <target id="t277"/>
+          <target id="t278"/>
+          <target id="t279"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

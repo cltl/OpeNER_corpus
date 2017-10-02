@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:51Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:51Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:13:38Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:59CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w264" sent="7" para="2" offset="1491" length="3">Per</wf>
+    <wf wid="w265" sent="7" para="2" offset="1495" length="6">questo</wf>
+    <wf wid="w266" sent="7" para="2" offset="1502" length="7">Berlino</wf>
+    <wf wid="w267" sent="7" para="2" offset="1510" length="2">ha</wf>
+    <wf wid="w268" sent="7" para="2" offset="1513" length="8">ribadito</wf>
+    <wf wid="w269" sent="7" para="2" offset="1522" length="2">il</wf>
+    <wf wid="w270" sent="7" para="2" offset="1525" length="3">suo</wf>
+    <wf wid="w271" sent="7" para="2" offset="1529" length="8">appoggio</wf>
+    <wf wid="w272" sent="7" para="2" offset="1538" length="4">alla</wf>
+    <wf wid="w273" sent="7" para="2" offset="1543" length="5">linea</wf>
+    <wf wid="w274" sent="7" para="2" offset="1549" length="2">di</wf>
+    <wf wid="w275" sent="7" para="2" offset="1552" length="6">Draghi</wf>
+    <wf wid="w276" sent="7" para="2" offset="1559" length="11">smarcandosi</wf>
+    <wf wid="w277" sent="7" para="2" offset="1571" length="5">dalle</wf>
+    <wf wid="w278" sent="7" para="2" offset="1577" length="8">critiche</wf>
+    <wf wid="w279" sent="7" para="2" offset="1586" length="2">di</wf>
+    <wf wid="w280" sent="7" para="2" offset="1589" length="7">diversi</wf>
+    <wf wid="w281" sent="7" para="2" offset="1597" length="9">esponenti</wf>
+    <wf wid="w282" sent="7" para="2" offset="1607" length="8">politici</wf>
+    <wf wid="w283" sent="7" para="2" offset="1616" length="3">del</wf>
+    <wf wid="w284" sent="7" para="2" offset="1620" length="3">suo</wf>
+    <wf wid="w285" sent="7" para="2" offset="1624" length="6">stesso</wf>
+    <wf wid="w286" sent="7" para="2" offset="1631" length="7">partito</wf>
+    <wf wid="w287" sent="7" para="2" offset="1639" length="1">e</wf>
+    <wf wid="w288" sent="7" para="2" offset="1641" length="2">di</wf>
+    <wf wid="w289" sent="7" para="2" offset="1644" length="6">alcuni</wf>
+    <wf wid="w290" sent="7" para="2" offset="1651" length="5">paesi</wf>
+    <wf wid="w291" sent="7" para="2" offset="1657" length="3">del</wf>
+    <wf wid="w292" sent="7" para="2" offset="1661" length="6">centro</wf>
+    <wf wid="w293" sent="7" para="2" offset="1668" length="4">Nord</wf>
+    <wf wid="w294" sent="7" para="2" offset="1673" length="6">Europa</wf>
+    <wf wid="w295" sent="7" para="2" offset="1679" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Per-->
+    <term tid="t264" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--questo-->
+    <term tid="t265" type="" lemma="questo" pos="G" morphofeat="ADJ~DIMS">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--Berlino-->
+    <term tid="t266" type="" lemma="berlino" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t267" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--ribadito-->
+    <term tid="t268" type="" lemma="ribadire" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t269" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--suo-->
+    <term tid="t270" type="" lemma="suo" pos="G" morphofeat="ADJ~POMS">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--appoggio-->
+    <term tid="t271" type="" lemma="appoggio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t272" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--linea-->
+    <term tid="t273" type="" lemma="linea" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t274" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--Draghi-->
+    <term tid="t275" type="" lemma="drago" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--smarcandosi-->
+    <term tid="t276" type="" lemma="smarcandosi" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--dalle-->
+    <term tid="t277" type="" lemma="dalle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--critiche-->
+    <term tid="t278" type="" lemma="critica" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t279" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--diversi-->
+    <term tid="t280" type="" lemma="diverso" pos="G" morphofeat="ADJ~INMP">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--esponenti-->
+    <term tid="t281" type="" lemma="esponente" pos="N" morphofeat="NOU~CPNP">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--politici-->
+    <term tid="t282" type="" lemma="politico" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t283" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--suo-->
+    <term tid="t284" type="" lemma="suo" pos="G" morphofeat="ADJ~POMS">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--stesso-->
+    <term tid="t285" type="" lemma="stesso" pos="G" morphofeat="ADJ~DIMS">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--partito-->
+    <term tid="t286" type="" lemma="partito" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t287" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t288" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--alcuni-->
+    <term tid="t289" type="" lemma="alcuno" pos="G" morphofeat="ADJ~MP">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--paesi-->
+    <term tid="t290" type="" lemma="paese" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t291" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--centro-->
+    <term tid="t292" type="" lemma="centro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--Nord-->
+    <term tid="t293" type="" lemma="nord" pos="R" morphofeat="NOU~PMI">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t294" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t295" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--appoggio-->
+        <span>
+          <target id="t271"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

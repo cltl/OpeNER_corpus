@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:52Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:52Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:18:50Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w112" sent="5" para="2" offset="564" length="2">Ma</wf>
+    <wf wid="w113" sent="5" para="2" offset="567" length="12">naturalmente</wf>
+    <wf wid="w114" sent="5" para="2" offset="579" length="1">,</wf>
+    <wf wid="w115" sent="5" para="2" offset="580" length="3">noi</wf>
+    <wf wid="w116" sent="5" para="2" offset="583" length="1">,</wf>
+    <wf wid="w117" sent="5" para="2" offset="585" length="8">dovevamo</wf>
+    <wf wid="w118" sent="5" para="2" offset="594" length="11">dimostrarci</wf>
+    <wf wid="w119" sent="5" para="2" offset="606" length="3">tra</wf>
+    <wf wid="w120" sent="5" para="2" offset="610" length="1">i</wf>
+    <wf wid="w121" sent="5" para="2" offset="612" length="5">primi</wf>
+    <wf wid="w122" sent="5" para="2" offset="618" length="5">della</wf>
+    <wf wid="w123" sent="5" para="2" offset="624" length="6">classe</wf>
+    <wf wid="w124" sent="5" para="2" offset="630" length="1">,</wf>
+    <wf wid="w125" sent="5" para="2" offset="631" length="7">entrare</wf>
+    <wf wid="w126" sent="5" para="2" offset="639" length="1">a</wf>
+    <wf wid="w127" sent="5" para="2" offset="641" length="5">tutti</wf>
+    <wf wid="w128" sent="5" para="2" offset="647" length="1">i</wf>
+    <wf wid="w129" sent="5" para="2" offset="649" length="5">costi</wf>
+    <wf wid="w130" sent="5" para="2" offset="655" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ma-->
+    <term tid="t112" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--naturalmente-->
+    <term tid="t113" type="" lemma="naturalmente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t114" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--noi-->
+    <term tid="t115" type="" lemma="noi" pos="Q" morphofeat="PRON~PEN4">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t116" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--dovevamo-->
+    <term tid="t117" type="" lemma="dovere" pos="V" morphofeat="VMO~IMN4">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--dimostrarci-->
+    <term tid="t118" type="" lemma="dimostrarci" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--tra-->
+    <term tid="t119" type="" lemma="tra" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t120" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--primi-->
+    <term tid="t121" type="" lemma="primo" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t122" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--classe-->
+    <term tid="t123" type="" lemma="classe" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t124" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--entrare-->
+    <term tid="t125" type="" lemma="entrare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t126" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--tutti-->
+    <term tid="t127" type="" lemma="tutto" pos="G" morphofeat="ADJ~INMP">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t128" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--costi-->
+    <term tid="t129" type="" lemma="costo" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t130" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--primi della classe-->
+        <span>
+          <target id="t121"/>
+          <target id="t122"/>
+          <target id="t123"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

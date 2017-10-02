@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:40Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:40Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:19:36Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:52CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w100" sent="3" para="2" offset="565" length="2">Lo</wf>
+    <wf wid="w101" sent="3" para="2" offset="568" length="7">rendono</wf>
+    <wf wid="w102" sent="3" para="2" offset="576" length="4">noto</wf>
+    <wf wid="w103" sent="3" para="2" offset="581" length="5">fonti</wf>
+    <wf wid="w104" sent="3" para="2" offset="587" length="9">ufficiali</wf>
+    <wf wid="w105" sent="3" para="2" offset="597" length="8">egiziane</wf>
+    <wf wid="w106" sent="3" para="2" offset="605" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Lo-->
+    <term tid="t100" type="" lemma="lo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--rendono-->
+    <term tid="t101" type="" lemma="rendere" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--noto-->
+    <term tid="t102" type="" lemma="notare" pos="V" morphofeat="VMA~REN1">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--fonti-->
+    <term tid="t103" type="" lemma="fonte" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--ufficiali-->
+    <term tid="t104" type="" lemma="ufficiale" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--egiziane-->
+    <term tid="t105" type="" lemma="egiziano" pos="G" morphofeat="ADJ~QUFP">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t106" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

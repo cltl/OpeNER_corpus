@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:25Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:25Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:08:26Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:57CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w497" sent="19" para="2" offset="2587" length="5">Nella</wf>
+    <wf wid="w498" sent="19" para="2" offset="2593" length="10">trattativa</wf>
+    <wf wid="w499" sent="19" para="2" offset="2604" length="3">sul</wf>
+    <wf wid="w500" sent="19" para="2" offset="2608" length="8">bilancio</wf>
+    <wf wid="w501" sent="19" para="2" offset="2617" length="5">dell'</wf>
+    <wf wid="w502" sent="19" para="2" offset="2622" length="6">Unione</wf>
+    <wf wid="w503" sent="19" para="2" offset="2629" length="1">"</wf>
+    <wf wid="w504" sent="19" para="2" offset="2630" length="3">non</wf>
+    <wf wid="w505" sent="19" para="2" offset="2634" length="2">ci</wf>
+    <wf wid="w506" sent="19" para="2" offset="2637" length="8">sentiamo</wf>
+    <wf wid="w507" sent="19" para="2" offset="2646" length="11">minimamente</wf>
+    <wf wid="w508" sent="19" para="2" offset="2658" length="5">messi</wf>
+    <wf wid="w509" sent="19" para="2" offset="2664" length="2">in</wf>
+    <wf wid="w510" sent="19" para="2" offset="2667" length="2">un</wf>
+    <wf wid="w511" sent="19" para="2" offset="2670" length="6">angolo</wf>
+    <wf wid="w512" sent="19" para="2" offset="2677" length="1">o</wf>
+    <wf wid="w513" sent="19" para="2" offset="2679" length="8">trattati</wf>
+    <wf wid="w514" sent="19" para="2" offset="2688" length="3">con</wf>
+    <wf wid="w515" sent="19" para="2" offset="2692" length="6">minore</wf>
+    <wf wid="w516" sent="19" para="2" offset="2699" length="7">dignità</wf>
+    <wf wid="w517" sent="19" para="2" offset="2707" length="2">di</wf>
+    <wf wid="w518" sent="19" para="2" offset="2710" length="5">altri</wf>
+    <wf wid="w519" sent="19" para="2" offset="2716" length="5">Paesi</wf>
+    <wf wid="w520" sent="19" para="2" offset="2721" length="1">"</wf>
+    <wf wid="w521" sent="19" para="2" offset="2722" length="1">,</wf>
+    <wf wid="w522" sent="19" para="2" offset="2724" length="2">ha</wf>
+    <wf wid="w523" sent="19" para="2" offset="2727" length="8">spiegato</wf>
+    <wf wid="w524" sent="19" para="2" offset="2736" length="5">Monti</wf>
+    <wf wid="w525" sent="19" para="2" offset="2741" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Nella-->
+    <term tid="t497" type="" lemma="nella" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w497"/>
+      </span>
+    </term>
+    <!--trattativa-->
+    <term tid="t498" type="" lemma="trattativa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w498"/>
+      </span>
+    </term>
+    <!--sul-->
+    <term tid="t499" type="" lemma="sul" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w499"/>
+      </span>
+    </term>
+    <!--bilancio-->
+    <term tid="t500" type="" lemma="bilancio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w500"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t501" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w501"/>
+      </span>
+    </term>
+    <!--Unione-->
+    <term tid="t502" type="" lemma="unione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w502"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t503" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w503"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t504" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w504"/>
+      </span>
+    </term>
+    <!--ci-->
+    <term tid="t505" type="" lemma="ci" pos="Q" morphofeat="PRON~PEN4">
+      <span>
+        <target id="w505"/>
+      </span>
+    </term>
+    <!--sentiamo-->
+    <term tid="t506" type="" lemma="sentire" pos="V" morphofeat="VMA~REN4">
+      <span>
+        <target id="w506"/>
+      </span>
+    </term>
+    <!--minimamente-->
+    <term tid="t507" type="" lemma="minimamente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w507"/>
+      </span>
+    </term>
+    <!--messi-->
+    <term tid="t508" type="" lemma="mettere" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w508"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t509" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w509"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t510" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w510"/>
+      </span>
+    </term>
+    <!--angolo-->
+    <term tid="t511" type="" lemma="angolo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w511"/>
+      </span>
+    </term>
+    <!--o-->
+    <term tid="t512" type="" lemma="o" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w512"/>
+      </span>
+    </term>
+    <!--trattati-->
+    <term tid="t513" type="" lemma="trattare" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w513"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t514" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w514"/>
+      </span>
+    </term>
+    <!--minore-->
+    <term tid="t515" type="" lemma="minore" pos="N" morphofeat="NOU~CSNS">
+      <span>
+        <target id="w515"/>
+      </span>
+    </term>
+    <!--dignità-->
+    <term tid="t516" type="" lemma="dignita'" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w516"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t517" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w517"/>
+      </span>
+    </term>
+    <!--altri-->
+    <term tid="t518" type="" lemma="altro" pos="G" morphofeat="ADJ~INMP">
+      <span>
+        <target id="w518"/>
+      </span>
+    </term>
+    <!--Paesi-->
+    <term tid="t519" type="" lemma="paese" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w519"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t520" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w520"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t521" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w521"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t522" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w522"/>
+      </span>
+    </term>
+    <!--spiegato-->
+    <term tid="t523" type="" lemma="spiegare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w523"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t524" type="" lemma="monte" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w524"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t525" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w525"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Monti-->
+        <span>
+          <target id="t524"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--trattativa sul bilancio dell' Unione-->
+        <span>
+          <target id="t498"/>
+          <target id="t499"/>
+          <target id="t500"/>
+          <target id="t501"/>
+          <target id="t502"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--non ci sentiamo minimamente messi in un angolo-->
+        <span>
+          <target id="t504"/>
+          <target id="t505"/>
+          <target id="t506"/>
+          <target id="t507"/>
+          <target id="t508"/>
+          <target id="t509"/>
+          <target id="t510"/>
+          <target id="t511"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

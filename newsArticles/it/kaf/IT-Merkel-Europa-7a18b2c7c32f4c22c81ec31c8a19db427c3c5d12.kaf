@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:18Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:15CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w60" sent="4" para="2" offset="320" length="2">Ma</wf>
+    <wf wid="w61" sent="4" para="2" offset="323" length="2">la</wf>
+    <wf wid="w62" sent="4" para="2" offset="326" length="10">situazione</wf>
+    <wf wid="w63" sent="4" para="2" offset="337" length="5">della</wf>
+    <wf wid="w64" sent="4" para="2" offset="343" length="6">Grecia</wf>
+    <wf wid="w65" sent="4" para="2" offset="350" length="9">costringe</wf>
+    <wf wid="w66" sent="4" para="2" offset="360" length="5">tutti</wf>
+    <wf wid="w67" sent="4" para="2" offset="366" length="1">a</wf>
+    <wf wid="w68" sent="4" para="2" offset="368" length="10">discuterne</wf>
+    <wf wid="w69" sent="4" para="2" offset="378" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ma-->
+    <term tid="t60" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t61" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--situazione-->
+    <term tid="t62" type="" lemma="situazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t63" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--Grecia-->
+    <term tid="t64" type="" lemma="grecia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--costringe-->
+    <term tid="t65" type="" lemma="costringere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--tutti-->
+    <term tid="t66" type="" lemma="tutti" pos="Q" morphofeat="PRON~IDM6">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t67" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--discuterne-->
+    <term tid="t68" type="" lemma="discuterne" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t69" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--la situazione della Grecia-->
+        <span>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--a discuterne-->
+        <span>
+          <target id="t67"/>
+          <target id="t68"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--costringe-->
+        <span>
+          <target id="t65"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

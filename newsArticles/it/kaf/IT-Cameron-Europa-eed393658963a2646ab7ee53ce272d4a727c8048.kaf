@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:08Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Parigi</wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="1">e</wf>
+    <wf wid="w3" sent="1" para="1" offset="9" length="6">Londra</wf>
+    <wf wid="w4" sent="1" para="1" offset="16" length="10">rafforzano</wf>
+    <wf wid="w5" sent="1" para="1" offset="27" length="12">cooperazione</wf>
+    <wf wid="w6" sent="1" para="1" offset="40" length="8">nucleare</wf>
+  </text>
+  <terms>
+    <!--Parigi-->
+    <term tid="t1" type="" lemma="parigi" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t2" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Londra-->
+    <term tid="t3" type="" lemma="londra" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--rafforzano-->
+    <term tid="t4" type="" lemma="rafforzare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--cooperazione-->
+    <term tid="t5" type="" lemma="cooperazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--nucleare-->
+    <term tid="t6" type="" lemma="nucleare" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--cooperazione-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--Parigi e Londra-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--cooperazione nucleare-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--rafforzano-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

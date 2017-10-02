@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:23Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:22CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w164" sent="5" para="2" offset="830" length="2">Un</wf>
+    <wf wid="w165" sent="5" para="2" offset="833" length="4">calo</wf>
+    <wf wid="w166" sent="5" para="2" offset="838" length="2">su</wf>
+    <wf wid="w167" sent="5" para="2" offset="841" length="3">cui</wf>
+    <wf wid="w168" sent="5" para="2" offset="844" length="1">,</wf>
+    <wf wid="w169" sent="5" para="2" offset="846" length="3">per</wf>
+    <wf wid="w170" sent="5" para="2" offset="850" length="5">Monti</wf>
+    <wf wid="w171" sent="5" para="2" offset="855" length="1">,</wf>
+    <wf wid="w172" sent="5" para="2" offset="857" length="9">influisce</wf>
+    <wf wid="w173" sent="5" para="2" offset="867" length="2">l’</wf>
+    <wf wid="w174" sent="5" para="2" offset="869" length="7">accordo</wf>
+    <wf wid="w175" sent="5" para="2" offset="877" length="9">raggiunto</wf>
+    <wf wid="w176" sent="5" para="2" offset="887" length="5">sulla</wf>
+    <wf wid="w177" sent="5" para="2" offset="893" length="6">Grecia</wf>
+    <wf wid="w178" sent="5" para="2" offset="899" length="1">,</wf>
+    <wf wid="w179" sent="5" para="2" offset="901" length="2">il</wf>
+    <wf wid="w180" sent="5" para="2" offset="904" length="8">focolaio</wf>
+    <wf wid="w181" sent="5" para="2" offset="913" length="2">d’</wf>
+    <wf wid="w182" sent="5" para="2" offset="915" length="6">Europa</wf>
+    <wf wid="w183" sent="5" para="2" offset="921" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Un-->
+    <term tid="t164" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--calo-->
+    <term tid="t165" type="" lemma="calo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--su-->
+    <term tid="t166" type="" lemma="su" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--cui-->
+    <term tid="t167" type="" lemma="cui" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t168" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t169" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t170" type="" lemma="monte" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t171" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--influisce-->
+    <term tid="t172" type="" lemma="influire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t173" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--accordo-->
+    <term tid="t174" type="" lemma="accordo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--raggiunto-->
+    <term tid="t175" type="" lemma="raggiungere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--sulla-->
+    <term tid="t176" type="" lemma="sulla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--Grecia-->
+    <term tid="t177" type="" lemma="grecia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t178" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t179" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--focolaio-->
+    <term tid="t180" type="" lemma="focolaio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--d’-->
+    <term tid="t181" type="" lemma="d’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t182" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t183" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--per Monti-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Un calo su cui-->
+        <span>
+          <target id="t164"/>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--influisce-->
+        <span>
+          <target id="t172"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

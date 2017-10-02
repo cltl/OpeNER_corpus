@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:24Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:24Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:09:24Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w8" sent="2" para="1" offset="40" length="1">A</wf>
+    <wf wid="w9" sent="2" para="1" offset="42" length="7">Samaras</wf>
+    <wf wid="w10" sent="2" para="1" offset="50" length="2">l'</wf>
+    <wf wid="w11" sent="2" para="1" offset="52" length="8">incarico</wf>
+    <wf wid="w12" sent="2" para="1" offset="61" length="2">di</wf>
+    <wf wid="w13" sent="2" para="1" offset="64" length="7">formare</wf>
+    <wf wid="w14" sent="2" para="1" offset="72" length="2">il</wf>
+    <wf wid="w15" sent="2" para="1" offset="75" length="7">governo</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term tid="t8" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--Samaras-->
+    <term tid="t9" type="" lemma="samaras" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t10" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--incarico-->
+    <term tid="t11" type="" lemma="incarico" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t12" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--formare-->
+    <term tid="t13" type="" lemma="formare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t14" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--governo-->
+    <term tid="t15" type="" lemma="governo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

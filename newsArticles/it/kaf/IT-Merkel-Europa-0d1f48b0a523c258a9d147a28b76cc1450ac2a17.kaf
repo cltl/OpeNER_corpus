@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:05:20Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:26CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w395" sent="16" para="2" offset="1942" length="1">E</wf>
+    <wf wid="w396" sent="16" para="2" offset="1943" length="1">'</wf>
+    <wf wid="w397" sent="16" para="2" offset="1945" length="3">una</wf>
+    <wf wid="w398" sent="16" para="2" offset="1949" length="8">vittoria</wf>
+    <wf wid="w399" sent="16" para="2" offset="1958" length="3">per</wf>
+    <wf wid="w400" sent="16" para="2" offset="1962" length="8">lanciare</wf>
+    <wf wid="w401" sent="16" para="2" offset="1971" length="2">la</wf>
+    <wf wid="w402" sent="16" para="2" offset="1974" length="8">crescita</wf>
+    <wf wid="w403" sent="16" para="2" offset="1982" length="1">»</wf>
+    <wf wid="w404" sent="16" para="2" offset="1983" length="1">.</wf>
+  </text>
+  <terms>
+    <!--E-->
+    <term tid="t395" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w395"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t396" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t397" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <!--vittoria-->
+    <term tid="t398" type="" lemma="vittoria" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t399" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <!--lanciare-->
+    <term tid="t400" type="" lemma="lanciare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t401" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--crescita-->
+    <term tid="t402" type="" lemma="crescita" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t403" type="" lemma="»" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t404" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--una vittoria-->
+        <span>
+          <target id="t397"/>
+          <target id="t398"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--per lanciare la crescita-->
+        <span>
+          <target id="t399"/>
+          <target id="t400"/>
+          <target id="t401"/>
+          <target id="t402"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

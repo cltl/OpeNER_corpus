@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:02:32Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w135" sent="5" para="2" offset="713" length="2">La</wf>
+    <wf wid="w136" sent="5" para="2" offset="716" length="5">crisi</wf>
+    <wf wid="w137" sent="5" para="2" offset="722" length="9">economica</wf>
+    <wf wid="w138" sent="5" para="2" offset="732" length="7">europea</wf>
+    <wf wid="w139" sent="5" para="2" offset="739" length="1">,</wf>
+    <wf wid="w140" sent="5" para="2" offset="741" length="7">infatti</wf>
+    <wf wid="w141" sent="5" para="2" offset="748" length="1">,</wf>
+    <wf wid="w142" sent="5" para="2" offset="750" length="3">può</wf>
+    <wf wid="w143" sent="5" para="2" offset="754" length="5">avere</wf>
+    <wf wid="w144" sent="5" para="2" offset="760" length="7">pesanti</wf>
+    <wf wid="w145" sent="5" para="2" offset="768" length="13">ripercussioni</wf>
+    <wf wid="w146" sent="5" para="2" offset="782" length="5">anche</wf>
+    <wf wid="w147" sent="5" para="2" offset="788" length="5">sugli</wf>
+    <wf wid="w148" sent="5" para="2" offset="794" length="3">Usa</wf>
+    <wf wid="w149" sent="5" para="2" offset="798" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t135" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--crisi-->
+    <term tid="t136" type="" lemma="crisi" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--economica-->
+    <term tid="t137" type="" lemma="economico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--europea-->
+    <term tid="t138" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t139" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w139"/>
+      </span>
+    </term>
+    <!--infatti-->
+    <term tid="t140" type="" lemma="infatti" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w140"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t141" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w141"/>
+      </span>
+    </term>
+    <!--può-->
+    <term tid="t142" type="" lemma="può" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--avere-->
+    <term tid="t143" type="" lemma="avere" pos="V" morphofeat="VAU~ININN">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--pesanti-->
+    <term tid="t144" type="" lemma="pesare" pos="V" morphofeat="VMA~PPNP">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--ripercussioni-->
+    <term tid="t145" type="" lemma="ripercussione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--anche-->
+    <term tid="t146" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--sugli-->
+    <term tid="t147" type="" lemma="sugli" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--Usa-->
+    <term tid="t148" type="" lemma="usa" pos="R" morphofeat="NOU~PMP">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t149" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--pesanti ripercussioni-->
+        <span>
+          <target id="t144"/>
+          <target id="t145"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

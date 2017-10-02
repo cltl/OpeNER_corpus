@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:17:37Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:13CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w379" sent="11" para="2" offset="2034" length="1">E</wf>
+    <wf wid="w380" sent="11" para="2" offset="2036" length="2">lo</wf>
+    <wf wid="w381" sent="11" para="2" offset="2039" length="6">stesso</wf>
+    <wf wid="w382" sent="11" para="2" offset="2046" length="4">vale</wf>
+    <wf wid="w383" sent="11" para="2" offset="2051" length="3">per</wf>
+    <wf wid="w384" sent="11" para="2" offset="2055" length="2">l’</wf>
+    <wf wid="w385" sent="11" para="2" offset="2057" length="6">Europa</wf>
+    <wf wid="w386" sent="11" para="2" offset="2063" length="1">:</wf>
+    <wf wid="w387" sent="11" para="2" offset="2065" length="1">“</wf>
+    <wf wid="w388" sent="11" para="2" offset="2066" length="3">Gli</wf>
+    <wf wid="w389" sent="11" para="2" offset="2070" length="11">investitori</wf>
+    <wf wid="w390" sent="11" para="2" offset="2082" length="1">–</wf>
+    <wf wid="w391" sent="11" para="2" offset="2084" length="7">osserva</wf>
+    <wf wid="w392" sent="11" para="2" offset="2092" length="5">Nixon</wf>
+    <wf wid="w393" sent="11" para="2" offset="2098" length="1">–</wf>
+    <wf wid="w394" sent="11" para="2" offset="2100" length="4">all’</wf>
+    <wf wid="w395" sent="11" para="2" offset="2104" length="6">inizio</wf>
+    <wf wid="w396" sent="11" para="2" offset="2111" length="5">hanno</wf>
+    <wf wid="w397" sent="11" para="2" offset="2117" length="12">sottostimato</wf>
+    <wf wid="w398" sent="11" para="2" offset="2130" length="2">la</wf>
+    <wf wid="w399" sent="11" para="2" offset="2133" length="5">forza</wf>
+    <wf wid="w400" sent="11" para="2" offset="2139" length="5">della</wf>
+    <wf wid="w401" sent="11" para="2" offset="2145" length="9">decisione</wf>
+    <wf wid="w402" sent="11" para="2" offset="2155" length="5">presa</wf>
+    <wf wid="w403" sent="11" para="2" offset="2161" length="5">dalla</wf>
+    <wf wid="w404" sent="11" para="2" offset="2167" length="3">Bce</wf>
+    <wf wid="w405" sent="11" para="2" offset="2171" length="2">di</wf>
+    <wf wid="w406" sent="11" para="2" offset="2174" length="7">offrire</wf>
+    <wf wid="w407" sent="11" para="2" offset="2182" length="4">alle</wf>
+    <wf wid="w408" sent="11" para="2" offset="2187" length="6">banche</wf>
+    <wf wid="w409" sent="11" para="2" offset="2194" length="8">prestiti</wf>
+    <wf wid="w410" sent="11" para="2" offset="2203" length="10">illimitati</wf>
+    <wf wid="w411" sent="11" para="2" offset="2214" length="1">a</wf>
+    <wf wid="w412" sent="11" para="2" offset="2216" length="3">tre</wf>
+    <wf wid="w413" sent="11" para="2" offset="2220" length="4">anni</wf>
+    <wf wid="w414" sent="11" para="2" offset="2224" length="1">”</wf>
+    <wf wid="w415" sent="11" para="2" offset="2225" length="1">.</wf>
+  </text>
+  <terms>
+    <!--E-->
+    <term tid="t379" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t380" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w380"/>
+      </span>
+    </term>
+    <!--stesso-->
+    <term tid="t381" type="" lemma="stesso" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w381"/>
+      </span>
+    </term>
+    <!--vale-->
+    <term tid="t382" type="" lemma="valere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w382"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t383" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w383"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t384" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w384"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t385" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w385"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t386" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w386"/>
+      </span>
+    </term>
+    <!--“-->
+    <term tid="t387" type="" lemma="“" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w387"/>
+      </span>
+    </term>
+    <!--Gli-->
+    <term tid="t388" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w388"/>
+      </span>
+    </term>
+    <!--investitori-->
+    <term tid="t389" type="" lemma="investitore" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w389"/>
+      </span>
+    </term>
+    <!--–-->
+    <term tid="t390" type="" lemma="–" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w390"/>
+      </span>
+    </term>
+    <!--osserva-->
+    <term tid="t391" type="" lemma="osservare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w391"/>
+      </span>
+    </term>
+    <!--Nixon-->
+    <term tid="t392" type="" lemma="nixon" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w392"/>
+      </span>
+    </term>
+    <!--–-->
+    <term tid="t393" type="" lemma="–" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w393"/>
+      </span>
+    </term>
+    <!--all’-->
+    <term tid="t394" type="" lemma="all’" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w394"/>
+      </span>
+    </term>
+    <!--inizio-->
+    <term tid="t395" type="" lemma="inizio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w395"/>
+      </span>
+    </term>
+    <!--hanno-->
+    <term tid="t396" type="" lemma="avere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w396"/>
+      </span>
+    </term>
+    <!--sottostimato-->
+    <term tid="t397" type="" lemma="sottostimato" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w397"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t398" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w398"/>
+      </span>
+    </term>
+    <!--forza-->
+    <term tid="t399" type="" lemma="forza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w399"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t400" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w400"/>
+      </span>
+    </term>
+    <!--decisione-->
+    <term tid="t401" type="" lemma="decisione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w401"/>
+      </span>
+    </term>
+    <!--presa-->
+    <term tid="t402" type="" lemma="prendere" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w402"/>
+      </span>
+    </term>
+    <!--dalla-->
+    <term tid="t403" type="" lemma="dalla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w403"/>
+      </span>
+    </term>
+    <!--Bce-->
+    <term tid="t404" type="" lemma="bce" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w404"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t405" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <!--offrire-->
+    <term tid="t406" type="" lemma="offrire" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <!--alle-->
+    <term tid="t407" type="" lemma="alle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <!--banche-->
+    <term tid="t408" type="" lemma="banca" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <!--prestiti-->
+    <term tid="t409" type="" lemma="prestiti" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <!--illimitati-->
+    <term tid="t410" type="" lemma="illimitati" pos="V" morphofeat="VMA~IPN2">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t411" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <!--tre-->
+    <term tid="t412" type="" lemma="tre" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <!--anni-->
+    <term tid="t413" type="" lemma="anno" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t414" type="" lemma="”" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t415" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w415"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Nixon-->
+        <span>
+          <target id="t392"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--investitori-->
+        <span>
+          <target id="t389"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--hanno sottostimato la forza della decisione-->
+        <span>
+          <target id="t396"/>
+          <target id="t397"/>
+          <target id="t398"/>
+          <target id="t399"/>
+          <target id="t400"/>
+          <target id="t401"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

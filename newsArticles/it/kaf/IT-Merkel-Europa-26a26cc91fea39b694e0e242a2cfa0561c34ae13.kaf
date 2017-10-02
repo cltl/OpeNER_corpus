@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:17:40Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:05CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w76" sent="3" para="2" offset="386" length="1">A</wf>
+    <wf wid="w77" sent="3" para="2" offset="388" length="4">fine</wf>
+    <wf wid="w78" sent="3" para="2" offset="393" length="7">ottobre</wf>
+    <wf wid="w79" sent="3" para="2" offset="400" length="1">,</wf>
+    <wf wid="w80" sent="3" para="2" offset="402" length="2">l’</wf>
+    <wf wid="w81" sent="3" para="2" offset="404" length="10">economista</wf>
+    <wf wid="w82" sent="3" para="2" offset="415" length="8">francese</wf>
+    <wf wid="w83" sent="3" para="2" offset="424" length="5">Alain</wf>
+    <wf wid="w84" sent="3" para="2" offset="430" length="4">Minc</wf>
+    <wf wid="w85" sent="3" para="2" offset="434" length="1">,</wf>
+    <wf wid="w86" sent="3" para="2" offset="436" length="11">consigliere</wf>
+    <wf wid="w87" sent="3" para="2" offset="448" length="3">del</wf>
+    <wf wid="w88" sent="3" para="2" offset="452" length="10">presidente</wf>
+    <wf wid="w89" sent="3" para="2" offset="463" length="7">Nicolas</wf>
+    <wf wid="w90" sent="3" para="2" offset="471" length="7">Sarkozy</wf>
+    <wf wid="w91" sent="3" para="2" offset="478" length="1">,</wf>
+    <wf wid="w92" sent="3" para="2" offset="480" length="8">dichiarò</wf>
+    <wf wid="w93" sent="3" para="2" offset="488" length="1">:</wf>
+    <wf wid="w94" sent="3" para="2" offset="490" length="1">«</wf>
+    <wf wid="w95" sent="3" para="2" offset="491" length="8">Soffrite</wf>
+    <wf wid="w96" sent="3" para="2" offset="500" length="2">di</wf>
+    <wf wid="w97" sent="3" para="2" offset="503" length="2">un</wf>
+    <wf wid="w98" sent="3" para="2" offset="506" length="7">deficit</wf>
+    <wf wid="w99" sent="3" para="2" offset="514" length="2">di</wf>
+    <wf wid="w100" sent="3" para="2" offset="517" length="11">credibilità</wf>
+    <wf wid="w101" sent="3" para="2" offset="528" length="1">.</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term tid="t76" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--fine-->
+    <term tid="t77" type="" lemma="fine" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--ottobre-->
+    <term tid="t78" type="" lemma="ottobre" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t79" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t80" type="" lemma="l’" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--economista-->
+    <term tid="t81" type="" lemma="economista" pos="N" morphofeat="NOU~CSNS">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--francese-->
+    <term tid="t82" type="" lemma="francese" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--Alain-->
+    <term tid="t83" type="" lemma="alain" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--Minc-->
+    <term tid="t84" type="" lemma="minc" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t85" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--consigliere-->
+    <term tid="t86" type="" lemma="consigliere" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t87" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t88" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--Nicolas-->
+    <term tid="t89" type="" lemma="nicolas" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--Sarkozy-->
+    <term tid="t90" type="" lemma="sarkozy" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t91" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--dichiarò-->
+    <term tid="t92" type="" lemma="dichiarò" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t93" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t94" type="" lemma="«" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--Soffrite-->
+    <term tid="t95" type="" lemma="soffrite" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t96" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t97" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--deficit-->
+    <term tid="t98" type="" lemma="deficit" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t99" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--credibilità-->
+    <term tid="t100" type="" lemma="credibilita'" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t101" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--deficit di credibilità-->
+        <span>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

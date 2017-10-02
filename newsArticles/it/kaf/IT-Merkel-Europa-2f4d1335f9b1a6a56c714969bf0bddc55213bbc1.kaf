@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:49Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:49Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:11:53Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Merkel</wf>
+    <wf wid="w2" sent="1" para="1" offset="6" length="1">:</wf>
+    <wf wid="w3" sent="1" para="1" offset="8" length="8">Eurozona</wf>
+    <wf wid="w4" sent="1" para="1" offset="17" length="3">non</wf>
+    <wf wid="w5" sent="1" para="1" offset="21" length="1">e</wf>
+    <wf wid="w6" sent="1" para="1" offset="22" length="1">'</wf>
+    <wf wid="w7" sent="1" para="1" offset="24" length="5">forte</wf>
+    <wf wid="w8" sent="1" para="1" offset="29" length="1">,</wf>
+    <wf wid="w9" sent="1" para="1" offset="31" length="5">serve</wf>
+    <wf wid="w10" sent="1" para="1" offset="37" length="6">unione</wf>
+    <wf wid="w11" sent="1" para="1" offset="44" length="8">politica</wf>
+  </text>
+  <terms>
+    <!--Merkel-->
+    <term tid="t1" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t2" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--Eurozona-->
+    <term tid="t3" type="" lemma="eurozona" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t4" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t5" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t6" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--forte-->
+    <term tid="t7" type="" lemma="forte" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t8" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--serve-->
+    <term tid="t9" type="" lemma="servire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--unione-->
+    <term tid="t10" type="" lemma="unione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--politica-->
+    <term tid="t11" type="" lemma="politico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--unione politica-->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

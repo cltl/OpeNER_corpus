@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:40Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:40Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:21:53Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:59CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w307" sent="13" para="2" offset="1676" length="5">Tutto</wf>
+    <wf wid="w308" sent="13" para="2" offset="1682" length="6">questo</wf>
+    <wf wid="w309" sent="13" para="2" offset="1689" length="3">per</wf>
+    <wf wid="w310" sent="13" para="2" offset="1693" length="3">noi</wf>
+    <wf wid="w311" sent="13" para="2" offset="1697" length="1">è</wf>
+    <wf wid="w312" sent="13" para="2" offset="1699" length="13">inaccettabile</wf>
+    <wf wid="w313" sent="13" para="2" offset="1712" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Tutto-->
+    <term tid="t307" type="" lemma="tutto" pos="G" morphofeat="ADJ~INMS">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--questo-->
+    <term tid="t308" type="" lemma="questo" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t309" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--noi-->
+    <term tid="t310" type="" lemma="noi" pos="Q" morphofeat="PRON~PEN4">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t311" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <!--inaccettabile-->
+    <term tid="t312" type="" lemma="inaccettabile" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t313" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder>
+        <!--noi-->
+        <span>
+          <target id="t310"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Tutto questo-->
+        <span>
+          <target id="t307"/>
+          <target id="t308"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongNegative">
+        <!--inaccettabile-->
+        <span>
+          <target id="t312"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

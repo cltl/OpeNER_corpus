@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:27:46Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w264" sent="8" para="2" offset="1425" length="3">Una</wf>
+    <wf wid="w265" sent="8" para="2" offset="1429" length="8">reazione</wf>
+    <wf wid="w266" sent="8" para="2" offset="1437" length="1">,</wf>
+    <wf wid="w267" sent="8" para="2" offset="1439" length="6">quella</wf>
+    <wf wid="w268" sent="8" para="2" offset="1446" length="2">di</wf>
+    <wf wid="w269" sent="8" para="2" offset="1449" length="7">Cameron</wf>
+    <wf wid="w270" sent="8" para="2" offset="1456" length="1">,</wf>
+    <wf wid="w271" sent="8" para="2" offset="1458" length="1">a</wf>
+    <wf wid="w272" sent="8" para="2" offset="1460" length="3">cui</wf>
+    <wf wid="w273" sent="8" para="2" offset="1464" length="5">Putin</wf>
+    <wf wid="w274" sent="8" para="2" offset="1470" length="2">ha</wf>
+    <wf wid="w275" sent="8" para="2" offset="1473" length="9">replicato</wf>
+    <wf wid="w276" sent="8" para="2" offset="1483" length="8">tentando</wf>
+    <wf wid="w277" sent="8" para="2" offset="1492" length="2">di</wf>
+    <wf wid="w278" sent="8" para="2" offset="1495" length="11">minimizzare</wf>
+    <wf wid="w279" sent="8" para="2" offset="1507" length="2">l’</wf>
+    <wf wid="w280" sent="8" para="2" offset="1509" length="9">incidente</wf>
+    <wf wid="w281" sent="8" para="2" offset="1518" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Una-->
+    <term tid="t264" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--reazione-->
+    <term tid="t265" type="" lemma="reazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t266" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--quella-->
+    <term tid="t267" type="" lemma="quella" pos="Q" morphofeat="PRON~DEF3">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t268" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t269" type="" lemma="cameron" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t270" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t271" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--cui-->
+    <term tid="t272" type="" lemma="cui" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--Putin-->
+    <term tid="t273" type="" lemma="putin" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t274" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--replicato-->
+    <term tid="t275" type="" lemma="replicare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+    <!--tentando-->
+    <term tid="t276" type="" lemma="tentare" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w276"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t277" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w277"/>
+      </span>
+    </term>
+    <!--minimizzare-->
+    <term tid="t278" type="" lemma="minimizzare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w278"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t279" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--incidente-->
+    <term tid="t280" type="" lemma="incidere" pos="V" morphofeat="VMA~PPNS">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t281" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Putin-->
+        <span>
+          <target id="t273"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--incidente-->
+        <span>
+          <target id="t280"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--tentando di minimizzare-->
+        <span>
+          <target id="t276"/>
+          <target id="t277"/>
+          <target id="t278"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--incidente-->
+        <span>
+          <target id="t280"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t273"/>
+          <target id="t274"/>
+          <target id="t275"/>
+          <target id="t276"/>
+          <target id="t277"/>
+          <target id="t278"/>
+          <target id="t279"/>
+          <target id="t280"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

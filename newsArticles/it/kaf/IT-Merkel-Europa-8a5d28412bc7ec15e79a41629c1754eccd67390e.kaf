@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:43Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:43Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:22:35Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w42" sent="3" para="2" offset="201" length="5">Banca</wf>
+    <wf wid="w43" sent="3" para="2" offset="207" length="8">centrale</wf>
+    <wf wid="w44" sent="3" para="2" offset="216" length="7">europea</wf>
+    <wf wid="w45" sent="3" para="2" offset="224" length="7">prevede</wf>
+    <wf wid="w46" sent="3" para="2" offset="232" length="2">un</wf>
+    <wf wid="w47" sent="3" para="2" offset="235" length="13">peggioramento</wf>
+    <wf wid="w48" sent="3" para="2" offset="249" length="9">ulteriore</wf>
+    <wf wid="w49" sent="3" para="2" offset="259" length="5">della</wf>
+    <wf wid="w50" sent="3" para="2" offset="265" length="14">disoccupazione</wf>
+    <wf wid="w51" sent="3" para="2" offset="279" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Banca-->
+    <term tid="t42" type="" lemma="banca" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--centrale-->
+    <term tid="t43" type="" lemma="centrale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--europea-->
+    <term tid="t44" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--prevede-->
+    <term tid="t45" type="" lemma="prevedere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t46" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--peggioramento-->
+    <term tid="t47" type="" lemma="peggioramento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--ulteriore-->
+    <term tid="t48" type="" lemma="ulteriore" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t49" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--disoccupazione-->
+    <term tid="t50" type="" lemma="disoccupazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t51" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--peggioramento ulteriore della disoccupazione-->
+        <span>
+          <target id="t47"/>
+          <target id="t48"/>
+          <target id="t49"/>
+          <target id="t50"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

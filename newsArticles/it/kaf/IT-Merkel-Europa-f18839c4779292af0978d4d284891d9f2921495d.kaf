@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:18:29Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:48CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w342" sent="8" para="2" offset="1969" length="2">La</wf>
+    <wf wid="w343" sent="8" para="2" offset="1972" length="11">convinzione</wf>
+    <wf wid="w344" sent="8" para="2" offset="1984" length="2">di</wf>
+    <wf wid="w345" sent="8" para="2" offset="1987" length="8">partenza</wf>
+    <wf wid="w346" sent="8" para="2" offset="1996" length="5">degli</wf>
+    <wf wid="w347" sent="8" para="2" offset="2002" length="6">autori</wf>
+    <wf wid="w348" sent="8" para="2" offset="2008" length="1">,</wf>
+    <wf wid="w349" sent="8" para="2" offset="2010" length="8">Heribert</wf>
+    <wf wid="w350" sent="8" para="2" offset="2019" length="6">Dieter</wf>
+    <wf wid="w351" sent="8" para="2" offset="2026" length="1">e</wf>
+    <wf wid="w352" sent="8" para="2" offset="2028" length="10">Annkathrin</wf>
+    <wf wid="w353" sent="8" para="2" offset="2039" length="5">Frind</wf>
+    <wf wid="w354" sent="8" para="2" offset="2044" length="1">,</wf>
+    <wf wid="w355" sent="8" para="2" offset="2046" length="1">è</wf>
+    <wf wid="w356" sent="8" para="2" offset="2048" length="3">che</wf>
+    <wf wid="w357" sent="8" para="2" offset="2052" length="1">“</wf>
+    <wf wid="w358" sent="8" para="2" offset="2053" length="5">anche</wf>
+    <wf wid="w359" sent="8" para="2" offset="2059" length="4">dopo</wf>
+    <wf wid="w360" sent="8" para="2" offset="2064" length="2">la</wf>
+    <wf wid="w361" sent="8" para="2" offset="2067" length="16">ristrutturazione</wf>
+    <wf wid="w362" sent="8" para="2" offset="2084" length="2">di</wf>
+    <wf wid="w363" sent="8" para="2" offset="2087" length="8">successo</wf>
+    <wf wid="w364" sent="8" para="2" offset="2096" length="3">del</wf>
+    <wf wid="w365" sent="8" para="2" offset="2100" length="6">debito</wf>
+    <wf wid="w366" sent="8" para="2" offset="2107" length="8">pubblico</wf>
+    <wf wid="w367" sent="8" para="2" offset="2116" length="5">greco</wf>
+    <wf wid="w368" sent="8" para="2" offset="2121" length="1">,</wf>
+    <wf wid="w369" sent="8" para="2" offset="2123" length="8">avvenuta</wf>
+    <wf wid="w370" sent="8" para="2" offset="2132" length="3">nel</wf>
+    <wf wid="w371" sent="8" para="2" offset="2136" length="5">marzo</wf>
+    <wf wid="w372" sent="8" para="2" offset="2142" length="4">2012</wf>
+    <wf wid="w373" sent="8" para="2" offset="2146" length="1">,</wf>
+    <wf wid="w374" sent="8" para="2" offset="2148" length="2">la</wf>
+    <wf wid="w375" sent="8" para="2" offset="2151" length="7">maggior</wf>
+    <wf wid="w376" sent="8" para="2" offset="2159" length="5">parte</wf>
+    <wf wid="w377" sent="8" para="2" offset="2165" length="3">dei</wf>
+    <wf wid="w378" sent="8" para="2" offset="2169" length="8">problemi</wf>
+    <wf wid="w379" sent="8" para="2" offset="2178" length="9">economici</wf>
+    <wf wid="w380" sent="8" para="2" offset="2188" length="3">del</wf>
+    <wf wid="w381" sent="8" para="2" offset="2192" length="5">paese</wf>
+    <wf wid="w382" sent="8" para="2" offset="2198" length="5">resta</wf>
+    <wf wid="w383" sent="8" para="2" offset="2204" length="2">da</wf>
+    <wf wid="w384" sent="8" para="2" offset="2207" length="9">risolvere</wf>
+    <wf wid="w385" sent="8" para="2" offset="2216" length="1">”</wf>
+    <wf wid="w386" sent="8" para="2" offset="2217" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t342" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w342"/>
+      </span>
+    </term>
+    <!--convinzione-->
+    <term tid="t343" type="" lemma="convinzione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w343"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t344" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w344"/>
+      </span>
+    </term>
+    <!--partenza-->
+    <term tid="t345" type="" lemma="partenza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w345"/>
+      </span>
+    </term>
+    <!--degli-->
+    <term tid="t346" type="" lemma="degli" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w346"/>
+      </span>
+    </term>
+    <!--autori-->
+    <term tid="t347" type="" lemma="autore" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w347"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t348" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w348"/>
+      </span>
+    </term>
+    <!--Heribert-->
+    <term tid="t349" type="" lemma="heribert" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w349"/>
+      </span>
+    </term>
+    <!--Dieter-->
+    <term tid="t350" type="" lemma="dieter" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w350"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t351" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w351"/>
+      </span>
+    </term>
+    <!--Annkathrin-->
+    <term tid="t352" type="" lemma="annkathrin" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w352"/>
+      </span>
+    </term>
+    <!--Frind-->
+    <term tid="t353" type="" lemma="frind" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w353"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t354" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w354"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t355" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w355"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t356" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w356"/>
+      </span>
+    </term>
+    <!--“-->
+    <term tid="t357" type="" lemma="“" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w357"/>
+      </span>
+    </term>
+    <!--anche-->
+    <term tid="t358" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w358"/>
+      </span>
+    </term>
+    <!--dopo-->
+    <term tid="t359" type="" lemma="dopo" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w359"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t360" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w360"/>
+      </span>
+    </term>
+    <!--ristrutturazione-->
+    <term tid="t361" type="" lemma="ristrutturazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w361"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t362" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w362"/>
+      </span>
+    </term>
+    <!--successo-->
+    <term tid="t363" type="" lemma="successo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w363"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t364" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w364"/>
+      </span>
+    </term>
+    <!--debito-->
+    <term tid="t365" type="" lemma="debito" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w365"/>
+      </span>
+    </term>
+    <!--pubblico-->
+    <term tid="t366" type="" lemma="pubblico" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w366"/>
+      </span>
+    </term>
+    <!--greco-->
+    <term tid="t367" type="" lemma="greco" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w367"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t368" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w368"/>
+      </span>
+    </term>
+    <!--avvenuta-->
+    <term tid="t369" type="" lemma="avvenire" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w369"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t370" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w370"/>
+      </span>
+    </term>
+    <!--marzo-->
+    <term tid="t371" type="" lemma="marzo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w371"/>
+      </span>
+    </term>
+    <!--2012-->
+    <term tid="t372" type="" lemma="2012" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w372"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t373" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w373"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t374" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w374"/>
+      </span>
+    </term>
+    <!--maggior-->
+    <term tid="t375" type="" lemma="maggior" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w375"/>
+      </span>
+    </term>
+    <!--parte-->
+    <term tid="t376" type="" lemma="parte" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w376"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t377" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w377"/>
+      </span>
+    </term>
+    <!--problemi-->
+    <term tid="t378" type="" lemma="problema" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w378"/>
+      </span>
+    </term>
+    <!--economici-->
+    <term tid="t379" type="" lemma="economico" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w379"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t380" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w380"/>
+      </span>
+    </term>
+    <!--paese-->
+    <term tid="t381" type="" lemma="paese" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w381"/>
+      </span>
+    </term>
+    <!--resta-->
+    <term tid="t382" type="" lemma="restare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w382"/>
+      </span>
+    </term>
+    <!--da-->
+    <term tid="t383" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w383"/>
+      </span>
+    </term>
+    <!--risolvere-->
+    <term tid="t384" type="" lemma="risolvere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w384"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t385" type="" lemma="”" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w385"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t386" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w386"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Heribert Dieter e Annkathrin Frind-->
+        <span>
+          <target id="t349"/>
+          <target id="t350"/>
+          <target id="t351"/>
+          <target id="t352"/>
+          <target id="t353"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--problemi economici-->
+        <span>
+          <target id="t378"/>
+          <target id="t379"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--resta da risolvere-->
+        <span>
+          <target id="t382"/>
+          <target id="t383"/>
+          <target id="t384"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:17:52Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w183" sent="7" para="2" offset="995" length="3">Ora</wf>
+    <wf wid="w184" sent="7" para="2" offset="999" length="7">nessuno</wf>
+    <wf wid="w185" sent="7" para="2" offset="1007" length="2">se</wf>
+    <wf wid="w186" sent="7" para="2" offset="1010" length="2">la</wf>
+    <wf wid="w187" sent="7" para="2" offset="1013" length="5">sente</wf>
+    <wf wid="w188" sent="7" para="2" offset="1019" length="2">di</wf>
+    <wf wid="w189" sent="7" para="2" offset="1022" length="9">escludere</wf>
+    <wf wid="w190" sent="7" para="2" offset="1032" length="2">il</wf>
+    <wf wid="w191" sent="7" para="2" offset="1035" length="7">bailout</wf>
+    <wf wid="w192" sent="7" para="2" offset="1043" length="5">della</wf>
+    <wf wid="w193" sent="7" para="2" offset="1049" length="6">Spagna</wf>
+    <wf wid="w194" sent="7" para="2" offset="1055" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ora-->
+    <term tid="t183" type="" lemma="ora" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--nessuno-->
+    <term tid="t184" type="" lemma="nessuno" pos="Q" morphofeat="PRON~IDM3">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--se-->
+    <term tid="t185" type="" lemma="se" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t186" type="" lemma="la" pos="Q" morphofeat="PRON~PEF3">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--sente-->
+    <term tid="t187" type="" lemma="sentire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t188" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--escludere-->
+    <term tid="t189" type="" lemma="escludere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t190" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--bailout-->
+    <term tid="t191" type="" lemma="bailout" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t192" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--Spagna-->
+    <term tid="t193" type="" lemma="spagna" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t194" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--bailout-->
+        <span>
+          <target id="t191"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

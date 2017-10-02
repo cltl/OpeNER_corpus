@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:38Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:38Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:03:45Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:56CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w289" sent="12" para="2" offset="1551" length="4">Oggi</wf>
+    <wf wid="w290" sent="12" para="2" offset="1555" length="1">,</wf>
+    <wf wid="w291" sent="12" para="2" offset="1558" length="1">è</wf>
+    <wf wid="w292" sent="12" para="2" offset="1560" length="5">molto</wf>
+    <wf wid="w293" sent="12" para="2" offset="1566" length="3">più</wf>
+    <wf wid="w294" sent="12" para="2" offset="1570" length="9">difficile</wf>
+    <wf wid="w295" sent="12" para="2" offset="1580" length="9">mantenere</wf>
+    <wf wid="w296" sent="12" para="2" offset="1590" length="4">tali</wf>
+    <wf wid="w297" sent="12" para="2" offset="1595" length="7">impegni</wf>
+    <wf wid="w298" sent="12" para="2" offset="1602" length="1">,</wf>
+    <wf wid="w299" sent="12" para="2" offset="1604" length="2">ma</wf>
+    <wf wid="w300" sent="12" para="2" offset="1607" length="4">sono</wf>
+    <wf wid="w301" sent="12" para="2" offset="1612" length="5">stati</wf>
+    <wf wid="w302" sent="12" para="2" offset="1618" length="2">di</wf>
+    <wf wid="w303" sent="12" para="2" offset="1622" length="10">importanza</wf>
+    <wf wid="w304" sent="12" para="2" offset="1633" length="8">cruciale</wf>
+    <wf wid="w305" sent="12" para="2" offset="1641" length="1">,</wf>
+    <wf wid="w306" sent="12" para="2" offset="1643" length="6">perché</wf>
+    <wf wid="w307" sent="12" para="2" offset="1650" length="2">la</wf>
+    <wf wid="w308" sent="12" para="2" offset="1653" length="7">Francia</wf>
+    <wf wid="w309" sent="12" para="2" offset="1660" length="1">,</wf>
+    <wf wid="w310" sent="12" para="2" offset="1662" length="6">Italia</wf>
+    <wf wid="w311" sent="12" para="2" offset="1669" length="1">e</wf>
+    <wf wid="w312" sent="12" para="2" offset="1671" length="6">Spagna</wf>
+    <wf wid="w313" sent="12" para="2" offset="1678" length="3">non</wf>
+    <wf wid="w314" sent="12" para="2" offset="1682" length="2">si</wf>
+    <wf wid="w315" sent="12" para="2" offset="1685" length="9">sarebbero</wf>
+    <wf wid="w316" sent="12" para="2" offset="1696" length="3">mai</wf>
+    <wf wid="w317" sent="12" para="2" offset="1700" length="10">avvicinate</wf>
+    <wf wid="w318" sent="12" para="2" offset="1711" length="2">al</wf>
+    <wf wid="w319" sent="12" para="2" offset="1714" length="8">pareggio</wf>
+    <wf wid="w320" sent="12" para="2" offset="1723" length="2">di</wf>
+    <wf wid="w321" sent="12" para="2" offset="1726" length="8">bilancio</wf>
+    <wf wid="w322" sent="12" para="2" offset="1735" length="5">senza</wf>
+    <wf wid="w323" sent="12" para="2" offset="1741" length="2">di</wf>
+    <wf wid="w324" sent="12" para="2" offset="1744" length="4">loro</wf>
+    <wf wid="w325" sent="12" para="2" offset="1748" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Oggi-->
+    <term tid="t289" type="" lemma="oggi" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t290" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t291" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--molto-->
+    <term tid="t292" type="" lemma="molto" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--più-->
+    <term tid="t293" type="" lemma="piu'" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--difficile-->
+    <term tid="t294" type="" lemma="difficile" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--mantenere-->
+    <term tid="t295" type="" lemma="mantenere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--tali-->
+    <term tid="t296" type="" lemma="tale" pos="G" morphofeat="ADJ~DINP">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--impegni-->
+    <term tid="t297" type="" lemma="impegno" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t298" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--ma-->
+    <term tid="t299" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--sono-->
+    <term tid="t300" type="" lemma="essere" pos="V" morphofeat="VAU~REN6">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--stati-->
+    <term tid="t301" type="" lemma="stato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t302" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--importanza-->
+    <term tid="t303" type="" lemma="importanza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--cruciale-->
+    <term tid="t304" type="" lemma="cruciale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t305" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--perché-->
+    <term tid="t306" type="" lemma="perché" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t307" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--Francia-->
+    <term tid="t308" type="" lemma="francia" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t309" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t310" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t311" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <!--Spagna-->
+    <term tid="t312" type="" lemma="spagna" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <!--non-->
+    <term tid="t313" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t314" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <!--sarebbero-->
+    <term tid="t315" type="" lemma="essere" pos="V" morphofeat="VAU~CON6">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--mai-->
+    <term tid="t316" type="" lemma="mai" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--avvicinate-->
+    <term tid="t317" type="" lemma="avvicinare" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t318" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--pareggio-->
+    <term tid="t319" type="" lemma="pareggio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t320" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--bilancio-->
+    <term tid="t321" type="" lemma="bilancio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--senza-->
+    <term tid="t322" type="" lemma="senza" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t323" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--loro-->
+    <term tid="t324" type="" lemma="loro" pos="Q" morphofeat="PRON~PONI">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t325" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w325"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--mantenere tali impegni-->
+        <span>
+          <target id="t295"/>
+          <target id="t296"/>
+          <target id="t297"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--è molto più difficile-->
+        <span>
+          <target id="t291"/>
+          <target id="t292"/>
+          <target id="t293"/>
+          <target id="t294"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

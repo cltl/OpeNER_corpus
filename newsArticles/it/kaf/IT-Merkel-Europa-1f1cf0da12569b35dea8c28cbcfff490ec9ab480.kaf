@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:51Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:51Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:11:41Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:04CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6">Spagna</wf>
+    <wf wid="w2" sent="1" para="1" offset="6" length="1">,</wf>
+    <wf wid="w3" sent="1" para="1" offset="8" length="7">aumento</wf>
+    <wf wid="w4" sent="1" para="1" offset="16" length="5">tassi</wf>
+    <wf wid="w5" sent="1" para="1" offset="22" length="2">in</wf>
+    <wf wid="w6" sent="1" para="1" offset="25" length="4">asta</wf>
+    <wf wid="w7" sent="1" para="1" offset="30" length="7">Vertice</wf>
+    <wf wid="w8" sent="1" para="1" offset="38" length="2">Ue</wf>
+    <wf wid="w9" sent="1" para="1" offset="40" length="1">,</wf>
+    <wf wid="w10" sent="1" para="1" offset="42" length="7">accordo</wf>
+    <wf wid="w11" sent="1" para="1" offset="50" length="5">arduo</wf>
+  </text>
+  <terms>
+    <!--Spagna-->
+    <term tid="t1" type="" lemma="spagna" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t2" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--aumento-->
+    <term tid="t3" type="" lemma="aumento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--tassi-->
+    <term tid="t4" type="" lemma="tasso" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t5" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--asta-->
+    <term tid="t6" type="" lemma="asta" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--Vertice-->
+    <term tid="t7" type="" lemma="vertice" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--Ue-->
+    <term tid="t8" type="" lemma="ue" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t9" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--accordo-->
+    <term tid="t10" type="" lemma="accordo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--arduo-->
+    <term tid="t11" type="" lemma="arduo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder>
+        <!--Vertice Ue-->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--accordo-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--arduo-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--tassi-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

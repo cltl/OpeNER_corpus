@@ -1,0 +1,564 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:37Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:08CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w160" sent="6" para="2" offset="956" length="1">«</wf>
+    <wf wid="w161" sent="6" para="2" offset="957" length="1">È</wf>
+    <wf wid="w162" sent="6" para="2" offset="959" length="10">essenziale</wf>
+    <wf wid="w163" sent="6" para="2" offset="969" length="1">,</wf>
+    <wf wid="w164" sent="6" para="2" offset="971" length="1">a</wf>
+    <wf wid="w165" sent="6" para="2" offset="973" length="8">giudizio</wf>
+    <wf wid="w166" sent="6" para="2" offset="982" length="5">dell’</wf>
+    <wf wid="w167" sent="6" para="2" offset="987" length="6">Italia</wf>
+    <wf wid="w168" sent="6" para="2" offset="993" length="1">,</wf>
+    <wf wid="w169" sent="6" para="2" offset="995" length="3">che</wf>
+    <wf wid="w170" sent="6" para="2" offset="999" length="2">il</wf>
+    <wf wid="w171" sent="6" para="2" offset="1002" length="6">quadro</wf>
+    <wf wid="w172" sent="6" para="2" offset="1009" length="11">finanziario</wf>
+    <wf wid="w173" sent="6" para="2" offset="1020" length="1">»</wf>
+    <wf wid="w174" sent="6" para="2" offset="1022" length="5">della</wf>
+    <wf wid="w175" sent="6" para="2" offset="1028" length="2">Ue</wf>
+    <wf wid="w176" sent="6" para="2" offset="1031" length="1">«</wf>
+    <wf wid="w177" sent="6" para="2" offset="1032" length="3">sia</wf>
+    <wf wid="w178" sent="6" para="2" offset="1036" length="9">orientato</wf>
+    <wf wid="w179" sent="6" para="2" offset="1046" length="1">a</wf>
+    <wf wid="w180" sent="6" para="2" offset="1048" length="9">sostenere</wf>
+    <wf wid="w181" sent="6" para="2" offset="1058" length="2">la</wf>
+    <wf wid="w182" sent="6" para="2" offset="1061" length="8">crescita</wf>
+    <wf wid="w183" sent="6" para="2" offset="1070" length="9">economica</wf>
+    <wf wid="w184" sent="6" para="2" offset="1079" length="1">,</wf>
+    <wf wid="w185" sent="6" para="2" offset="1081" length="2">l’</wf>
+    <wf wid="w186" sent="6" para="2" offset="1083" length="11">occupazione</wf>
+    <wf wid="w187" sent="6" para="2" offset="1095" length="1">e</wf>
+    <wf wid="w188" sent="6" para="2" offset="1097" length="2">la</wf>
+    <wf wid="w189" sent="6" para="2" offset="1100" length="8">coesione</wf>
+    <wf wid="w190" sent="6" para="2" offset="1109" length="9">economica</wf>
+    <wf wid="w191" sent="6" para="2" offset="1119" length="1">e</wf>
+    <wf wid="w192" sent="6" para="2" offset="1121" length="7">sociale</wf>
+    <wf wid="w193" sent="6" para="2" offset="1129" length="2">in</wf>
+    <wf wid="w194" sent="6" para="2" offset="1132" length="6">Europa</wf>
+    <wf wid="w195" sent="6" para="2" offset="1138" length="1">»</wf>
+    <wf wid="w196" sent="6" para="2" offset="1139" length="1">,</wf>
+    <wf wid="w197" sent="6" para="2" offset="1141" length="4">nota</wf>
+    <wf wid="w198" sent="6" para="2" offset="1146" length="5">Monti</wf>
+    <wf wid="w199" sent="6" para="2" offset="1152" length="7">durante</wf>
+    <wf wid="w200" sent="6" para="2" offset="1160" length="3">una</wf>
+    <wf wid="w201" sent="6" para="2" offset="1164" length="5">breve</wf>
+    <wf wid="w202" sent="6" para="2" offset="1170" length="13">dichiarazione</wf>
+    <wf wid="w203" sent="6" para="2" offset="1184" length="4">alla</wf>
+    <wf wid="w204" sent="6" para="2" offset="1189" length="6">stampa</wf>
+    <wf wid="w205" sent="6" para="2" offset="1196" length="2">al</wf>
+    <wf wid="w206" sent="6" para="2" offset="1199" length="7">settimo</wf>
+    <wf wid="w207" sent="6" para="2" offset="1207" length="5">piano</wf>
+    <wf wid="w208" sent="6" para="2" offset="1213" length="5">della</wf>
+    <wf wid="w209" sent="6" para="2" offset="1219" length="11">cancelleria</wf>
+    <wf wid="w210" sent="6" para="2" offset="1231" length="8">federale</wf>
+    <wf wid="w211" sent="6" para="2" offset="1239" length="1">,</wf>
+    <wf wid="w212" sent="6" para="2" offset="1241" length="2">lo</wf>
+    <wf wid="w213" sent="6" para="2" offset="1244" length="6">stesso</wf>
+    <wf wid="w214" sent="6" para="2" offset="1251" length="2">in</wf>
+    <wf wid="w215" sent="6" para="2" offset="1254" length="3">cui</wf>
+    <wf wid="w216" sent="6" para="2" offset="1258" length="2">si</wf>
+    <wf wid="w217" sent="6" para="2" offset="1261" length="5">trova</wf>
+    <wf wid="w218" sent="6" para="2" offset="1267" length="2">l’</wf>
+    <wf wid="w219" sent="6" para="2" offset="1269" length="7">ufficio</wf>
+    <wf wid="w220" sent="6" para="2" offset="1277" length="2">di</wf>
+    <wf wid="w221" sent="6" para="2" offset="1280" length="6">Merkel</wf>
+    <wf wid="w222" sent="6" para="2" offset="1286" length="1">.</wf>
+  </text>
+  <terms>
+    <!--«-->
+    <term tid="t160" type="" lemma="«" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--È-->
+    <term tid="t161" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--essenziale-->
+    <term tid="t162" type="" lemma="essenziale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t163" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t164" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--giudizio-->
+    <term tid="t165" type="" lemma="giudizio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--dell’-->
+    <term tid="t166" type="" lemma="dell’" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t167" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t168" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t169" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t170" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--quadro-->
+    <term tid="t171" type="" lemma="quadro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--finanziario-->
+    <term tid="t172" type="" lemma="finanziario" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t173" type="" lemma="»" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t174" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--Ue-->
+    <term tid="t175" type="" lemma="ue" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t176" type="" lemma="«" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--sia-->
+    <term tid="t177" type="" lemma="essere" pos="V" morphofeat="VAU~CGN3">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+    <!--orientato-->
+    <term tid="t178" type="" lemma="orientare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w178"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t179" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w179"/>
+      </span>
+    </term>
+    <!--sostenere-->
+    <term tid="t180" type="" lemma="sostenere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w180"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t181" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w181"/>
+      </span>
+    </term>
+    <!--crescita-->
+    <term tid="t182" type="" lemma="crescita" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w182"/>
+      </span>
+    </term>
+    <!--economica-->
+    <term tid="t183" type="" lemma="economico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w183"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t184" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w184"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t185" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w185"/>
+      </span>
+    </term>
+    <!--occupazione-->
+    <term tid="t186" type="" lemma="occupazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w186"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t187" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w187"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t188" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w188"/>
+      </span>
+    </term>
+    <!--coesione-->
+    <term tid="t189" type="" lemma="coesione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w189"/>
+      </span>
+    </term>
+    <!--economica-->
+    <term tid="t190" type="" lemma="economico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w190"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t191" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w191"/>
+      </span>
+    </term>
+    <!--sociale-->
+    <term tid="t192" type="" lemma="sociale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w192"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t193" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w193"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t194" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t195" type="" lemma="»" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t196" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--nota-->
+    <term tid="t197" type="" lemma="noto" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t198" type="" lemma="monte" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--durante-->
+    <term tid="t199" type="" lemma="durante" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t200" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--breve-->
+    <term tid="t201" type="" lemma="breve" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--dichiarazione-->
+    <term tid="t202" type="" lemma="dichiarazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t203" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--stampa-->
+    <term tid="t204" type="" lemma="stampa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t205" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--settimo-->
+    <term tid="t206" type="" lemma="settimo" pos="G" morphofeat="ADJ~ORMS">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--piano-->
+    <term tid="t207" type="" lemma="piano" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t208" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--cancelleria-->
+    <term tid="t209" type="" lemma="cancelleria" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--federale-->
+    <term tid="t210" type="" lemma="federale" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t211" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t212" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--stesso-->
+    <term tid="t213" type="" lemma="stesso" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t214" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--cui-->
+    <term tid="t215" type="" lemma="cui" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t216" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--trova-->
+    <term tid="t217" type="" lemma="trovare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t218" type="" lemma="l’" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--ufficio-->
+    <term tid="t219" type="" lemma="ufficio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t220" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t221" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t222" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--la crescita economica-->
+        <span>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--orientato a sostenere-->
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--la coesione economica e sociale-->
+        <span>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--orientato a sostenere-->
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--l’ occupazione-->
+        <span>
+          <target id="t185"/>
+          <target id="t186"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--orientato a sostenere-->
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder>
+        <!--Italia-->
+        <span>
+          <target id="t167"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--il quadro finanziario » della Ue «-->
+        <span>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--orientato a sostenere la crescita economica , l’ occupazione e la coesione economica e sociale-->
+        <span>
+          <target id="t178"/>
+          <target id="t179"/>
+          <target id="t180"/>
+          <target id="t181"/>
+          <target id="t182"/>
+          <target id="t183"/>
+          <target id="t184"/>
+          <target id="t185"/>
+          <target id="t186"/>
+          <target id="t187"/>
+          <target id="t188"/>
+          <target id="t189"/>
+          <target id="t190"/>
+          <target id="t191"/>
+          <target id="t192"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

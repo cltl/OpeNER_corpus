@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:47Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:47Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:10:20Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:07CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w279" sent="10" para="2" offset="1432" length="2">Il</wf>
+    <wf wid="w280" sent="10" para="2" offset="1435" length="3">Sud</wf>
+    <wf wid="w281" sent="10" para="2" offset="1439" length="3">con</wf>
+    <wf wid="w282" sent="10" para="2" offset="1443" length="7">Francia</wf>
+    <wf wid="w283" sent="10" para="2" offset="1450" length="1">,</wf>
+    <wf wid="w284" sent="10" para="2" offset="1452" length="6">Italia</wf>
+    <wf wid="w285" sent="10" para="2" offset="1459" length="1">e</wf>
+    <wf wid="w286" sent="10" para="2" offset="1461" length="6">Spagna</wf>
+    <wf wid="w287" sent="10" para="2" offset="1468" length="3">che</wf>
+    <wf wid="w288" sent="10" para="2" offset="1472" length="6">voleva</wf>
+    <wf wid="w289" sent="10" para="2" offset="1479" length="7">salvare</wf>
+    <wf wid="w290" sent="10" para="2" offset="1487" length="2">la</wf>
+    <wf wid="w291" sent="10" para="2" offset="1490" length="5">spesa</wf>
+    <wf wid="w292" sent="10" para="2" offset="1496" length="3">per</wf>
+    <wf wid="w293" sent="10" para="2" offset="1500" length="2">la</wf>
+    <wf wid="w294" sent="10" para="2" offset="1503" length="8">crescita</wf>
+    <wf wid="w295" sent="10" para="2" offset="1512" length="1">e</wf>
+    <wf wid="w296" sent="10" para="2" offset="1514" length="1">i</wf>
+    <wf wid="w297" sent="10" para="2" offset="1516" length="5">fondi</wf>
+    <wf wid="w298" sent="10" para="2" offset="1522" length="8">agricoli</wf>
+    <wf wid="w299" sent="10" para="2" offset="1530" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t279" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w279"/>
+      </span>
+    </term>
+    <!--Sud-->
+    <term tid="t280" type="" lemma="sud" pos="R" morphofeat="NOU~PMI">
+      <span>
+        <target id="w280"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t281" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w281"/>
+      </span>
+    </term>
+    <!--Francia-->
+    <term tid="t282" type="" lemma="francia" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w282"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t283" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w283"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t284" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w284"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t285" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w285"/>
+      </span>
+    </term>
+    <!--Spagna-->
+    <term tid="t286" type="" lemma="spagna" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w286"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t287" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w287"/>
+      </span>
+    </term>
+    <!--voleva-->
+    <term tid="t288" type="" lemma="volere" pos="V" morphofeat="VMO~IMN3">
+      <span>
+        <target id="w288"/>
+      </span>
+    </term>
+    <!--salvare-->
+    <term tid="t289" type="" lemma="salvare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w289"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t290" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w290"/>
+      </span>
+    </term>
+    <!--spesa-->
+    <term tid="t291" type="" lemma="spesa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w291"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t292" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t293" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--crescita-->
+    <term tid="t294" type="" lemma="crescita" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t295" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t296" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--fondi-->
+    <term tid="t297" type="" lemma="fondo" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--agricoli-->
+    <term tid="t298" type="" lemma="agricolo" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t299" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Sud-->
+        <span>
+          <target id="t280"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--fondi agricoli-->
+        <span>
+          <target id="t297"/>
+          <target id="t298"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--voleva salvare-->
+        <span>
+          <target id="t288"/>
+          <target id="t289"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--Sud-->
+        <span>
+          <target id="t280"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--spesa per la crescita-->
+        <span>
+          <target id="t291"/>
+          <target id="t292"/>
+          <target id="t293"/>
+          <target id="t294"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--voleva salvare-->
+        <span>
+          <target id="t288"/>
+          <target id="t289"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

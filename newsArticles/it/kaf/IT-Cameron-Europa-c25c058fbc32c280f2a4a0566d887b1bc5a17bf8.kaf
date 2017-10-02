@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:07Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:07Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:08Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w79" sent="5" para="2" offset="432" length="3">Per</wf>
+    <wf wid="w80" sent="5" para="2" offset="436" length="2">il</wf>
+    <wf wid="w81" sent="5" para="2" offset="439" length="10">presidente</wf>
+    <wf wid="w82" sent="5" para="2" offset="450" length="3">del</wf>
+    <wf wid="w83" sent="5" para="2" offset="454" length="9">Consiglio</wf>
+    <wf wid="w84" sent="5" para="2" offset="464" length="7">Europeo</wf>
+    <wf wid="w85" sent="5" para="2" offset="472" length="6">Herman</wf>
+    <wf wid="w86" sent="5" para="2" offset="479" length="3">Van</wf>
+    <wf wid="w87" sent="5" para="2" offset="483" length="6">Rompuy</wf>
+    <wf wid="w88" sent="5" para="2" offset="490" length="2">il</wf>
+    <wf wid="w89" sent="5" para="2" offset="493" length="7">ritorno</wf>
+    <wf wid="w90" sent="5" para="2" offset="501" length="5">della</wf>
+    <wf wid="w91" sent="5" para="2" offset="507" length="7">fiducia</wf>
+    <wf wid="w92" sent="5" para="2" offset="515" length="5">nella</wf>
+    <wf wid="w93" sent="5" para="2" offset="521" length="4">zona</wf>
+    <wf wid="w94" sent="5" para="2" offset="526" length="4">euro</wf>
+    <wf wid="w95" sent="5" para="2" offset="531" length="7">porterà</wf>
+    <wf wid="w96" sent="5" para="2" offset="539" length="4">alla</wf>
+    <wf wid="w97" sent="5" para="2" offset="544" length="8">crescita</wf>
+    <wf wid="w98" sent="5" para="2" offset="553" length="1">e</wf>
+    <wf wid="w99" sent="5" para="2" offset="555" length="4">all’</wf>
+    <wf wid="w100" sent="5" para="2" offset="559" length="11">occupazione</wf>
+    <wf wid="w101" sent="5" para="2" offset="570" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Per-->
+    <term tid="t79" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t80" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t81" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t82" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--Consiglio-->
+    <term tid="t83" type="" lemma="consiglio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--Europeo-->
+    <term tid="t84" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--Herman-->
+    <term tid="t85" type="" lemma="herman" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--Van-->
+    <term tid="t86" type="" lemma="van" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--Rompuy-->
+    <term tid="t87" type="" lemma="rompuy" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t88" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--ritorno-->
+    <term tid="t89" type="" lemma="ritorno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t90" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--fiducia-->
+    <term tid="t91" type="" lemma="fiducia" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--nella-->
+    <term tid="t92" type="" lemma="nella" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--zona-->
+    <term tid="t93" type="" lemma="zona" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t94" type="" lemma="euro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--porterà-->
+    <term tid="t95" type="" lemma="porterà" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t96" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--crescita-->
+    <term tid="t97" type="" lemma="crescita" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t98" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--all’-->
+    <term tid="t99" type="" lemma="all’" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--occupazione-->
+    <term tid="t100" type="" lemma="occupazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t101" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder>
+        <!--il ritorno della fiducia nella zona euro-->
+        <span>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--porterà alla crescita e all’ occupazione-->
+        <span>
+          <target id="t95"/>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

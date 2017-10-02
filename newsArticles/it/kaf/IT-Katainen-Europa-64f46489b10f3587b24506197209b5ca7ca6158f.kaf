@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:43Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:43Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:19:43Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:18CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w165" sent="7" para="2" offset="815" length="2">Il</wf>
+    <wf wid="w166" sent="7" para="2" offset="818" length="7">premier</wf>
+    <wf wid="w167" sent="7" para="2" offset="826" length="5">Mario</wf>
+    <wf wid="w168" sent="7" para="2" offset="832" length="5">Monti</wf>
+    <wf wid="w169" sent="7" para="2" offset="838" length="1">è</wf>
+    <wf wid="w170" sent="7" para="2" offset="840" length="2">in</wf>
+    <wf wid="w171" sent="7" para="2" offset="843" length="6">platea</wf>
+    <wf wid="w172" sent="7" para="2" offset="850" length="7">assieme</wf>
+    <wf wid="w173" sent="7" para="2" offset="858" length="4">agli</wf>
+    <wf wid="w174" sent="7" para="2" offset="863" length="5">altri</wf>
+    <wf wid="w175" sent="7" para="2" offset="869" length="6">leader</wf>
+    <wf wid="w176" sent="7" para="2" offset="876" length="7">europei</wf>
+    <wf wid="w177" sent="7" para="2" offset="883" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t165" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t166" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--Mario-->
+    <term tid="t167" type="" lemma="mario" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t168" type="" lemma="monte" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t169" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t170" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w170"/>
+      </span>
+    </term>
+    <!--platea-->
+    <term tid="t171" type="" lemma="platea" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w171"/>
+      </span>
+    </term>
+    <!--assieme-->
+    <term tid="t172" type="" lemma="assieme" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w172"/>
+      </span>
+    </term>
+    <!--agli-->
+    <term tid="t173" type="" lemma="agli" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w173"/>
+      </span>
+    </term>
+    <!--altri-->
+    <term tid="t174" type="" lemma="altro" pos="G" morphofeat="ADJ~INMP">
+      <span>
+        <target id="w174"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term tid="t175" type="" lemma="leader" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w175"/>
+      </span>
+    </term>
+    <!--europei-->
+    <term tid="t176" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w176"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t177" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w177"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t165"/>
+          <target id="t166"/>
+          <target id="t167"/>
+          <target id="t168"/>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+          <target id="t175"/>
+          <target id="t176"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

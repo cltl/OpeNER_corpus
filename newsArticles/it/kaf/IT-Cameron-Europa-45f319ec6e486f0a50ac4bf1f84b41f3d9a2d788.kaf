@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:39Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:39Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:19:08Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:21CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w405" sent="16" para="2" offset="2077" length="5">Monti</wf>
+    <wf wid="w406" sent="16" para="2" offset="2082" length="1">:</wf>
+    <wf wid="w407" sent="16" para="2" offset="2084" length="9">decisioni</wf>
+    <wf wid="w408" sent="16" para="2" offset="2094" length="3">per</wf>
+    <wf wid="w409" sent="16" para="2" offset="2098" length="2">l'</wf>
+    <wf wid="w410" sent="16" para="2" offset="2100" length="6">Europa</wf>
+    <wf wid="w411" sent="16" para="2" offset="2107" length="3">nei</wf>
+    <wf wid="w412" sent="16" para="2" offset="2111" length="8">prossimi</wf>
+    <wf wid="w413" sent="16" para="2" offset="2120" length="6">giorni</wf>
+    <wf wid="w414" sent="16" para="2" offset="2126" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Monti-->
+    <term tid="t405" type="" lemma="monte" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w405"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t406" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w406"/>
+      </span>
+    </term>
+    <!--decisioni-->
+    <term tid="t407" type="" lemma="decisione" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w407"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t408" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w408"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t409" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w409"/>
+      </span>
+    </term>
+    <!--Europa-->
+    <term tid="t410" type="" lemma="europa" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w410"/>
+      </span>
+    </term>
+    <!--nei-->
+    <term tid="t411" type="" lemma="nei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w411"/>
+      </span>
+    </term>
+    <!--prossimi-->
+    <term tid="t412" type="" lemma="prossimo" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w412"/>
+      </span>
+    </term>
+    <!--giorni-->
+    <term tid="t413" type="" lemma="giorno" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w413"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t414" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w414"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t405"/>
+          <target id="t406"/>
+          <target id="t407"/>
+          <target id="t408"/>
+          <target id="t409"/>
+          <target id="t410"/>
+          <target id="t411"/>
+          <target id="t412"/>
+          <target id="t413"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

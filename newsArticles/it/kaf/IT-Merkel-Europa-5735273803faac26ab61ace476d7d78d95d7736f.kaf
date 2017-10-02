@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:15Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:27CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w50" sent="4" para="2" offset="275" length="7">Davanti</wf>
+    <wf wid="w51" sent="4" para="2" offset="283" length="2">al</wf>
+    <wf wid="w52" sent="4" para="2" offset="286" length="9">Bundestag</wf>
+    <wf wid="w53" sent="4" para="2" offset="296" length="2">la</wf>
+    <wf wid="w54" sent="4" para="2" offset="299" length="11">cancelliera</wf>
+    <wf wid="w55" sent="4" para="2" offset="311" length="7">tedesca</wf>
+    <wf wid="w56" sent="4" para="2" offset="319" length="2">ha</wf>
+    <wf wid="w57" sent="4" para="2" offset="322" length="7">toccato</wf>
+    <wf wid="w58" sent="4" para="2" offset="330" length="4">vari</wf>
+    <wf wid="w59" sent="4" para="2" offset="335" length="4">temi</wf>
+    <wf wid="w60" sent="4" para="2" offset="339" length="1">,</wf>
+    <wf wid="w61" sent="4" para="2" offset="341" length="1">a</wf>
+    <wf wid="w62" sent="4" para="2" offset="343" length="7">partire</wf>
+    <wf wid="w63" sent="4" para="2" offset="351" length="3">dal</wf>
+    <wf wid="w64" sent="4" para="2" offset="355" length="9">controllo</wf>
+    <wf wid="w65" sent="4" para="2" offset="365" length="5">delle</wf>
+    <wf wid="w66" sent="4" para="2" offset="371" length="7">finanze</wf>
+    <wf wid="w67" sent="4" para="2" offset="378" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Davanti-->
+    <term tid="t50" type="" lemma="davanti" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t51" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--Bundestag-->
+    <term tid="t52" type="" lemma="bundestag" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t53" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--cancelliera-->
+    <term tid="t54" type="" lemma="cancelliera" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--tedesca-->
+    <term tid="t55" type="" lemma="tedesco" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t56" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--toccato-->
+    <term tid="t57" type="" lemma="toccare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--vari-->
+    <term tid="t58" type="" lemma="vario" pos="G" morphofeat="ADJ~INMP">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--temi-->
+    <term tid="t59" type="" lemma="tema" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t60" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t61" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--partire-->
+    <term tid="t62" type="" lemma="partire" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--dal-->
+    <term tid="t63" type="" lemma="dal" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--controllo-->
+    <term tid="t64" type="" lemma="controllo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--delle-->
+    <term tid="t65" type="" lemma="delle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--finanze-->
+    <term tid="t66" type="" lemma="finanza" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t67" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t53"/>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:41Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:41Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:19:48Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:19CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w10" sent="2" para="1" offset="42" length="2">Il</wf>
+    <wf wid="w11" sent="2" para="1" offset="45" length="3">Pdl</wf>
+    <wf wid="w12" sent="2" para="1" offset="49" length="2">si</wf>
+    <wf wid="w13" sent="2" para="1" offset="52" length="8">assumerà</wf>
+    <wf wid="w14" sent="2" para="1" offset="61" length="2">le</wf>
+    <wf wid="w15" sent="2" para="1" offset="64" length="3">sue</wf>
+    <wf wid="w16" sent="2" para="1" offset="68" length="14">responsabilità</wf>
+    <wf wid="w17" sent="2" para="1" offset="82" length="1">»</wf>
+    <wf wid="w18" sent="2" para="1" offset="83" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t10" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--Pdl-->
+    <term tid="t11" type="" lemma="pdl" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t12" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--assumerà-->
+    <term tid="t13" type="" lemma="assumere" pos="V" morphofeat="VMA~RAN3">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t14" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--sue-->
+    <term tid="t15" type="" lemma="suo" pos="G" morphofeat="ADJ~POFP">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--responsabilità-->
+    <term tid="t16" type="" lemma="responsabilita'" pos="N" morphofeat="NOU~CPNP">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t17" type="" lemma="»" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t18" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Il Pdl-->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--sue responsabilità-->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--si assumerà-->
+        <span>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

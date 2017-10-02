@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:27:56Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:12CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w99" sent="4" para="2" offset="534" length="2">Ma</wf>
+    <wf wid="w100" sent="4" para="2" offset="537" length="5">anche</wf>
+    <wf wid="w101" sent="4" para="2" offset="543" length="2">l’</wf>
+    <wf wid="w102" sent="4" para="2" offset="545" length="6">Italia</wf>
+    <wf wid="w103" sent="4" para="2" offset="552" length="4">esce</wf>
+    <wf wid="w104" sent="4" para="2" offset="557" length="11">soddisfatta</wf>
+    <wf wid="w105" sent="4" para="2" offset="568" length="1">,</wf>
+    <wf wid="w106" sent="4" para="2" offset="570" length="3">con</wf>
+    <wf wid="w107" sent="4" para="2" offset="574" length="9">risultati</wf>
+    <wf wid="w108" sent="4" para="2" offset="584" length="1">«</wf>
+    <wf wid="w109" sent="4" para="2" offset="585" length="3">mai</wf>
+    <wf wid="w110" sent="4" para="2" offset="589" length="4">così</wf>
+    <wf wid="w111" sent="4" para="2" offset="594" length="5">buoni</wf>
+    <wf wid="w112" sent="4" para="2" offset="599" length="1">»</wf>
+    <wf wid="w113" sent="4" para="2" offset="601" length="3">per</wf>
+    <wf wid="w114" sent="4" para="2" offset="605" length="2">il</wf>
+    <wf wid="w115" sent="4" para="2" offset="608" length="7">premier</wf>
+    <wf wid="w116" sent="4" para="2" offset="616" length="5">Mario</wf>
+    <wf wid="w117" sent="4" para="2" offset="622" length="5">Monti</wf>
+    <wf wid="w118" sent="4" para="2" offset="628" length="3">che</wf>
+    <wf wid="w119" sent="4" para="2" offset="632" length="6">voleva</wf>
+    <wf wid="w120" sent="4" para="2" offset="638" length="1">,</wf>
+    <wf wid="w121" sent="4" para="2" offset="640" length="2">ed</wf>
+    <wf wid="w122" sent="4" para="2" offset="643" length="2">ha</wf>
+    <wf wid="w123" sent="4" para="2" offset="646" length="8">ottenuto</wf>
+    <wf wid="w124" sent="4" para="2" offset="654" length="1">,</wf>
+    <wf wid="w125" sent="4" para="2" offset="656" length="9">diminuire</wf>
+    <wf wid="w126" sent="4" para="2" offset="666" length="2">il</wf>
+    <wf wid="w127" sent="4" para="2" offset="669" length="5">saldo</wf>
+    <wf wid="w128" sent="4" para="2" offset="675" length="4">oggi</wf>
+    <wf wid="w129" sent="4" para="2" offset="680" length="7">passivo</wf>
+    <wf wid="w130" sent="4" para="2" offset="688" length="3">tra</wf>
+    <wf wid="w131" sent="4" para="2" offset="692" length="6">quanto</wf>
+    <wf wid="w132" sent="4" para="2" offset="699" length="5">diamo</wf>
+    <wf wid="w133" sent="4" para="2" offset="705" length="1">e</wf>
+    <wf wid="w134" sent="4" para="2" offset="707" length="6">quanto</wf>
+    <wf wid="w135" sent="4" para="2" offset="714" length="9">riceviamo</wf>
+    <wf wid="w136" sent="4" para="2" offset="724" length="5">dalla</wf>
+    <wf wid="w137" sent="4" para="2" offset="730" length="2">Ue</wf>
+    <wf wid="w138" sent="4" para="2" offset="732" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ma-->
+    <term tid="t99" type="" lemma="ma" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--anche-->
+    <term tid="t100" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t101" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t102" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--esce-->
+    <term tid="t103" type="" lemma="uscire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--soddisfatta-->
+    <term tid="t104" type="" lemma="soddisfare" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t105" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t106" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--risultati-->
+    <term tid="t107" type="" lemma="risultato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t108" type="" lemma="«" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--mai-->
+    <term tid="t109" type="" lemma="mai" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--così-->
+    <term tid="t110" type="" lemma="così" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--buoni-->
+    <term tid="t111" type="" lemma="buono" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t112" type="" lemma="»" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t113" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t114" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t115" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--Mario-->
+    <term tid="t116" type="" lemma="mario" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--Monti-->
+    <term tid="t117" type="" lemma="monte" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t118" type="" lemma="che" pos="Q" morphofeat="PRON~RENI">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--voleva-->
+    <term tid="t119" type="" lemma="volere" pos="V" morphofeat="VMO~IMN3">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t120" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--ed-->
+    <term tid="t121" type="" lemma="ed" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t122" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--ottenuto-->
+    <term tid="t123" type="" lemma="ottenere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t124" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--diminuire-->
+    <term tid="t125" type="" lemma="diminuire" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t126" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--saldo-->
+    <term tid="t127" type="" lemma="saldo" pos="R" morphofeat="NOU~PMS">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--oggi-->
+    <term tid="t128" type="" lemma="oggi" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+    <!--passivo-->
+    <term tid="t129" type="" lemma="passivo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w129"/>
+      </span>
+    </term>
+    <!--tra-->
+    <term tid="t130" type="" lemma="tra" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w130"/>
+      </span>
+    </term>
+    <!--quanto-->
+    <term tid="t131" type="" lemma="quanto" pos="Q" morphofeat="PRON~REM3">
+      <span>
+        <target id="w131"/>
+      </span>
+    </term>
+    <!--diamo-->
+    <term tid="t132" type="" lemma="dare" pos="V" morphofeat="VMA~IPN4">
+      <span>
+        <target id="w132"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t133" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w133"/>
+      </span>
+    </term>
+    <!--quanto-->
+    <term tid="t134" type="" lemma="quanto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w134"/>
+      </span>
+    </term>
+    <!--riceviamo-->
+    <term tid="t135" type="" lemma="ricevere" pos="V" morphofeat="VMA~IPN4">
+      <span>
+        <target id="w135"/>
+      </span>
+    </term>
+    <!--dalla-->
+    <term tid="t136" type="" lemma="dalla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w136"/>
+      </span>
+    </term>
+    <!--Ue-->
+    <term tid="t137" type="" lemma="ue" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w137"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t138" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w138"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder>
+        <!--premier Mario Monti-->
+        <span>
+          <target id="t115"/>
+          <target id="t116"/>
+          <target id="t117"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--saldo-->
+        <span>
+          <target id="t127"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--diminuire-->
+        <span>
+          <target id="t125"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Italia-->
+        <span>
+          <target id="t102"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--soddisfatta-->
+        <span>
+          <target id="t104"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--risultati-->
+        <span>
+          <target id="t107"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--mai così buoni-->
+        <span>
+          <target id="t109"/>
+          <target id="t110"/>
+          <target id="t111"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

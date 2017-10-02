@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:08Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:08Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:04:13Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:57CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w54" sent="3" para="2" offset="321" length="4">Sono</wf>
+    <wf wid="w55" sent="3" para="2" offset="326" length="10">favorevole</wf>
+    <wf wid="w56" sent="3" para="2" offset="336" length="1">,</wf>
+    <wf wid="w57" sent="3" para="2" offset="338" length="4">dice</wf>
+    <wf wid="w58" sent="3" para="2" offset="343" length="2">il</wf>
+    <wf wid="w59" sent="3" para="2" offset="346" length="11">cancelliere</wf>
+    <wf wid="w60" sent="3" para="2" offset="358" length="7">tedesco</wf>
+    <wf wid="w61" sent="3" para="2" offset="366" length="6">Angela</wf>
+    <wf wid="w62" sent="3" para="2" offset="373" length="6">Merkel</wf>
+    <wf wid="w63" sent="3" para="2" offset="379" length="1">,</wf>
+    <wf wid="w64" sent="3" para="2" offset="381" length="2">ad</wf>
+    <wf wid="w65" sent="3" para="2" offset="384" length="3">una</wf>
+    <wf wid="w66" sent="3" para="2" offset="388" length="3">piu</wf>
+    <wf wid="w67" sent="3" para="2" offset="391" length="1">’</wf>
+    <wf wid="w68" sent="3" para="2" offset="393" length="5">forte</wf>
+    <wf wid="w69" sent="3" para="2" offset="399" length="12">supervisione</wf>
+    <wf wid="w70" sent="3" para="2" offset="412" length="8">bancaria</wf>
+    <wf wid="w71" sent="3" para="2" offset="421" length="5">nella</wf>
+    <wf wid="w72" sent="3" para="2" offset="427" length="4">zona</wf>
+    <wf wid="w73" sent="3" para="2" offset="432" length="4">euro</wf>
+    <wf wid="w74" sent="3" para="2" offset="436" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Sono-->
+    <term tid="t54" type="" lemma="essere" pos="V" morphofeat="VAU~REN1">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--favorevole-->
+    <term tid="t55" type="" lemma="favorevole" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t56" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--dice-->
+    <term tid="t57" type="" lemma="dire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t58" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--cancelliere-->
+    <term tid="t59" type="" lemma="cancelliere" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--tedesco-->
+    <term tid="t60" type="" lemma="tedesco" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t61" type="" lemma="angela" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t62" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t63" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--ad-->
+    <term tid="t64" type="" lemma="ad" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--una-->
+    <term tid="t65" type="" lemma="uno" pos="D" morphofeat="ART~IFS">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--piu-->
+    <term tid="t66" type="" lemma="piu" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+    <!--’-->
+    <term tid="t67" type="" lemma="’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w67"/>
+      </span>
+    </term>
+    <!--forte-->
+    <term tid="t68" type="" lemma="forte" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w68"/>
+      </span>
+    </term>
+    <!--supervisione-->
+    <term tid="t69" type="" lemma="supervisione" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w69"/>
+      </span>
+    </term>
+    <!--bancaria-->
+    <term tid="t70" type="" lemma="bancario" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w70"/>
+      </span>
+    </term>
+    <!--nella-->
+    <term tid="t71" type="" lemma="nella" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--zona-->
+    <term tid="t72" type="" lemma="zona" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--euro-->
+    <term tid="t73" type="" lemma="euro" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t74" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--cancelliere tedesco Angela Merkel-->
+        <span>
+          <target id="t59"/>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--ad una piu ’ forte supervisione bancaria nella zona euro-->
+        <span>
+          <target id="t64"/>
+          <target id="t65"/>
+          <target id="t66"/>
+          <target id="t67"/>
+          <target id="t68"/>
+          <target id="t69"/>
+          <target id="t70"/>
+          <target id="t71"/>
+          <target id="t72"/>
+          <target id="t73"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--Sono favorevole-->
+        <span>
+          <target id="t54"/>
+          <target id="t55"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

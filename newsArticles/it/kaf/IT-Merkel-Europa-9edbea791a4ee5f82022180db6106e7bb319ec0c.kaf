@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:05:46Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w142" sent="5" para="2" offset="755" length="1">E</wf>
+    <wf wid="w143" sent="5" para="2" offset="757" length="6">questo</wf>
+    <wf wid="w144" sent="5" para="2" offset="764" length="7">governo</wf>
+    <wf wid="w145" sent="5" para="2" offset="771" length="1">,</wf>
+    <wf wid="w146" sent="5" para="2" offset="773" length="2">ha</wf>
+    <wf wid="w147" sent="5" para="2" offset="776" length="12">sottolineato</wf>
+    <wf wid="w148" sent="5" para="2" offset="789" length="2">in</wf>
+    <wf wid="w149" sent="5" para="2" offset="792" length="2">un</wf>
+    <wf wid="w150" sent="5" para="2" offset="795" length="10">intervento</wf>
+    <wf wid="w151" sent="5" para="2" offset="806" length="4">all’</wf>
+    <wf wid="w152" sent="5" para="2" offset="810" length="8">European</wf>
+    <wf wid="w153" sent="5" para="2" offset="819" length="8">Business</wf>
+    <wf wid="w154" sent="5" para="2" offset="828" length="6">Summit</wf>
+    <wf wid="w155" sent="5" para="2" offset="834" length="1">,</wf>
+    <wf wid="w156" sent="5" para="2" offset="836" length="1">«</wf>
+    <wf wid="w157" sent="5" para="2" offset="837" length="3">sta</wf>
+    <wf wid="w158" sent="5" para="2" offset="841" length="11">funzionando</wf>
+    <wf wid="w159" sent="5" para="2" offset="852" length="1">»</wf>
+    <wf wid="w160" sent="5" para="2" offset="854" length="3">nel</wf>
+    <wf wid="w161" sent="5" para="2" offset="858" length="13">perseguimento</wf>
+    <wf wid="w162" sent="5" para="2" offset="872" length="5">della</wf>
+    <wf wid="w163" sent="5" para="2" offset="878" length="10">disciplina</wf>
+    <wf wid="w164" sent="5" para="2" offset="889" length="2">di</wf>
+    <wf wid="w165" sent="5" para="2" offset="892" length="8">bilancio</wf>
+    <wf wid="w166" sent="5" para="2" offset="901" length="1">e</wf>
+    <wf wid="w167" sent="5" para="2" offset="903" length="5">delle</wf>
+    <wf wid="w168" sent="5" para="2" offset="909" length="7">riforme</wf>
+    <wf wid="w169" sent="5" para="2" offset="916" length="1">.</wf>
+  </text>
+  <terms>
+    <!--E-->
+    <term tid="t142" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w142"/>
+      </span>
+    </term>
+    <!--questo-->
+    <term tid="t143" type="" lemma="questo" pos="G" morphofeat="ADJ~DIMS">
+      <span>
+        <target id="w143"/>
+      </span>
+    </term>
+    <!--governo-->
+    <term tid="t144" type="" lemma="governo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w144"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t145" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w145"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t146" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w146"/>
+      </span>
+    </term>
+    <!--sottolineato-->
+    <term tid="t147" type="" lemma="sottolineare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w147"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t148" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w148"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t149" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w149"/>
+      </span>
+    </term>
+    <!--intervento-->
+    <term tid="t150" type="" lemma="intervento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w150"/>
+      </span>
+    </term>
+    <!--all’-->
+    <term tid="t151" type="" lemma="all’" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w151"/>
+      </span>
+    </term>
+    <!--European-->
+    <term tid="t152" type="" lemma="european" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w152"/>
+      </span>
+    </term>
+    <!--Business-->
+    <term tid="t153" type="" lemma="business" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w153"/>
+      </span>
+    </term>
+    <!--Summit-->
+    <term tid="t154" type="" lemma="summit" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w154"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t155" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w155"/>
+      </span>
+    </term>
+    <!--«-->
+    <term tid="t156" type="" lemma="«" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w156"/>
+      </span>
+    </term>
+    <!--sta-->
+    <term tid="t157" type="" lemma="sta" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w157"/>
+      </span>
+    </term>
+    <!--funzionando-->
+    <term tid="t158" type="" lemma="funzionare" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w158"/>
+      </span>
+    </term>
+    <!--»-->
+    <term tid="t159" type="" lemma="»" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w159"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t160" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w160"/>
+      </span>
+    </term>
+    <!--perseguimento-->
+    <term tid="t161" type="" lemma="perseguimento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w161"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t162" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w162"/>
+      </span>
+    </term>
+    <!--disciplina-->
+    <term tid="t163" type="" lemma="disciplina" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w163"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t164" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w164"/>
+      </span>
+    </term>
+    <!--bilancio-->
+    <term tid="t165" type="" lemma="bilancio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w165"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t166" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w166"/>
+      </span>
+    </term>
+    <!--delle-->
+    <term tid="t167" type="" lemma="delle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w167"/>
+      </span>
+    </term>
+    <!--riforme-->
+    <term tid="t168" type="" lemma="riforma" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w168"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t169" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w169"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--questo governo-->
+        <span>
+          <target id="t143"/>
+          <target id="t144"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--sta funzionando-->
+        <span>
+          <target id="t157"/>
+          <target id="t158"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

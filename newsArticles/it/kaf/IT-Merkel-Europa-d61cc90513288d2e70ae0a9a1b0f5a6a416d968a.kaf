@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:26Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:26Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:09:33Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:00CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w200" sent="5" para="2" offset="1010" length="1">E</wf>
+    <wf wid="w201" sent="5" para="2" offset="1012" length="5">nella</wf>
+    <wf wid="w202" sent="5" para="2" offset="1018" length="5">quale</wf>
+    <wf wid="w203" sent="5" para="2" offset="1024" length="2">ha</wf>
+    <wf wid="w204" sent="5" para="2" offset="1027" length="9">auspicato</wf>
+    <wf wid="w205" sent="5" para="2" offset="1037" length="3">che</wf>
+    <wf wid="w206" sent="5" para="2" offset="1041" length="1">i</wf>
+    <wf wid="w207" sent="5" para="2" offset="1043" length="6">leader</wf>
+    <wf wid="w208" sent="5" para="2" offset="1050" length="3">del</wf>
+    <wf wid="w209" sent="5" para="2" offset="1054" length="2">G8</wf>
+    <wf wid="w210" sent="5" para="2" offset="1057" length="14">contribuiscano</wf>
+    <wf wid="w211" sent="5" para="2" offset="1072" length="1">"</wf>
+    <wf wid="w212" sent="5" para="2" offset="1073" length="2">al</wf>
+    <wf wid="w213" sent="5" para="2" offset="1076" length="7">cessate</wf>
+    <wf wid="w214" sent="5" para="2" offset="1084" length="2">il</wf>
+    <wf wid="w215" sent="5" para="2" offset="1087" length="5">fuoco</wf>
+    <wf wid="w216" sent="5" para="2" offset="1093" length="2">ed</wf>
+    <wf wid="w217" sent="5" para="2" offset="1096" length="4">all'</wf>
+    <wf wid="w218" sent="5" para="2" offset="1100" length="5">avvio</wf>
+    <wf wid="w219" sent="5" para="2" offset="1106" length="2">di</wf>
+    <wf wid="w220" sent="5" para="2" offset="1109" length="9">negoziati</wf>
+    <wf wid="w221" sent="5" para="2" offset="1118" length="1">"</wf>
+    <wf wid="w222" sent="5" para="2" offset="1120" length="2">in</wf>
+    <wf wid="w223" sent="5" para="2" offset="1123" length="5">Siria</wf>
+    <wf wid="w224" sent="5" para="2" offset="1128" length="1">.</wf>
+  </text>
+  <terms>
+    <!--E-->
+    <term tid="t200" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--nella-->
+    <term tid="t201" type="" lemma="nella" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--quale-->
+    <term tid="t202" type="" lemma="quale" pos="Q" morphofeat="PRON~REN3">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t203" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--auspicato-->
+    <term tid="t204" type="" lemma="auspicare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t205" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t206" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w206"/>
+      </span>
+    </term>
+    <!--leader-->
+    <term tid="t207" type="" lemma="leader" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w207"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t208" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w208"/>
+      </span>
+    </term>
+    <!--G8-->
+    <term tid="t209" type="" lemma="g8" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w209"/>
+      </span>
+    </term>
+    <!--contribuiscano-->
+    <term tid="t210" type="" lemma="contribuire" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w210"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t211" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w211"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t212" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w212"/>
+      </span>
+    </term>
+    <!--cessate-->
+    <term tid="t213" type="" lemma="cessate" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w213"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t214" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w214"/>
+      </span>
+    </term>
+    <!--fuoco-->
+    <term tid="t215" type="" lemma="fuoco" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w215"/>
+      </span>
+    </term>
+    <!--ed-->
+    <term tid="t216" type="" lemma="ed" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w216"/>
+      </span>
+    </term>
+    <!--all'-->
+    <term tid="t217" type="" lemma="all'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w217"/>
+      </span>
+    </term>
+    <!--avvio-->
+    <term tid="t218" type="" lemma="avvio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w218"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t219" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w219"/>
+      </span>
+    </term>
+    <!--negoziati-->
+    <term tid="t220" type="" lemma="negoziato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w220"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t221" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w221"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t222" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w222"/>
+      </span>
+    </term>
+    <!--Siria-->
+    <term tid="t223" type="" lemma="siria" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w223"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t224" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w224"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--i leader del G8-->
+        <span>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--avvio di negoziati-->
+        <span>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--contribuiscano-->
+        <span>
+          <target id="t210"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--i leader del G8-->
+        <span>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--al cessate il fuoco-->
+        <span>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--contribuiscano-->
+        <span>
+          <target id="t210"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--i leader del G8-->
+        <span>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--avvio di negoziati-->
+        <span>
+          <target id="t218"/>
+          <target id="t219"/>
+          <target id="t220"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ha auspicato-->
+        <span>
+          <target id="t203"/>
+          <target id="t204"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--i leader del G8-->
+        <span>
+          <target id="t206"/>
+          <target id="t207"/>
+          <target id="t208"/>
+          <target id="t209"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--al cessate il fuoco-->
+        <span>
+          <target id="t212"/>
+          <target id="t213"/>
+          <target id="t214"/>
+          <target id="t215"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ha auspicato-->
+        <span>
+          <target id="t203"/>
+          <target id="t204"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

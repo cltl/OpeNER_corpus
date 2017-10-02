@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:15:55Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:11CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w610" sent="17" para="2" offset="3310" length="2">Il</wf>
+    <wf wid="w611" sent="17" para="2" offset="3313" length="10">presidente</wf>
+    <wf wid="w612" sent="17" para="2" offset="3324" length="5">della</wf>
+    <wf wid="w613" sent="17" para="2" offset="3330" length="11">Commissione</wf>
+    <wf wid="w614" sent="17" para="2" offset="3342" length="2">si</wf>
+    <wf wid="w615" sent="17" para="2" offset="3345" length="1">è</wf>
+    <wf wid="w616" sent="17" para="2" offset="3347" length="3">poi</wf>
+    <wf wid="w617" sent="17" para="2" offset="3351" length="9">impegnato</wf>
+    <wf wid="w618" sent="17" para="2" offset="3360" length="1">,</wf>
+    <wf wid="w619" sent="17" para="2" offset="3362" length="2">d’</wf>
+    <wf wid="w620" sent="17" para="2" offset="3364" length="7">accordo</wf>
+    <wf wid="w621" sent="17" para="2" offset="3372" length="3">con</wf>
+    <wf wid="w622" sent="17" para="2" offset="3376" length="2">il</wf>
+    <wf wid="w623" sent="17" para="2" offset="3379" length="7">collega</wf>
+    <wf wid="w624" sent="17" para="2" offset="3387" length="3">Van</wf>
+    <wf wid="w625" sent="17" para="2" offset="3391" length="6">Rompuy</wf>
+    <wf wid="w626" sent="17" para="2" offset="3398" length="2">ad</wf>
+    <wf wid="w627" sent="17" para="2" offset="3401" length="6">andare</wf>
+    <wf wid="w628" sent="17" para="2" offset="3408" length="6">avanti</wf>
+    <wf wid="w629" sent="17" para="2" offset="3415" length="2">in</wf>
+    <wf wid="w630" sent="17" para="2" offset="3418" length="6">chiave</wf>
+    <wf wid="w631" sent="17" para="2" offset="3425" length="11">federalista</wf>
+    <wf wid="w632" sent="17" para="2" offset="3436" length="1">,</wf>
+    <wf wid="w633" sent="17" para="2" offset="3438" length="3">per</wf>
+    <wf wid="w634" sent="17" para="2" offset="3442" length="8">arrivare</wf>
+    <wf wid="w635" sent="17" para="2" offset="3451" length="1">"</wf>
+    <wf wid="w636" sent="17" para="2" offset="3453" length="4">alla</wf>
+    <wf wid="w637" sent="17" para="2" offset="3458" length="4">vera</wf>
+    <wf wid="w638" sent="17" para="2" offset="3463" length="6">unione</wf>
+    <wf wid="w639" sent="17" para="2" offset="3470" length="9">economica</wf>
+    <wf wid="w640" sent="17" para="2" offset="3479" length="1">,</wf>
+    <wf wid="w641" sent="17" para="2" offset="3481" length="9">monetaria</wf>
+    <wf wid="w642" sent="17" para="2" offset="3491" length="1">e</wf>
+    <wf wid="w643" sent="17" para="2" offset="3493" length="8">politica</wf>
+    <wf wid="w644" sent="17" para="2" offset="3501" length="1">"</wf>
+    <wf wid="w645" sent="17" para="2" offset="3503" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Il-->
+    <term tid="t610" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w610"/>
+      </span>
+    </term>
+    <!--presidente-->
+    <term tid="t611" type="" lemma="presidente" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w611"/>
+      </span>
+    </term>
+    <!--della-->
+    <term tid="t612" type="" lemma="della" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w612"/>
+      </span>
+    </term>
+    <!--Commissione-->
+    <term tid="t613" type="" lemma="commissione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w613"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t614" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w614"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t615" type="" lemma="essere" pos="V" morphofeat="VMA~IPN2">
+      <span>
+        <target id="w615"/>
+      </span>
+    </term>
+    <!--poi-->
+    <term tid="t616" type="" lemma="poi" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w616"/>
+      </span>
+    </term>
+    <!--impegnato-->
+    <term tid="t617" type="" lemma="impegnare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w617"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t618" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w618"/>
+      </span>
+    </term>
+    <!--d’-->
+    <term tid="t619" type="" lemma="d’" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w619"/>
+      </span>
+    </term>
+    <!--accordo-->
+    <term tid="t620" type="" lemma="accordo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w620"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t621" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w621"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t622" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w622"/>
+      </span>
+    </term>
+    <!--collega-->
+    <term tid="t623" type="" lemma="collega" pos="N" morphofeat="NOU~CSNS">
+      <span>
+        <target id="w623"/>
+      </span>
+    </term>
+    <!--Van-->
+    <term tid="t624" type="" lemma="van" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w624"/>
+      </span>
+    </term>
+    <!--Rompuy-->
+    <term tid="t625" type="" lemma="rompuy" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w625"/>
+      </span>
+    </term>
+    <!--ad-->
+    <term tid="t626" type="" lemma="ad" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w626"/>
+      </span>
+    </term>
+    <!--andare-->
+    <term tid="t627" type="" lemma="andare" pos="V" morphofeat="VMO~ININN">
+      <span>
+        <target id="w627"/>
+      </span>
+    </term>
+    <!--avanti-->
+    <term tid="t628" type="" lemma="avanti" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w628"/>
+      </span>
+    </term>
+    <!--in-->
+    <term tid="t629" type="" lemma="in" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w629"/>
+      </span>
+    </term>
+    <!--chiave-->
+    <term tid="t630" type="" lemma="chiave" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w630"/>
+      </span>
+    </term>
+    <!--federalista-->
+    <term tid="t631" type="" lemma="federalista" pos="N" morphofeat="NOU~CSNS">
+      <span>
+        <target id="w631"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t632" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w632"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t633" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w633"/>
+      </span>
+    </term>
+    <!--arrivare-->
+    <term tid="t634" type="" lemma="arrivare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w634"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t635" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w635"/>
+      </span>
+    </term>
+    <!--alla-->
+    <term tid="t636" type="" lemma="alla" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w636"/>
+      </span>
+    </term>
+    <!--vera-->
+    <term tid="t637" type="" lemma="vero" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w637"/>
+      </span>
+    </term>
+    <!--unione-->
+    <term tid="t638" type="" lemma="unione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w638"/>
+      </span>
+    </term>
+    <!--economica-->
+    <term tid="t639" type="" lemma="economico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w639"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t640" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w640"/>
+      </span>
+    </term>
+    <!--monetaria-->
+    <term tid="t641" type="" lemma="monetario" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w641"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t642" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w642"/>
+      </span>
+    </term>
+    <!--politica-->
+    <term tid="t643" type="" lemma="politico" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w643"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t644" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w644"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t645" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w645"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--collega Van Rompuy-->
+        <span>
+          <target id="t623"/>
+          <target id="t624"/>
+          <target id="t625"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--d’ accordo con-->
+        <span>
+          <target id="t619"/>
+          <target id="t620"/>
+          <target id="t621"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Positive">
+        <!--andare avanti-->
+        <span>
+          <target id="t627"/>
+          <target id="t628"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

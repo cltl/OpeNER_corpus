@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:43Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:43Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:20:12Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:55CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w71" sent="3" para="2" offset="390" length="1">E</wf>
+    <wf wid="w72" sent="3" para="2" offset="392" length="2">lo</wf>
+    <wf wid="w73" sent="3" para="2" offset="395" length="7">spettro</wf>
+    <wf wid="w74" sent="3" para="2" offset="403" length="2">di</wf>
+    <wf wid="w75" sent="3" para="2" offset="406" length="2">un</wf>
+    <wf wid="w76" sent="3" para="2" offset="409" length="5">nuovo</wf>
+    <wf wid="w77" sent="3" para="2" offset="415" length="7">ritorno</wf>
+    <wf wid="w78" sent="3" para="2" offset="423" length="4">alle</wf>
+    <wf wid="w79" sent="3" para="2" offset="428" length="4">urne</wf>
+    <wf wid="w80" sent="3" para="2" offset="433" length="1">a</wf>
+    <wf wid="w81" sent="3" para="2" offset="435" length="6">giugno</wf>
+    <wf wid="w82" sent="3" para="2" offset="442" length="2">si</wf>
+    <wf wid="w83" sent="3" para="2" offset="445" length="2">fa</wf>
+    <wf wid="w84" sent="3" para="2" offset="448" length="6">sempre</wf>
+    <wf wid="w85" sent="3" para="2" offset="455" length="3">più</wf>
+    <wf wid="w86" sent="3" para="2" offset="459" length="8">concreto</wf>
+    <wf wid="w87" sent="3" para="2" offset="467" length="1">.</wf>
+  </text>
+  <terms>
+    <!--E-->
+    <term tid="t71" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w71"/>
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t72" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w72"/>
+      </span>
+    </term>
+    <!--spettro-->
+    <term tid="t73" type="" lemma="spettro" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w73"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t74" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w74"/>
+      </span>
+    </term>
+    <!--un-->
+    <term tid="t75" type="" lemma="uno" pos="D" morphofeat="ART~IMS">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--nuovo-->
+    <term tid="t76" type="" lemma="nuovo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--ritorno-->
+    <term tid="t77" type="" lemma="ritorno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--alle-->
+    <term tid="t78" type="" lemma="alle" pos="P" morphofeat="PREPFP">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--urne-->
+    <term tid="t79" type="" lemma="urna" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t80" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--giugno-->
+    <term tid="t81" type="" lemma="giugno" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--si-->
+    <term tid="t82" type="" lemma="si" pos="Q" morphofeat="PRON~PENI">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--fa-->
+    <term tid="t83" type="" lemma="fa" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--sempre-->
+    <term tid="t84" type="" lemma="sempre" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--più-->
+    <term tid="t85" type="" lemma="più" pos="O" morphofeat="IPN2">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--concreto-->
+    <term tid="t86" type="" lemma="concreto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t87" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--lo spettro di un nuovo ritorno alle urne-->
+        <span>
+          <target id="t72"/>
+          <target id="t73"/>
+          <target id="t74"/>
+          <target id="t75"/>
+          <target id="t76"/>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--si fa sempre più concreto-->
+        <span>
+          <target id="t82"/>
+          <target id="t83"/>
+          <target id="t84"/>
+          <target id="t85"/>
+          <target id="t86"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-Negative">
+        <!--spettro-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

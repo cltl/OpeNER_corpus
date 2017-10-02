@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:45Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:45Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:14:07Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w292" sent="11" para="2" offset="1528" length="4">Ieri</wf>
+    <wf wid="w293" sent="11" para="2" offset="1532" length="1">,</wf>
+    <wf wid="w294" sent="11" para="2" offset="1534" length="7">intanto</wf>
+    <wf wid="w295" sent="11" para="2" offset="1541" length="1">,</wf>
+    <wf wid="w296" sent="11" para="2" offset="1543" length="4">Aung</wf>
+    <wf wid="w297" sent="11" para="2" offset="1548" length="3">San</wf>
+    <wf wid="w298" sent="11" para="2" offset="1552" length="3">Suu</wf>
+    <wf wid="w299" sent="11" para="2" offset="1556" length="3">Kyi</wf>
+    <wf wid="w300" sent="11" para="2" offset="1560" length="2">ha</wf>
+    <wf wid="w301" sent="11" para="2" offset="1563" length="8">ricevuto</wf>
+    <wf wid="w302" sent="11" para="2" offset="1572" length="1">(</wf>
+    <wf wid="w303" sent="11" para="2" offset="1573" length="5">nella</wf>
+    <wf wid="w304" sent="11" para="2" offset="1579" length="4">foto</wf>
+    <wf wid="w305" sent="11" para="2" offset="1583" length="1">)</wf>
+    <wf wid="w306" sent="11" para="2" offset="1585" length="2">il</wf>
+    <wf wid="w307" sent="11" para="2" offset="1588" length="9">dottorato</wf>
+    <wf wid="w308" sent="11" para="2" offset="1598" length="7">honoris</wf>
+    <wf wid="w309" sent="11" para="2" offset="1606" length="5">causa</wf>
+    <wf wid="w310" sent="11" para="2" offset="1612" length="5">dall'</wf>
+    <wf wid="w311" sent="11" para="2" offset="1617" length="10">università</wf>
+    <wf wid="w312" sent="11" para="2" offset="1628" length="2">di</wf>
+    <wf wid="w313" sent="11" para="2" offset="1631" length="6">Oxford</wf>
+    <wf wid="w314" sent="11" para="2" offset="1637" length="1">,</wf>
+    <wf wid="w315" sent="11" para="2" offset="1639" length="5">circa</wf>
+    <wf wid="w316" sent="11" para="2" offset="1645" length="2">20</wf>
+    <wf wid="w317" sent="11" para="2" offset="1648" length="4">anni</wf>
+    <wf wid="w318" sent="11" para="2" offset="1653" length="4">dopo</wf>
+    <wf wid="w319" sent="11" para="2" offset="1658" length="6">essere</wf>
+    <wf wid="w320" sent="11" para="2" offset="1665" length="5">stata</wf>
+    <wf wid="w321" sent="11" para="2" offset="1671" length="9">insignita</wf>
+    <wf wid="w322" sent="11" para="2" offset="1681" length="5">dell'</wf>
+    <wf wid="w323" sent="11" para="2" offset="1686" length="12">onorificenza</wf>
+    <wf wid="w324" sent="11" para="2" offset="1698" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Ieri-->
+    <term tid="t292" type="" lemma="ieri" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w292"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t293" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w293"/>
+      </span>
+    </term>
+    <!--intanto-->
+    <term tid="t294" type="" lemma="intanto" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w294"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t295" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w295"/>
+      </span>
+    </term>
+    <!--Aung-->
+    <term tid="t296" type="" lemma="aung" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w296"/>
+      </span>
+    </term>
+    <!--San-->
+    <term tid="t297" type="" lemma="san" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w297"/>
+      </span>
+    </term>
+    <!--Suu-->
+    <term tid="t298" type="" lemma="suu" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w298"/>
+      </span>
+    </term>
+    <!--Kyi-->
+    <term tid="t299" type="" lemma="kyi" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w299"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t300" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w300"/>
+      </span>
+    </term>
+    <!--ricevuto-->
+    <term tid="t301" type="" lemma="ricevere" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w301"/>
+      </span>
+    </term>
+    <!--(-->
+    <term tid="t302" type="" lemma="(" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w302"/>
+      </span>
+    </term>
+    <!--nella-->
+    <term tid="t303" type="" lemma="nella" pos="P" morphofeat="PREPFS">
+      <span>
+        <target id="w303"/>
+      </span>
+    </term>
+    <!--foto-->
+    <term tid="t304" type="" lemma="foto" pos="N" morphofeat="NOU~CAFI">
+      <span>
+        <target id="w304"/>
+      </span>
+    </term>
+    <!--)-->
+    <term tid="t305" type="" lemma=")" pos="O" morphofeat="PUNCT">
+      <span>
+        <target id="w305"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t306" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w306"/>
+      </span>
+    </term>
+    <!--dottorato-->
+    <term tid="t307" type="" lemma="dottorato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w307"/>
+      </span>
+    </term>
+    <!--honoris-->
+    <term tid="t308" type="" lemma="honoris" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w308"/>
+      </span>
+    </term>
+    <!--causa-->
+    <term tid="t309" type="" lemma="causare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w309"/>
+      </span>
+    </term>
+    <!--dall'-->
+    <term tid="t310" type="" lemma="dall'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w310"/>
+      </span>
+    </term>
+    <!--università-->
+    <term tid="t311" type="" lemma="universita'" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w311"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t312" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w312"/>
+      </span>
+    </term>
+    <!--Oxford-->
+    <term tid="t313" type="" lemma="oxford" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w313"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t314" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w314"/>
+      </span>
+    </term>
+    <!--circa-->
+    <term tid="t315" type="" lemma="circa" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w315"/>
+      </span>
+    </term>
+    <!--20-->
+    <term tid="t316" type="" lemma="20" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w316"/>
+      </span>
+    </term>
+    <!--anni-->
+    <term tid="t317" type="" lemma="anno" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w317"/>
+      </span>
+    </term>
+    <!--dopo-->
+    <term tid="t318" type="" lemma="dopo" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w318"/>
+      </span>
+    </term>
+    <!--essere-->
+    <term tid="t319" type="" lemma="essere" pos="V" morphofeat="VAU~ININN">
+      <span>
+        <target id="w319"/>
+      </span>
+    </term>
+    <!--stata-->
+    <term tid="t320" type="" lemma="essere" pos="V" morphofeat="VAU~PAFS">
+      <span>
+        <target id="w320"/>
+      </span>
+    </term>
+    <!--insignita-->
+    <term tid="t321" type="" lemma="insignita" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w321"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t322" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w322"/>
+      </span>
+    </term>
+    <!--onorificenza-->
+    <term tid="t323" type="" lemma="onorificenza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w323"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t324" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w324"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Aung San Suu Kyi-->
+        <span>
+          <target id="t296"/>
+          <target id="t297"/>
+          <target id="t298"/>
+          <target id="t299"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--dottorato honoris causa dall' università di Oxford-->
+        <span>
+          <target id="t307"/>
+          <target id="t308"/>
+          <target id="t309"/>
+          <target id="t310"/>
+          <target id="t311"/>
+          <target id="t312"/>
+          <target id="t313"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--ha ricevuto-->
+        <span>
+          <target id="t300"/>
+          <target id="t301"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

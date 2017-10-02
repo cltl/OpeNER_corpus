@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:28:07Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:24CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w1" sent="1" para="1" offset="0" length="5">Cipro</wf>
+    <wf wid="w2" sent="1" para="1" offset="6" length="6">decide</wf>
+    <wf wid="w3" sent="1" para="1" offset="13" length="3">sul</wf>
+    <wf wid="w4" sent="1" para="1" offset="17" length="8">prelievo</wf>
+    <wf wid="w5" sent="1" para="1" offset="26" length="7">forzoso</wf>
+    <wf wid="w6" sent="1" para="1" offset="34" length="5">Borsa</wf>
+    <wf wid="w7" sent="1" para="1" offset="40" length="1">e</wf>
+    <wf wid="w8" sent="1" para="1" offset="42" length="6">banche</wf>
+    <wf wid="w9" sent="1" para="1" offset="49" length="6">chiuse</wf>
+    <wf wid="w10" sent="1" para="1" offset="55" length="1">,</wf>
+    <wf wid="w11" sent="1" para="1" offset="57" length="7">rischio</wf>
+    <wf wid="w12" sent="1" para="1" offset="65" length="4">caos</wf>
+    <wf wid="w13" sent="1" para="1" offset="70" length="1">“</wf>
+    <wf wid="w14" sent="1" para="1" offset="71" length="6">Nessun</wf>
+    <wf wid="w15" sent="1" para="1" offset="78" length="5">altro</wf>
+    <wf wid="w16" sent="1" para="1" offset="84" length="4">caso</wf>
+    <wf wid="w17" sent="1" para="1" offset="89" length="5">nell’</wf>
+    <wf wid="w18" sent="1" para="1" offset="94" length="8">Eurozona</wf>
+    <wf wid="w19" sent="1" para="1" offset="102" length="1">”</wf>
+  </text>
+  <terms>
+    <!--Cipro-->
+    <term tid="t1" type="" lemma="cipro" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w1"/>
+      </span>
+    </term>
+    <!--decide-->
+    <term tid="t2" type="" lemma="decidere" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w2"/>
+      </span>
+    </term>
+    <!--sul-->
+    <term tid="t3" type="" lemma="sul" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w3"/>
+      </span>
+    </term>
+    <!--prelievo-->
+    <term tid="t4" type="" lemma="prelievo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w4"/>
+      </span>
+    </term>
+    <!--forzoso-->
+    <term tid="t5" type="" lemma="forzoso" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w5"/>
+      </span>
+    </term>
+    <!--Borsa-->
+    <term tid="t6" type="" lemma="borsa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t7" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--banche-->
+    <term tid="t8" type="" lemma="banca" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--chiuse-->
+    <term tid="t9" type="" lemma="chiudere" pos="V" morphofeat="VMA~PAFP">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t10" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w10"/>
+      </span>
+    </term>
+    <!--rischio-->
+    <term tid="t11" type="" lemma="rischio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w11"/>
+      </span>
+    </term>
+    <!--caos-->
+    <term tid="t12" type="" lemma="caos" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w12"/>
+      </span>
+    </term>
+    <!--“-->
+    <term tid="t13" type="" lemma="“" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w13"/>
+      </span>
+    </term>
+    <!--Nessun-->
+    <term tid="t14" type="" lemma="nessun" pos="G" morphofeat="ADJ~INMS">
+      <span>
+        <target id="w14"/>
+      </span>
+    </term>
+    <!--altro-->
+    <term tid="t15" type="" lemma="altro" pos="G" morphofeat="ADJ~INMS">
+      <span>
+        <target id="w15"/>
+      </span>
+    </term>
+    <!--caso-->
+    <term tid="t16" type="" lemma="caso" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w16"/>
+      </span>
+    </term>
+    <!--nell’-->
+    <term tid="t17" type="" lemma="nell’" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w17"/>
+      </span>
+    </term>
+    <!--Eurozona-->
+    <term tid="t18" type="" lemma="eurozona" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w18"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t19" type="" lemma="”" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w19"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

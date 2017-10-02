@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:09Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:09Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:17:29Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:03CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w96" sent="3" para="2" offset="500" length="1">"</wf>
+    <wf wid="w97" sent="3" para="2" offset="501" length="2">La</wf>
+    <wf wid="w98" sent="3" para="2" offset="504" length="5">legge</wf>
+    <wf wid="w99" sent="3" para="2" offset="510" length="2">di</wf>
+    <wf wid="w100" sent="3" para="2" offset="513" length="9">stabilità</wf>
+    <wf wid="w101" sent="3" para="2" offset="523" length="4">sarà</wf>
+    <wf wid="w102" sent="3" para="2" offset="528" length="11">pluriennale</wf>
+    <wf wid="w103" sent="3" para="2" offset="540" length="1">–</wf>
+    <wf wid="w104" sent="3" para="2" offset="542" length="2">ha</wf>
+    <wf wid="w105" sent="3" para="2" offset="545" length="5">detto</wf>
+    <wf wid="w106" sent="3" para="2" offset="551" length="5">Letta</wf>
+    <wf wid="w107" sent="3" para="2" offset="557" length="1">-</wf>
+    <wf wid="w108" sent="3" para="2" offset="558" length="1">,</wf>
+    <wf wid="w109" sent="3" para="2" offset="560" length="7">abbiamo</wf>
+    <wf wid="w110" sent="3" para="2" offset="568" length="10">intenzione</wf>
+    <wf wid="w111" sent="3" para="2" offset="579" length="2">di</wf>
+    <wf wid="w112" sent="3" para="2" offset="582" length="11">intervenire</wf>
+    <wf wid="w113" sent="3" para="2" offset="594" length="3">sul</wf>
+    <wf wid="w114" sent="3" para="2" offset="598" length="5">lungo</wf>
+    <wf wid="w115" sent="3" para="2" offset="604" length="7">periodo</wf>
+    <wf wid="w116" sent="3" para="2" offset="611" length="1">,</wf>
+    <wf wid="w117" sent="3" para="2" offset="613" length="3">per</wf>
+    <wf wid="w118" sent="3" para="2" offset="617" length="3">tre</wf>
+    <wf wid="w119" sent="3" para="2" offset="621" length="4">anni</wf>
+    <wf wid="w120" sent="3" para="2" offset="625" length="1">.</wf>
+  </text>
+  <terms>
+    <!--"-->
+    <term tid="t96" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--La-->
+    <term tid="t97" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--legge-->
+    <term tid="t98" type="" lemma="legge" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t99" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--stabilità-->
+    <term tid="t100" type="" lemma="stabilita'" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+    <!--sarà-->
+    <term tid="t101" type="" lemma="essere" pos="V" morphofeat="VAU~CON3">
+      <span>
+        <target id="w101"/>
+      </span>
+    </term>
+    <!--pluriennale-->
+    <term tid="t102" type="" lemma="pluriennale" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w102"/>
+      </span>
+    </term>
+    <!--–-->
+    <term tid="t103" type="" lemma="–" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w103"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t104" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w104"/>
+      </span>
+    </term>
+    <!--detto-->
+    <term tid="t105" type="" lemma="detto" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--Letta-->
+    <term tid="t106" type="" lemma="leggere" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--- -->
+    <term tid="t107" type="" lemma="-" pos="O" morphofeat="-NONE-">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t108" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--abbiamo-->
+    <term tid="t109" type="" lemma="avere" pos="V" morphofeat="VAU~CGN4">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--intenzione-->
+    <term tid="t110" type="" lemma="intenzione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t111" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--intervenire-->
+    <term tid="t112" type="" lemma="intervenire" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--sul-->
+    <term tid="t113" type="" lemma="sul" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--lungo-->
+    <term tid="t114" type="" lemma="lungo" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--periodo-->
+    <term tid="t115" type="" lemma="periodo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t116" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t117" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--tre-->
+    <term tid="t118" type="" lemma="tre" pos="G" morphofeat="ADJ~ORNP">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--anni-->
+    <term tid="t119" type="" lemma="anno" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t120" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
+          <target id="t101"/>
+          <target id="t102"/>
+          <target id="t103"/>
+          <target id="t104"/>
+          <target id="t105"/>
+          <target id="t106"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

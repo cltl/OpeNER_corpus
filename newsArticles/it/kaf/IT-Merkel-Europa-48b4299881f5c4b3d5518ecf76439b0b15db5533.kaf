@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:01:01Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:01:01Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:16:03Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:16CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w75" sent="6" para="2" offset="387" length="2">La</wf>
+    <wf wid="w76" sent="6" para="2" offset="391" length="6">Merkel</wf>
+    <wf wid="w77" sent="6" para="2" offset="397" length="1">:</wf>
+    <wf wid="w78" sent="6" para="2" offset="399" length="1">'</wf>
+    <wf wid="w79" sent="6" para="2" offset="400" length="3">Non</wf>
+    <wf wid="w80" sent="6" para="2" offset="404" length="2">ho</wf>
+    <wf wid="w81" sent="6" para="2" offset="407" length="8">cambiato</wf>
+    <wf wid="w82" sent="6" para="2" offset="416" length="4">modo</wf>
+    <wf wid="w83" sent="6" para="2" offset="421" length="2">di</wf>
+    <wf wid="w84" sent="6" para="2" offset="424" length="10">comunicare</wf>
+    <wf wid="w85" sent="6" para="2" offset="434" length="1">'</wf>
+    <wf wid="w86" sent="6" para="2" offset="435" length="1">,</wf>
+    <wf wid="w87" sent="6" para="2" offset="437" length="6">mentre</wf>
+    <wf wid="w88" sent="6" para="2" offset="444" length="2">l’</wf>
+    <wf wid="w89" sent="6" para="2" offset="446" length="7">inglese</wf>
+    <wf wid="w90" sent="6" para="2" offset="454" length="7">Cameron</wf>
+    <wf wid="w91" sent="6" para="2" offset="463" length="7">ricorda</wf>
+    <wf wid="w92" sent="6" para="2" offset="471" length="3">che</wf>
+    <wf wid="w93" sent="6" para="2" offset="475" length="1">“</wf>
+    <wf wid="w94" sent="6" para="2" offset="476" length="2">lo</wf>
+    <wf wid="w95" sent="6" para="2" offset="479" length="10">spionaggio</wf>
+    <wf wid="w96" sent="6" para="2" offset="490" length="5">salva</wf>
+    <wf wid="w97" sent="6" para="2" offset="496" length="2">la</wf>
+    <wf wid="w98" sent="6" para="2" offset="499" length="5">gente</wf>
+    <wf wid="w99" sent="6" para="2" offset="504" length="1">”</wf>
+    <wf wid="w100" sent="6" para="2" offset="505" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t75" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w75"/>
+      </span>
+    </term>
+    <!--Merkel-->
+    <term tid="t76" type="" lemma="merkel" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w76"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t77" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w77"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t78" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w78"/>
+      </span>
+    </term>
+    <!--Non-->
+    <term tid="t79" type="" lemma="non" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w79"/>
+      </span>
+    </term>
+    <!--ho-->
+    <term tid="t80" type="" lemma="avere" pos="V" morphofeat="VAU~REN1">
+      <span>
+        <target id="w80"/>
+      </span>
+    </term>
+    <!--cambiato-->
+    <term tid="t81" type="" lemma="cambiare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w81"/>
+      </span>
+    </term>
+    <!--modo-->
+    <term tid="t82" type="" lemma="modo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w82"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t83" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w83"/>
+      </span>
+    </term>
+    <!--comunicare-->
+    <term tid="t84" type="" lemma="comunicare" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w84"/>
+      </span>
+    </term>
+    <!--'-->
+    <term tid="t85" type="" lemma="'" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w85"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t86" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w86"/>
+      </span>
+    </term>
+    <!--mentre-->
+    <term tid="t87" type="" lemma="mentre" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w87"/>
+      </span>
+    </term>
+    <!--l’-->
+    <term tid="t88" type="" lemma="l’" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w88"/>
+      </span>
+    </term>
+    <!--inglese-->
+    <term tid="t89" type="" lemma="inglese" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w89"/>
+      </span>
+    </term>
+    <!--Cameron-->
+    <term tid="t90" type="" lemma="cameron" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w90"/>
+      </span>
+    </term>
+    <!--ricorda-->
+    <term tid="t91" type="" lemma="ricordare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w91"/>
+      </span>
+    </term>
+    <!--che-->
+    <term tid="t92" type="" lemma="che" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w92"/>
+      </span>
+    </term>
+    <!--“-->
+    <term tid="t93" type="" lemma="“" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w93"/>
+      </span>
+    </term>
+    <!--lo-->
+    <term tid="t94" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w94"/>
+      </span>
+    </term>
+    <!--spionaggio-->
+    <term tid="t95" type="" lemma="spionaggio" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w95"/>
+      </span>
+    </term>
+    <!--salva-->
+    <term tid="t96" type="" lemma="salvare" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w96"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t97" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w97"/>
+      </span>
+    </term>
+    <!--gente-->
+    <term tid="t98" type="" lemma="gente" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w98"/>
+      </span>
+    </term>
+    <!--”-->
+    <term tid="t99" type="" lemma="”" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w99"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t100" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w100"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
+      <opinion_holder>
+        <!--inglese Cameron-->
+        <span>
+          <target id="t89"/>
+          <target id="t90"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--spionaggio-->
+        <span>
+          <target id="t95"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--salva la gente-->
+        <span>
+          <target id="t96"/>
+          <target id="t97"/>
+          <target id="t98"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

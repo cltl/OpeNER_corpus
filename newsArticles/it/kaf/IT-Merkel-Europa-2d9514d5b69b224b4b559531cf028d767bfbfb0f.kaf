@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:20:25Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:17CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w105" sent="7" para="2" offset="555" length="2">La</wf>
+    <wf wid="w106" sent="7" para="2" offset="558" length="10">situazione</wf>
+    <wf wid="w107" sent="7" para="2" offset="569" length="5">dell'</wf>
+    <wf wid="w108" sent="7" para="2" offset="574" length="6">Italia</wf>
+    <wf wid="w109" sent="7" para="2" offset="581" length="3">era</wf>
+    <wf wid="w110" sent="7" para="2" offset="585" length="8">precaria</wf>
+    <wf wid="w111" sent="7" para="2" offset="593" length="1">,</wf>
+    <wf wid="w112" sent="7" para="2" offset="595" length="7">eravamo</wf>
+    <wf wid="w113" sent="7" para="2" offset="603" length="10">circondati</wf>
+    <wf wid="w114" sent="7" para="2" offset="614" length="2">da</wf>
+    <wf wid="w115" sent="7" para="2" offset="617" length="8">profonda</wf>
+    <wf wid="w116" sent="7" para="2" offset="626" length="10">diffidenza</wf>
+    <wf wid="w117" sent="7" para="2" offset="636" length="1">,</wf>
+    <wf wid="w118" sent="7" para="2" offset="638" length="3">nei</wf>
+    <wf wid="w119" sent="7" para="2" offset="642" length="5">primi</wf>
+    <wf wid="w120" sent="7" para="2" offset="648" length="8">incontri</wf>
+    <wf wid="w121" sent="7" para="2" offset="657" length="3">con</wf>
+    <wf wid="w122" sent="7" para="2" offset="661" length="4">capi</wf>
+    <wf wid="w123" sent="7" para="2" offset="666" length="2">di</wf>
+    <wf wid="w124" sent="7" para="2" offset="669" length="5">Stato</wf>
+    <wf wid="w125" sent="7" para="2" offset="675" length="1">e</wf>
+    <wf wid="w126" sent="7" para="2" offset="677" length="7">governi</wf>
+    <wf wid="w127" sent="7" para="2" offset="685" length="7">europei</wf>
+    <wf wid="w128" sent="7" para="2" offset="692" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t105" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w105"/>
+      </span>
+    </term>
+    <!--situazione-->
+    <term tid="t106" type="" lemma="situazione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w106"/>
+      </span>
+    </term>
+    <!--dell'-->
+    <term tid="t107" type="" lemma="dell'" pos="P" morphofeat="PREPNS">
+      <span>
+        <target id="w107"/>
+      </span>
+    </term>
+    <!--Italia-->
+    <term tid="t108" type="" lemma="italia" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w108"/>
+      </span>
+    </term>
+    <!--era-->
+    <term tid="t109" type="" lemma="era" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w109"/>
+      </span>
+    </term>
+    <!--precaria-->
+    <term tid="t110" type="" lemma="precario" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w110"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t111" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w111"/>
+      </span>
+    </term>
+    <!--eravamo-->
+    <term tid="t112" type="" lemma="essere" pos="V" morphofeat="VAU~IMN4">
+      <span>
+        <target id="w112"/>
+      </span>
+    </term>
+    <!--circondati-->
+    <term tid="t113" type="" lemma="circondare" pos="V" morphofeat="VMA~PAMP">
+      <span>
+        <target id="w113"/>
+      </span>
+    </term>
+    <!--da-->
+    <term tid="t114" type="" lemma="da" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w114"/>
+      </span>
+    </term>
+    <!--profonda-->
+    <term tid="t115" type="" lemma="profondo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w115"/>
+      </span>
+    </term>
+    <!--diffidenza-->
+    <term tid="t116" type="" lemma="diffidenza" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w116"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t117" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w117"/>
+      </span>
+    </term>
+    <!--nei-->
+    <term tid="t118" type="" lemma="nei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w118"/>
+      </span>
+    </term>
+    <!--primi-->
+    <term tid="t119" type="" lemma="primo" pos="G" morphofeat="ADJ~ORMP">
+      <span>
+        <target id="w119"/>
+      </span>
+    </term>
+    <!--incontri-->
+    <term tid="t120" type="" lemma="incontro" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w120"/>
+      </span>
+    </term>
+    <!--con-->
+    <term tid="t121" type="" lemma="con" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w121"/>
+      </span>
+    </term>
+    <!--capi-->
+    <term tid="t122" type="" lemma="capo" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w122"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t123" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w123"/>
+      </span>
+    </term>
+    <!--Stato-->
+    <term tid="t124" type="" lemma="stato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w124"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t125" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w125"/>
+      </span>
+    </term>
+    <!--governi-->
+    <term tid="t126" type="" lemma="governo" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w126"/>
+      </span>
+    </term>
+    <!--europei-->
+    <term tid="t127" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUMP">
+      <span>
+        <target id="w127"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t128" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w128"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--La situazione dell' Italia-->
+        <span>
+          <target id="t105"/>
+          <target id="t106"/>
+          <target id="t107"/>
+          <target id="t108"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Negative">
+        <!--era precaria-->
+        <span>
+          <target id="t109"/>
+          <target id="t110"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

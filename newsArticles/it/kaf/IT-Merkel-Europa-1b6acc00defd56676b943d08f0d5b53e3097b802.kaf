@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:50Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:50Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:11:37Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:01CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w415" sent="15" para="2" offset="2129" length="2">La</wf>
+    <wf wid="w416" sent="15" para="2" offset="2132" length="4">Gran</wf>
+    <wf wid="w417" sent="15" para="2" offset="2137" length="8">Bretagna</wf>
+    <wf wid="w418" sent="15" para="2" offset="2146" length="6">voleva</wf>
+    <wf wid="w419" sent="15" para="2" offset="2153" length="8">scendere</wf>
+    <wf wid="w420" sent="15" para="2" offset="2162" length="5">sotto</wf>
+    <wf wid="w421" sent="15" para="2" offset="2168" length="1">i</wf>
+    <wf wid="w422" sent="15" para="2" offset="2170" length="3">900</wf>
+    <wf wid="w423" sent="15" para="2" offset="2174" length="2">di</wf>
+    <wf wid="w424" sent="15" para="2" offset="2177" length="5">spesa</wf>
+    <wf wid="w425" sent="15" para="2" offset="2183" length="9">effettiva</wf>
+    <wf wid="w426" sent="15" para="2" offset="2193" length="6">mentre</wf>
+    <wf wid="w427" sent="15" para="2" offset="2200" length="2">la</wf>
+    <wf wid="w428" sent="15" para="2" offset="2203" length="7">Francia</wf>
+    <wf wid="w429" sent="15" para="2" offset="2211" length="3">era</wf>
+    <wf wid="w430" sent="15" para="2" offset="2215" length="3">per</wf>
+    <wf wid="w431" sent="15" para="2" offset="2219" length="3">913</wf>
+    <wf wid="w432" sent="15" para="2" offset="2222" length="1">.</wf>
+  </text>
+  <terms>
+    <!--La-->
+    <term tid="t415" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w415"/>
+      </span>
+    </term>
+    <!--Gran-->
+    <term tid="t416" type="" lemma="gran" pos="G" morphofeat="ADJ~QUNI">
+      <span>
+        <target id="w416"/>
+      </span>
+    </term>
+    <!--Bretagna-->
+    <term tid="t417" type="" lemma="bretagna" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w417"/>
+      </span>
+    </term>
+    <!--voleva-->
+    <term tid="t418" type="" lemma="volere" pos="V" morphofeat="VMO~IMN3">
+      <span>
+        <target id="w418"/>
+      </span>
+    </term>
+    <!--scendere-->
+    <term tid="t419" type="" lemma="scendere" pos="V" morphofeat="VMA~ININN">
+      <span>
+        <target id="w419"/>
+      </span>
+    </term>
+    <!--sotto-->
+    <term tid="t420" type="" lemma="sotto" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w420"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t421" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w421"/>
+      </span>
+    </term>
+    <!--900-->
+    <term tid="t422" type="" lemma="900" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w422"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t423" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w423"/>
+      </span>
+    </term>
+    <!--spesa-->
+    <term tid="t424" type="" lemma="spesa" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w424"/>
+      </span>
+    </term>
+    <!--effettiva-->
+    <term tid="t425" type="" lemma="effettivo" pos="G" morphofeat="ADJ~QUFS">
+      <span>
+        <target id="w425"/>
+      </span>
+    </term>
+    <!--mentre-->
+    <term tid="t426" type="" lemma="mentre" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w426"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t427" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w427"/>
+      </span>
+    </term>
+    <!--Francia-->
+    <term tid="t428" type="" lemma="francia" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w428"/>
+      </span>
+    </term>
+    <!--era-->
+    <term tid="t429" type="" lemma="era" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w429"/>
+      </span>
+    </term>
+    <!--per-->
+    <term tid="t430" type="" lemma="per" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w430"/>
+      </span>
+    </term>
+    <!--913-->
+    <term tid="t431" type="" lemma="913" pos="N" morphofeat="NOU~CANI">
+      <span>
+        <target id="w431"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t432" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w432"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Marked as NON-OPINIONATED in the tag files-->
+      <opinion_expression polarity="NON-OPINIONATED">
+        <span>
+          <target id="t415"/>
+          <target id="t416"/>
+          <target id="t417"/>
+          <target id="t418"/>
+          <target id="t419"/>
+          <target id="t420"/>
+          <target id="t421"/>
+          <target id="t422"/>
+          <target id="t423"/>
+          <target id="t424"/>
+          <target id="t425"/>
+          <target id="t427"/>
+          <target id="t428"/>
+          <target id="t429"/>
+          <target id="t430"/>
+          <target id="t431"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

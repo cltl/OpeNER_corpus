@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:09:37Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:20CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w41" sent="4" para="2" offset="230" length="7">Proprio</wf>
+    <wf wid="w42" sent="4" para="2" offset="238" length="1">a</wf>
+    <wf wid="w43" sent="4" para="2" offset="240" length="6">questo</wf>
+    <wf wid="w44" sent="4" para="2" offset="247" length="4">fine</wf>
+    <wf wid="w45" sent="4" para="2" offset="252" length="3">nel</wf>
+    <wf wid="w46" sent="4" para="2" offset="256" length="8">trattato</wf>
+    <wf wid="w47" sent="4" para="2" offset="265" length="2">di</wf>
+    <wf wid="w48" sent="4" para="2" offset="268" length="7">Lisbona</wf>
+    <wf wid="w49" sent="4" para="2" offset="276" length="1">è</wf>
+    <wf wid="w50" sent="4" para="2" offset="278" length="5">stato</wf>
+    <wf wid="w51" sent="4" para="2" offset="284" length="14">opportunamente</wf>
+    <wf wid="w52" sent="4" para="2" offset="299" length="10">rafforzato</wf>
+    <wf wid="w53" sent="4" para="2" offset="310" length="3">sia</wf>
+    <wf wid="w54" sent="4" para="2" offset="314" length="2">il</wf>
+    <wf wid="w55" sent="4" para="2" offset="317" length="5">ruolo</wf>
+    <wf wid="w56" sent="4" para="2" offset="323" length="3">dei</wf>
+    <wf wid="w57" sent="4" para="2" offset="327" length="10">Parlamenti</wf>
+    <wf wid="w58" sent="4" para="2" offset="338" length="9">nazionali</wf>
+    <wf wid="w59" sent="4" para="2" offset="347" length="1">,</wf>
+    <wf wid="w60" sent="4" para="2" offset="349" length="3">sia</wf>
+    <wf wid="w61" sent="4" para="2" offset="353" length="6">quello</wf>
+    <wf wid="w62" sent="4" para="2" offset="360" length="3">del</wf>
+    <wf wid="w63" sent="4" para="2" offset="364" length="10">Parlamento</wf>
+    <wf wid="w64" sent="4" para="2" offset="375" length="7">europeo</wf>
+    <wf wid="w65" sent="4" para="2" offset="382" length="1">"</wf>
+    <wf wid="w66" sent="4" para="2" offset="384" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Proprio-->
+    <term tid="t41" type="" lemma="proprio" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t42" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--questo-->
+    <term tid="t43" type="" lemma="questo" pos="G" morphofeat="ADJ~DIMS">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--fine-->
+    <term tid="t44" type="" lemma="fine" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+    <!--nel-->
+    <term tid="t45" type="" lemma="nel" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w45"/>
+      </span>
+    </term>
+    <!--trattato-->
+    <term tid="t46" type="" lemma="trattato" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w46"/>
+      </span>
+    </term>
+    <!--di-->
+    <term tid="t47" type="" lemma="di" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w47"/>
+      </span>
+    </term>
+    <!--Lisbona-->
+    <term tid="t48" type="" lemma="lisbona" pos="R" morphofeat="NOU~PNS">
+      <span>
+        <target id="w48"/>
+      </span>
+    </term>
+    <!--è-->
+    <term tid="t49" type="" lemma="è" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w49"/>
+      </span>
+    </term>
+    <!--stato-->
+    <term tid="t50" type="" lemma="essere" pos="V" morphofeat="VAU~PAMS">
+      <span>
+        <target id="w50"/>
+      </span>
+    </term>
+    <!--opportunamente-->
+    <term tid="t51" type="" lemma="opportunamente" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w51"/>
+      </span>
+    </term>
+    <!--rafforzato-->
+    <term tid="t52" type="" lemma="rafforzare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w52"/>
+      </span>
+    </term>
+    <!--sia-->
+    <term tid="t53" type="" lemma="essere" pos="V" morphofeat="VAU~CGN1">
+      <span>
+        <target id="w53"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t54" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w54"/>
+      </span>
+    </term>
+    <!--ruolo-->
+    <term tid="t55" type="" lemma="ruolo" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w55"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t56" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w56"/>
+      </span>
+    </term>
+    <!--Parlamenti-->
+    <term tid="t57" type="" lemma="parlamento" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w57"/>
+      </span>
+    </term>
+    <!--nazionali-->
+    <term tid="t58" type="" lemma="nazionale" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w58"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t59" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w59"/>
+      </span>
+    </term>
+    <!--sia-->
+    <term tid="t60" type="" lemma="sia" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w60"/>
+      </span>
+    </term>
+    <!--quello-->
+    <term tid="t61" type="" lemma="quello" pos="Q" morphofeat="PRON~DEM3">
+      <span>
+        <target id="w61"/>
+      </span>
+    </term>
+    <!--del-->
+    <term tid="t62" type="" lemma="del" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w62"/>
+      </span>
+    </term>
+    <!--Parlamento-->
+    <term tid="t63" type="" lemma="parlamento" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w63"/>
+      </span>
+    </term>
+    <!--europeo-->
+    <term tid="t64" type="" lemma="europeo" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w64"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t65" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w65"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t66" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w66"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--trattato di Lisbona-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--sia quello del Parlamento europeo-->
+        <span>
+          <target id="t60"/>
+          <target id="t61"/>
+          <target id="t62"/>
+          <target id="t63"/>
+          <target id="t64"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--è stato opportunamente rafforzato-->
+        <span>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--trattato di Lisbona-->
+        <span>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--il ruolo dei Parlamenti nazionali-->
+        <span>
+          <target id="t54"/>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--è stato opportunamente rafforzato-->
+        <span>
+          <target id="t49"/>
+          <target id="t50"/>
+          <target id="t51"/>
+          <target id="t52"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

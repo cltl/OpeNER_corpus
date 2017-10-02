@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:12:56Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:54CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w194" sent="8" para="2" offset="1003" length="4">Frau</wf>
+    <wf wid="w195" sent="8" para="2" offset="1008" length="6">Angela</wf>
+    <wf wid="w196" sent="8" para="2" offset="1014" length="1">,</wf>
+    <wf wid="w197" sent="8" para="2" offset="1016" length="7">accanto</wf>
+    <wf wid="w198" sent="8" para="2" offset="1024" length="1">a</wf>
+    <wf wid="w199" sent="8" para="2" offset="1026" length="3">lui</wf>
+    <wf wid="w200" sent="8" para="2" offset="1029" length="1">,</wf>
+    <wf wid="w201" sent="8" para="2" offset="1031" length="5">segue</wf>
+    <wf wid="w202" sent="8" para="2" offset="1037" length="2">le</wf>
+    <wf wid="w203" sent="8" para="2" offset="1040" length="3">sue</wf>
+    <wf wid="w204" sent="8" para="2" offset="1044" length="6">parole</wf>
+    <wf wid="w205" sent="8" para="2" offset="1050" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Frau-->
+    <term tid="t194" type="" lemma="frau" pos="R" morphofeat="NOU~PNI">
+      <span>
+        <target id="w194"/>
+      </span>
+    </term>
+    <!--Angela-->
+    <term tid="t195" type="" lemma="angela" pos="R" morphofeat="NOU~PFS">
+      <span>
+        <target id="w195"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t196" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w196"/>
+      </span>
+    </term>
+    <!--accanto-->
+    <term tid="t197" type="" lemma="accanto" pos="A" morphofeat="ADVB">
+      <span>
+        <target id="w197"/>
+      </span>
+    </term>
+    <!--a-->
+    <term tid="t198" type="" lemma="a" pos="P" morphofeat="PREP">
+      <span>
+        <target id="w198"/>
+      </span>
+    </term>
+    <!--lui-->
+    <term tid="t199" type="" lemma="lui" pos="Q" morphofeat="PRON~PEM3">
+      <span>
+        <target id="w199"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t200" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w200"/>
+      </span>
+    </term>
+    <!--segue-->
+    <term tid="t201" type="" lemma="seguire" pos="V" morphofeat="VMA~REN3">
+      <span>
+        <target id="w201"/>
+      </span>
+    </term>
+    <!--le-->
+    <term tid="t202" type="" lemma="lo" pos="D" morphofeat="ART~DFP">
+      <span>
+        <target id="w202"/>
+      </span>
+    </term>
+    <!--sue-->
+    <term tid="t203" type="" lemma="suo" pos="G" morphofeat="ADJ~POFP">
+      <span>
+        <target id="w203"/>
+      </span>
+    </term>
+    <!--parole-->
+    <term tid="t204" type="" lemma="parola" pos="N" morphofeat="NOU~CPFP">
+      <span>
+        <target id="w204"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t205" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w205"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder>
+        <!--Frau Angela-->
+        <span>
+          <target id="t194"/>
+          <target id="t195"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--le sue parole-->
+        <span>
+          <target id="t202"/>
+          <target id="t203"/>
+          <target id="t204"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--segue-->
+        <span>
+          <target id="t201"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

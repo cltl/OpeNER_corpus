@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:25Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:25Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:08:18Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w248" sent="10" para="2" offset="1421" length="6">Dunque</wf>
+    <wf wid="w249" sent="10" para="2" offset="1427" length="1">,</wf>
+    <wf wid="w250" sent="10" para="2" offset="1429" length="2">ha</wf>
+    <wf wid="w251" sent="10" para="2" offset="1432" length="12">sottolineato</wf>
+    <wf wid="w252" sent="10" para="2" offset="1445" length="2">il</wf>
+    <wf wid="w253" sent="10" para="2" offset="1448" length="7">premier</wf>
+    <wf wid="w254" sent="10" para="2" offset="1455" length="1">,</wf>
+    <wf wid="w255" sent="10" para="2" offset="1457" length="1">"</wf>
+    <wf wid="w256" sent="10" para="2" offset="1458" length="2">la</wf>
+    <wf wid="w257" sent="10" para="2" offset="1461" length="8">verifica</wf>
+    <wf wid="w258" sent="10" para="2" offset="1470" length="1">e</wf>
+    <wf wid="w259" sent="10" para="2" offset="1472" length="5">tutta</wf>
+    <wf wid="w260" sent="10" para="2" offset="1478" length="2">l'</wf>
+    <wf wid="w261" sent="10" para="2" offset="1480" length="10">attenzione</wf>
+    <wf wid="w262" sent="10" para="2" offset="1491" length="1">e</wf>
+    <wf wid="w263" sent="10" para="2" offset="1493" length="2">la</wf>
+    <wf wid="w264" sent="10" para="2" offset="1496" length="10">protezione</wf>
+    <wf wid="w265" sent="10" para="2" offset="1507" length="3">dei</wf>
+    <wf wid="w266" sent="10" para="2" offset="1511" length="4">dati</wf>
+    <wf wid="w267" sent="10" para="2" offset="1516" length="9">personali</wf>
+    <wf wid="w268" sent="10" para="2" offset="1526" length="4">deve</wf>
+    <wf wid="w269" sent="10" para="2" offset="1531" length="6">essere</wf>
+    <wf wid="w270" sent="10" para="2" offset="1538" length="5">fatta</wf>
+    <wf wid="w271" sent="10" para="2" offset="1544" length="2">al</wf>
+    <wf wid="w272" sent="10" para="2" offset="1547" length="7">massimo</wf>
+    <wf wid="w273" sent="10" para="2" offset="1555" length="7">livello</wf>
+    <wf wid="w274" sent="10" para="2" offset="1562" length="1">"</wf>
+    <wf wid="w275" sent="10" para="2" offset="1563" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Dunque-->
+    <term tid="t248" type="" lemma="dunque" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w248"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t249" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w249"/>
+      </span>
+    </term>
+    <!--ha-->
+    <term tid="t250" type="" lemma="avere" pos="V" morphofeat="VAU~REN3">
+      <span>
+        <target id="w250"/>
+      </span>
+    </term>
+    <!--sottolineato-->
+    <term tid="t251" type="" lemma="sottolineare" pos="V" morphofeat="VMA~PAMS">
+      <span>
+        <target id="w251"/>
+      </span>
+    </term>
+    <!--il-->
+    <term tid="t252" type="" lemma="lo" pos="D" morphofeat="ART~DMS">
+      <span>
+        <target id="w252"/>
+      </span>
+    </term>
+    <!--premier-->
+    <term tid="t253" type="" lemma="premier" pos="N" morphofeat="NOU~CAMI">
+      <span>
+        <target id="w253"/>
+      </span>
+    </term>
+    <!--,-->
+    <term tid="t254" type="" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w254"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t255" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w255"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t256" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w256"/>
+      </span>
+    </term>
+    <!--verifica-->
+    <term tid="t257" type="" lemma="verifica" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w257"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t258" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w258"/>
+      </span>
+    </term>
+    <!--tutta-->
+    <term tid="t259" type="" lemma="tutto" pos="G" morphofeat="ADJ~INFS">
+      <span>
+        <target id="w259"/>
+      </span>
+    </term>
+    <!--l'-->
+    <term tid="t260" type="" lemma="lo" pos="D" morphofeat="ART~DNS">
+      <span>
+        <target id="w260"/>
+      </span>
+    </term>
+    <!--attenzione-->
+    <term tid="t261" type="" lemma="attenzione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w261"/>
+      </span>
+    </term>
+    <!--e-->
+    <term tid="t262" type="" lemma="e" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w262"/>
+      </span>
+    </term>
+    <!--la-->
+    <term tid="t263" type="" lemma="lo" pos="D" morphofeat="ART~DFS">
+      <span>
+        <target id="w263"/>
+      </span>
+    </term>
+    <!--protezione-->
+    <term tid="t264" type="" lemma="protezione" pos="N" morphofeat="NOU~CSFS">
+      <span>
+        <target id="w264"/>
+      </span>
+    </term>
+    <!--dei-->
+    <term tid="t265" type="" lemma="dei" pos="P" morphofeat="PREPMP">
+      <span>
+        <target id="w265"/>
+      </span>
+    </term>
+    <!--dati-->
+    <term tid="t266" type="" lemma="dato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w266"/>
+      </span>
+    </term>
+    <!--personali-->
+    <term tid="t267" type="" lemma="personale" pos="G" morphofeat="ADJ~QUNP">
+      <span>
+        <target id="w267"/>
+      </span>
+    </term>
+    <!--deve-->
+    <term tid="t268" type="" lemma="dovere" pos="V" morphofeat="VMO~REN3">
+      <span>
+        <target id="w268"/>
+      </span>
+    </term>
+    <!--essere-->
+    <term tid="t269" type="" lemma="essere" pos="V" morphofeat="VAU~ININN">
+      <span>
+        <target id="w269"/>
+      </span>
+    </term>
+    <!--fatta-->
+    <term tid="t270" type="" lemma="fare" pos="V" morphofeat="VMA~PAFS">
+      <span>
+        <target id="w270"/>
+      </span>
+    </term>
+    <!--al-->
+    <term tid="t271" type="" lemma="al" pos="P" morphofeat="PREPMS">
+      <span>
+        <target id="w271"/>
+      </span>
+    </term>
+    <!--massimo-->
+    <term tid="t272" type="" lemma="massimo" pos="G" morphofeat="ADJ~MS">
+      <span>
+        <target id="w272"/>
+      </span>
+    </term>
+    <!--livello-->
+    <term tid="t273" type="" lemma="livello" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w273"/>
+      </span>
+    </term>
+    <!--"-->
+    <term tid="t274" type="" lemma="&amp;quot;" pos="O" morphofeat="&quot;">
+      <span>
+        <target id="w274"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t275" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w275"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
+      <opinion_holder>
+        <!--premier-->
+        <span>
+          <target id="t253"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--la verifica e tutta l' attenzione e la protezione dei dati personali-->
+        <span>
+          <target id="t256"/>
+          <target id="t257"/>
+          <target id="t258"/>
+          <target id="t259"/>
+          <target id="t260"/>
+          <target id="t261"/>
+          <target id="t262"/>
+          <target id="t263"/>
+          <target id="t264"/>
+          <target id="t265"/>
+          <target id="t266"/>
+          <target id="t267"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--deve essere fatta al massimo livello-->
+        <span>
+          <target id="t268"/>
+          <target id="t269"/>
+          <target id="t270"/>
+          <target id="t271"/>
+          <target id="t272"/>
+          <target id="t273"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

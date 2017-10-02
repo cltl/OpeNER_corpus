@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:47Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:47Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:10:47Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:03:02CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w6" sent="2" para="1" offset="19" length="7">Barroso</wf>
+    <wf wid="w7" sent="2" para="1" offset="26" length="1">:</wf>
+    <wf wid="w8" sent="2" para="1" offset="28" length="6">grande</wf>
+    <wf wid="w9" sent="2" para="1" offset="35" length="5">onore</wf>
+  </text>
+  <terms>
+    <!--Barroso-->
+    <term tid="t6" type="" lemma="barroso" pos="G" morphofeat="ADJ~QUMS">
+      <span>
+        <target id="w6"/>
+      </span>
+    </term>
+    <!--:-->
+    <term tid="t7" type="" lemma=":" pos="O" morphofeat=":">
+      <span>
+        <target id="w7"/>
+      </span>
+    </term>
+    <!--grande-->
+    <term tid="t8" type="" lemma="grande" pos="G" morphofeat="ADJ~QUNS">
+      <span>
+        <target id="w8"/>
+      </span>
+    </term>
+    <!--onore-->
+    <term tid="t9" type="" lemma="onore" pos="N" morphofeat="NOU~CSMS">
+      <span>
+        <target id="w9"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder>
+        <!--Barroso-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--onore-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--grande-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="D-StrongPositive">
+        <!--onore-->
+        <span>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

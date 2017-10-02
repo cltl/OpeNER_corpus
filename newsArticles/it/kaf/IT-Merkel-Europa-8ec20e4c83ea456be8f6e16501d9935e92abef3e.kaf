@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF xml:lang="it" version="v1.opener">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-it" timestamp="2014-01-31T12:00:46Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2014-01-31T12:00:46Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-it-pos" timestamp="2014-02-03-T01:12:28Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-07-03T18:02:58CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf wid="w39" sent="4" para="2" offset="198" length="5">Anche</wf>
+    <wf wid="w40" sent="4" para="2" offset="204" length="1">i</wf>
+    <wf wid="w41" sent="4" para="2" offset="206" length="7">mercati</wf>
+    <wf wid="w42" sent="4" para="2" offset="214" length="6">stanno</wf>
+    <wf wid="w43" sent="4" para="2" offset="221" length="11">rispondendo</wf>
+    <wf wid="w44" sent="4" para="2" offset="232" length="1">.</wf>
+  </text>
+  <terms>
+    <!--Anche-->
+    <term tid="t39" type="" lemma="anche" pos="Q" morphofeat="CONJ">
+      <span>
+        <target id="w39"/>
+      </span>
+    </term>
+    <!--i-->
+    <term tid="t40" type="" lemma="lo" pos="D" morphofeat="ART~DMP">
+      <span>
+        <target id="w40"/>
+      </span>
+    </term>
+    <!--mercati-->
+    <term tid="t41" type="" lemma="mercato" pos="N" morphofeat="NOU~CPMP">
+      <span>
+        <target id="w41"/>
+      </span>
+    </term>
+    <!--stanno-->
+    <term tid="t42" type="" lemma="stare" pos="V" morphofeat="VMA~REN6">
+      <span>
+        <target id="w42"/>
+      </span>
+    </term>
+    <!--rispondendo-->
+    <term tid="t43" type="" lemma="rispondere" pos="V" morphofeat="VMA~GEN">
+      <span>
+        <target id="w43"/>
+      </span>
+    </term>
+    <!--.-->
+    <term tid="t44" type="" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w44"/>
+      </span>
+    </term>
+  </terms>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--i mercati-->
+        <span>
+          <target id="t40"/>
+          <target id="t41"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="D-Positive">
+        <!--stanno rispondendo-->
+        <span>
+          <target id="t42"/>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>
